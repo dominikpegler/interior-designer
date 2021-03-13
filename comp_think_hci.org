@@ -11,12 +11,10 @@
 #+AUTHOR: Sophia PUM
 #+EMAIL: dominikpegler@posteo.org
 #+DATE: 12.10.2020
-#+SETUPFILE: setupfile_org.org
 #+CATEGORY: hci
 #+STARTUP: overview indent
 #+OPTIONS: ^:nil toc:1 num:nil todo:t email:t tags:nil broken-links:mark p:t
 #+LANGUAGE: de
-# INFO: file was added to the agenda front
 
 * Aufgaben
 *** DONE Projektwahl
