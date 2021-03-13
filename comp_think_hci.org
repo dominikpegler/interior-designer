@@ -1,0 +1,114 @@
+#+TITLE: App Interior Designer
+#+SUBTITLE: VU Human Computer Interaction, 
+#+subtitle: Uni Wien, SS2021 \\
+#+subtitle: [[http://vda.univie.ac.at/Teaching/HCI/21s/schedule.html][HCI]] ---
+#+subtitle: [[https://moodle.univie.ac.at/course/view.php?id=207279][Moodle]] ---
+#+subtitle: [[https://univienna.zoom.us/j/97182878605?pwd=TUNIMUcvamFPV3RSVEtQbzRWM1dQQT09][Video UE]] ---
+#+subtitle: [[https://univienna.zoom.us/j/97182878605?pwd=TUNIMUcvamFPV3RSVEtQbzRWM1dQQT09][Video VO]]
+#+AUTHOR: Wael A.
+#+AUTHOR: Asim ?.
+#+AUTHOR: Dominik PEGLER
+#+AUTHOR: Sophia PUM
+#+EMAIL: dominikpegler@posteo.org
+#+DATE: 12.10.2020
+#+SETUPFILE: setupfile_org.org
+#+CATEGORY: hci
+#+STARTUP: overview indent
+#+OPTIONS: ^:nil toc:1 num:nil todo:t email:t tags:nil broken-links:mark p:t
+#+LANGUAGE: de
+# INFO: file was added to the agenda front
+
+* Aufgaben
+*** DONE Projektwahl
+CLOSED: [2021-03-11 Thu 15:00] DEADLINE: <2021-03-11 Thu 15:00>
+*** TODO Auswahl des Frameworks
+DEADLINE: <2021-03-18 Thu 13:00>
+React, Flutter, Android oder was ~anderes~.
+*** TODO Aufgabenverteilung
+DEADLINE: <2021-03-19 Fri 15:00>
+Festlegen, *wer* im Team *welche* Aufgaben übernimmt.
+*** TODO 1. Präsentation (M1)
+SCHEDULED: <2021-03-25 Thu 13:15>
+*** TODO Interviews mit potenziellen Nutzer*innen
+DEADLINE: <2021-04-01 Thu 15:00>
+\to für Requirementanalyse
+1. Focus Group: Wer sind die potenziellen Nutzer?
+2. Finden von Interview-Partnern
+3. Interview-Design, Fragen erarbeiten (strukturiert vs
+   unstrukturiert, quantiativ vs. qualitativ)
+4. Interviews durchführen: persönlich, online (Video, Chat, Email), Fragebogen?
+*** TODO Requirement-Analyse: Ermittlung Zielgruppen und Anforderungen
+DEADLINE: <2021-04-15 Thu 15:00>
+- Auswertung der Daten aus den Interviews
+- Basierend auf der Datenerhebung mehrere Zielgruppen und deren
+  spezifische Anforderungen (e.g. Personas) ermitteln
+*** TODO 2. Präsentation (M3)
+SCHEDULED: <2021-05-20 Thu 13:15>
+*** TODO Erstellen des Prototypen
+DEADLINE: <2021-05-20 Thu 15:00>
+- Anforderungen:
+  1) Ermöglicht Skizzen leicht und schnell veränderbar nachzubilden
+     und
+  2) Stellt Empfehlungen für bestimmte Stile / Raumgrößen / andere
+     Kategorien zur Verfügung
+*** TODO Evaluieren der App mit Nutzer*innen
+DEADLINE: <2021-06-03 Thu 15:00>
+* Team
+- Wael ...
+  - ...
+  - ...
+  - ...
+- Asim ...
+  - ...
+  - ...
+  - ...
+- Dominik Pegler
+  - ...
+  - ...
+  - ...
+- Sophia Pum
+  - ...
+  - ...
+  - ...
+* Projektbeschreibung
+- Problemstellung:
+  
+  Stellen Sie sich vor, Sie wollen ihre Wohnsituation verändern, Sie
+  ziehen in eine neue Wohnung oder Sie planen sogar ein Haus zu
+  bauen. Um sich inspirieren zu lassen, durchforsten Sie einschlägige
+  Fachmagazine: Welcher Einrichtungsstil, welche Möbel würde meinen
+  Vorstellungen entsprechen?
+
+  Ein Problem hierbei ist, zu verstehen, welche
+  Gestaltungsmöglichkeiten der jeweilige Raum bietet und wie Möbel
+  sinnvoll angeordnet werden sollten. Im Regelfall werden hierzu eine
+  Vielzahl an Scribbles und Handskizzen gezeichnet. Auf diesen
+  Vorgang sind Innenarchitekten und Designer spezialisiert. Ein gern
+  verwendetes Hilfsmittel sind Zeichenvorlagen und Skizzenlineale,
+  welche Basismaße für Möbel und anderer einrichtungsrelevanter
+  Darstellungen beinhalten.
+
+  Dieses Projekt soll eine Raumplanungs-App erstellen, welche diese
+  Vorgänge auch Laien zugänglich macht. Zum Besprechen beim Café, zum
+  schnellen Visualisieren von Raumlösungen und zum Auswählen
+  verschiedener Einrichtungsstile (e.g. minimal / rustikal /
+  gemütlich).
+  
+- Aufgabenstellung und Ziele:
+
+  1) Machen Sie Interviews mit potentiellen Nutzer*innen als
+     Requirementanalyse
+
+  2) Basierend auf dieser Datenerhebung überlegen Sie sich mehrere
+     Zielgruppen und deren spezifische Anforderungen (e.g. Personas)
+
+  3) Erstellen Sie einen Prototypen der es
+
+     1. ermöglicht Skizzen leicht und schnell veränderbar nachzubilden
+        und
+
+     2. Empfehlungen für bestimmte Stile / Raumgrößen / andere
+        Kategorien zur Verfügung stellt
+
+  4) Evaluieren Sie die App mit Nutzer*innen
+
