@@ -13,7 +13,7 @@
 #+DATE: 12.10.2020
 #+CATEGORY: hci
 #+STARTUP: overview indent
-#+OPTIONS: ^:nil toc:1 num:nil todo:t email:t tags:nil broken-links:mark p:t
+#+OPTIONS: ^:nil toc:1 email:nil num:nil todo:t email:t tags:nil broken-links:mark p:t
 #+LANGUAGE: de
 
 * Aufgaben
