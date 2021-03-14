@@ -19,13 +19,15 @@
 * Aufgaben
 *** DONE Projektwahl
 CLOSED: [2021-03-11 Thu 15:00] DEADLINE: <2021-03-11 Thu 15:00>
-*** TODO Auswahl des Frameworks
-DEADLINE: <2021-03-18 Thu 13:00>
-React, Flutter, Android oder was ~anderes~.
+*** DONE Auswahl des Frameworks
+CLOSED: [2021-03-14 Sun 20:15] DEADLINE: <2021-03-18 Thu 13:00>
++Flutter, Android oder was ~anderes~+ \to React
 *** TODO Aufgabenverteilung
 DEADLINE: <2021-03-19 Fri 15:00>
 Festlegen, *wer* im Team *welche* Aufgaben übernimmt.
-*** TODO 1. Präsentation (M1)
+*** TODO M1: Problemanalyse
+DEADLINE: <2021-03-23 Tue>
+*** TODO M1: Präsentation
 SCHEDULED: <2021-03-25 Thu 13:15>
 *** TODO Interviews mit potenziellen Nutzer*innen
 DEADLINE: <2021-04-01 Thu 15:00>
@@ -40,8 +42,14 @@ DEADLINE: <2021-04-15 Thu 15:00>
 - Auswertung der Daten aus den Interviews
 - Basierend auf der Datenerhebung mehrere Zielgruppen und deren
   spezifische Anforderungen (e.g. Personas) ermitteln
-*** TODO 2. Präsentation (M3)
+*** TODO M2: Low-fidelity Prototypen 
+DEADLINE: <2021-04-20 Tue>
+
+*** TODO M3: Erstellung der App 
+DEADLINE: <2021-05-18 Tue>
+*** TODO M3: Präsentation
 SCHEDULED: <2021-05-20 Thu 13:15>
+
 *** TODO Erstellen des Prototypen
 DEADLINE: <2021-05-20 Thu 15:00>
 - Anforderungen:
@@ -51,6 +59,10 @@ DEADLINE: <2021-05-20 Thu 15:00>
      Kategorien zur Verfügung
 *** TODO Evaluieren der App mit Nutzer*innen
 DEADLINE: <2021-06-03 Thu 15:00>
+*** TODO M4: Usability Evaluierung, Weiterentwicklung, und Abschlussbericht 
+DEADLINE: <2021-06-08 Tue>
+*** TODO Abschlussgespräch
+SCHEDULED: <2021-06-24 Thu 13:15>
 * Team
 - Wael Alhamzah
   - ...
