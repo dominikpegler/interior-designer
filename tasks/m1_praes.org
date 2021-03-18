@@ -4,7 +4,7 @@
 # +EMAIL: a01468373@unet.univie.ac.at
 #+CATEGORY: hci-beamer
 #+SETUPFILE: config_praes.org
-#+BEAMER_HEADER: \author[W.Alhamzah, A.Oğuz, D.Pegler, S.Pum]{Wael Alhamzah, Asım Oğuz, Dominik Pegler, Sophia Pum}
+#+BEAMER_HEADER: \author[A.Oğuz, D.Pegler, S.Pum]{Asım Oğuz, Dominik Pegler, Sophia Pum}
 #+BEAMER_HEADER: \institute{Universität Wien, Fakultät für Informatik (SS2021)}
 #+LaTeX_HEADER: \addbibresource{~/Dropbox/org/ref/ref.bib}
 
