@@ -1,0 +1,10 @@
+#+TITLE: HCI: Projekt Interior Designer
+
+
+
+Repository enthält:
+
+   - Code der App
+   - Projekt-Übersicht als org-File sowie [[http://htmlpreview.github.io/?https://github.com/donkndetphone/interior-designer/blob/main/comp_think_hci.html][html-Export]] davon 
+   - Präsentationen als org-Files (beamer) sowie pdf-Exporte davon
+   - sonstige Unterlagen zu den Aufgaben der LV
