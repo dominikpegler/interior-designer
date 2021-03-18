@@ -4,7 +4,6 @@
 #+subtitle: [[http://vda.univie.ac.at/Teaching/HCI/21s/schedule.html][HCI]] ---
 #+subtitle: [[https://moodle.univie.ac.at/course/view.php?id=207279][Moodle]] ---
 #+subtitle: [[https://univienna.zoom.us/j/97182878605?pwd=TUNIMUcvamFPV3RSVEtQbzRWM1dQQT09][Video UE]] ---
-#+subtitle: [[https://univienna.zoom.us/j/97182878605?pwd=TUNIMUcvamFPV3RSVEtQbzRWM1dQQT09][Video VO]]
 #+AUTHOR: Asim OGUZ
 #+AUTHOR: Dominik PEGLER
 #+AUTHOR: Sophia PUM
