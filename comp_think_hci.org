@@ -5,7 +5,6 @@
 #+subtitle: [[https://moodle.univie.ac.at/course/view.php?id=207279][Moodle]] ---
 #+subtitle: [[https://univienna.zoom.us/j/97182878605?pwd=TUNIMUcvamFPV3RSVEtQbzRWM1dQQT09][Video UE]] ---
 #+subtitle: [[https://univienna.zoom.us/j/97182878605?pwd=TUNIMUcvamFPV3RSVEtQbzRWM1dQQT09][Video VO]]
-#+AUTHOR: Wael ALHAMZAH
 #+AUTHOR: Asim OGUZ
 #+AUTHOR: Dominik PEGLER
 #+AUTHOR: Sophia PUM
@@ -22,7 +21,7 @@ CLOSED: [2021-03-11 Thu 15:00] DEADLINE: <2021-03-11 Thu 15:00>
 *** DONE Auswahl des Frameworks
 CLOSED: [2021-03-14 Sun 20:15] DEADLINE: <2021-03-18 Thu 13:00>
 +Flutter, Android oder was ~anderes~+ \to React
-*** TODO Aufgabenverteilung
+*** TODO Aufgabenverteilung (zu dritt, zu viert?)
 DEADLINE: <2021-03-19 Fri 15:00>
 Festlegen, *wer* im Team *welche* Aufgaben übernimmt.
 *** TODO M1: Problemanalyse
@@ -63,11 +62,9 @@ DEADLINE: <2021-06-03 Thu 15:00>
 DEADLINE: <2021-06-08 Tue>
 *** TODO Abschlussgespräch
 SCHEDULED: <2021-06-24 Thu 13:15>
+** TODO Abgabe Aufgabe 1 HCI
+  DEADLINE: <2021-03-18 Thu 22:00>
 * Team
-- Wael Alhamzah
-  - ...
-  - ...
-  - ...
 - Asim Oguz
   - ...
   - ...
