@@ -19,11 +19,30 @@ CLOSED: [2021-03-11 Thu 15:00] DEADLINE: <2021-03-11 Thu 15:00>
 *** DONE Auswahl des Frameworks
 CLOSED: [2021-03-14 Sun 20:15] DEADLINE: <2021-03-18 Thu 13:00>
 +Flutter, Android oder was ~anderes~+ \to React
-*** TODO Aufgabenverteilung (zu dritt, zu viert?)
-DEADLINE: <2021-03-19 Fri 15:00>
-Festlegen, *wer* im Team *welche* Aufgaben übernimmt.
 *** TODO M1: Problemanalyse
 DEADLINE: <2021-03-23 Tue>
+**** TODO Analyse von vorhandener Literatur                      :Dominik:
+- 3 Quellen (wissenschaftlich/nichtwissenschaftlich) zusammenfassen
+**** TODO Analyse von Konkurrenzprodukten                         :Sophia:
+- Recherche nach 3 ähnlichen Produkten
+- Analyse dieser Produkte
+  - Vor- und Nachteile
+  - Usability-Aspekte identifizieren
+**** TODO Nutzeranalyse und Kontextanalyse
+- Nutzeranalyse durchführen
+- Aufgaben und Ziele der Nutzer & mögliche Probleme im System
+- Kontextanalyse & Ergebnisdokumentation
+**** TODO Personas erstellen
+- Sollen die wichtigsten Nutzerszenarien abdecken
+- 2 primäre
+- 1 sekundäre
+- 1 negative
+**** TODO Aufgabenanalyse
+- Aufgabenanalyse der Use-Cases für die Personas duchführen (Bewertung
+  der Wichtigkeit dieser Aufgaben)
+**** TODO Projektmanagement
+- Zusammenfassend aus dieser Arbeit Kontext, Motivation, Ziele und Nichtziele des Projekts beschreiben
+- Als Teampartner im Projekt Lernwünsche und eigene Schwerpunkte mitteilen 
 *** TODO M1: Präsentation
 SCHEDULED: <2021-03-25 Thu 13:15>
 *** TODO Interviews mit potenziellen Nutzer*innen
