@@ -31,22 +31,22 @@ SCHEDULED: <2021-03-19 Fri>
 - Analyse dieser Produkte
   - Vor- und Nachteile
   - Usability-Aspekte identifizieren
-**** TODO Nutzeranalyse und Kontextanalyse           :Asim:Sophia:Dominik:
+**** TODO Nutzeranalyse und Kontextanalyse                          :Asim:
 SCHEDULED: <2021-03-20 Sat>
 - Nutzeranalyse durchführen
 - Aufgaben und Ziele der Nutzer & mögliche Probleme im System
 - Kontextanalyse & Ergebnisdokumentation
-**** TODO Personas erstellen
+**** TODO Personas erstellen                                      :Sophia:
 SCHEDULED: <2021-03-20 Sat>
 - Sollen die wichtigsten Nutzerszenarien abdecken
 - 2 primäre
 - 1 sekundäre
 - 1 negative
-**** TODO Aufgabenanalyse
+**** TODO Aufgabenanalyse                                        :Dominik:
 SCHEDULED: <2021-03-21 Sun>
 - Aufgabenanalyse der Use-Cases für die Personas duchführen (Bewertung
   der Wichtigkeit dieser Aufgaben)
-**** TODO Projektmanagement
+**** TODO Projektmanagement                                      :Dominik:
 SCHEDULED: <2021-03-22 Mon>
 - Zusammenfassend aus dieser Arbeit Kontext, Motivation, Ziele und Nichtziele des Projekts beschreiben
 - Als Teampartner im Projekt Lernwünsche und eigene Schwerpunkte mitteilen 
