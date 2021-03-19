@@ -10,7 +10,7 @@
 #+DATE: 12.10.2020
 #+CATEGORY: hci
 #+STARTUP: overview indent
-#+OPTIONS: ^:nil toc:1 email:nil num:nil todo:t email:t tags:nil broken-links:mark p:t
+#+OPTIONS: ^:nil toc:1 email:nil num:nil todo:t email:t tags:t broken-links:mark p:t
 #+LANGUAGE: de
 #+EXPORT_FILE_NAME: ~/Dropbox/hci/hci
 
@@ -23,25 +23,31 @@ CLOSED: [2021-03-14 Sun 20:15] DEADLINE: <2021-03-18 Thu 13:00>
 *** TODO M1: Problemanalyse
 DEADLINE: <2021-03-23 Tue>
 **** TODO Analyse von vorhandener Literatur                      :Dominik:
+SCHEDULED: <2021-03-19 Fri>
 - 3 Quellen (wissenschaftlich/nichtwissenschaftlich) zusammenfassen
 **** TODO Analyse von Konkurrenzprodukten                         :Sophia:
+SCHEDULED: <2021-03-19 Fri>
 - Recherche nach 3 ähnlichen Produkten
 - Analyse dieser Produkte
   - Vor- und Nachteile
   - Usability-Aspekte identifizieren
-**** TODO Nutzeranalyse und Kontextanalyse
+**** TODO Nutzeranalyse und Kontextanalyse           :Asim:Sophia:Dominik:
+SCHEDULED: <2021-03-20 Sat>
 - Nutzeranalyse durchführen
 - Aufgaben und Ziele der Nutzer & mögliche Probleme im System
 - Kontextanalyse & Ergebnisdokumentation
 **** TODO Personas erstellen
+SCHEDULED: <2021-03-20 Sat>
 - Sollen die wichtigsten Nutzerszenarien abdecken
 - 2 primäre
 - 1 sekundäre
 - 1 negative
 **** TODO Aufgabenanalyse
+SCHEDULED: <2021-03-21 Sun>
 - Aufgabenanalyse der Use-Cases für die Personas duchführen (Bewertung
   der Wichtigkeit dieser Aufgaben)
 **** TODO Projektmanagement
+SCHEDULED: <2021-03-22 Mon>
 - Zusammenfassend aus dieser Arbeit Kontext, Motivation, Ziele und Nichtziele des Projekts beschreiben
 - Als Teampartner im Projekt Lernwünsche und eigene Schwerpunkte mitteilen 
 *** TODO M1: Präsentation
