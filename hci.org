@@ -12,6 +12,7 @@
 #+STARTUP: overview indent
 #+OPTIONS: ^:nil toc:1 email:nil num:nil todo:t email:t tags:nil broken-links:mark p:t
 #+LANGUAGE: de
+#+EXPORT_FILE_NAME: ~/Dropbox/hci/hci
 
 * Aufgaben
 *** DONE Projektwahl
