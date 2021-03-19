@@ -53,7 +53,7 @@ SCHEDULED: <2021-03-22 Mon>
 - Als Teampartner im Projekt Lernwünsche und eigene Schwerpunkte mitteilen 
 *** TODO M1: Präsentation
 SCHEDULED: <2021-04-15 Thu 13:40>
-*** TODO Interviews mit potenziellen Nutzer*innen
+*** WAIT Interviews mit potenziellen Nutzer*innen
 DEADLINE: <2021-04-01 Thu 15:00>
 \to für Requirementanalyse
 1. Focus Group: Wer sind die potenziellen Nutzer?
@@ -61,43 +61,43 @@ DEADLINE: <2021-04-01 Thu 15:00>
 3. Interview-Design, Fragen erarbeiten (strukturiert vs
    unstrukturiert, quantiativ vs. qualitativ)
 4. Interviews durchführen: persönlich, online (Video, Chat, Email), Fragebogen?
-*** TODO Requirement-Analyse: Ermittlung Zielgruppen und Anforderungen
+*** WAIT Requirement-Analyse: Ermittlung Zielgruppen und Anforderungen
 DEADLINE: <2021-04-15 Thu 15:00>
 - Auswertung der Daten aus den Interviews
 - Basierend auf der Datenerhebung mehrere Zielgruppen und deren
   spezifische Anforderungen (e.g. Personas) ermitteln
-*** TODO M2: Low-fidelity Prototypen 
+*** WAIT M2: Low-fidelity Prototypen 
 DEADLINE: <2021-04-20 Tue>
 
-*** TODO M3: Erstellung der App 
+*** WAIT M3: Erstellung der App 
 DEADLINE: <2021-05-18 Tue>
-*** TODO M3: Präsentation
+*** WAIT M3: Präsentation
 SCHEDULED: <2021-05-20 Thu 13:15>
 
-*** TODO Erstellen des Prototypen
+*** WAIT Erstellen des Prototypen
 DEADLINE: <2021-05-20 Thu 15:00>
 - Anforderungen:
   1) Ermöglicht Skizzen leicht und schnell veränderbar nachzubilden
      und
   2) Stellt Empfehlungen für bestimmte Stile / Raumgrößen / andere
      Kategorien zur Verfügung
-*** TODO Evaluieren der App mit Nutzer*innen
+*** WAIT Evaluieren der App mit Nutzer*innen
 DEADLINE: <2021-06-03 Thu 15:00>
-*** TODO M4: Usability Evaluierung, Weiterentwicklung, und Abschlussbericht 
+*** WAIT M4: Usability Evaluierung, Weiterentwicklung, und Abschlussbericht 
 DEADLINE: <2021-06-08 Tue>
-*** TODO Abschlussgespräch
+*** WAIT Abschlussgespräch
 SCHEDULED: <2021-06-24 Thu 13:15>
 * Team
 - Asim Oguz
-  - ...
+  - Informatik
   - ...
   - ...
 - Dominik Pegler
-  - ...
+  - Psychologie
   - ...
   - ...
 - Sophia Pum
-  - ...
+  - Informatik
   - ...
   - ...
 * Projektbeschreibung
@@ -186,7 +186,7 @@ nocite:pileColorInteriorDesign
   cross-platform development frameworks. arXiv: 2005.  06875
   [cs]. Zugriff 19. März 2021 unter http://arxiv.org/abs/2005.06875
 - Madsen, M., Lhoták, O. & Tip, F. (2020). A semantics for the essence of react, 27
-- Nylund, T. (2020). Developinga cross-platform MVP app with React
+- Nylund, T. (2020). Developing a cross-platform MVP app with React
   Native. https://www.theseus.fi/bitstream/handle/10024/355335/Examensarbete_Thomas_Nylund_ENG.pdf?sequence=2&isAllowed=y
   
 **** noexport                                                   :noexport:
