@@ -6,5 +6,5 @@ Repository enthält:
 
    - Code der App
    - Projekt-Übersicht als org-File (~hci.org~) sowie [[http://htmlpreview.github.io/?https://github.com/donkndetphone/interior-designer/blob/main/hci.html][html-Export]] davon 
-   - Präsentationen als org-Files (~/tasks/~) sowie pdf-Exporte ([[https://en.wikipedia.org/wiki/Beamer_(LaTeX)][beamer]]) davon
+   - Präsentationen ([[https://en.wikipedia.org/wiki/Beamer_(LaTeX)][beamer]]) als org-Files (~/tasks/~) sowie pdf-Exporte davon
    - sonstige Unterlagen zu den Aufgaben der LV
