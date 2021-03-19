@@ -155,4 +155,121 @@ SCHEDULED: <2021-06-24 Thu 13:15>
 - fullcite:mascettiDevelopingAccessibleMobile2020
 - fullcite:madsenSemanticsEssenceReact2020
 - fullcite:nylundDevelopingaCrossplatformMVP2020
+* Local functions                                                  :noexport:
+  :PROPERTIES:
+  :EXPORT_TITLE: Annotated Bibliography Template
+  :EXPORT_OPTIONS: tags:nil todo:nil
+  :END:
+*** User Entities
+The following source code block sets up user entities that are used frequently
+in my work. I use the various =.*macron= commands to typeset Hawaiian
+language words with what is known in Hawaiian as a /kahak\omacron{}/.
 
+The =space= entity is useful following a period that doesn't end a
+sentence. LaTeX sets a space slightly longer than an inter-word space
+following a sentence ending period. The =space= entity lets LaTeX know
+to set an inter-word space.
+
+#+name: user-entities
+#+begin_src emacs-lisp
+  (setq org-entities-user nil)
+  (add-to-list 'org-entities-user '("space" "\\ " nil " " " " " " "–"))
+  (add-to-list 'org-entities-user '("amacron" "\\={a}" nil "&#0257" "a" "a" "ā"))
+  (add-to-list 'org-entities-user '("emacron" "\\={e}" nil "&#0275" "e" "e" "ē"))
+  (add-to-list 'org-entities-user '("imacron" "\\={\\i}" nil "&#0299" "i" "i" "ī"))
+  (add-to-list 'org-entities-user '("omacron" "\\={o}" nil "&#0333" "o" "o" "ō"))
+  (add-to-list 'org-entities-user '("umacron" "\\={u}" nil "&#0363" "u" "u" "ū"))
+  (add-to-list 'org-entities-user '("Amacron" "\\={A}" nil "&#0256" "A" "A" "Ā"))
+  (add-to-list 'org-entities-user '("Emacron" "\\={E}" nil "&#0274" "E" "E" "Ē"))
+  (add-to-list 'org-entities-user '("Imacron" "\\={I}" nil "&#0298" "I" "I" "Ī"))
+  (add-to-list 'org-entities-user '("Omacron" "\\={O}" nil "&#0332" "O" "O" "Ō"))
+  (add-to-list 'org-entities-user '("Umacron" "\\={U}" nil "&#0362" "U" "U" "Ū"))
+#+end_src
+
+*** Cite Link
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-02-06 Sat 21:11
+:ARCHIVE_FILE: ~/Dropbox/org/mindfulness_lit.org
+:ARCHIVE_OLPATH: TODOS
+:ARCHIVE_CATEGORY: fls-article
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: noexport
+:END:
+There are many ways to manage citations in Org mode. My preference is
+to manage the bibliography database with [[http://joostkremers.github.io/ebib/][Ebib: a BibTeX database
+manager for Emacs]] and insert citations using a custom Org mode link. I
+find the work flow convenient and the look of the Org mode buffer
+"good enough."
+
+The source code block named [[ebib-setup][ebib-setup]] defines a cite command that
+[[http://joostkremers.github.io/ebib/][Ebib]] will use to insert citations in an Org mode buffer. It inserts
+the BibTeX key as the path part of the link and then offers the user
+three prompts to enter strings separated by semi-colons as the
+description part of the link. The first of these typically holds a
+page number, the second holds a string that appears before the in-text
+citation (typically, something like "e.g.,"), and the third is the
+description of the citation visible in the Org mode buffer.
+
+The source code block named [[define-biblatex-cite-link][define-biblatex-cite-link]] defines an Org
+mode link type that parses the link inserted by [[http://joostkremers.github.io/ebib/][Ebib]] and outputs a
+correctly formatted LaTeX citation. In theory, it is possible also to
+export correctly formatted citations to other backends, but the link
+type defined here doesn't do that. The html export simply sandwiches
+the BibTeX key between =<cite>= tags and is included here as a
+placeholder for future development.
+
+#+name: ebib-setup
+#+begin_src emacs-lisp
+  (setq ebib-citation-commands
+        (quote ((any (("cite" "\\cite%<[%A]%>{%K}")))
+                (org-mode (("cite" "[[cite:%K][%A;%A;%A]]"))))))
+#+end_src
+
+#+name: define-biblatex-cite-link
+#+begin_src emacs-lisp :results silent
+  (org-add-link-type 
+   "cite" 'ebib
+   (lambda (path desc format)
+     (cond
+      ((eq format 'html)
+       (format "(<cite>%s</cite>)" path))
+      ((eq format 'latex)
+       (if (or (not desc) (equal 0 (search "cite:" desc)))
+           (format "\\cite{%s}" path)
+         (format "\\cite[%s][%s]{%s}"
+                 (cadr (split-string desc ";"))
+                 (car (split-string desc ";"))  path))))))
+#+end_src
+
+*** Bibliography link                                            :noexport:
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-02-06 Sat 21:10
+:ARCHIVE_FILE: ~/Dropbox/org/mindfulness_lit.org
+:ARCHIVE_OLPATH: TODOS
+:ARCHIVE_CATEGORY: fls-article
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: noexport
+:END:
+
+Notwendig, um die Zitate im Buffer als Links darzustellen (=> zu helm-bibtex)
+
+bibliography:ref/ref.bib
+
+*** Local variables                                              :noexport:
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-02-06 Sat 21:10
+:ARCHIVE_FILE: ~/Dropbox/org/mindfulness_lit.org
+:ARCHIVE_OLPATH: TODOS
+:ARCHIVE_CATEGORY: fls-article
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: noexport
+:END:
+
+befinden sich ganz am Ende des Dokuments (Fußnoten)
+
+
+# Local Variables: 
+# eval: (and (fboundp 'org-sbe) (not (fboundp 'sbe)) (fset 'sbe 'org-sbe))
+# eval: (sbe "user-entities")
+# eval: (sbe "ebib-setup")
+# End:
