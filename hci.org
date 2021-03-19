@@ -25,6 +25,7 @@ DEADLINE: <2021-03-23 Tue>
 **** TODO Analyse von vorhandener Literatur                      :Dominik:
 SCHEDULED: <2021-03-19 Fri>
 - 3 Quellen (wissenschaftlich/nichtwissenschaftlich) zusammenfassen
+- siehe [[*M1: Literaturrecherche][M1: Literaturrecherche]] 
 **** TODO Analyse von Konkurrenzprodukten                         :Sophia:
 SCHEDULED: <2021-03-19 Fri>
 - Recherche nach 3 ähnlichen Produkten
@@ -140,4 +141,17 @@ SCHEDULED: <2021-06-24 Thu 13:15>
         Kategorien zur Verfügung stellt
 
   4) Evaluieren Sie die App mit Nutzer*innen
+* Notizen
+** M1: Literaturrecherche
+*** Interior Design
+- fullcite:islamogluLocationComputerAided2015
+- fullcite:bandlerOptimizationMethodsComputeraided1969
+- fullcite:hosseiniMultiobjectiveInteriorDesign2020
+- fullcite:jezernikSolutionIntegrateComputeraided2003
+- fullcite:merrellInteractiveFurnitureLayout2011
+- fullcite:kanAutomatedInteriorDesign2017
+- fullcite:pileColorInteriorDesign
+*** Mobile Development
+- fullcite:mascettiDevelopingAccessibleMobile2020
+- fullcite:madsenSemanticsEssenceReact2020
 
