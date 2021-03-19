@@ -10,9 +10,14 @@
 #+DATE: 12.10.2020
 #+CATEGORY: hci
 #+STARTUP: overview indent
-#+OPTIONS: ^:nil toc:1 email:nil num:nil todo:t email:t tags:t broken-links:mark p:t
+#+OPTIONS: ^:nil toc:nil email:nil num:nil todo:t email:t tags:t broken-links:mark p:t
 #+LANGUAGE: de
 #+EXPORT_FILE_NAME: ~/Dropbox/hci/hci
+#+html: <center>
+#+ATTR_HTML: :width 110px
+file:./img/img_535698.png
+#+html: </center>
+#+TOC: headlines 1
 
 * Aufgaben
 *** DONE Projektwahl
