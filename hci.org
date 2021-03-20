@@ -31,8 +31,8 @@ DEADLINE: <2021-03-23 Tue>
 SCHEDULED: <2021-03-19 Fri>
 - 3 Quellen (wissenschaftlich/nichtwissenschaftlich) zusammenfassen
 - siehe [[*M1: Literaturrecherche][M1: Literaturrecherche]] 
-**** TODO Analyse von Konkurrenzprodukten                        :Sophia:
-SCHEDULED: <2021-03-19 Fri>
+**** DONE Analyse von Konkurrenzprodukten                         :Sophia:
+CLOSED: [2021-03-20 Sat 15:06] SCHEDULED: <2021-03-19 Fri>
 - Recherche nach 3 ähnlichen Produkten
 - Analyse dieser Produkte
   - Vor- und Nachteile
@@ -257,11 +257,58 @@ aussehen könnte.
 
 [[file:./tasks/literatur/Sandu and Scarlat - 2018 - Augmented Reality Uses in Interior Design.pdf][PDF]]
 
-*** Developing accessible mobile applications with cross-platform development frameworks (Mascetti, S., Ducci, M., Cantù, N., Pecis, P. & Ahmetovic, D. (2020)
+*** Inter AR: Interior decor app using augmented reality technology (Moares, R., Jadhav, V., Bagul, R., Jacbo, R., Rajguru, S., & K, R., 2020) 
+
+In diesem Artikel beschreiben die Autoren die Vorgänge, die in
+AR-basierten Interior-Design-Applikationen stattfinden. Ausgangspunkt
+sind hier zwei Algorithmen, die die reale Umgebung erfassen: der
+sogenannte Harris-und-Stephens-Ecken-Detektor-Algorithmus und der
+SLAM-Algorithmus (surface localization and mapping) zur Erfassung der
+Oberflächen.
+
+Die Autoren nennen weiters fünf häufig verwendete Methoden von AUR:
+
+1) Markerbasierte AR (marker-based AR)
+
+Verwendet visuelle Marker wie QR/2D-Codes oder NFT-Marker
+(tatsächliche Gegenstände). Nach der Markererkennung und der
+Kalkulation der Position und Ausrichtung wird der virtuelle Gegenstand
+platziert.
+
+2) Ortsbasierte AR (location-based AR)
+
+   ...
+
+3) Projektionsbasierte AR (projection-based AR)   
 
 ...
 
+4) Outlining AR
 
+...
+
+5) Überlagerungs-AR (superimposition-base AR)
+
+...
+   
+   
+EINSCHRÄNKUNGEN
+Die AR-Technologie wird nicht auf allen Android-Geräten in großem Umfang unterstützt. Um dieses Problem zu lösen, wurde die 8. Wand verwendet, da die 8. Wand immer noch ein sich entwickelndes Arsdk-Tool ist. Daher ist die mangelnde Genauigkeit der Anwendung zu beobachten.
+Die in der Option angezeigten Möbelobjekte werden aus dem Backend importiert und lokal gespeichert. Daher gibt es keine Photogrammetrie, mit der die Anwendung das Bild in ein 3D-Objekt konvertieren kann. Die Anwendung kann den Benutzer aufgrund begrenzter Funktionen des SDK-Tools nicht in der Lage sein, zwei oder mehr Objektinstanzen auf einer einzelnen Oberfläche zu platzieren.
+
+ERGEBNISSE
+In dieser AR-Umgebung kann der Benutzer die Eigenschaften virtueller Möbel anpassen und in der realen Welt eigene Arrangements erstellen. Über die mobile Kamera kann der Benutzer die Planoberfläche erkennen, die Möbel über die Anwendung auswählen und auf dem Bildschirm platzieren. Darüber hinaus kann diese mobile Anwendung in künstliche Intelligenz integriert werden, um die Vorstellungskraft des Benutzers zu steigern und ein animiertes Erlebnis in Echtzeit zu ermöglichen. Dieses Papier konzentriert sich hauptsächlich auf die Implementierung einer immersiven Designlösung auf einer mobilen Plattform, die auf den Prinzipien von Augmented Reality (AR) basiert. Als Designlösung kann diese Anwendung dazu beitragen, die Kosten für das Prototyping zu senken und eine bessere Erfahrung für den Kunden zu simulieren. Es ermöglicht dem Kunden auch, selbst Designer zu sein und sein Zuhause so zu gestalten, wie er es möchte. Es hilft ihnen auch, ein Thema im Haus festzulegen und ein Gefühl dafür zu bekommen, bevor sie eine Bestellung aufgeben. Diese Anwendung wird sich auch für Werbezwecke als vorteilhaft für die Unternehmen erweisen. Somit kann dieses System die folgenden Mängel beseitigen:
+a) Es ist schwierig, den Inhalt des Kunden zu erfüllen, um sein Zimmer ohne das tatsächliche Bild des fertigen Raums zu gestalten.
+b) Kataloge bieten nicht alle möglichen Ansichten der Möbel.
+c) Schwierigkeiten bei der Visualisierung des möblierten Raums.
+d) Beschränkung der Anzahl der Möbel, die im Geschäft ausgestellt werden können
+
+[[file:./tasks/literatur/Moares et al. - 2020 - Inter AR Interior decor app using augmented reali.pdf][PDF]]
+
+
+*** Developing accessible mobile applications with cross-platform development frameworks (Mascetti, S., Ducci, M., Cantù, N., Pecis, P. & Ahmetovic, D. (2020)
+
+...
 
 *** Quellen Interior Design
 - Islamoglu, O. S. & Deger, K. O. (2015). The location of computer
@@ -293,6 +340,10 @@ aussehen könnte.
 - Sandu, M., & Scarlat, I. S. (2018). Augmented reality uses in interior
   design. Informatica Economica, 22(3/2018), 5-13. 
   http://dx.doi.org/10.12948/issn14531305/22.3.2018.01
+- Moares, R., Jadhav, V., Bagul, R., Jacbo, R., Rajguru, S., & K, R.,
+  Inter AR: Interior decor app using augmented reality technology
+  (2020). Social Science Research
+  Network. https://papers.ssrn.com/abstract=3513248
 **** noexport                                                   :noexport:
 nocite:islamogluLocationComputerAided2015
 nocite:bandlerOptimizationMethodsComputeraided1969
@@ -302,7 +353,7 @@ nocite:merrellInteractiveFurnitureLayout2011
 nocite:kanAutomatedInteriorDesign2017
 nocite:pileColorInteriorDesign
 nocite:sanduAugmentedRealityUses2018
-
+nocite:moaresInterARInterior2020
 *** Quellen Mobile Development
 
 - Mascetti, S., Ducci, M., Cantù, N., Pecis, P. & Ahmetovic,
@@ -318,7 +369,7 @@ nocite:mascettiDevelopingAccessibleMobile2020
 nocite:madsenSemanticsEssenceReact2020
 nocite:nylundDevelopingaCrossplatformMVP2020
 ** M1: Konkurrenzprodukte
-...
+[[file:./tasks/m1_konkurrenzanalyse.pdf][PDF]] [[file:./tasks/m1_konkurrenzanalyse.docx][DOCX]]
 ** M1: Nutzer- & Kontextanalyse
 ...
 ** M1: Personas
