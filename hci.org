@@ -184,6 +184,8 @@ Layouts gut ab, wobei Küchen deutlich besser und Schlafzimmer deutlich
 schlechter bewertet wurden als jene der professionellen
 Innenarchitekten.
 
+[[file:./tasks/literatur/Kán and Kaufmann - 2017 - Automated interior design using a genetic algorith.pdf][PDF]]
+
 *** Augmented reality uses in interior design (Sandu, M., & Scarlat, I. S., 2018)
 
 Weil Möbel zunehmend über Online-Shops gekauft werden und sich viele
@@ -253,7 +255,11 @@ Zeitpunkt des Artikels in keiner Smartphone-Anwendung verfügbar
 war. Die Autoren schildern am Ende auch noch kurz, wie ein Algorithmus dafür
 aussehen könnte.
 
+[[file:./tasks/literatur/Sandu and Scarlat - 2018 - Augmented Reality Uses in Interior Design.pdf][PDF]]
+
 *** Developing accessible mobile applications with cross-platform development frameworks (Mascetti, S., Ducci, M., Cantù, N., Pecis, P. & Ahmetovic, D. (2020)
+
+...
 
 
 
