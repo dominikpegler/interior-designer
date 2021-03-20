@@ -35,7 +35,7 @@ SCHEDULED: <2021-03-20 Sat>
 SCHEDULED: <2021-03-21 Sun>
 **** TODO Projektmanagement                                      :Dominik:
 SCHEDULED: <2021-03-22 Mon>
-*** WAIT M1: Präsentation
+**** WAIT Präsentation
 SCHEDULED: <2021-04-15 Thu 13:40>
 *** WAIT M2: Low-fidelity Prototypen 
 DEADLINE: <2021-04-20 Tue>
