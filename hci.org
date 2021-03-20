@@ -183,6 +183,9 @@ Designern generierten Layouts schnitten die automatisch generierten
 Layouts gut ab, wobei Küchen deutlich besser und Schlafzimmer deutlich
 schlechter bewertet wurden als jene der professionellen
 Innenarchitekten.
+*** Developing accessible mobile applications with cross-platform development frameworks (Mascetti, S., Ducci, M., Cantù, N., Pecis, P. & Ahmetovic, D. (2020)
+
+
 
 *** Quellen Interior Design
 - Islamoglu, O. S. & Deger, K. O. (2015). The location of computer
