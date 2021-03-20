@@ -1,6 +1,7 @@
 #+TITLE: Interior Designer App
-#+SUBTITLE: VU Human Computer Interaction, 
-#+subtitle: Uni Wien, SS2021 \\
+#+subtitle: Asım Oğuz, Dominik Pegler, Sophia Pum \\
+# +SUBTITLE: VU Human Computer Interaction, 
+# +subtitle: Uni Wien, SS2021 \\
 #+subtitle: [[http://vda.univie.ac.at/Teaching/HCI/21s/schedule.html][HCI]] ---
 #+subtitle: [[https://moodle.univie.ac.at/course/view.php?id=207279][Moodle]]
 #+AUTHOR: Asim OGUZ
@@ -20,12 +21,7 @@ file:./img/img_535698.png
 #+TOC: headlines 1
 
 * Aufgaben
-*** DONE Projektwahl
-CLOSED: [2021-03-11 Thu 15:00] DEADLINE: <2021-03-11 Thu 15:00>
-*** DONE Auswahl des Frameworks
-CLOSED: [2021-03-14 Sun 20:15] DEADLINE: <2021-03-18 Thu 13:00>
-+Flutter, Android oder was ~anderes~+ \to React
-*** TODO M1: Problemanalyse
+*** M1: Problemanalyse
 DEADLINE: <2021-03-23 Tue>
 **** DONE Analyse von vorhandener Literatur                      :Dominik:
 CLOSED: [2021-03-20 Sat 15:40] SCHEDULED: <2021-03-19 Fri>
@@ -64,19 +60,6 @@ SCHEDULED: <2021-03-22 Mon>
 *** WAIT M1: Präsentation
 SCHEDULED: <2021-04-15 Thu 13:40>
 [[file:./tasks/m1_praes.pdf][PDF]]
-*** WAIT Interviews mit potenziellen Nutzer*innen
-DEADLINE: <2021-04-01 Thu 15:00>
-\to für Requirementanalyse
-1. Focus Group: Wer sind die potenziellen Nutzer?
-2. Finden von Interview-Partnern
-3. Interview-Design, Fragen erarbeiten (strukturiert vs
-   unstrukturiert, quantiativ vs. qualitativ)
-4. Interviews durchführen: persönlich, online (Video, Chat, Email), Fragebogen?
-*** WAIT Requirement-Analyse: Ermittlung Zielgruppen und Anforderungen
-DEADLINE: <2021-04-15 Thu 15:00>
-- Auswertung der Daten aus den Interviews
-- Basierend auf der Datenerhebung mehrere Zielgruppen und deren
-  spezifische Anforderungen (e.g. Personas) ermitteln
 *** WAIT M2: Low-fidelity Prototypen 
 DEADLINE: <2021-04-20 Tue>
 
@@ -85,31 +68,16 @@ DEADLINE: <2021-05-18 Tue>
 *** WAIT M3: Präsentation
 SCHEDULED: <2021-05-20 Thu 13:15>
 
-*** WAIT Erstellen des Prototypen
-DEADLINE: <2021-05-20 Thu 15:00>
-- Anforderungen:
-  1) Ermöglicht Skizzen leicht und schnell veränderbar nachzubilden
-     und
-  2) Stellt Empfehlungen für bestimmte Stile / Raumgrößen / andere
-     Kategorien zur Verfügung
-*** WAIT Evaluieren der App mit Nutzer*innen
-DEADLINE: <2021-06-03 Thu 15:00>
 *** WAIT M4: Usability Evaluierung, Weiterentwicklung, und Abschlussbericht 
 DEADLINE: <2021-06-08 Tue>
 *** WAIT Abschlussgespräch
 SCHEDULED: <2021-06-24 Thu 13:15>
 * Team
-- Asim Oguz
-  - Informatik
-  - ...
-    
-- Dominik Pegler
-  - Psychologie
-  - ...
-    
-- Sophia Pum
-  - Informatik
-  - ...
+
+|           | Asım Oğuz  | Dominik Pegler | Sophia Pum |
+|-----------+------------+----------------+------------|
+| /Studium/ | Informatik | Psychologie    | Informatik |
+|           |            |                |            |
     
 * Projektbeschreibung
 - Problemstellung:
@@ -152,10 +120,9 @@ SCHEDULED: <2021-06-24 Thu 13:15>
         Kategorien zur Verfügung stellt
 
   4) Evaluieren Sie die App mit Nutzer*innen
-* Notizen
-** M1: Literaturrecherche
+* M1: Literaturrecherche
 /Autor: Dominik PEGLER/
-*** Automated interior design using a genetic algorithm (Kán & Kaufmann, 2017)
+** Automated interior design using a genetic algorithm (Kán & Kaufmann, 2017)
 
 Kán und Kaufmann von der TU Wien stellen in dieser Arbeit aus dem
 Bereich des Automated Interior Design ein Verfahren vor, das auf Basis
@@ -188,7 +155,7 @@ Innenarchitekten.
 
 [[file:./tasks/literatur/Kán and Kaufmann - 2017 - Automated interior design using a genetic algorith.pdf][PDF]]
 
-*** Augmented reality uses in interior design (Sandu, M., & Scarlat, I. S., 2018)
+** Augmented reality uses in interior design (Sandu, M., & Scarlat, I. S., 2018)
 
 Weil Möbel zunehmend über Online-Shops gekauft werden und sich viele
 Kunden in der Folge nicht vorstellen können, wie neue Möbelstücke in
@@ -259,7 +226,7 @@ aussehen könnte.
 
 [[file:./tasks/literatur/Sandu and Scarlat - 2018 - Augmented Reality Uses in Interior Design.pdf][PDF]]
 
-*** Inter AR: Interior decor app using augmented reality technology (Moares, R., Jadhav, V., Bagul, R., Jacbo, R., Rajguru, S., & K, R., 2020) 
+** Inter AR: Interior decor app using augmented reality technology (Moares, R., Jadhav, V., Bagul, R., Jacbo, R., Rajguru, S., & K, R., 2020) 
 
 In diesem Artikel beschreiben die Autoren die Vorgänge, die in
 AR-basierten Interior-Design-Applikationen stattfinden. Ausgangspunkt
@@ -332,7 +299,7 @@ verlieren.
 
 [[file:./tasks/literatur/Moares et al. - 2020 - Inter AR Interior decor app using augmented reali.pdf][PDF]]
 
-*** Quellen
+** Quellen
 - Kán, P. & Kaufmann, H. (2017). Automated interior design using a
   genetic algorithm. Proceedings of the 23rd ACM Symposium on Virtual
   Reality Software and Technology,
@@ -344,7 +311,7 @@ verlieren.
 - Sandu, M., & Scarlat, I. S. (2018). Augmented reality uses in interior
   design. Informatica Economica, 22(3/2018), 5-13. 
   http://dx.doi.org/10.12948/issn14531305/22.3.2018.01
-*** sonstige Quellen Interior Design                             :noexport:
+** sonstige Quellen Interior Design                               :noexport:
 - Islamoglu, O. S. & Deger, K. O. (2015). The location of computer
   aided drawing and hand drawing on design and presentation in the
   interior design education. Procedia - Social and Behavioral
@@ -367,7 +334,7 @@ verlieren.
   guidelines. ACM SIGGRAPH 2011 papers on - SIGGRAPH
   ’11, 1. https://doi.org/10.1145/1964921.1964982
 - Pile, J. F. (o. D.). Color in interior design, 9
-**** noexport                                                   :noexport:
+*** noexport                                                     :noexport:
 nocite:islamogluLocationComputerAided2015
 nocite:bandlerOptimizationMethodsComputeraided1969
 nocite:hosseiniMultiobjectiveInteriorDesign2020
@@ -377,7 +344,7 @@ nocite:kanAutomatedInteriorDesign2017
 nocite:pileColorInteriorDesign
 nocite:sanduAugmentedRealityUses2018
 nocite:moaresInterARInterior2020
-*** sonstige Quellen Mobile Development                          :noexport:
+** sonstige Quellen Mobile Development                            :noexport:
 
 - Mascetti, S., Ducci, M., Cantù, N., Pecis, P. & Ahmetovic,
   D. (2020, 14. Mai). Developing accessible mobile applications with
@@ -387,11 +354,11 @@ nocite:moaresInterARInterior2020
 - Nylund, T. (2020). Developing a cross-platform MVP app with React
   Native. https://www.theseus.fi/bitstream/handle/10024/355335/Examensarbete_Thomas_Nylund_ENG.pdf?sequence=2&isAllowed=y
   
-**** noexport                                                   :noexport:
+*** noexport                                                     :noexport:
 nocite:mascettiDevelopingAccessibleMobile2020
 nocite:madsenSemanticsEssenceReact2020
 nocite:nylundDevelopingaCrossplatformMVP2020
-** M1: Konkurrenzprodukte
+* M1: Konkurrenzprodukte
 /Autorin: Sophia PUM/
 
 [[file:./tasks/m1_konkurrenzanalyse.pdf][PDF]] [[file:./tasks/m1_konkurrenzanalyse.docx][DOCX]]
@@ -475,21 +442,21 @@ leeren Raum zu erstellen um seine Ideen komplett neu zu entfalten.
 file:./tasks/img/m1_konkurrenzanalyse_03.png
 
 
-** M1: Nutzer- & Kontextanalyse
+* M1: Nutzer- & Kontextanalyse
 
-*** Nutzeranalyse
+** Nutzeranalyse
  /Autor: Dominik PEGLER/
-**** Aufgaben der Nutzer
+*** Aufgaben der Nutzer
 - Schnelles unkompliziertes Skizzieren von Innenarchitekturen
 - Schnelle unkomplizierte Visualisierung der gestalteten Innenarchitekturen
 - Die eigenen Vorstellungen anderen Personen einfach anschaulich zu kommunizieren
   
-**** Ziele der Nutzer
+*** Ziele der Nutzer
 - Zeit- und Kostenersparnis (Keine Beratung durch Innenarchitekt*in nötig)
 - Konkretere Vorstellungen entwickeln
 - Bessere Entscheidungen treffen
 
-**** Potenzielle Probleme mit dem System
+*** Potenzielle Probleme mit dem System
 - User fühlen sich von App nicht angesprochen
 - Funktionalität oder Auswahlmöglichkeiten zu eingeschränkt (z.B. nur
   bestimmte Arten von Möbeln darstellbar, nur bestimmte Anzahl usw.)
@@ -501,7 +468,7 @@ file:./tasks/img/m1_konkurrenzanalyse_03.png
 - Freezing nud Absturz der App
 - Smartphone genügt den Anforderungen nicht
   
-**** Userpfade:
+*** Userpfade:
 - Wie können User die App downloaden?
 
   Über den jeweiligen Appstore oder über einen Link, der von einer
@@ -525,7 +492,7 @@ file:./tasks/img/m1_konkurrenzanalyse_03.png
   wiederzuverwenden. Die Ersterfahrung muss bereits den Nutzen der App
   demonstrieren und zu einem Erfolgserlebnis führen.
 
-**** Nutzergruppen
+*** Nutzergruppen
 
 Die User teilen sich auf viele große Gruppen auf, da es sich beim
 Thema Wohnen um etwas handelt, das jeden von uns betrifft und die
@@ -535,7 +502,7 @@ Jahren sind mit großer Wahrscheinlich weniger stark vertreten, ebenso
 sehr alte Personen und Personen mit starken neurobiologischen
 Beeinträchtigungen.
 
-***** Mögliche Kategorienbildung nach Alter und Expertentum
+**** Mögliche Kategorienbildung nach Alter und Expertentum
 
 Vorteil: Alter und Expertise hängen stark mit der Art der Nutzung von
 Smartphones (Phänomen aus den letzten 15 Jahren) und speziellen Tools
@@ -549,29 +516,29 @@ zusammen.
 - Menschen im jungen oder mittleren Alter mit professionellem Background
 - Ältere Menschen mit professionellem Background
 
-***** Mögliche andere Kategorienbildung
+**** Mögliche andere Kategorienbildung
 - Bildung
 - ...
 - ...
 
-*** Kontextanalyse
+** Kontextanalyse
 - Benützung der App außerhalb von professionellen Settings
 - Benützung der App ohne Vorkenntnisse zu Raumplanung
 - Benützung der App erfordert keine zusätzlichen Materialien
 - Benützung der App kann fast an jedem Ort und Situation stattfinden
 
-** M1: Personas
+* M1: Personas
 
 Personas auf Basis der Nutzergruppen.
 
-*** Primäre Persona #1: <Name>
+** Primäre Persona #1: <Name>
 
-*** Primäre Persona #2: <Name>
+** Primäre Persona #2: <Name>
 
-*** Sekundäre Persona: <Name>
+** Sekundäre Persona: <Name>
 
-*** Negative Persona: <Name>
-** M1: Aufgabenanalyse
+** Negative Persona: <Name>
+* M1: Aufgabenanalyse
 Führen Sie eine Aufgabenanalyse in Form von Use-Cases (für die
 primären Personas) durch und bewerten/schätzen Sie die Wichtigkeit
 der Aufgaben (Tabelle zu Tasks/Use-Cases und
@@ -579,14 +546,15 @@ Wichtigkeit/Häufigkeit).
 
 
     
-    
-** M1: Projektmanagement
+* M1: Projektmanagement
 Basierend auf den obigen Aspekten, beschreiben Sie kurz Kontext,
 Motivation, Ziele, und Nichtziele Ihres Projekts.
 
 Stellen Sie sich als Teampartner im Projekt vor und teilen Sie Ihre
 Schwerpunkte und Lernwünsche mit. ..
-** Punkte zu klären
+* M1: Präsentation
+ [[file:./tasks/m1_praes.pdf][PDF]]
+* Notizen
 - automatische Gestaltung (Algorithmus) vs. manuelle Gestaltung
   (Benutzer) vs. Hybridform?
   
@@ -601,7 +569,7 @@ Schwerpunkte und Lernwünsche mit. ..
     mit der App zu erfassen und diese digitalen Möbel and Freunde,
     Bekannte oder Interessenten zu schicken.
 
-  - Nichtkommerzieller Charakter der App
+- Nichtkommerzieller Charakter der App
     
 * noexport                                                         :noexport:
 
