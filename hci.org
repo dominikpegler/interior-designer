@@ -63,6 +63,7 @@ SCHEDULED: <2021-03-22 Mon>
 - siehe [[*M1: Projektmanagement][M1: Projektmanagement]] 
 *** WAIT M1: Präsentation
 SCHEDULED: <2021-04-15 Thu 13:40>
+[[file:./tasks/m1_praes.pdf][PDF]]
 *** WAIT Interviews mit potenziellen Nutzer*innen
 DEADLINE: <2021-04-01 Thu 15:00>
 \to für Requirementanalyse
