@@ -3,14 +3,14 @@
 #+DATE: 15.4.2021
 # +EMAIL: a01468373@unet.univie.ac.at
 #+CATEGORY: hci-beamer
-#+SETUPFILE: config_praes.org
+#+SETUPFILE: ./config_praes.org
 #+BEAMER_HEADER: \author[A.Oğuz, D.Pegler, S.Pum]{Asım Oğuz, Dominik Pegler, Sophia Pum}
 #+BEAMER_HEADER: \institute{Universität Wien, Fakultät für Informatik (SS2021)}
 #+LaTeX_HEADER: \addbibresource{~/Dropbox/org/ref/ref.bib}
 
 # export with C-c C-e l O (<- capital O)
 
-* Einleitung
+* Projektbeschreibung
 ** \MakeUppercase{\insertsection}                                      :Bild:
 
        #+BEGIN_CENTER
@@ -20,7 +20,7 @@
        #+END_CENTER
 #+LATEX: \begin{textblock}{3}(1.35,-0.5)\scalebox{0.4}{Bild: }\end{textblock}
 # nocite:
-* Methoden
+* Literaturrecherche
 ** \MakeUppercase{\insertsection}                                      :Bild:
        #+BEGIN_CENTER
        #+NAME:   fig:m1_praes_02
@@ -28,7 +28,12 @@
        [[./img/m1_praes_02.jpg]]
        #+END_CENTER
 #+LATEX: \begin{textblock}{3}(1.35,-0.5)\scalebox{0.4}{Bild: }\end{textblock}
-* Ergebnisse
+
+** Algorithmen und Augmented Reality
+- textcite:kanAutomatedInteriorDesign2017
+- textcite:sanduAugmentedRealityUses2018
+- textcite:moaresInterARInterior2020
+* Konkurrenzprodukte
 ** \MakeUppercase{\insertsection}                                      :Bild:
        #+BEGIN_CENTER
        #+NAME:   fig:m1_praes_03
@@ -36,7 +41,19 @@
        [[./img/m1_praes_03.jpg]]
        #+END_CENTER
 #+LATEX: \begin{textblock}{3}(1.35,-0.5)\scalebox{0.4}{Bild: }\end{textblock}
-* Diskussion
+** Houzz
+- ...
+- ...
+- ...
+** Ikea Place
+- ...
+- ...
+- ...
+** Homestyler
+- ...
+- ...
+- ...
+* Nutzeranalyse
 ** \MakeUppercase{\insertsection}                                      :Bild:
    :properties:
    :end:
@@ -44,6 +61,36 @@
        #+NAME:   fig:m1_praes_04
        #+attr_latex: :height 0.77\textheight
        [[./img/m1_praes_04.jpg]]
+       #+END_CENTER
+#+LATEX: \begin{textblock}{3}(1.35,-0.5)\scalebox{0.4}{Bild: }\end{textblock}
+* Personas
+** \MakeUppercase{\insertsection}                                      :Bild:
+   :properties:
+   :end:
+       #+BEGIN_CENTER
+       #+NAME:   fig:m1_praes_05
+       #+attr_latex: :height 0.77\textheight
+       [[./img/m1_praes_05.jpg]]
+       #+END_CENTER
+#+LATEX: \begin{textblock}{3}(1.35,-0.5)\scalebox{0.4}{Bild: }\end{textblock}
+* Aufgabenanalyse
+** \MakeUppercase{\insertsection}                                      :Bild:
+   :properties:
+   :end:
+       #+BEGIN_CENTER
+       #+NAME:   fig:m1_praes_06
+       #+attr_latex: :height 0.77\textheight
+       [[./img/m1_praes_06.jpg]]
+       #+END_CENTER
+#+LATEX: \begin{textblock}{3}(1.35,-0.5)\scalebox{0.4}{Bild: }\end{textblock}
+* Projektmanagement
+** \MakeUppercase{\insertsection}                                      :Bild:
+   :properties:
+   :end:
+       #+BEGIN_CENTER
+       #+NAME:   fig:m1_praes_07
+       #+attr_latex: :height 0.77\textheight
+       [[./img/m1_praes_07.jpg]]
        #+END_CENTER
 #+LATEX: \begin{textblock}{3}(1.35,-0.5)\scalebox{0.4}{Bild: }\end{textblock}
 * Literatur

@@ -25,7 +25,7 @@
 #+BEAMER_HEADER: \setbeamerfont*{author in sidebar}{family=\sfseries,size=\scriptsize}
 #+BEAMER_HEADER: \setbeamerfont*{section in sidebar}{family=\sfseries,size=\scriptsize}
 #+BEAMER_HEADER: \usetheme{Hannover}
-#+BEAMER_HEADER: \def\swidth{1.90cm}
+#+BEAMER_HEADER: \def\swidth{3.6cm}
 #+BEAMER_HEADER: \setbeamersize{sidebar width left=\swidth}
 #+BEAMER_HEADER: \setbeamertemplate{sidebar left}
 #+BEAMER_HEADER: {
