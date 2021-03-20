@@ -229,6 +229,16 @@ nocite:pileColorInteriorDesign
 nocite:mascettiDevelopingAccessibleMobile2020
 nocite:madsenSemanticsEssenceReact2020
 nocite:nylundDevelopingaCrossplatformMVP2020
+** M1: Konkurrenzprodukte
+...
+** M1: Nutzer- & Kontextanalyse
+...
+** M1: Personas
+...
+** M1: Aufgabenanalyse
+...
+** M1: Projektmanagement
+...
 ** Punkte zu klären
 - automatische Gestaltung (Algorithmus) vs. manuelle Gestaltung
   (Benutzer) vs. Hybridform?
