@@ -183,6 +183,76 @@ Designern generierten Layouts schnitten die automatisch generierten
 Layouts gut ab, wobei Küchen deutlich besser und Schlafzimmer deutlich
 schlechter bewertet wurden als jene der professionellen
 Innenarchitekten.
+
+*** Augmented reality uses in interior design (Sandu, M., & Scarlat, I. S., 2018)
+
+Weil Möbel zunehmend über Online-Shops gekauft werden und sich viele
+Kunden in der Folge nicht vorstellen können, wie neue Möbelstücke in
+ihrem Zuhause aussehen würden, lösen viele Unternehmen dies mit dem
+Einsatz von Augmented Reality (AR) in ihren Applikationen.
+
+AR-Anwendungen sind in der Lage, die virtuellen Möbel auf dem
+Anwendungsbildschirm in eine physische Umgebung einzubetten, virtuelle
+Markierungen im Raum zu machen und über diese Größe und
+Größenverhältnisse im Koordinatensystem des Raums zu ermitteln. Der
+Benutzer kann also virtuelle Möbel auf dem Bildschirm auswählen und an
+einer beliebigen Stelle im Raum platzieren. Wesentlicher Bestandteil
+bei AR-Anwendungen ist dabei die Kamera des Smartphones.
+
+In dieser Arbeit werden verschiedene AR-Anwendungen für Interior
+Design analysiert, dabei Vor- und Nachteile erhoben und in Folge eine
+AR-Anwendung vorgeschlagen, die die meisten aktuellen Probleme der
+Innenraumgestaltung löst.
+
+Als Software-Frameworks für Augmented Reality wird ArToolKit
+vorgestellt, ein vielfach verwendetess und minimales
+Open-Source-Framework. Das ARToolKit-Tracking funktioniert wie folgt:
+
+1. Kamera nimmt Videos der realen Welt auf und sendet ans Programm
+2. Programm durchsucht alle quadratischen Formen in den Videos
+3. Wird ein Quadrat gefunden, errechnet die Software die Position der
+   Kamera relativ zum schwarzen Quadrat.
+4. Sobald die Position der Kamera bekannt ist, wird das
+   Modell aus dieser Perspektive gerendert.
+5. Modell wird auf dem Video der realen Welt gezeichnet (auf einer
+   quadratischen Markierung).
+6. Das fertige Bild wird am Display angezeigt, auf dem virtuelle
+   Gegenstände über die reale Welt gelagert sind.
+
+Als App, die auf AR-Technologien aufbaut, wird IKEA place application
+genannt. Sie soll helfen, den Entscheidungsprozess beim Kauf von
+Einrichtungsgegenständen zu erleichtern. Bei ihr liegen die
+Fehlerbereich bei wenigen Zentimetern. Die App ist auch in der Lage,
+physische Objekte im Raum zu erkennen und etwas Ähnliches aus dem
+Online-Shop vorzuschlagen. Als Nachteil der IKEA-place-app wird
+genannt, dass Objekte manchmal völlig inkorrekt oder in inkorrekter
+Größe platziert. Ein weiterer Nachteil ist, dass nur Gegenstände aus
+dem IKEA-eigenen Store ausgewählt werden können.
+
+ Eine weitere Applikation ist die Houzz-App. Im Gegensatz zur IKEA-App
+  kann diese App besser flache Oberflächen erkennen, was die genannten
+  groben Fehler verringern kann. Obwohl auch diese App nicht ohne
+  Nachteile auskommt (Freezing, uneinheitliches
+  Cross-Device-Verhalten), ist sie einer von den Autoren gestarteten
+  Umfrage zufolge beliebter als die App von IKEA. Das wird vor allem
+  auf das Design zurückgeführt.
+
+  Als eine den Autoren nach sehr gute Lösung wird auch noch die App
+  Homerstyler Interior Design genannt. Diese erlaubt auch
+  Größenänderungen der Objekte in Echtzeit, vordefinierte leere Räume
+  zu wählen und diese nach Belieben zu gestalten. Einziger Nachteil
+  dieser App ist der Umstand, dass kein kompletter Raum-Scan möglich
+  ist und nach der Umfrage ist sie wenig populär und liegt hinter
+  jener von IKEA.
+
+Der Lösungsvorschlag der Autoren wäre eine App, die die Möglichkeit
+bietet, nach dem Scan der Umgebung bestimmte Objekte oder alle Objekte
+entfernen zu können. Damit lässt sich ein Raum leichter oder von Grund
+auf neu gestalten. Es wäre auch eine Neuheit, da diese Funktion zum
+Zeitpunkt des Artikels in keiner Smartphone-Anwendung verfügbar
+war. Die Autoren schildern am Ende auch noch kurz, wie ein Algorithmus dafür
+aussehen könnte.
+
 *** Developing accessible mobile applications with cross-platform development frameworks (Mascetti, S., Ducci, M., Cantù, N., Pecis, P. & Ahmetovic, D. (2020)
 
 
@@ -214,7 +284,9 @@ Innenarchitekten.
   Reality Software and Technology,
   1– 10. https://doi.org/10.1145/3139131.3139135
 - Pile, J. F. (o. D.). Color in interior design, 9
-
+- Sandu, M., & Scarlat, I. S. (2018). Augmented reality uses in interior
+  design. Informatica Economica, 22(3/2018), 5-13. 
+  http://dx.doi.org/10.12948/issn14531305/22.3.2018.01
 **** noexport                                                   :noexport:
 nocite:islamogluLocationComputerAided2015
 nocite:bandlerOptimizationMethodsComputeraided1969
@@ -223,6 +295,8 @@ nocite:jezernikSolutionIntegrateComputeraided2003
 nocite:merrellInteractiveFurnitureLayout2011
 nocite:kanAutomatedInteriorDesign2017
 nocite:pileColorInteriorDesign
+nocite:sanduAugmentedRealityUses2018
+
 *** Quellen Mobile Development
 
 - Mascetti, S., Ducci, M., Cantù, N., Pecis, P. & Ahmetovic,
