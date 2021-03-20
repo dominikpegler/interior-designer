@@ -20,7 +20,7 @@ file:./img/img_535698.png
 #+html: </center>
 #+TOC: headlines 1
 
-* Aufgaben
+* Termine
 *** M1: Problemanalyse
 DEADLINE: <2021-03-23 Tue>
 **** DONE Analyse von vorhandener Literatur                      :Dominik:
