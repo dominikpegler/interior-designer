@@ -38,20 +38,20 @@ CLOSED: [2021-03-20 Sat 15:06] SCHEDULED: <2021-03-19 Fri>
   - Vor- und Nachteile
   - Usability-Aspekte identifizieren
 - siehe [[*M1: Konkurrenzprodukte][M1: Konkurrenzprodukte]]
-**** TODO Nutzeranalyse und Kontextanalyse                          :Asim:
+**** TODO Nutzeranalyse und Kontextanalyse                       :Dominik:
 SCHEDULED: <2021-03-20 Sat>
 - Nutzeranalyse durchführen
 - Aufgaben und Ziele der Nutzer & mögliche Probleme im System
 - Kontextanalyse & Ergebnisdokumentation
 - siehe [[*M1: Nutzer- & Kontextanalyse][M1: Nutzer- & Kontextanalyse]] 
-**** TODO Personas erstellen                                      :Sophia:
+**** TODO Personas erstellen                                 :Sophia:Asim:
 SCHEDULED: <2021-03-20 Sat>
 - Sollen die wichtigsten Nutzerszenarien abdecken
 - 2 primäre
 - 1 sekundäre
 - 1 negative
 - siehe [[*M1: Personas][M1: Personas]] 
-**** TODO Aufgabenanalyse                                      :Dominik:
+**** TODO Aufgabenanalyse                                           :Asim:
 SCHEDULED: <2021-03-21 Sun>
 - Aufgabenanalyse der Use-Cases für die Personas duchführen (Bewertung
   der Wichtigkeit dieser Aufgaben)
@@ -267,7 +267,7 @@ sogenannte Harris-und-Stephens-Ecken-Detektor-Algorithmus und der
 SLAM-Algorithmus (surface localization and mapping) zur Erfassung der
 Oberflächen.
 
-Die Autoren nennen weiters fünf häufig verwendete Methoden von AUR:
+Die Autoren nennen weiters fünf häufig verwendete Methoden von AR:
 
 1) Markerbasierte AR (marker-based AR)
 
@@ -475,13 +475,58 @@ file:./tasks/img/m1_konkurrenzanalyse_03.png
 
 
 ** M1: Nutzer- & Kontextanalyse
-...
+
+*** Nutzeranalyse
+ 
+**** Aufgaben der Nutzer
+- Schnelles und kompliziertes Skizzieren von Innenarchitekturen
+- Schnelle und unkomplizierte Visualisierung der gestalteten Innenarchitekturen
+- Die eigenen Vorstellungen anderen Personen einfach anschaulich zu kommunizieren
+  
+**** Ziele der Nutzer
+- Zeit- und Kostenersparnis (Keine Beratung durch Innenarchitekt*in nötig)
+- Konkretere Vorstellungen entwickeln
+- Bessere Entscheidungen treffen
+
+**** Potenzielle Probleme mit dem System
+- User fühlt sich von App nicht angesprochen
+- Funktionalität oder Auswahlmöglichkeiten zu eingeschränkt (z.B. nur
+  bestimmte Arten von Möbeln darstellbar, nur bestimmte Anzahl usw.)
+- User sieht den Nutzen nicht (wegen Art des Aufbaus der App nicht
+  klar ersichtlich)
+- App bringt keinen Zusatznutzen zu bereits vorhandenen Tools
+- User können Aufbau und Logik des Programms nicht nachvollziehen
+- Zu lange Ladezeiten (bei mobilen Apps noch wichtiger als bei Webapps!)
+- Freezing nud Absturz der App
+- Smartphone genügt den Anforderungen nicht
+  
+*** Kontextanalyse
+Führen Sie eine Kontextanalyse durch und dokumentieren Sie das Ergebnis (1/2 Seite) 
+    
 ** M1: Personas
-...
+Erstellen Sie Personas, die die wichtigsten Nutzerszenarien abdecken
+*** Primäre Persona #1
+
+*** Primäre Persona #2
+
+*** Sekundäre Persona
+
+*** Negative Persona
 ** M1: Aufgabenanalyse
-...
+Führen Sie eine Aufgabenanalyse in Form von Use-Cases (für die
+primären Personas) durch und bewerten/schätzen Sie die Wichtigkeit
+der Aufgaben (Tabelle zu Tasks/Use-Cases und
+Wichtigkeit/Häufigkeit).
+
+
+    
+    
 ** M1: Projektmanagement
-...
+Basierend auf den obigen Aspekten, beschreiben Sie kurz Kontext,
+Motivation, Ziele, und Nichtziele Ihres Projekts.
+
+Stellen Sie sich als Teampartner im Projekt vor und teilen Sie Ihre
+Schwerpunkte und Lernwünsche mit. ..
 ** Punkte zu klären
 - automatische Gestaltung (Algorithmus) vs. manuelle Gestaltung
   (Benutzer) vs. Hybridform?
