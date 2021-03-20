@@ -42,7 +42,7 @@ DEADLINE: <2021-04-20 Tue>
 
 *** WAIT M3: Erstellung der App 
 DEADLINE: <2021-05-18 Tue>
-*** WAIT M3: Präsentation
+**** WAIT Präsentation
 SCHEDULED: <2021-05-20 Thu 13:15>
 
 *** WAIT M4: Usability Evaluierung, Weiterentwicklung, und Abschlussbericht 
