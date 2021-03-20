@@ -589,6 +589,16 @@ Schwerpunkte und Lernwünsche mit. ..
 ** Punkte zu klären
 - automatische Gestaltung (Algorithmus) vs. manuelle Gestaltung
   (Benutzer) vs. Hybridform?
+  
+- Alleinstellungsmerkmale?
+  - z.B. Einbindung von Secondhand-Plattformen wie willhaben.at
+    (Anbieter kann dort die wesentlichen Maße eintragen, App benötigt
+    dann nur noch 2--3 Bilder, um den Gegenstand realistisch zu
+    erfassen => Image-Processing-Schritt nötig zum Hochrechnen von
+    Bildern mit niedriger Qualität oder der nicht sichtbaren Stellen)
+    oder auch die Möglickeit, die eigenen Möbel als Objekte schnell
+    mit der App zu erfassen und diese digitalen Möbel and Freunde,
+    Bekannte oder Interessenten zu schicken.
 * noexport                                                         :noexport:
 
 ** Local functions                                        :noexport:
