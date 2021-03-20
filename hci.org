@@ -477,10 +477,10 @@ file:./tasks/img/m1_konkurrenzanalyse_03.png
 ** M1: Nutzer- & Kontextanalyse
 
 *** Nutzeranalyse
- 
+ /Autor: Dominik PEGLER/
 **** Aufgaben der Nutzer
-- Schnelles und kompliziertes Skizzieren von Innenarchitekturen
-- Schnelle und unkomplizierte Visualisierung der gestalteten Innenarchitekturen
+- Schnelles unkompliziertes Skizzieren von Innenarchitekturen
+- Schnelle unkomplizierte Visualisierung der gestalteten Innenarchitekturen
 - Die eigenen Vorstellungen anderen Personen einfach anschaulich zu kommunizieren
   
 **** Ziele der Nutzer
@@ -489,7 +489,7 @@ file:./tasks/img/m1_konkurrenzanalyse_03.png
 - Bessere Entscheidungen treffen
 
 **** Potenzielle Probleme mit dem System
-- User fühlt sich von App nicht angesprochen
+- User fühlen sich von App nicht angesprochen
 - Funktionalität oder Auswahlmöglichkeiten zu eingeschränkt (z.B. nur
   bestimmte Arten von Möbeln darstellbar, nur bestimmte Anzahl usw.)
 - User sieht den Nutzen nicht (wegen Art des Aufbaus der App nicht
