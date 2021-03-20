@@ -31,31 +31,36 @@ DEADLINE: <2021-03-23 Tue>
 SCHEDULED: <2021-03-19 Fri>
 - 3 Quellen (wissenschaftlich/nichtwissenschaftlich) zusammenfassen
 - siehe [[*M1: Literaturrecherche][M1: Literaturrecherche]] 
-**** TODO Analyse von Konkurrenzprodukten                         :Sophia:
+**** TODO Analyse von Konkurrenzprodukten                        :Sophia:
 SCHEDULED: <2021-03-19 Fri>
 - Recherche nach 3 ähnlichen Produkten
 - Analyse dieser Produkte
   - Vor- und Nachteile
   - Usability-Aspekte identifizieren
+- [[*M1: Konkurrenzprodukte][siehe M1: Konkurrenzprodukte]]
 **** TODO Nutzeranalyse und Kontextanalyse                          :Asim:
 SCHEDULED: <2021-03-20 Sat>
 - Nutzeranalyse durchführen
 - Aufgaben und Ziele der Nutzer & mögliche Probleme im System
 - Kontextanalyse & Ergebnisdokumentation
+- [[*M1: Nutzer- & Kontextanalyse][siehe M1: Nutzer- & Kontextanalyse]] 
 **** TODO Personas erstellen                                      :Sophia:
 SCHEDULED: <2021-03-20 Sat>
 - Sollen die wichtigsten Nutzerszenarien abdecken
 - 2 primäre
 - 1 sekundäre
 - 1 negative
-**** TODO Aufgabenanalyse                                        :Dominik:
+- [[*M1: Personas][siehe M1: Personas]] 
+**** TODO Aufgabenanalyse                                      :Dominik:
 SCHEDULED: <2021-03-21 Sun>
 - Aufgabenanalyse der Use-Cases für die Personas duchführen (Bewertung
   der Wichtigkeit dieser Aufgaben)
+-[[*M1: Aufgabenanalyse][ siehe M1: Aufgabenanalyse]] 
 **** TODO Projektmanagement                                      :Dominik:
 SCHEDULED: <2021-03-22 Mon>
 - Zusammenfassend aus dieser Arbeit Kontext, Motivation, Ziele und Nichtziele des Projekts beschreiben
 - Als Teampartner im Projekt Lernwünsche und eigene Schwerpunkte mitteilen 
+- [[*M1: Projektmanagement][siehe M1: Projektmanagement]] 
 *** TODO M1: Präsentation
 SCHEDULED: <2021-04-15 Thu 13:40>
 *** WAIT Interviews mit potenziellen Nutzer*innen
