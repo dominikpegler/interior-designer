@@ -25,41 +25,18 @@ file:./img/img_535698.png
 DEADLINE: <2021-03-23 Tue>
 **** DONE Analyse von vorhandener Literatur                      :Dominik:
 CLOSED: [2021-03-20 Sat 15:40] SCHEDULED: <2021-03-19 Fri>
-- 3 Quellen (wissenschaftlich/nichtwissenschaftlich) zusammenfassen
-- siehe [[*M1: Literaturrecherche][M1: Literaturrecherche]] 
 **** DONE Analyse von Konkurrenzprodukten                         :Sophia:
 CLOSED: [2021-03-20 Sat 15:06] SCHEDULED: <2021-03-19 Fri>
-- Recherche nach 3 ähnlichen Produkten
-- Analyse dieser Produkte
-  - Vor- und Nachteile
-  - Usability-Aspekte identifizieren
-- siehe [[*M1: Konkurrenzprodukte][M1: Konkurrenzprodukte]]
 **** TODO Nutzeranalyse und Kontextanalyse                       :Dominik:
 SCHEDULED: <2021-03-20 Sat>
-- Nutzeranalyse durchführen
-- Aufgaben und Ziele der Nutzer & mögliche Probleme im System
-- Kontextanalyse & Ergebnisdokumentation
-- siehe [[*M1: Nutzer- & Kontextanalyse][M1: Nutzer- & Kontextanalyse]] 
 **** TODO Personas erstellen                                 :Sophia:Asim:
 SCHEDULED: <2021-03-20 Sat>
-- Sollen die wichtigsten Nutzerszenarien abdecken
-- 2 primäre
-- 1 sekundäre
-- 1 negative
-- siehe [[*M1: Personas][M1: Personas]] 
 **** TODO Aufgabenanalyse                                           :Asim:
 SCHEDULED: <2021-03-21 Sun>
-- Aufgabenanalyse der Use-Cases für die Personas duchführen (Bewertung
-  der Wichtigkeit dieser Aufgaben)
-- siehe [[*M1: Aufgabenanalyse][M1: Aufgabenanalyse]] 
 **** TODO Projektmanagement                                      :Dominik:
 SCHEDULED: <2021-03-22 Mon>
-- Zusammenfassend aus dieser Arbeit Kontext, Motivation, Ziele und Nichtziele des Projekts beschreiben
-- Als Teampartner im Projekt Lernwünsche und eigene Schwerpunkte mitteilen 
-- siehe [[*M1: Projektmanagement][M1: Projektmanagement]] 
 *** WAIT M1: Präsentation
 SCHEDULED: <2021-04-15 Thu 13:40>
-[[file:./tasks/m1_praes.pdf][PDF]]
 *** WAIT M2: Low-fidelity Prototypen 
 DEADLINE: <2021-04-20 Tue>
 
