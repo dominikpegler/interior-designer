@@ -596,9 +596,13 @@ Schwerpunkte und Lernwünsche mit. ..
     dann nur noch 2--3 Bilder, um den Gegenstand realistisch zu
     erfassen => Image-Processing-Schritt nötig zum Hochrechnen von
     Bildern mit niedriger Qualität oder der nicht sichtbaren Stellen)
-    oder auch die Möglickeit, die eigenen Möbel als Objekte schnell
+
+  - Oder auch die Möglickeit, die eigenen Möbel als Objekte schnell
     mit der App zu erfassen und diese digitalen Möbel and Freunde,
     Bekannte oder Interessenten zu schicken.
+
+  - Nichtkommerzieller Charakter der App
+    
 * noexport                                                         :noexport:
 
 ** Local functions                                        :noexport:
