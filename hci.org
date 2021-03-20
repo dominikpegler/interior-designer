@@ -148,7 +148,38 @@ SCHEDULED: <2021-06-24 Thu 13:15>
   4) Evaluieren Sie die App mit Nutzer*innen
 * Notizen
 ** M1: Literaturrecherche
-*** Interior Design
+*** Automated interior design using a genetic algorithm (Kán & Kaufmann, 2017)
+
+Kán und Kaufmann von der TU Wien stellen in dieser Arbeit aus dem
+Bereich des Automated Interior Design ein Verfahren vor, das auf Basis
+von vorgegebenen Informationen wie Raumgröße in der Lage ist,
+virtuelle Räume automatisch und selbstständig mit Möbeln und
+Einrichtungsgegenständen zu befüllen.
+
+Dabei werden deren jeweilige Position und Ausrichtung im Raum so
+gestaltet, dass sie ästhetischen, ergonomischen und funkionellen
+Anforderungen optimal Rechnung tragen. Diese Anforderungen nennen sich
+Interior Design Guidelines.
+
+Sie wurden für dieses Verfahren in mathematische Ausdrücke übersetzt
+und in eine Kostenfunktion integriert. Mittels eines Genetischen
+Algorithmus (GA) wird diese Kostenfunktion auf ein Minimum
+optimiert. Zusätzlich eweitert dieses Verfahren auch die Optimierung
+auf den transdimensionalen Raum: dadurch wird die automatische Auswahl
+von Gegenständen möglich. Ebenfalls optimiert wird die Zuordnung von
+Materialien zu den Möbeln und Einrichtungsgegenständen, um ein
+einheitliches Design und eine harmonische Farbgestaltung zu
+erreichen.
+
+In einer Wahrnehmungsstudie wurde festgestellt, dass dieses Verfahren
+tatsächlich in der Lage ist, lebenswerte und sinnhafte
+Innenarchitekturen zu generieren. Im Vergleich zu von professionellen
+Designern generierten Layouts schnitten die automatisch generierten
+Layouts gut ab, wobei Küchen deutlich besser und Schlafzimmer deutlich
+schlechter bewertet wurden als jene der professionellen
+Innenarchitekten.
+
+*** Quellen Interior Design
 - Islamoglu, O. S. & Deger, K. O. (2015). The location of computer
   aided drawing and hand drawing on design and presentation in the
   interior design education. Procedia - Social and Behavioral
@@ -184,7 +215,7 @@ nocite:jezernikSolutionIntegrateComputeraided2003
 nocite:merrellInteractiveFurnitureLayout2011
 nocite:kanAutomatedInteriorDesign2017
 nocite:pileColorInteriorDesign
-*** Mobile Development
+*** Quellen Mobile Development
 
 - Mascetti, S., Ducci, M., Cantù, N., Pecis, P. & Ahmetovic,
   D. (2020, 14. Mai). Developing accessible mobile applications with
@@ -198,6 +229,9 @@ nocite:pileColorInteriorDesign
 nocite:mascettiDevelopingAccessibleMobile2020
 nocite:madsenSemanticsEssenceReact2020
 nocite:nylundDevelopingaCrossplatformMVP2020
+** Punkte zu klären
+- automatische Gestaltung (Algorithmus) vs. manuelle Gestaltung
+  (Benutzer) vs. Hybridform?
 * noexport                                                         :noexport:
 
 ** Local functions                                        :noexport:
