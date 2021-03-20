@@ -1,4 +1,4 @@
-#+TITLE: App Interior Designer
+#+TITLE: Interior Designer App
 #+SUBTITLE: VU Human Computer Interaction, 
 #+subtitle: Uni Wien, SS2021 \\
 #+subtitle: [[http://vda.univie.ac.at/Teaching/HCI/21s/schedule.html][HCI]] ---
@@ -501,18 +501,76 @@ file:./tasks/img/m1_konkurrenzanalyse_03.png
 - Freezing nud Absturz der App
 - Smartphone genügt den Anforderungen nicht
   
+**** Userpfade:
+- Wie können User die App downloaden?
+
+  Über den jeweiligen Appstore oder über einen Link, der von einer
+  dritten Person zugesendet wird.
+
+- Welche Hilfestellungen werden mit der App mitgeliefert?
+
+  Eigener Menüpunkt, der zu einer mobilen Hilfeseite mit Problem-Kategorien
+  und einer Suchfunktion führt.
+
+- Wie sieht die Erstbenutzung aus?
+
+  Es sind keinerlei Registrierungen notwendig. Die Nutzer gelangen
+  sofort in ein Menü, in dem sie die gewünschte Aktion auswählen
+  können. Es sollte möglich sein, bereits 5 Bildschirmberührungen ein
+  Ergebnis zu bekommen. Zum Beispiel mittels Defaulteinstellungen.
+
+- Was sind die Anreize, die App wiederzufinden?
+
+  Gute Ersterfahrungen sind der wichtigste Grund, die App
+  wiederzuverwenden. Die Ersterfahrung muss bereits den Nutzen der App
+  demonstrieren und zu einem Erfolgserlebnis führen.
+
+**** Nutzergruppen
+
+Die User teilen sich auf viele große Gruppen auf, da es sich beim
+Thema Wohnen um etwas handelt, das jeden von uns betrifft und die
+meisten Menschen in der Lage sind, ihre Wohnsituation selbst zu
+gestalten. Aus diesem Grund sind Kinder und Jugendliche unter 15
+Jahren sind mit großer Wahrscheinlich weniger stark vertreten, ebenso
+sehr alte Personen und Personen mit starken neurobiologischen
+Beeinträchtigungen.
+
+***** Mögliche Kategorienbildung nach Alter und Expertentum
+
+Vorteil: Alter und Expertise hängen stark mit der Art der Nutzung von
+Smartphones (Phänomen aus den letzten 15 Jahren) und speziellen Tools
+zusammen.
+
+- Jüngere Menschen (15--35 Jahre) ohne professionellen
+  Background im Bereich Innenarchitektur
+- Menschen im mittleren Alter (36--60 Jahre) ohne professionellen
+  Background
+- Ältere Menschen (60--80 Jahre) ohne professionellen Background
+- Menschen im jungen oder mittleren Alter mit professionellem Background
+- Ältere Menschen mit professionellem Background
+
+***** Mögliche andere Kategorienbildung
+- Bildung
+- ...
+- ...
+
 *** Kontextanalyse
-Führen Sie eine Kontextanalyse durch und dokumentieren Sie das Ergebnis (1/2 Seite) 
-    
+- Benützung der App außerhalb von professionellen Settings
+- Benützung der App ohne Vorkenntnisse zu Raumplanung
+- Benützung der App erfordert keine zusätzlichen Materialien
+- Benützung der App kann fast an jedem Ort und Situation stattfinden
+
 ** M1: Personas
-Erstellen Sie Personas, die die wichtigsten Nutzerszenarien abdecken
-*** Primäre Persona #1
 
-*** Primäre Persona #2
+Personas auf Basis der Nutzergruppen.
 
-*** Sekundäre Persona
+*** Primäre Persona #1: <Name>
 
-*** Negative Persona
+*** Primäre Persona #2: <Name>
+
+*** Sekundäre Persona: <Name>
+
+*** Negative Persona: <Name>
 ** M1: Aufgabenanalyse
 Führen Sie eine Aufgabenanalyse in Form von Use-Cases (für die
 primären Personas) durch und bewerten/schätzen Sie die Wichtigkeit
