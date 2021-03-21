@@ -13,6 +13,7 @@
 #+STARTUP: overview indent
 #+OPTIONS: ^:nil toc:nil email:nil num:nil todo:t email:t tags:t broken-links:mark p:t
 #+LANGUAGE: de
+# +INFOJS_OPT: view:overview toc:nil mouse:#efefef buttons:t sdepth:nil
 #+EXPORT_FILE_NAME: ~/Dropbox/hci/hci
 #+html: <center>
 #+ATTR_HTML: :width 110px
@@ -495,7 +496,7 @@ zusammen.
 
 **** Mögliche andere Kategorienbildung
 - Bildung
-- ...
+- Einkommen
 - ...
 
 ** Kontextanalyse
