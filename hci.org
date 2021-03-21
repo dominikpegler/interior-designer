@@ -521,7 +521,7 @@ file:./tasks/img/m1_persona_1_idealist.png
 #+caption:  Negative Persona "Sabine Gruber"
 #+name: fig:persona4
 #+attr_html: :width 150px
-file:./tasks/img/m1_persona_4_guardian.png
+file:./tasks/img/m1_persona_4_guardian.jpg
 * M1: Aufgabenanalyse
 Führen Sie eine Aufgabenanalyse in Form von Use-Cases (für die
 primären Personas) durch und bewerten/schätzen Sie die Wichtigkeit
