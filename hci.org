@@ -421,46 +421,51 @@ file:./tasks/img/m1_konkurrenzanalyse_03.png
 ** Nutzeranalyse
  /Autor: Dominik PEGLER/
 *** Aufgaben der Nutzer
-- Schnelles unkompliziertes Skizzieren von Innenarchitekturen
-- Schnelle unkomplizierte Visualisierung der gestalteten Innenarchitekturen
-- Die eigenen Vorstellungen anderen Personen einfach anschaulich zu kommunizieren
+- Schnelles und unkompliziertes Skizzieren von Innenarchitekturen
+- Schnelle und unkomplizierte Visualisierung der gestalteten Innenarchitekturen
+- Die eigenen Vorstellungen anderen Personen einfach und anschaulich
+  zu kommunizieren
   
 *** Ziele der Nutzer
-- Zeit- und Kostenersparnis (Keine Beratung durch Innenarchitekt*in nötig)
-- Konkretere Vorstellungen entwickeln
-- Bessere Entscheidungen treffen
+- Zeit- und Kostenersparnis, weil keine Beratung durch
+  Innenarchitekt*in nötig ist und die App an Ort und Stelle hilfreich
+  ist
+- Konkretere Vorstellungen zu entwickeln
+- Bessere und nachhaltigere Entscheidungen zu treffen
 
 *** Potenzielle Probleme mit dem System
-- User fühlen sich von App nicht angesprochen
-- Funktionalität oder Auswahlmöglichkeiten zu eingeschränkt (z.B. nur
-  bestimmte Arten von Möbeln darstellbar, nur bestimmte Anzahl usw.)
-- User sieht den Nutzen nicht (wegen Art des Aufbaus der App nicht
+- Die User fühlen sich von der App nicht angesprochen.
+- Die Funktionalitäten oder Auswahlmöglichkeiten sind zu
+  eingeschränkt, z.B. gibt es nur eine bestimmte Art von Möbeln oder
+  Objekten, die über die App darstellbar sind, oder es gibt technische
+  Limitationen mehre virtuelle Objekte gleichzeitig darzustellen.
+- Die User sehen den Nutzen nicht (wegen Art des Aufbaus der App nicht
   klar ersichtlich)
 - App bringt keinen Zusatznutzen zu bereits vorhandenen Tools
 - User können Aufbau und Logik des Programms nicht nachvollziehen
 - Zu lange Ladezeiten (bei mobilen Apps noch wichtiger als bei Webapps!)
-- Freezing nud Absturz der App
+- Freezing oder Absturz der App
 - Smartphone genügt den Anforderungen nicht
   
 *** Userpfade:
-- Wie können User die App downloaden?
+- *Wie können User die App downloaden?*
 
   Über den jeweiligen Appstore oder über einen Link, der von einer
   dritten Person zugesendet wird.
 
-- Welche Hilfestellungen werden mit der App mitgeliefert?
+- *Welche Hilfestellungen werden mit der App mitgeliefert?*
 
   Eigener Menüpunkt, der zu einer mobilen Hilfeseite mit Problem-Kategorien
   und einer Suchfunktion führt.
 
-- Wie sieht die Erstbenutzung aus?
+- *Wie sieht die Erstbenutzung aus?*
 
   Es sind keinerlei Registrierungen notwendig. Die Nutzer gelangen
   sofort in ein Menü, in dem sie die gewünschte Aktion auswählen
   können. Es sollte möglich sein, bereits 5 Bildschirmberührungen ein
   Ergebnis zu bekommen. Zum Beispiel mittels Defaulteinstellungen.
 
-- Was sind die Anreize, die App wiederzufinden?
+- *Was sind die Anreize, die App wiederzufinden?*
 
   Gute Ersterfahrungen sind der wichtigste Grund, die App
   wiederzuverwenden. Die Ersterfahrung muss bereits den Nutzen der App
@@ -496,20 +501,25 @@ zusammen.
 - ...
 
 ** Kontextanalyse
-- Benützung der App außerhalb von professionellen Settings
-- Benützung der App ohne Vorkenntnisse zu Raumplanung
-- Benützung der App erfordert keine zusätzlichen Materialien
-- Benützung der App kann fast an jedem Ort und Situation stattfinden
+
+- Benutzer hat keine Vorstellung von möglichen innenarchitektonischen
+  Designs
+- Benutzer hat keine professionellen Kenntnisse und keine Tools zur
+  Veranschaulichung zur Hand
+- Benutzer hat auch sonst keine ergänzenden Hilfsmittel wie
+  Zeichenstifte und Papier zur Hand
+- Benutzer besitzt ein Smartphone auf dem aktuellen Stand der Technik
+- Bedarf zur Verwendung der App
+  - entsteht außerhalb von professionellen Settings
+  - kann fast an jedem Ort und Situation entstehen
 
 * M1: Personas
 
-Personas auf Basis der Nutzergruppen.
-
 ** Primäre Persona #1
 
-/Autor: Asım Oğuz/
+/Autor: Asım OĞUZ/
 
-#+caption: Primäre Persona "Tobias Ebner"
+#+caption: "Tobias Ebner"
 #+name: fig:persona1
 #+attr_html: :width 150px
 file:./tasks/img/m1_persona_1_idealist.png
@@ -534,15 +544,13 @@ file:./tasks/img/m1_persona_1_idealist.png
   Windows-Desktop-PC
 
 ** Primäre Persona #2: <Name>
-
-
 ** Sekundäre Persona: <Name>
 
 ** Negative Persona
 
-/Autor: Asım Oğuz/
+/Autor: Asım OĞUZ/
 
-#+caption:  Negative Persona "Sabine Gruber"
+#+caption: "Sabine Gruber"
 #+name: fig:persona4
 #+attr_html: :width 150px
 file:./tasks/img/m1_persona_4_guardian.jpg
