@@ -485,9 +485,9 @@ Beeinträchtigungen.
 
 Vorteil: Alter und Expertise hängen stark mit der Art der Nutzung von
 Smartphones (Phänomen aus den letzten 15 Jahren) und speziellen Tools
-zusammen.
+zusammen. Alter ist einfacher zu erfassen als Smartphone literacy.
 
-| ID  | Nutzerkategorie                                                                             |
+| ID  | Nutzergruppe                                                                                |
 |-----+---------------------------------------------------------------------------------------------|
 | J   | Jüngere Menschen (15--35 Jahre) ohne professionellen Background im Bereich Innenarchitektur |
 | M   | Menschen im mittleren Alter (36--60 Jahre) ohne professionellen Background                  |
@@ -498,7 +498,7 @@ zusammen.
 **** Mögliche andere Kategorienbildung
 - Bildung
 - Einkommen
-- Computer literacy
+- Smartphone/Computer literacy
 
 ** Kontextanalyse
 
