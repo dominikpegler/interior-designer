@@ -465,7 +465,7 @@ file:./tasks/img/m1_konkurrenzanalyse_03.png
   können. Es sollte möglich sein, bereits 5 Bildschirmberührungen ein
   Ergebnis zu bekommen. Zum Beispiel mittels Defaulteinstellungen.
 
-- *Was sind die Anreize, die App wiederzufinden?*
+- *Was sind die Anreize, die App wiederzuverwenden?*
 
   Gute Ersterfahrungen sind der wichtigste Grund, die App
   wiederzuverwenden. Die Ersterfahrung muss bereits den Nutzen der App
