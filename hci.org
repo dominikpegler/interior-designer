@@ -536,7 +536,7 @@ file:./tasks/img/m1_persona_1_idealist.png
 
 ** Sekundäre Persona: <Name>
 
-** Negative Persona: Sabine Gruber
+** Negative Persona
 #+caption:  Negative Persona "Sabine Gruber"
 #+name: fig:persona4
 #+attr_html: :width 150px
