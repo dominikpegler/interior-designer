@@ -505,12 +505,31 @@ zusammen.
 
 Personas auf Basis der Nutzergruppen.
 
-** Primäre Persona #1: Tobias Ebner
+** Primäre Persona #1
 
 #+caption: Primäre Persona "Tobias Ebner"
 #+name: fig:persona1
 #+attr_html: :width 150px
 file:./tasks/img/m1_persona_1_idealist.png
+
+- Name: Tobias Ebner
+- Typ: Idealist
+- Credo: /Mit minimalem Aufwand maximalen Erfolg erreichen/
+- Background:
+  - Ausbildung vor Kurzem beendet
+  - Begann erst jetzt Vollzeit zu arbeiten
+  - Durch den Vollzeit-Job hat er ein höheres Budget und übersiedelt
+    in eine schönere Wohnung.
+- Abneigung: Zeitverlust
+- Männlich, 25 Jahre
+- Nationalität: Österreich
+- Familienstand: Single
+- Beruf: Grafik-Designer
+- Berufserfahrung: 1 Jahr
+- Einkommen: EUR 30.000 / Jahr
+- Nutzung mobiler Geräte: 8h / Tag
+- Verwendete Technologien: Android Smartphone, iPad, Windows-Laptop,
+  Windows-Desktop-PC
 
 ** Primäre Persona #2: <Name>
 
@@ -522,6 +541,25 @@ file:./tasks/img/m1_persona_1_idealist.png
 #+name: fig:persona4
 #+attr_html: :width 150px
 file:./tasks/img/m1_persona_4_guardian.jpg
+
+- Name: Sabine Gruber
+- Typ: Guardian
+- Credo: /Der beste Weg ist der, den man kennt/
+- Background:
+  - Hat sehr lange Gewöhnungszeiten bei neuen Technologien
+  - Arbeitet seit mehr als 20 Jahren am selben Arbeitsplatz
+  - Benutzt Ihre Gegenstände bis sie absolut unbenutzbar sind und
+    ausgetauscht werden müssen.  in eine schönere Wohnung.
+  - Mag es nicht, viel Geld auszugeben
+- Abneigung: Etwas Neue ausprobieren
+- Weiblich, 64 Jahre
+- Nationalität: Österreich
+- Familienstand: Verheiratet
+- Beruf: Verkäuferin
+- Berufserfahrung: 37 Jahre
+- Einkommen: EUR 22.000 / Jahr
+- Nutzung mobiler Geräte: 2h / Tag
+- Verwendete Technologien: iPhone
 * M1: Aufgabenanalyse
 Führen Sie eine Aufgabenanalyse in Form von Use-Cases (für die
 primären Personas) durch und bewerten/schätzen Sie die Wichtigkeit
