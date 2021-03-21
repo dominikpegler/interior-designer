@@ -505,13 +505,23 @@ zusammen.
 
 Personas auf Basis der Nutzergruppen.
 
-** Primäre Persona #1: <Name>
+** Primäre Persona #1: Tobias Ebner
+
+#+caption: Primäre Persona "Tobias Ebner"
+#+name: fig:persona1
+#+attr_html: :width 150px
+file:./tasks/img/m1_persona_1_idealist.png
 
 ** Primäre Persona #2: <Name>
 
+
 ** Sekundäre Persona: <Name>
 
-** Negative Persona: <Name>
+** Negative Persona: Sabine Gruber
+#+caption:  Negative Persona "Sabine Gruber"
+#+name: fig:persona4
+#+attr_html: :width 150px
+file:./tasks/img/m1_persona_4_guardian.png
 * M1: Aufgabenanalyse
 Führen Sie eine Aufgabenanalyse in Form von Use-Cases (für die
 primären Personas) durch und bewerten/schätzen Sie die Wichtigkeit
