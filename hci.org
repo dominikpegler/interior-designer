@@ -544,5 +544,6 @@ Schwerpunkte und Lernwünsche mit. ..
   - Möglichkeit, die eigenen Möbel auch in eine andere, virtuelle oder
     reale, Umgebung einzubetten. Zum Beispiel, wenn man die eigenen
     Möbel verkaufen möchte.
-
+ - Weitere Beispiel-App: Roomle https://apps.apple.com/us/app/roomle-3d-ar-room-planner/id732050356
+    
 - Nichtkommerzieller Charakter der App
