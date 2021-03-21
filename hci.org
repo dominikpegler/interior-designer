@@ -498,7 +498,7 @@ zusammen.
 **** Mögliche andere Kategorienbildung
 - Bildung
 - Einkommen
-- ...
+- Computer literacy
 
 ** Kontextanalyse
 
