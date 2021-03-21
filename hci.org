@@ -1,14 +1,11 @@
 #+TITLE: Interior Designer App
 #+subtitle: Asım Oğuz, Dominik Pegler, Sophia Pum \\
-# +SUBTITLE: VU Human Computer Interaction, 
-# +subtitle: Uni Wien, SS2021 \\
 #+subtitle: [[http://vda.univie.ac.at/Teaching/HCI/21s/schedule.html][HCI]] ---
 #+subtitle: [[https://moodle.univie.ac.at/course/view.php?id=207279][Moodle]]
 #+AUTHOR: Asim OGUZ
 #+AUTHOR: Dominik PEGLER
 #+AUTHOR: Sophia PUM
 #+EMAIL: dominikpegler@posteo.org
-#+DATE: 12.10.2020
 #+CATEGORY: hci
 #+STARTUP: overview indent
 #+OPTIONS: ^:nil toc:nil email:nil num:nil todo:t email:t tags:t broken-links:mark p:t
@@ -29,9 +26,9 @@ CLOSED: [2021-03-20 Sat 15:40] SCHEDULED: <2021-03-19 Fri>
 **** DONE Analyse von Konkurrenzprodukten                         :Sophia:
 CLOSED: [2021-03-20 Sat 15:06] SCHEDULED: <2021-03-19 Fri>
 **** TODO Nutzeranalyse und Kontextanalyse                       :Dominik:
-SCHEDULED: <2021-03-20 Sat>
+SCHEDULED: <2021-03-21 Sun>
 **** TODO Personas erstellen                                 :Sophia:Asim:
-SCHEDULED: <2021-03-20 Sat>
+SCHEDULED: <2021-03-21 Sun>
 **** TODO Aufgabenanalyse                                           :Asim:
 SCHEDULED: <2021-03-21 Sun>
 **** TODO Projektmanagement                                      :Dominik:
@@ -521,7 +518,6 @@ primären Personas) durch und bewerten/schätzen Sie die Wichtigkeit
 der Aufgaben (Tabelle zu Tasks/Use-Cases und
 Wichtigkeit/Häufigkeit).
 
-
 * M1: Projektmanagement
 Basierend auf den obigen Aspekten, beschreiben Sie kurz Kontext,
 Motivation, Ziele, und Nichtziele Ihres Projekts.
@@ -545,5 +541,8 @@ Schwerpunkte und Lernwünsche mit. ..
     mit der App zu erfassen und diese digitalen Möbel and Freunde,
     Bekannte oder Interessenten zu schicken.
 
+  - Möglichkeit, die eigenen Möbel auch in eine andere, virtuelle oder
+    reale, Umgebung einzubetten. Zum Beispiel, wenn man die eigenen
+    Möbel verkaufen möchte.
+
 - Nichtkommerzieller Charakter der App
-    
