@@ -507,6 +507,8 @@ Personas auf Basis der Nutzergruppen.
 
 ** Primäre Persona #1
 
+/Autor: Asım Oğuz/
+
 #+caption: Primäre Persona "Tobias Ebner"
 #+name: fig:persona1
 #+attr_html: :width 150px
@@ -537,6 +539,9 @@ file:./tasks/img/m1_persona_1_idealist.png
 ** Sekundäre Persona: <Name>
 
 ** Negative Persona
+
+/Autor: Asım Oğuz/
+
 #+caption:  Negative Persona "Sabine Gruber"
 #+name: fig:persona4
 #+attr_html: :width 150px
