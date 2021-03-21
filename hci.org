@@ -487,13 +487,13 @@ Vorteil: Alter und Expertise hängen stark mit der Art der Nutzung von
 Smartphones (Phänomen aus den letzten 15 Jahren) und speziellen Tools
 zusammen.
 
-1. *Jüngere Menschen (15--35 Jahre) ohne professionellen
-   Background im Bereich Innenarchitektur*
-2. *Menschen im mittleren Alter (36--60 Jahre) ohne professionellen
-   Background*
-3. *Ältere Menschen (60--80 Jahre) ohne professionellen Background*
-4. *Menschen im jungen oder mittleren Alter mit professionellem Background*
-5. *Ältere Menschen mit professionellem Background*
+| ID  | Nutzerkategorie                                                                             |
+|-----+---------------------------------------------------------------------------------------------|
+| J   | Jüngere Menschen (15--35 Jahre) ohne professionellen Background im Bereich Innenarchitektur |
+| M   | Menschen im mittleren Alter (36--60 Jahre) ohne professionellen Background                  |
+| A   | Ältere Menschen (60--80 Jahre) ohne professionellen Background                              |
+| JM+ | Menschen im jungen oder mittleren Alter mit professionellem Background                      |
+| A+  | Ältere Menschen mit professionellem Background                                              |
 
 **** Mögliche andere Kategorienbildung
 - Bildung
