@@ -25,8 +25,8 @@ DEADLINE: <2021-03-23 Tue>
 CLOSED: [2021-03-20 Sat 15:40] SCHEDULED: <2021-03-19 Fri>
 **** DONE Analyse von Konkurrenzprodukten                         :Sophia:
 CLOSED: [2021-03-20 Sat 15:06] SCHEDULED: <2021-03-19 Fri>
-**** TODO Nutzeranalyse und Kontextanalyse                       :Dominik:
-SCHEDULED: <2021-03-21 Sun>
+**** DONE Nutzeranalyse und Kontextanalyse                       :Dominik:
+CLOSED: [2021-03-21 Sun 23:15] SCHEDULED: <2021-03-21 Sun>
 **** TODO Personas erstellen                                 :Sophia:Asim:
 SCHEDULED: <2021-03-21 Sun>
 **** TODO Aufgabenanalyse                                           :Asim:
