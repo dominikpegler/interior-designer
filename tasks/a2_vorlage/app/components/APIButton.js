@@ -12,7 +12,7 @@ export default class APIButton extends Component{
         this.state = {
 
         }
-        const client = createClient('INSERT HERE YOUR OWN API KEY FROM PEXELS.COM');
+        const client = createClient('563492ad6f917000010000011c05560a15ea4d10a704aea12888b534');
         const query = this.props.animal;
         client.photos.search({ query, per_page: 1 }).then(photos => {
             console.log(photos);
