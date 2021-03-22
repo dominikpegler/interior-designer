@@ -543,9 +543,104 @@ file:./tasks/img/m1_persona_1_idealist.png
 - Verwendete Technologien: Android Smartphone, iPad, Windows-Laptop,
   Windows-Desktop-PC
 
-** Primäre Persona #2: <Name>
-** Sekundäre Persona: <Name>
+** Primäre Persona #2
 
+/Autorin: Sophia PUM/
+
+#+caption: "Carina Winkler"
+#+name: fig:persona2
+#+attr_html: :width 150px
+file:./tasks/img/m1_persona_2_rational.png
+
+- Name: Carina Winkler
+- Typ: Rational
+- Background:
+
+  Carina Winkler ist 32 Jahre alt, verheiratet und arbeitet als Ärztin
+  in einer Arztpraxis in Wien. Nun möchte sie ihren Traum
+  verwirklichen und gemeinsam mit ihrem Mann eine eigene Arztpraxis
+  eröffnen. Außerdem wollten sie und ihr Ehemann schon lange aus ihrer
+  kleinen Wohnung in der Wiener Innenstadt ausziehen und in ein Haus
+  außerhalb der Stadt ziehen. Ihr Plan ist es, ein Haus mit Arztpraxis
+  und privatem Wohnbereich einzurichten. Da beide beruflich viel zu
+  tun haben und sich zusätzlich nicht zu viel mit dem Umzug stressen
+  wollen, freuen sie sich über jede Art von Unterstützung. Ihr Wunsch
+  ist ein Umzug der unkompliziert sowie stressfrei verläuft, aber
+  trotzdem ihre Wohnträume erfüllt. Sie ist bereit, sich Zeit zu
+  nehmen und den Umzug inklusive der Einrichtung gut zu planen, damit
+  es zu keinen unüberlegten Entscheidungen kommt und sie mit dem
+  Endergebnis langfristig zufrieden ist. Carina ist offen dafür Neues
+  auszurobieren, solange es zu einer effizienteren Problemlösung
+  beiträgt und keine zusätzlichen Schwierigkeiten bedeutet.
+
+- Ziele:
+  - Ein unkomplizierter, effizienter Umzug
+  - Eine Einrichtung, die langfristig gefällt
+  - Neues ausprobieren, ohne viel zu riskieren
+- Motivation:
+  - Übersichtlich organisierte Pläne
+  - Praktische Herangehensweise
+- Abneigung:
+  - Strukturlosigkeit
+  - Unüberlegte und hektische Entscheidungen
+- Weiblich, 32 Jahre
+- Nationalität: Österreich
+- Familienstand: Verheiratet
+- Beruf: Ärztin
+- Berufserfahrung: nicht bekannt
+- Einkommen: EUR 60.000 / Jahr
+- Nutzung mobiler Geräte: nicht bekannt
+- Verwendete Technologien: iPhone, iPad, Windows-Laptop,
+  Windows-Desktop-PC
+
+** Sekundäre Persona:
+
+/Autorin: Sophia PUM/
+
+#+caption: "Felix Schuster"
+#+name: fig:persona3
+#+attr_html: :width 150px
+file:./tasks/img/m1_persona_3_rational.png
+
+- Name: Felix Schuster
+- Typ: Rational
+- Background:
+
+  Felix Schuster ist 20 Jahre alt und zum Studieren nach Wien
+  gezogen. Er hat ein günstiges WG-Zimmer im Internet gefunden und
+  zieht das erste Mal von zuhause weg. Felix ist extravertiert und
+  viel unterwegs, entweder zum Lernen auf der Bibliothek oder er
+  unternimmt etwas mit Freunden. Sein Wohnraum dient hauptsächlich zum
+  Schlafen und er ist selten zuhause. Er möchte sich sein Zimmer schön
+  einrichten und sich darin wohlfühlen, allerdings hat es für ihn
+  keinen hohen Stellenwert und dient auch nicht zur
+  Selbstverwirklichung. Er möchte flexibel bleiben und wird
+  voraussichtlich nur für ein paar Jahre dort wohnen, somit will er
+  nicht zu viel Zeit oder Geld mit der Gestaltung seines Zimmers
+  verschwenden. Grundsätzlich ist er aber ein offener und moderner Typ
+  und probiert auch gerne Neues aus, allerdings mag er es gerne
+  unkompliziert und bequem.
+
+- Ziele:
+  - Ein unaufwändiger Umzug
+  - Eine minimalistische Einrichtung, die das Nötigste abdeckt
+  - Neues ausprobieren, ohne zu viel zu riskieren
+- Motivation:
+  - Interessiert an modernen Trends
+  - Bequeme Herangehensart
+  - Spontane Entscheidungen
+- Abneigung:
+  - Strenge Pläne und Vorschriften
+  - Eingeschränkte Möglichkeiten
+- Männlich, 20 Jahre
+- Nationalität: Österreich
+- Familienstand: Single
+- Beruf: Student
+- Berufserfahrung: nicht bekannt
+- Einkommen: -
+- Nutzung mobiler Geräte: nicht bekannt
+- Verwendete Technologien: Android Smartphone, Windows-Laptop
+  
 ** Negative Persona
 
 /Autor: Asım OĞUZ/
