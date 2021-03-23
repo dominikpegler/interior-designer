@@ -3,6 +3,7 @@
 #+AUTHOR: Asım OĞUZ, Dominik PEGLER, Sophia PUM
 #+EMAIL: a01468373@unet.univie.ac.at
 #+SETUPFILE: setupfile_article.org
+\newpage
 
 * Literaturrecherche
 /Autor: Dominik PEGLER/
