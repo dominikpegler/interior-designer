@@ -716,11 +716,12 @@ sondern kann kurzfristig bestimmt und je nach Bedarf angepasst werden.
 ** Ziele
 
 Ziel ist es, ein schlüssiges Konzept einer Anwendung und einen soliden
-Prototypen zu entwickeln. Idealerweise können wir das Projekt später
-in die Realität umsetzen oder zumindest Teile davon. Ein weiteres Ziel
-ist es, dass wir uns im Laufe der Entwicklung mit uns noch weniger
-bekannten Technologien beschäftigen und zu Erkenntnissen kommen, die
-zu neuen Ideen führen.
+Prototypen zu entwickeln und dabei die Interaktion für die User so
+simpel wie nur möglich zu gestalten. Idealerweise können wir das
+Projekt später in die Realität umsetzen oder zumindest Teile
+davon. Ein weiteres Ziel ist es, dass wir uns im Laufe der Entwicklung
+mit uns noch weniger bekannten Technologien beschäftigen und zu
+Erkenntnissen kommen, die zu neuen Ideen führen.
 
 ** Nicht-Ziele des Projekts
 
