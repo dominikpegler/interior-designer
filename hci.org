@@ -31,8 +31,8 @@ CLOSED: [2021-03-21 Sun 23:15] SCHEDULED: <2021-03-21 Sun>
 CLOSED: [2021-03-22 Mon 18:04] SCHEDULED: <2021-03-21 Sun>
 **** DONE Aufgabenanalyse                                           :Asim:
 CLOSED: [2021-03-22 Mon 18:04] SCHEDULED: <2021-03-21 Sun>
-**** TODO Projektmanagement                                      :Dominik:
-SCHEDULED: <2021-03-22 Mon>
+**** DONE Projektmanagement                                      :Dominik:
+CLOSED: [2021-03-23 Tue 09:46] SCHEDULED: <2021-03-22 Mon>
 **** WAIT Präsentation                               :Dominik:Sophia:Asim:
 SCHEDULED: <2021-04-15 Thu 13:40>
 *** WAIT M2: Low-fidelity Prototypen 
@@ -686,12 +686,49 @@ haben, um zum Resultat zu kommen.
 
 * M1: Projektmanagement
 
+Für das Projekt-Management haben wir auf github eine einfache
+[[https://htmlpreview.github.io/?https://github.com/donkndetphone/interior-designer/blob/main/hci.html][HTML-Seite]] erstellt, auf der man sich über den aktuellen Stand des
+Projekts informieren kann und die nächsten wichtigen Termine wie
+Meilensteine und Präsentationen bekommt. Über das gesame Projekt wird
+hier Buch geführt, außerdem entsteht im selben [[https://github.com/donkndetphone/interior-designer][github-Repository]] der
+Source-Code der App. All diese Dinge sind öffentlich zugänglich.
+
 ** Team
 
-Basierend auf den obigen Aspekten, beschreiben Sie kurz Kontext,
-Motivation, Ziele, und Nichtziele Ihres Projekts.
+Das Team besteht aus *Asim Oguz* und *Sophia Pum*, beide studieren
+im 4. Semester des Bachelorstudiums Informatik, sowie aus *Dominik
+Pegler*, Student im letzten Bachelor-Semester Psychologie. Für die
+Aufteilung der Tätigkeiten sind wir so vorgegangen, dass wir
+untereinander vorab abgeklärt haben, über welches Wissen und welche
+Fähigkeiten jedes Mitglied der Gruppe verfügt und was es im Laufe der
+Lehrveranstaltung verbessern möchte. Sophia Pum ist kreative
+Ideengeberin im Projekt und auch wesentlich in die Umsetzung
+involviert, da sie bereits einige Programmiererfahrung hat. Asim Oguz
+hat viel Erfahrung mit JavaScript und wird in der React-Entwicklung
+eine ganz wichtige Rolle spielen, dazu zeigt er viel Interesse für
+Design. Dominik Pegler bringt Wissen aus seinem Psychologie-Studium
+mit und interessiert sich viel für Daten und Programmierung. Er wird
+neben dem Projektmanagement auch in die Programmierung und
+Datenverarbeitung involviert sein. Da wir alle drei flexibel sind,
+ergibt sich die Aufgabenverteilung bei uns im Team nicht von selbst,
+sondern kann kurzfristig bestimmt und je nach Bedarf angepasst werden.
 
-** Sophia Pum
+** Ziele
+
+Ziel ist es, ein schlüssiges Konzept einer Anwendung und einen soliden
+Prototypen zu entwickeln. Idealerweise können wir das Projekt später
+in die Realität umsetzen oder zumindest Teile davon. Ein weiteres Ziel
+ist es, dass wir uns im Laufe der Entwicklung mit uns noch weniger
+bekannten Technologien beschäftigen und zu Erkenntnissen kommen, die
+zu neuen Ideen führen.
+
+** Nicht-Ziele des Projekts
+
+Zu unseren Zielen zählt es nicht, bereits Bestehendes zu wiederholen,
+auch möchten wir vermeiden, dass wir Funktionen implementieren, die
+keinen zusätzlichen Nutzen bringen.
+
+** Sophia Pum                                                     :noexport:
 Mein Name ist *Sophia Pum*, ich bin 20 Jahre alt und studiere Bachelor
 Informatik im 4. Semester. Dieses Semester belege ich unter anderem
 den Kurs Human-Computer-Interaction und arbeite am Projekt „My
@@ -701,7 +738,7 @@ generell für Design interessiere. Vom Projekt wünsche ich mir in
 erster Linie praktische UI-Design Erfahrung zu sammeln und eine
 Verbesserung meiner Projektmanagement- und Programmierfähigkeiten.
 
-** Asim Oguz
+** Asim Oguz                                                      :noexport:
 Ich bin *Asim Oguz*, 20 Jahre alt und studiere Bachelor Informatik
 im 4. Semester. Human-Computer-Interaction ist eine der
 Lehrverantaltungen, die ich dieses Semester absolvieren will. Als
@@ -711,7 +748,7 @@ nützliches Tool wird. Ich erhoffe mir von der Lehrverantaltung, dass
 ich die wichtigsten Design-Prinzipien erlerne und lerne, was die
 Prioritäten beim Design sein sollten.
 
-** Dominik Pegler
+** Dominik Pegler                                                 :noexport:
 ...
 
 * M1: Präsentation
