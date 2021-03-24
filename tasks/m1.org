@@ -427,7 +427,7 @@ Smartphone literacy.
 
 #+caption: "Tobias Ebner"
 #+name: fig:persona1
-#+attr_latex: :width 150px
+#+attr_latex: :width 110px
 file:./img/m1_persona_1_idealist.png
 
 - Name: Tobias Ebner
@@ -461,7 +461,7 @@ file:./img/m1_persona_1_idealist.png
 
 #+caption: "Carina Winkler"
 #+name: fig:persona2
-#+attr_latex: :width 150px
+#+attr_latex: :width 110px
 file:./img/m1_persona_2_rational.png
 
 - Name: Carina Winkler
@@ -511,7 +511,7 @@ file:./img/m1_persona_2_rational.png
 
 #+caption: "Felix Schuster"
 #+name: fig:persona3
-#+attr_latex: :width 150px
+#+attr_latex: :width 110px
 file:./img/m1_persona_3_rational.png
 
 - Name: Felix Schuster
@@ -559,7 +559,7 @@ file:./img/m1_persona_3_rational.png
 
 #+caption: "Sabine Gruber"
 #+name: fig:persona4
-#+attr_latex: :width 150px
+#+attr_latex: :width 110px
 file:./img/m1_persona_4_guardian.jpg
 
 - Name: Sabine Gruber
