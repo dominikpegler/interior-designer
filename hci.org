@@ -36,8 +36,15 @@ CLOSED: [2021-03-22 Mon 18:04] SCHEDULED: <2021-03-21 Sun>
 CLOSED: [2021-03-23 Tue 09:46] SCHEDULED: <2021-03-22 Mon>
 *** TODO M1: Präsentation                             :Dominik:Sophia:Asim:
 SCHEDULED: <2021-04-15 Thu 13:40>
-*** TODO M2: Low-fidelity Prototypen 
+**** Vorbereiten des PDFs                                        :Dominik:
+SCHEDULED: <2021-03-25 Thu 20:00>
+**** Korrektur des PDFs                                      :Asim:Sophia:
+*** M2: Low-fidelity Prototypen 
 DEADLINE: <2021-04-20 Tue>
+**** TODO Ideensammlung
+**** TODO 3 Prototypen
+**** TODO Anpassung des Prototypen an Ihre Zielgruppe:
+**** TODO Evaluierung der Prototypen (3 Interviews)
 *** TODO A2: Erstellung Test-App
 DEADLINE: <2021-05-06 Thu>
 
@@ -52,10 +59,12 @@ DEADLINE: <2021-06-08 Tue>
 SCHEDULED: <2021-06-24 Thu 13:15>
 * Team
 
-|           | Asım Oğuz  | Dominik Pegler | Sophia Pum |
-|-----------+------------+----------------+------------|
-| /Studium/ | Informatik | Psychologie    | Informatik |
-|           |            |                |            |
+|                        | Asım Oğuz         | Dominik Pegler        | Sophia Pum       |
+|------------------------+-------------------+-----------------------+------------------|
+| /Studium/              | Informatik        | Psychologie           | Informatik       |
+| /Semester/             | 4. Sem. Bachelor  | Letztes Sem. Bachelor | 4. Sem. Bachelor |
+| /Programmiererfahrung/ | Java, JS, C#, C++ | Python, Julia         | Java, C++        |
+| /Interessen/           | Design            | Problemlösen          | Design           |
     
 * Projektbeschreibung
 - Problemstellung:
