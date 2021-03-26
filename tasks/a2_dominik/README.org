@@ -1,0 +1,45 @@
+#+TITLE: A2: Mobile Programmierung einer einfachen App: MusicSearch
+#+SUBTITLE: Für InformatikerInnen
+
+* Aufgabenstellung
+
+  Ihre Aufgabe umfasst die Programmierung und Gestaltung einer
+  einfachen App, die dabei hilft, Informationen über ein gesuchtes
+  Musikers zu finden. Ziel der App ist es, die relevanten Metadata
+  über den Musiker und seine / ihre Alben von der Datenbank
+  abzufragen und dem/der Nutzer*In anzuzeigen.
+
+* Schritte [1/4]:
+
+1. [X] Installieren Sie das Programmier-Framework (Android, Flutter,
+   React Native) für das Betriebssystem Ihrer Wahl (Android, iOS,
+   siehe unten!) und erstellen Sie eine erste App mit einem
+   eindeutigen Namen (z.B. für Android "at.ac.univie.hci.MyA2App").
+
+   Die App soll dabei die folgenden drei Komponenten haben:
+
+2. [ ] Startseite, auf der Sie Nutzer*Innen ermöglichen, in einem
+   *Suchfeld* den Namen des Musikers / der Band einzugeben. Die
+   Startseite soll auch Ihren Namen und Ihre Matrikelnummer
+   beinhalten.
+   
+3. [ ] Abfrage des Musikers und alle zugehörigen Alben über die API
+   von TheAudioDB [1].
+   
+4. [ ] Anzeigebildschirm mit den Metadaten (Titel, Bild, Year, Genre
+   und Description) der Alben mit einem sinnvollen Layout. Dabei soll
+   der/die Nutzer*In den Musiker auch einfach für später speichern
+   können und diese Liste sollte auf der Startseite zugänglich
+   sein. (Diese “Favorite-Artists”-Liste muss für A2 nicht über das
+   Schließen der App hinaus gespeichert werden.)
+
+* Punktevergabe
+
+    Punkte bekommen Sie aufgeschlüsselt nach den folgenden Kriterien:
+
+    - 10%: Erfolgreiche Abgabe des Codes
+    - 15%: Teil 1 (Start- und Endbildschirm vorhanden)
+    - 30%: Teil 2 (API-Abfrage und Datenverarbeitung)
+    - 20%: Teil 3 (Bedienoberfläche und Interaktionen sind schlüssig designt)
+    - 15%: App läuft flüssig und ohne Bugs im IDE-eigenen Emulator
+    - 10%: Lesbarkeit und Struktur des Programm-Codes (sinnvolle Klassen- und Methodennamen, Code ist kommentiert, Einrückungen etc.) 
