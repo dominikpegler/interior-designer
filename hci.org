@@ -47,6 +47,8 @@ DEADLINE: <2021-04-20 Tue>
 **** TODO Evaluierung der Prototypen (3 Interviews)
 *** TODO A2: Erstellung Test-App
 DEADLINE: <2021-05-06 Thu>
+**** TODO API Key für https://www.theaudiodb.com/api_apply.php anfordern (EUR 3 p. Monat)
+SCHEDULED: <2021-04-14 Wed>
 
 *** WAIT M3: Erstellung der App 
 DEADLINE: <2021-05-18 Tue>
@@ -831,9 +833,21 @@ Prioritäten beim Design sein sollten.
 * Aufgabe A2: Erstellung Test-App
 Die App soll drei Komponenten haben:
 
-    1. Startseite, auf der Sie Nutzer*Innen ermöglichen, in einem Suchfeld den Namen des Musikers / der Band einzugeben. Die Startseite soll auch Ihren Namen und Ihre Matrikelnummer beinhalten.
-    2. Abfrage des Musikers und alle zugehörigen Alben über die API von TheAudioDB [1].
-    3. Anzeigebildschirm mit den Metadaten (Titel, Bild, Year, Genre und Description) der Alben mit einem sinnvollen Layout. Dabei soll der/die Nutzer*In den Musiker auch einfach für später speichern können und diese Liste sollte auf der Startseite zugänglich sein. (Diese “Favorite-Artists”-Liste muss für A2 nicht über das Schließen der App hinaus gespeichert werden.)
+    1. Startseite, auf der Sie Nutzer*Innen ermöglichen, in einem
+       Suchfeld den Namen des Musikers / der Band einzugeben. Die
+       Startseite soll auch Ihren Namen und Ihre Matrikelnummer
+       beinhalten.
+    2. Abfrage des Musikers und alle zugehörigen Alben über die API
+       von TheAudioDB [1].
+    3. Anzeigebildschirm mit den Metadaten (Titel, Bild, Year, Genre
+       und Description) der Alben mit einem sinnvollen Layout. Dabei
+       soll der/die Nutzer*In den Musiker auch einfach für später
+       speichern können und diese Liste sollte auf der Startseite
+       zugänglich sein. (Diese “Favorite-Artists”-Liste muss für A2
+       nicht über das Schließen der App hinaus gespeichert werden.)
+
+Für Zugriff auf TheAudioDB ist ein kostenpflichtiger API key nötig (EUR 3/Monat)   
+https://www.theaudiodb.com/api_apply.php
 
 * Notizen
 #+TOC: headlines 1 local
