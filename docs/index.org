@@ -143,7 +143,7 @@ Layouts gut ab, wobei Küchen deutlich besser und Schlafzimmer deutlich
 schlechter bewertet wurden als jene der professionellen
 Innenarchitekten.
 
-[[file:./tasks/literatur/Kán and Kaufmann - 2017 - Automated interior design using a genetic algorith.pdf][PDF]]
+[[file:./literatur/Kán and Kaufmann - 2017 - Automated interior design using a genetic algorith.pdf][PDF]]
 
 *** Augmented reality uses in interior design (Sandu, M., & Scarlat, I. S., 2018)
 
@@ -214,7 +214,7 @@ Zeitpunkt des Artikels in keiner Smartphone-Anwendung verfügbar
 war. Die Autoren schildern am Ende auch noch kurz, wie ein Algorithmus dafür
 aussehen könnte.
 
-[[file:./tasks/literatur/Sandu and Scarlat - 2018 - Augmented Reality Uses in Interior Design.pdf][PDF]]
+[[file:./literatur/Sandu and Scarlat - 2018 - Augmented Reality Uses in Interior Design.pdf][PDF]]
 
 *** Inter AR: Interior decor app using augmented reality technology (Moares, R., Jadhav, V., Bagul, R., Jacbo, R., Rajguru, S., & K, R., 2020) 
 
@@ -287,7 +287,7 @@ weil dadurch auch bereits bekannte Limitationen von Möbelhäusern wie
 z.B. begrenze Auswahl an lagernden Möbelstücken an Gewicht
 verlieren.
 
-[[file:./tasks/literatur/Moares et al. - 2020 - Inter AR Interior decor app using augmented reali.pdf][PDF]]
+[[file:./literatur/Moares et al. - 2020 - Inter AR Interior decor app using augmented reali.pdf][PDF]]
 
 *** Quellen
 - Kán, P. & Kaufmann, H. (2017). Automated interior design using a
@@ -351,7 +351,7 @@ nocite:nylundDevelopingaCrossplatformMVP2020
 ** Konkurrenzprodukte
 /Autorin: Sophia PUM/
 
-[[file:./tasks/m1_konkurrenzanalyse.pdf][PDF]] [[file:./tasks/m1_konkurrenzanalyse.docx][DOCX]]
+[[file:./m1_konkurrenzanalyse.pdf][PDF]] [[file:./m1_konkurrenzanalyse.docx][DOCX]]
 
 Die wahrscheinlich bekannteste Interior-Design-App auf dem Markt ist
 *Houzz* (Abb. [[fig:m1_ko_01]]). Mit Millionen von qualitativen Bildern von Badezimmern,
@@ -384,7 +384,7 @@ potentielle Nutzerinnen und Nutzer einer Einrichtungs-App.
 #+caption: Houzz App
 #+name: fig:m1_ko_01
 #+attr_html: :height 330px
-file:./tasks/img/m1_konkurrenzanalyse_01.jpg
+file:./img/m1_konkurrenzanalyse_01.jpg
 
 *Ikea Place* ist die Einrichtungs-App vom Möbelhaus Ikea (Abb. [[fig:m1_ko_02]]). Mithilfe einer
 Augumented-Reality-Technologie kann man sehen wie die Ikea-Produkte in
@@ -410,7 +410,7 @@ beschränkte Anzahl der Ikea-Produkte in der Ikea Place App verwenden.
 #+caption: Ikea Place App
 #+name: fig:m1_ko_02
 #+attr_html: :height 330px
-file:./tasks/img/m1_konkurrenzanalyse_02.jpg
+file:./img/m1_konkurrenzanalyse_02.jpg
 
 Auch bei *Homestyler Interior Design & Deko-Ideen* (Abb. [[fig:m1_ko_03]]) kann man Fotos von
 seinen Räumlichkeiten in die App laden und mit einer großen Menge an
@@ -429,7 +429,7 @@ leeren Raum zu erstellen um seine Ideen komplett neu zu entfalten.
 #+caption: Homestyler App
 #+attr_html: :height 330px
 #+name: fig:m1_ko_03
-file:./tasks/img/m1_konkurrenzanalyse_03.png
+file:./img/m1_konkurrenzanalyse_03.png
 
 ** Nutzer- & Kontextanalyse
 
@@ -537,7 +537,7 @@ zusammen. Alter ist einfacher zu erfassen als Smartphone literacy.
 #+caption: "Tobias Ebner"
 #+name: fig:persona1
 #+attr_html: :width 150px
-file:./tasks/img/m1_persona_1_idealist.png
+file:./img/m1_persona_1_idealist.png
 
 - Name: Tobias Ebner
 - Typ: Idealist
@@ -571,7 +571,7 @@ file:./tasks/img/m1_persona_1_idealist.png
 #+caption: "Carina Winkler"
 #+name: fig:persona2
 #+attr_html: :width 150px
-file:./tasks/img/m1_persona_2_rational.png
+file:./img/m1_persona_2_rational.png
 
 - Name: Carina Winkler
 - Typ: Rational
@@ -621,7 +621,7 @@ file:./tasks/img/m1_persona_2_rational.png
 #+caption: "Felix Schuster"
 #+name: fig:persona3
 #+attr_html: :width 150px
-file:./tasks/img/m1_persona_3_rational.png
+file:./img/m1_persona_3_rational.png
 
 - Name: Felix Schuster
 - Typ: Rational
@@ -669,7 +669,7 @@ file:./tasks/img/m1_persona_3_rational.png
 #+caption: "Sabine Gruber"
 #+name: fig:persona4
 #+attr_html: :width 150px
-file:./tasks/img/m1_persona_4_guardian.jpg
+file:./img/m1_persona_4_guardian.jpg
 
 - Name: Sabine Gruber
 - Typ: Guardian
@@ -793,7 +793,7 @@ Prioritäten beim Design sein sollten.
 ...
 
 ** Präsentation M1
-[[file:./tasks/m1_praes.pdf][PDF]]
+[[file:./m1_praes.pdf][PDF]]
 * Meilenstein M2: Low-fidelity Prototypen
 
 - Die Abgabe erfolgt über Moodle unter M2. Beachten Sie das Moodle-Upload-Limit (250MB) - wenn Sie größere Dateien abgeben, kontaktieren Sie uns bitte rechtzeitig (=1 Tag vorher).
