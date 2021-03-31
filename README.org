@@ -5,6 +5,6 @@ Lehrveranstaltung: http://vda.univie.ac.at/Teaching/HCI/21s
 Repository enthält:
 
    - Code der App
-   - Projekt-Übersicht als org-File (~/docs/index.org~) sowie html-Export davon (http://donkndetphone.github.io/interior-designer) davon 
+   - Projekt-Übersicht als org-File (~/docs/index.org~) sowie html-Export davon (https://donkndetphone.github.io/interior-designer) davon 
    - Präsentationen ([[https://en.wikipedia.org/wiki/Beamer_(LaTeX)][beamer]]) als org-Files (~/docs/~) sowie pdf-Exporte davon
    - sonstige Unterlagen zu den Aufgaben der LV
