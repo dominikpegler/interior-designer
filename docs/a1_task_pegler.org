@@ -1,0 +1,106 @@
+#+title: HCI 2021: Aufgabe A1
+#+subtitle: Beispiele für gute und schlechte Bedienoberflächen
+#+author: Dominik Pegler
+#+email: a01468373@unet.univie.ac.at
+#+setupfile: ../org/setupfile_default.org
+#+language: de
+
+* Aufgabe
+  1. Recherchieren Sie nach drei, aus Ihrer Sicht, guten und drei
+     schlechten Bedienoberflächen:
+     1) jeweils eine mobile App
+     2) eine Webseite
+     3) und ein anderweitiges Beispiel (wie z.B. die eines Automaten,
+        Gerätes, einer Anlage, etc.), also abseits typischer Computer
+        oder mobiler Geräte.
+  2. Begründen Sie aus ihrer persönlichen Sicht, warum Sie diese
+     Bedienoberflächen als gut bzw. als schlecht einstufen und zeigen
+     Sie dazu Fotos oder Screenshots, die Ihre Begründungen
+     untermauern.
+  3. Wählen sie ein von Ihnen als schlecht bewertete Bedienoberfläche
+     oder Website aus:
+     1) Analysieren sie diese Seite/Oberfläche basierend auf den in der
+	VU durchgenommenen Nielsen Heuristiken.
+     2) Schlagen Sie zwei wesentliche Verbesserungen vor.
+
+* Beantwortung 
+
+** 3 gute Bedienoberflächen
+
+   1) Mobile: oebb.at
+   2) Web: MS Teams
+   3) Andere: Boxautomaten im Wiener Prater 
+
+** 3 schlechte Bedienoberflächen
+
+
+   1) Mobil: iOS Wecker
+   2) Web: gmx.at
+   3) Andere: Fahrkartenautomaten in verschiedenen europäischen Städten 
+
+** Begründung
+
+   Ich möchte hier den Fokus auf verbesserungswürdige Interfaces legen.
+   
+   Obwohl gmx.at sicherlich nicht eine der schlechteste Webseiten ist,
+   vor allem weil das Hauptziel der Seite wahrscheinlich nicht darin
+   besteht, für die Benutzer des Email-Dienstes dazusein, finde ich
+   die Seite als Webmail-Dienst nicht besonders gut. Das Wichtigste
+   aus dieser Perspektive ist der Zugang zu den Emails und dieser
+   Funktion, obwohl zentral auf der Seite platziert, wird durch einen
+   Cluttermix an Distraktoren wie Werbung und Nachrichtenmeldungen die
+   Aufmerksamkeit des Benutzers vorenthalten.
+
+   Die Wecker-Funktion innerhalb der iOS-Uhr-Applikation finde ich
+   nicht sehr intuitiv. Die App scheint optimiert darauf zu sein,
+   voreingestellte Wecker-Zeiten an- und auszuschalten. Möchte man
+   jedoch eine dieser Wecker-Zeiten ändern, muss man am oberen linken
+   Bildschirmrand eine Schaltfläche berühren, die dann die App in eine
+   Art "Editiermodus" versetzt. In diesem kann man dann alle
+   Weckerzeiten ändern. Meist geht es aber nur darum eine einzelne
+   Zeit zu ändern und die erste, intuitive Reaktion ist immer, direkt
+   die Zeit am Touchscreen zu berühren. Hinter dieser Geste liegt
+   jedoch keine Funktion.
+
+   Viele moderne Fahrkartenautomaten berücksichtigen schon wichtige
+   Design-Prinzipien. Was jedoch noch zu wenig einfließt, ist der
+   Umstand, dass die Mobilität zwischen den Ländern in den letzten
+   Jahrzehnten stark zugenommen hat. Jeder dieser Fahrkartenautomaten
+   spricht seine eigene "Sprache", in sich logisch, jedoch nicht
+   kompatibel mit Personen, die mit den Fahrkartenautomaten und deren
+   Eigenheiten in anderen Städten und Ländern vertraut sind. Eine
+   einheitliche Linie bei der Gestaltung im Sinne einer Kooperation
+   unter den Staaten (z.B. EU) wäre meiner Meinung nach sinnvoll. Das
+   betrifft auch die mobilen Apps und Webseiten.
+   
+** Analyse einer schlechten Bedienoberfläche
+
+    Webseite gmx.at
+
+    #+attr_latex: :width 400px
+    [[../hci/tasks/img/gmxat.png]]
+   
+*** Nielsen-Heuristiken
+
+    Obwohl sich die Seite an viele Design-Heuristiken wie gängige
+    Design-Standards (Logo in der linken oberen Ecke,
+    Registrier-Button rechts oben) hält, fällt mein Hauptkritikpunkt
+    unter den Punkt "#8 Aesthetic and minimalist design" der
+    Nielsen-Heuristiken. Darunter leidet auch die Effizienz beim
+    Benützen des Webservices (#7 Flexibility and efficiency of use).
+   
+*** 2 Verbesserungen
+    1. Erste Verbesserung wäre eine Reduktion der Text- und
+       Bildflächen rund um den Login-Bereich inklusive größerer
+       Abstände zwischen den einzelnen Flächen und dem Login-Bereich,
+       um diesen besser hervorzuheben und leichter identifizierbar zu
+       machen.
+    2. Zweite Verbesserung wäre ein konsistentes Design in der
+       Anordung dieser verbliebenen Text- und Bildflächen, um die
+       gesamte Seite ansprechender zu machen. Dazu gehört auch eine
+       Bildauswahl zu den einzelnen Werbungen und Newsartikeln, die
+       nicht dem Zufall überlassen ist, sondern unter Berücksichtigung
+       der anderen Flächen gemacht wirds. Das betrifft vor allem die
+       Farben. Die Bilder sollten untereinander abgestimmt
+       sein. Bilder mit zu vielen Details, in die man erst
+       hineinzoomen muss, sollten dabei ohnehin vermieden werden.

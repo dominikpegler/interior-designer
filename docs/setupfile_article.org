@@ -1,0 +1,61 @@
+#+STARTUP: entitiespretty overview indent align
+#+OPTIONS: ':t h:6 ^:{} toc:2 tags:nil todo:nil broken-links:mark num:t email:nil
+#+LANGUAGE: de
+#+CATEGORY: fls-article
+#+LaTeX_CLASS: koma-article
+#+LATeX_CLASS_OPTIONS: [12pt,paper=a4,oneside,hidelinks,headings=small,captions=heading,captions=nooneline]
+#+LaTeX_HEADER: \usepackage[T1]{fontenc} %\hypersetup{colorlinks=true}
+#+LaTeX_HEADER: \usepackage{titlesec} \usepackage{lipsum}\usepackage{indentfirst}\setlength{\parindent}{3em}
+#+LaTeX_HEADER: \usepackage[tmargin=2.5cm, bmargin=2cm,inner=2.5cm,outer=2.5cm]{geometry}
+# caption package
+# FONTS
+# +LaTeX_HEADER: \usepackage[sfdefault]{libertinus}
+#+LaTeX_HEADER: \usepackage[sfdefault]{libertine} % sans = Linux Biolinum
+# HEADER
+#+LaTeX_HEADER: \usepackage{fancyhdr}\pagestyle{fancyplain}\fancyhf{}
+#
+#+LaTeX_HEADER: \renewcommand{\plainheadrulewidth}{0pt}\fancyhead[R]{\thepage}
+#+LaTeX_HEADER: \renewcommand{\headrulewidth}{0pt}
+#+LaTeX_HEADER: \renewcommand*\oldstylenums[1]{{\fontfamily{fxlj}\selectfont #1}}
+#+LaTeX_HEADER: \usepackage{lmodern}
+# APA 7 headings definition
+#+LaTeX_HEADER: \titleformat{\section}{\normalfont\centering\bfseries}{\thesection}{1em}{}
+#+LaTeX_HEADER: \titleformat{\subsection}{\normalfont\bfseries}{\thesubsection}{1em}{}
+#+LaTeX_HEADER: \titleformat{\subsubsection}{\normalfont\bfseries\itshape}{\thesubsubsection}{1em}{}
+#+LaTeX_HEADER: \titleformat{\paragraph}[runin]{\normalfont\bfseries}{\theparagraph.}{1em}{}[.]\titlespacing{\paragraph}{\parindent}{0pt}{4pt}
+#+LaTeX_HEADER: \titleformat{\subparagraph}[runin]{\normalfont\bfseries\itshape}{\thesubparagraph.}{1em}{}[. ]\titlespacing{\subparagraph}{\parindent}{0pt}{4pt}
+#+LaTeX_HEADER: \titleformat{\subsubparagraph}[runin]{\normalfont}{\thesubsubparagraph.}{1em}{}[. ]\titlespacing{\subsubparagraph}{\parindent}{0pt}{4pt}
+#
+#+LaTeX_HEADER: \usepackage[hidelinks=true]{hyperref}
+#+LaTeX_HEADER: \usepackage[margin=1em,justification=centering]{caption}
+#+LaTeX_HEADER: \usepackage[ngerman]{babel}
+#+LaTeX_HEADER: \usepackage[utf8]{inputenc}
+#+LaTeX_HEADER: \usepackage[fixlanguage]{babelbib}\selectbiblanguage{austrian}
+#+LaTeX_HEADER: \usepackage{csquotes,xpatch}
+#+LaTeX_HEADER: \usepackage[natbib=true,style=apa,backend=biber,doi=true,url=true,eprint=false,hyperref=true,annotation=false]{biblatex}
+#+LaTeX_HEADER: \urlstyle{sf}
+#+LaTeX_HEADER: \DeclareLanguageMapping{austrian}{austrian-apa}
+#+LaTeX_HEADER: \DeclareSourcemap{\maps[datatype=bibtex]{\map{\step[fieldset=annotation,null]}}}
+# skip between paragraphs
+#+LATEX_HEADER: \addtolength\parskip{\medskipamount}
+# packages for tables
+#+LaTeX_HEADER: \usepackage{tabulary,booktabs,longtable}
+# space between caption label and caption text
+#+LATEX_HEADER: \usepackage{caption}
+#+LaTeX_HEADER: \DeclareCaptionLabelSeparator{skipsep}{\vskip 1em} % APA 7 caption
+#+LATEX_HEADER: \captionsetup[figure]{labelsep=skipsep}
+#+LATEX_HEADER: \captionsetup[table]{labelsep=skipsep}
+# APA 7 caption font to italic
+#+LaTeX_HEADER: \addtokomafont{caption}{\itshape} % APA 7 italic figure/table captions
+# APA 7 caption label font to bold
+#+LaTeX_HEADER: \setkomafont{captionlabel}{\normalfont\bfseries} % APA 7 bold figure/table caption labels
+# APA 7 space between caption label and caption
+#+LaTeX_HEADER: \renewcommand*{\captionformat}{\vskip 1.5em} % APA 7 caption
+#+LaTeX_HEADER: \setcaphanging
+#+LaTeX_HEADER: \setcapmargin*{0cm}
+#+LaTeX_HEADER: \setcapindent*{0pt}
+#+LaTeX_HEADER:  \captionsetup{belowskip=1.5em,aboveskip=1.5em}% APA 7 distance between caption and figure/table
+# APA 7 space before and after a table or figure 
+#+LaTeX_HEADER: \BeforeBeginEnvironment{figure}{\vskip 1.5em}\AfterEndEnvironment{figure}{\vskip 1.5em}
+#+LaTeX_HEADER: \BeforeBeginEnvironment{table}{\vskip 1.5em}\AfterEndEnvironment{table}{\vskip 1.5em}
+#+latex_header: \AtBeginEnvironment{tabular}{\small}%
