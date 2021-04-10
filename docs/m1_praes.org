@@ -10,13 +10,13 @@
 #+LaTeX_HEADER:%Global Background must be put in preamble
 #+LaTeX_HEADER:\usebackgroundtemplate%
 #+LaTeX_HEADER:{%
-#+LaTeX_HEADER:    \includegraphics[width=1.175\paperwidth,height=\paperheight]{./img/m1_praes_empty_10.jpg}%
+#+LaTeX_HEADER:    \includegraphics[width=1.175\paperwidth,height=1.05\paperheight]{./img/m1_praes_empty_10.jpg}%
 #+LaTeX_HEADER:}
 
 # export with C-c C-e l O (<- capital O)
 
 * Projektbeschreibung
-** \MakeUppercase{\insertsection}                                      :Bild:
+** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
 
 ** Interior Designer App: Problemstellung
 1. Welche Gestaltungsmöglichkeiten bieten Räume?
@@ -31,7 +31,7 @@
 - App visualisiert Ergebnis
 
 * Literaturrecherche
-** \MakeUppercase{\insertsection}                                      :Bild:
+** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
 
 ** Algorithmen und Augmented Reality
 - textcite:kanAutomatedInteriorDesign2017
@@ -56,7 +56,8 @@
 - ...
 - ...
 * Konkurrenzprodukte
-** \MakeUppercase{\insertsection}                                      :Bild:
+** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
+
 ** Houzz
 - ...
 - ...
@@ -70,13 +71,15 @@
 - ...
 - ...
 * Nutzeranalyse
-** \MakeUppercase{\insertsection}                                      :Bild:
+** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
+
 ** Nutzeranalyse
 - ...
 - ...
 - ...
 * Personas
-** \MakeUppercase{\insertsection}                                      :Bild:
+** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
+
 ** Primäre Personas
 - ...
 - ...
@@ -94,13 +97,15 @@
 - ...
 - ...
 * Aufgabenanalyse
-** \MakeUppercase{\insertsection}                                      :Bild:
+** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
+
 ** Aufgabeanalyse
 - ...
 - ...
 - ...
 * Projektmanagement
-** \MakeUppercase{\insertsection}                                      :Bild:
+** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
+
 ** Projektmanagement
 - ...
 - ...
