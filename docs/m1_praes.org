@@ -30,43 +30,54 @@
 - User platziert Möbelstück im Raum
 - App visualisiert Ergebnis
 
-* Literaturrecherche
+* Literatur
 ** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
 
-** Algorithmen und Augmented Reality
+** Literatur
+
+*** Algorithmen und Augmented Reality
 - textcite:kanAutomatedInteriorDesign2017
 - textcite:sanduAugmentedRealityUses2018
 - textcite:moaresInterARInterior2020
 
-** Automated Interior Design
+** Literatur I
+
+*** Automated Interior Design
 - textcite:kanAutomatedInteriorDesign2017
 - ...
 - ...
 - ...
 
-** Augmented Reality Uses in Interior Design
+** Literatur II
+
+*** Augmented Reality Uses in Interior Design
 - textcite:sanduAugmentedRealityUses2018
 - ...
 - ...
 - ...
-
-** Inter AR: Interior Decor App using Reality Technology
+  
+** Literatur III
+*** Inter AR: Interior Decor App using Reality Technology
 - textcite:moaresInterARInterior2020
 - ...
 - ...
 - ...
-* Konkurrenzprodukte
+
+* Konkurrenzanalyse
 ** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
 
-** Houzz
+** Konkurrenzanalyse I
+**** Houzz
 - ...
 - ...
 - ...
-** Ikea Place
+** Konkurrenzanalyse II
+**** Ikea Place
 - ...
 - ...
 - ...
-** Homestyler
+** Konkurrenzanalyse III
+**** Homestyler
 - ...
 - ...
 - ...
@@ -80,22 +91,34 @@
 * Personas
 ** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
 
-** Primäre Personas
-- ...
-- ...
-- ...
-** Primäre Personas
-- ...
-- ...
-- ...
-** Sekundäre Persona
-- ...
-- ...
-- ...
-** Negative Persona
-- ...
-- ...
-- ...
+** Personas I
+*** Primäre Persona 1: Tobias Ebner
+#+attr_latex: :width 90px
+file:./img/m1_persona_1_idealist.png
+- Typ: Idealist
+- Alter: 25
+- Beruf: Grafikdesigner
+** Personas II
+*** Primäre Persona 2: Carina Winkler
+#+attr_latex: :width 90px
+file:./img/m1_persona_2_rational.png
+- Typ: Rational
+- Alter: 32
+- Beruf: Ärztin
+** Personas III
+*** Sekundäre Persona: Felix Schuster
+#+attr_latex: :width 90px
+file:./img/m1_persona_3_rational.png
+- Typ: Minimalist
+- Alter: 20
+- Beruf: Student
+** Personas IV
+*** Negative Persona: Sabine Gruber
+#+attr_latex: :width 90px
+file:./img/m1_persona_4_guardian.jpg
+- Typ: Guardian
+- Alter: 64
+- Beruf: Verkäuferin
 * Aufgabenanalyse
 ** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
 
