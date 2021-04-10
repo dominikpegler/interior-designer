@@ -1,4 +1,4 @@
-#+TITLE: M1
+#+TITLE: Interior Designer App: M1
 #+SUBTITLE: Problemanalyse
 #+DATE: 15.4.2021
 # +EMAIL: a01468373@unet.univie.ac.at
@@ -15,15 +15,18 @@
 
 # export with C-c C-e l O (<- capital O)
 
-* Projektbeschreibung
+* Problembeschreibung
 ** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
 
-** Interior Designer App: Problemstellung
+** Interior Designer App
+
+*** Problemstellung
 1. Welche Gestaltungsmöglichkeiten bieten Räume?
 2. Wie können Möbel sinnvoll angeordnet werden?
 3. Wie können auch Laien schnell zu Raumlösungen kommen und diese
-   Visualisieren?
-** Interior Designer App: Lösungsansatz
+   visualisieren?
+** Interior Designer App
+*** Lösungsansatz
 - Mobile App
 - User macht Bild von Raum
 - App vermisst Raum und Möbelstück
@@ -35,7 +38,7 @@
 
 ** Literatur
 
-*** Algorithmen und Augmented Reality
+*** Schwerpunkt "Algorithmen und Augmented Reality"
 - textcite:kanAutomatedInteriorDesign2017
 - textcite:sanduAugmentedRealityUses2018
 - textcite:moaresInterARInterior2020
