@@ -1,0 +1,258 @@
+% Created 2021-04-10 Sat 20:12
+% Intended LaTeX compiler: pdflatex
+\documentclass[presentation,bigger,aspectratio=169]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage[]{minted}
+\usepackage{tcolorbox}
+\usepackage{etoolbox}\tcbuselibrary{magazine}
+\BeforeBeginEnvironment{minted}{\begin{tcolorbox}[title=Input,colback=blue!5,colframe=blue!25!black,size=fbox, enforce breakable, break at=6cm]}%
+\AfterEndEnvironment{minted}{\end{tcolorbox}}%
+\BeforeBeginEnvironment{verbatim}{\begin{tcolorbox}[colback=white,size=fbox,enhanced jigsaw, enforce breakable,break at=6cm]}%
+\AfterEndEnvironment{verbatim}{\end{tcolorbox}}%
+\usepackage{inconsolata}
+\usepackage[ngerman, germanb]{babel}
+\usepackage [autostyle, english = american]{csquotes} \MakeOuterQuote{"}
+\usepackage[utf8]{inputenc}\usepackage{tabulary,booktabs}\AtBeginEnvironment{tabulary}{\scriptsize}
+\usepackage[fixlanguage]{babelbib}\selectbiblanguage{german}
+\usepackage{csquotes,xpatch}\usepackage[natbib=true,style=apa,url=true,doi=true,annotation=false,eprint=false,backend=biber]{biblatex}\urlstyle{sf}
+\DeclareLanguageMapping{austrian}{austrian-apa}
+\DeclareSourcemap{\maps[datatype=bibtex]{\map{\step[fieldset=annotation,null]}}}\renewcommand*{\bibfont}{\scriptsize}
+\addbibresource{~/Dropbox/org/ref/ref.bib}
+\usetheme{default}
+\author{user\thanks{user@mink}}
+\date{15.4.2021}
+\title{M1}
+\subtitle{Problemanalyse}
+\usetheme{Hannover}\usepackage{graphicx}\usepackage[overlay]{textpos}
+\setbeamertemplate{bibliography item}{}
+\setbeamertemplate{navigation symbols}{}
+\definecolor{UBCblue}{HTML}{153a7a}\usecolortheme[named=UBCblue]{structure}
+\usefonttheme{professionalfonts}
+\setbeamerfont{note page}{family*=pplx,size=\footnotesize}
+\definecolor{bgminted}{HTML}{eee9e9}
+\definecolor{bluegray}{rgb}{0.54, 0.6, 0.8}
+\definecolor{urlcolor}{HTML}{3399ff}
+\definecolor{linkcolor}{HTML}{3399ff}
+\definecolor{colorlinkscolor}{HTML}{3399ff}
+\hypersetup{colorlinks=colorlinkscolor,linkcolor=linkcolor,urlcolor=urlcolor}
+\setbeamertemplate{itemize items}[default]
+\setbeamertemplate{enumerate items}[default]
+\setbeamertemplate{items}[default]
+\setbeamerfont*{title in sidebar}{shape=\scshape,size=\scriptsize}
+\setbeamerfont*{author in sidebar}{family=\sfseries,size=\scriptsize}
+\setbeamerfont*{section in sidebar}{family=\sfseries,size=\scriptsize}
+\usetheme{Hannover}
+\def\swidth{3.6cm}
+\setbeamersize{sidebar width left=\swidth}
+\setbeamertemplate{sidebar left}
+{
+{\usebeamerfont{title in sidebar}%
+\vskip1.5em%
+\usebeamercolor[fg]{title in sidebar}%
+\insertshorttitle[width=\swidth,center,respectlinebreaks]\par%
+\vskip1.25em%
+}%
+{%
+\usebeamercolor[fg]{author in sidebar}%
+\usebeamerfont{author in sidebar}%
+\insertshortauthor[width=\swidth,center,respectlinebreaks]\par%
+\vskip1.25em%
+}%
+\hbox to2cm{\hss\insertlogo\hss}
+\vskip1.25em%
+\hskip0.15cm\insertverticalnavigation{\swidth}%
+\vfill
+\hbox to2cm{\hskip0.25cm\usebeamerfont{subsection in
+sidebar}\strut\usebeamercolor[fg]{subsection in
+sidebar}\color{bluegray}\tiny\insertframenumber\hfill}%
+\vskip6pt%
+}%
+\author[A.Oğuz, D.Pegler, S.Pum]{Asım Oğuz, Dominik Pegler, Sophia Pum}
+\institute{Universität Wien, Fakultät für Informatik (SS2021)}
+\hypersetup{
+ pdfauthor={user},
+ pdftitle={M1},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 27.1 (Org mode 9.4.4)}, 
+ pdflang={Germanb}}
+\begin{document}
+
+\maketitle
+
+\section{Projektbeschreibung}
+\label{sec:org66547ea}
+\begin{frame}[label={sec:orgd46cf19}]{\MakeUppercase{\insertsection}}
+\begin{center}
+\begin{center}
+\includegraphics[height=0.77\textheight]{./img/m1_praes_empty_01.jpg}
+\label{fig:m1_praes_empty_01}
+\end{center}
+\end{center}
+\end{frame}
+\begin{frame}[label={sec:orgc7c83b3}]{Interior Designer App}
+\begin{itemize}
+\item \ldots{}
+\item \ldots{}
+\item \ldots{}
+\end{itemize}
+\end{frame}
+
+\section{Literaturrecherche}
+\label{sec:org8125ecf}
+\begin{frame}[label={sec:orgeb26992}]{\MakeUppercase{\insertsection}}
+\begin{center}
+\begin{center}
+\includegraphics[height=0.77\textheight]{./img/m1_praes_empty_01.jpg}
+\label{fig:m1_praes_empty_01}
+\end{center}
+\end{center}
+\end{frame}
+
+\begin{frame}[label={sec:org9c125a8}]{Algorithmen und Augmented Reality}
+\begin{itemize}
+\item \textcite{kanAutomatedInteriorDesign2017}
+\item \textcite{sanduAugmentedRealityUses2018}
+\item \textcite{moaresInterARInterior2020}
+\end{itemize}
+\end{frame}
+\section{Konkurrenzprodukte}
+\label{sec:org3677a03}
+\begin{frame}[label={sec:org1f4757f}]{\MakeUppercase{\insertsection}}
+\begin{center}
+\begin{center}
+\includegraphics[height=0.77\textheight]{./img/m1_praes_empty_01.jpg}
+\label{fig:m1_praes_empty_01}
+\end{center}
+\end{center}
+\end{frame}
+\begin{frame}[label={sec:org0535c2f}]{Houzz}
+\begin{itemize}
+\item \ldots{}
+\item \ldots{}
+\item \ldots{}
+\end{itemize}
+\end{frame}
+\begin{frame}[label={sec:orgaca9f7e}]{Ikea Place}
+\begin{itemize}
+\item \ldots{}
+\item \ldots{}
+\item \ldots{}
+\end{itemize}
+\end{frame}
+\begin{frame}[label={sec:orga14a701}]{Homestyler}
+\begin{itemize}
+\item \ldots{}
+\item \ldots{}
+\item \ldots{}
+\end{itemize}
+\end{frame}
+\section{Nutzeranalyse}
+\label{sec:org1d7ab54}
+\begin{frame}[label={sec:orgc23eac9}]{\MakeUppercase{\insertsection}}
+\begin{center}
+\begin{center}
+\includegraphics[height=0.77\textheight]{./img/m1_praes_empty_01.jpg}
+\label{fig:m1_praes_empty_01}
+\end{center}
+\end{center}
+\end{frame}
+\begin{frame}[label={sec:org7eebe61}]{Nutzeranalyse}
+\begin{itemize}
+\item \ldots{}
+\item \ldots{}
+\item \ldots{}
+\end{itemize}
+\end{frame}
+\section{Personas}
+\label{sec:org203838a}
+\begin{frame}[label={sec:org5510650}]{\MakeUppercase{\insertsection}}
+\begin{center}
+\begin{center}
+\includegraphics[height=0.77\textheight]{./img/m1_praes_empty_01.jpg}
+\label{fig:m1_praes_empty_01}
+\end{center}
+\end{center}
+\end{frame}
+\begin{frame}[label={sec:orgf2c9183}]{Primäre Personas}
+\begin{itemize}
+\item \ldots{}
+\item \ldots{}
+\item \ldots{}
+\end{itemize}
+\end{frame}
+\begin{frame}[label={sec:org355bb5e}]{Primäre Personas}
+\begin{itemize}
+\item \ldots{}
+\item \ldots{}
+\item \ldots{}
+\end{itemize}
+\end{frame}
+\begin{frame}[label={sec:orgc410041}]{Sekundäre Persona}
+\begin{itemize}
+\item \ldots{}
+\item \ldots{}
+\item \ldots{}
+\end{itemize}
+\end{frame}
+\begin{frame}[label={sec:org20d9031}]{Negative Persona}
+\begin{itemize}
+\item \ldots{}
+\item \ldots{}
+\item \ldots{}
+\end{itemize}
+\end{frame}
+\section{Aufgabenanalyse}
+\label{sec:org23abefd}
+\begin{frame}[label={sec:org9b945b1}]{\MakeUppercase{\insertsection}}
+\begin{center}
+\begin{center}
+\includegraphics[height=0.77\textheight]{./img/m1_praes_empty_01.jpg}
+\label{fig:m1_praes_empty_01}
+\end{center}
+\end{center}
+\end{frame}
+\begin{frame}[label={sec:org6a7b6d0}]{Aufgabeanalyse}
+\begin{itemize}
+\item \ldots{}
+\item \ldots{}
+\item \ldots{}
+\end{itemize}
+\end{frame}
+\section{Projektmanagement}
+\label{sec:org2231068}
+\begin{frame}[label={sec:orgca358e1}]{\MakeUppercase{\insertsection}}
+\begin{center}
+\begin{center}
+\includegraphics[height=0.77\textheight]{./img/m1_praes_empty_02.jpg}
+\label{fig:m1_praes_empty_02}
+\end{center}
+\end{center}
+\end{frame}
+\begin{frame}[label={sec:org36f2842}]{Projektmanagement}
+\begin{itemize}
+\item \ldots{}
+\item \ldots{}
+\item \ldots{}
+\end{itemize}
+\end{frame}
+\section*{Literatur}
+\label{sec:orgb72d647}
+\begin{frame}[allowframebreaks]{Literatur}
+\printbibliography[heading=none]
+\end{frame}
+\appendix
+\end{document}

@@ -14,20 +14,24 @@
 ** \MakeUppercase{\insertsection}                                      :Bild:
 
        #+BEGIN_CENTER
-       #+NAME:   fig:m1_praes_01
+       #+NAME:   fig:m1_praes_empty_01
        #+attr_latex: :height 0.77\textheight
-       [[./img/m1_praes_01.jpg]]
+       [[./img/m1_praes_empty_01.jpg]]
        #+END_CENTER
-#+LATEX: \begin{textblock}{3}(1.35,-0.5)\scalebox{0.4}{Bild: }\end{textblock}
 # nocite:
+** Interior Designer App
+
+- ...
+- ...
+- ...
+
 * Literaturrecherche
 ** \MakeUppercase{\insertsection}                                      :Bild:
        #+BEGIN_CENTER
-       #+NAME:   fig:m1_praes_02
+       #+NAME:   fig:m1_praes_empty_01
        #+attr_latex: :height 0.77\textheight
-       [[./img/m1_praes_02.jpg]]
+       [[./img/m1_praes_empty_01.jpg]]
        #+END_CENTER
-#+LATEX: \begin{textblock}{3}(1.35,-0.5)\scalebox{0.4}{Bild: }\end{textblock}
 
 ** Algorithmen und Augmented Reality
 - textcite:kanAutomatedInteriorDesign2017
@@ -36,11 +40,10 @@
 * Konkurrenzprodukte
 ** \MakeUppercase{\insertsection}                                      :Bild:
        #+BEGIN_CENTER
-       #+NAME:   fig:m1_praes_03
+       #+NAME:   fig:m1_praes_empty_01
        #+attr_latex: :height 0.77\textheight
-       [[./img/m1_praes_03.jpg]]
+       [[./img/m1_praes_empty_01.jpg]]
        #+END_CENTER
-#+LATEX: \begin{textblock}{3}(1.35,-0.5)\scalebox{0.4}{Bild: }\end{textblock}
 ** Houzz
 - ...
 - ...
@@ -58,41 +61,68 @@
    :properties:
    :end:
        #+BEGIN_CENTER
-       #+NAME:   fig:m1_praes_04
+       #+NAME:   fig:m1_praes_empty_01
        #+attr_latex: :height 0.77\textheight
-       [[./img/m1_praes_04.jpg]]
+       [[./img/m1_praes_empty_01.jpg]]
        #+END_CENTER
-#+LATEX: \begin{textblock}{3}(1.35,-0.5)\scalebox{0.4}{Bild: }\end{textblock}
+** Nutzeranalyse
+- ...
+- ...
+- ...
 * Personas
 ** \MakeUppercase{\insertsection}                                      :Bild:
    :properties:
    :end:
        #+BEGIN_CENTER
-       #+NAME:   fig:m1_praes_05
+       #+NAME:   fig:m1_praes_empty_01
        #+attr_latex: :height 0.77\textheight
-       [[./img/m1_praes_05.jpg]]
+       [[./img/m1_praes_empty_01.jpg]]
        #+END_CENTER
-#+LATEX: \begin{textblock}{3}(1.35,-0.5)\scalebox{0.4}{Bild: }\end{textblock}
+** Primäre Personas
+- ...
+- ...
+- ...
+** Primäre Personas
+- ...
+- ...
+- ...
+** Sekundäre Persona
+- ...
+- ...
+- ...
+** Negative Persona
+- ...
+- ...
+- ...
 * Aufgabenanalyse
 ** \MakeUppercase{\insertsection}                                      :Bild:
    :properties:
    :end:
        #+BEGIN_CENTER
-       #+NAME:   fig:m1_praes_06
+       #+NAME:   fig:m1_praes_empty_01
        #+attr_latex: :height 0.77\textheight
-       [[./img/m1_praes_06.jpg]]
+       [[./img/m1_praes_empty_01.jpg]]
        #+END_CENTER
-#+LATEX: \begin{textblock}{3}(1.35,-0.5)\scalebox{0.4}{Bild: }\end{textblock}
+** Aufgabeanalyse
+- ...
+- ...
+- ...
 * Projektmanagement
+:PROPERTIES:
+:BEAMER_env: quotation
+:END:
 ** \MakeUppercase{\insertsection}                                      :Bild:
    :properties:
    :end:
        #+BEGIN_CENTER
-       #+NAME:   fig:m1_praes_07
+       #+NAME:   fig:m1_praes_empty_02
        #+attr_latex: :height 0.77\textheight
-       [[./img/m1_praes_07.jpg]]
+       [[./img/m1_praes_empty_02.jpg]]
        #+END_CENTER
-#+LATEX: \begin{textblock}{3}(1.35,-0.5)\scalebox{0.4}{Bild: }\end{textblock}
+** Projektmanagement
+- ...
+- ...
+- ...
 * Literatur
   :PROPERTIES:
   :UNNUMBERED: t
