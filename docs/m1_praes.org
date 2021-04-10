@@ -7,43 +7,56 @@
 #+BEAMER_HEADER: \author[A.Oğuz, D.Pegler, S.Pum]{Asım Oğuz, Dominik Pegler, Sophia Pum}
 #+BEAMER_HEADER: \institute{Universität Wien, Fakultät für Informatik (SS2021)}
 #+LaTeX_HEADER: \addbibresource{~/Dropbox/org/ref/ref.bib}
+#+LaTeX_HEADER:%Global Background must be put in preamble
+#+LaTeX_HEADER:\usebackgroundtemplate%
+#+LaTeX_HEADER:{%
+#+LaTeX_HEADER:    \includegraphics[width=1.175\paperwidth,height=\paperheight]{./img/m1_praes_empty_10.jpg}%
+#+LaTeX_HEADER:}
 
 # export with C-c C-e l O (<- capital O)
 
 * Projektbeschreibung
 ** \MakeUppercase{\insertsection}                                      :Bild:
 
-       #+BEGIN_CENTER
-       #+NAME:   fig:m1_praes_empty_01
-       #+attr_latex: :height 0.77\textheight
-       [[./img/m1_praes_empty_01.jpg]]
-       #+END_CENTER
-# nocite:
-** Interior Designer App
-
-- ...
-- ...
-- ...
+** Interior Designer App: Problemstellung
+1. Welche Gestaltungsmöglichkeiten bieten Räume?
+2. Wie können Möbel sinnvoll angeordnet werden?
+3. Wie können auch Laien schnell zu Raumlösungen kommen und diese
+   Visualisieren?
+** Interior Designer App: Lösungsansatz
+- Mobile App
+- User macht Bild von Raum
+- App vermisst Raum und Möbelstück
+- User platziert Möbelstück im Raum
+- App visualisiert Ergebnis
 
 * Literaturrecherche
 ** \MakeUppercase{\insertsection}                                      :Bild:
-       #+BEGIN_CENTER
-       #+NAME:   fig:m1_praes_empty_01
-       #+attr_latex: :height 0.77\textheight
-       [[./img/m1_praes_empty_01.jpg]]
-       #+END_CENTER
 
 ** Algorithmen und Augmented Reality
 - textcite:kanAutomatedInteriorDesign2017
 - textcite:sanduAugmentedRealityUses2018
 - textcite:moaresInterARInterior2020
+
+** Automated Interior Design
+- textcite:kanAutomatedInteriorDesign2017
+- ...
+- ...
+- ...
+
+** Augmented Reality Uses in Interior Design
+- textcite:sanduAugmentedRealityUses2018
+- ...
+- ...
+- ...
+
+** Inter AR: Interior Decor App using Reality Technology
+- textcite:moaresInterARInterior2020
+- ...
+- ...
+- ...
 * Konkurrenzprodukte
 ** \MakeUppercase{\insertsection}                                      :Bild:
-       #+BEGIN_CENTER
-       #+NAME:   fig:m1_praes_empty_01
-       #+attr_latex: :height 0.77\textheight
-       [[./img/m1_praes_empty_01.jpg]]
-       #+END_CENTER
 ** Houzz
 - ...
 - ...
@@ -58,26 +71,12 @@
 - ...
 * Nutzeranalyse
 ** \MakeUppercase{\insertsection}                                      :Bild:
-   :properties:
-   :end:
-       #+BEGIN_CENTER
-       #+NAME:   fig:m1_praes_empty_01
-       #+attr_latex: :height 0.77\textheight
-       [[./img/m1_praes_empty_01.jpg]]
-       #+END_CENTER
 ** Nutzeranalyse
 - ...
 - ...
 - ...
 * Personas
 ** \MakeUppercase{\insertsection}                                      :Bild:
-   :properties:
-   :end:
-       #+BEGIN_CENTER
-       #+NAME:   fig:m1_praes_empty_01
-       #+attr_latex: :height 0.77\textheight
-       [[./img/m1_praes_empty_01.jpg]]
-       #+END_CENTER
 ** Primäre Personas
 - ...
 - ...
@@ -96,29 +95,12 @@
 - ...
 * Aufgabenanalyse
 ** \MakeUppercase{\insertsection}                                      :Bild:
-   :properties:
-   :end:
-       #+BEGIN_CENTER
-       #+NAME:   fig:m1_praes_empty_01
-       #+attr_latex: :height 0.77\textheight
-       [[./img/m1_praes_empty_01.jpg]]
-       #+END_CENTER
 ** Aufgabeanalyse
 - ...
 - ...
 - ...
 * Projektmanagement
-:PROPERTIES:
-:BEAMER_env: quotation
-:END:
 ** \MakeUppercase{\insertsection}                                      :Bild:
-   :properties:
-   :end:
-       #+BEGIN_CENTER
-       #+NAME:   fig:m1_praes_empty_02
-       #+attr_latex: :height 0.77\textheight
-       [[./img/m1_praes_empty_02.jpg]]
-       #+END_CENTER
 ** Projektmanagement
 - ...
 - ...

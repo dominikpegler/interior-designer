@@ -1,4 +1,4 @@
-% Created 2021-04-10 Sat 20:12
+% Created 2021-04-10 Sat 23:41
 % Intended LaTeX compiler: pdflatex
 \documentclass[presentation,bigger,aspectratio=169]{beamer}
 \usepackage[utf8]{inputenc}
@@ -31,6 +31,11 @@
 \DeclareLanguageMapping{austrian}{austrian-apa}
 \DeclareSourcemap{\maps[datatype=bibtex]{\map{\step[fieldset=annotation,null]}}}\renewcommand*{\bibfont}{\scriptsize}
 \addbibresource{~/Dropbox/org/ref/ref.bib}
+%Global Background must be put in preamble
+\usebackgroundtemplate%
+{%
+\includegraphics[width=1.175\paperwidth,height=\paperheight]{./img/m1_praes_empty_10.jpg}%
+}
 \usetheme{default}
 \author{user\thanks{user@mink}}
 \date{15.4.2021}
@@ -94,66 +99,86 @@ sidebar}\color{bluegray}\tiny\insertframenumber\hfill}%
 \maketitle
 
 \section{Projektbeschreibung}
-\label{sec:org66547ea}
-\begin{frame}[label={sec:orgd46cf19}]{\MakeUppercase{\insertsection}}
-\begin{center}
-\begin{center}
-\includegraphics[height=0.77\textheight]{./img/m1_praes_empty_01.jpg}
-\label{fig:m1_praes_empty_01}
-\end{center}
-\end{center}
+\label{sec:org5281799}
+\begin{frame}[label={sec:org0de4499}]{\MakeUppercase{\insertsection}}
 \end{frame}
-\begin{frame}[label={sec:orgc7c83b3}]{Interior Designer App}
+
+\begin{frame}[label={sec:orgf118613}]{Interior Designer App: Problemstellung}
+\begin{enumerate}
+\item Welche Gestaltungsmöglichkeiten bieten Räume?
+\item Wie können Möbel sinnvoll angeordnet werden?
+\item Wie können auch Laien schnell zu Raumlösungen kommen und diese
+Visualisieren?
+\end{enumerate}
+\end{frame}
+\begin{frame}[label={sec:org1d49886}]{Interior Designer App: Lösungsansatz}
 \begin{itemize}
-\item \ldots{}
-\item \ldots{}
-\item \ldots{}
+\item Mobile App
+\item User macht Bild von Raum
+\item App vermisst Raum und Möbelstück
+\item User platziert Möbelstück im Raum
+\item App visualisiert Ergebnis
 \end{itemize}
 \end{frame}
 
 \section{Literaturrecherche}
-\label{sec:org8125ecf}
-\begin{frame}[label={sec:orgeb26992}]{\MakeUppercase{\insertsection}}
-\begin{center}
-\begin{center}
-\includegraphics[height=0.77\textheight]{./img/m1_praes_empty_01.jpg}
-\label{fig:m1_praes_empty_01}
-\end{center}
-\end{center}
+\label{sec:org6b271fc}
+\begin{frame}[label={sec:orgb55bc73}]{\MakeUppercase{\insertsection}}
 \end{frame}
 
-\begin{frame}[label={sec:org9c125a8}]{Algorithmen und Augmented Reality}
+\begin{frame}[label={sec:orgb00c55d}]{Algorithmen und Augmented Reality}
 \begin{itemize}
 \item \textcite{kanAutomatedInteriorDesign2017}
 \item \textcite{sanduAugmentedRealityUses2018}
 \item \textcite{moaresInterARInterior2020}
 \end{itemize}
 \end{frame}
+
+\begin{frame}[label={sec:org9b507a3}]{Automated Interior Design}
+\begin{itemize}
+\item \textcite{kanAutomatedInteriorDesign2017}
+\item \ldots{}
+\item \ldots{}
+\item \ldots{}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={sec:org7e63ba0}]{Augmented Reality Uses in Interior Design}
+\begin{itemize}
+\item \textcite{sanduAugmentedRealityUses2018}
+\item \ldots{}
+\item \ldots{}
+\item \ldots{}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={sec:orga08e232}]{Inter AR: Interior Decor App using Reality Technology}
+\begin{itemize}
+\item \textcite{moaresInterARInterior2020}
+\item \ldots{}
+\item \ldots{}
+\item \ldots{}
+\end{itemize}
+\end{frame}
 \section{Konkurrenzprodukte}
-\label{sec:org3677a03}
-\begin{frame}[label={sec:org1f4757f}]{\MakeUppercase{\insertsection}}
-\begin{center}
-\begin{center}
-\includegraphics[height=0.77\textheight]{./img/m1_praes_empty_01.jpg}
-\label{fig:m1_praes_empty_01}
-\end{center}
-\end{center}
+\label{sec:org2b8c720}
+\begin{frame}[label={sec:org75bb593}]{\MakeUppercase{\insertsection}}
 \end{frame}
-\begin{frame}[label={sec:org0535c2f}]{Houzz}
+\begin{frame}[label={sec:orgf58d8b4}]{Houzz}
 \begin{itemize}
 \item \ldots{}
 \item \ldots{}
 \item \ldots{}
 \end{itemize}
 \end{frame}
-\begin{frame}[label={sec:orgaca9f7e}]{Ikea Place}
+\begin{frame}[label={sec:org4f49df5}]{Ikea Place}
 \begin{itemize}
 \item \ldots{}
 \item \ldots{}
 \item \ldots{}
 \end{itemize}
 \end{frame}
-\begin{frame}[label={sec:orga14a701}]{Homestyler}
+\begin{frame}[label={sec:org896113f}]{Homestyler}
 \begin{itemize}
 \item \ldots{}
 \item \ldots{}
@@ -161,16 +186,10 @@ sidebar}\color{bluegray}\tiny\insertframenumber\hfill}%
 \end{itemize}
 \end{frame}
 \section{Nutzeranalyse}
-\label{sec:org1d7ab54}
-\begin{frame}[label={sec:orgc23eac9}]{\MakeUppercase{\insertsection}}
-\begin{center}
-\begin{center}
-\includegraphics[height=0.77\textheight]{./img/m1_praes_empty_01.jpg}
-\label{fig:m1_praes_empty_01}
-\end{center}
-\end{center}
+\label{sec:orgd70bb3a}
+\begin{frame}[label={sec:org03f2df1}]{\MakeUppercase{\insertsection}}
 \end{frame}
-\begin{frame}[label={sec:org7eebe61}]{Nutzeranalyse}
+\begin{frame}[label={sec:org4837cfb}]{Nutzeranalyse}
 \begin{itemize}
 \item \ldots{}
 \item \ldots{}
@@ -178,37 +197,31 @@ sidebar}\color{bluegray}\tiny\insertframenumber\hfill}%
 \end{itemize}
 \end{frame}
 \section{Personas}
-\label{sec:org203838a}
-\begin{frame}[label={sec:org5510650}]{\MakeUppercase{\insertsection}}
-\begin{center}
-\begin{center}
-\includegraphics[height=0.77\textheight]{./img/m1_praes_empty_01.jpg}
-\label{fig:m1_praes_empty_01}
-\end{center}
-\end{center}
+\label{sec:orga241f23}
+\begin{frame}[label={sec:org58152b5}]{\MakeUppercase{\insertsection}}
 \end{frame}
-\begin{frame}[label={sec:orgf2c9183}]{Primäre Personas}
+\begin{frame}[label={sec:org23edfac}]{Primäre Personas}
 \begin{itemize}
 \item \ldots{}
 \item \ldots{}
 \item \ldots{}
 \end{itemize}
 \end{frame}
-\begin{frame}[label={sec:org355bb5e}]{Primäre Personas}
+\begin{frame}[label={sec:orgc742ca6}]{Primäre Personas}
 \begin{itemize}
 \item \ldots{}
 \item \ldots{}
 \item \ldots{}
 \end{itemize}
 \end{frame}
-\begin{frame}[label={sec:orgc410041}]{Sekundäre Persona}
+\begin{frame}[label={sec:org428bee9}]{Sekundäre Persona}
 \begin{itemize}
 \item \ldots{}
 \item \ldots{}
 \item \ldots{}
 \end{itemize}
 \end{frame}
-\begin{frame}[label={sec:org20d9031}]{Negative Persona}
+\begin{frame}[label={sec:org77634d6}]{Negative Persona}
 \begin{itemize}
 \item \ldots{}
 \item \ldots{}
@@ -216,16 +229,10 @@ sidebar}\color{bluegray}\tiny\insertframenumber\hfill}%
 \end{itemize}
 \end{frame}
 \section{Aufgabenanalyse}
-\label{sec:org23abefd}
-\begin{frame}[label={sec:org9b945b1}]{\MakeUppercase{\insertsection}}
-\begin{center}
-\begin{center}
-\includegraphics[height=0.77\textheight]{./img/m1_praes_empty_01.jpg}
-\label{fig:m1_praes_empty_01}
-\end{center}
-\end{center}
+\label{sec:org6c4df16}
+\begin{frame}[label={sec:org499e4ee}]{\MakeUppercase{\insertsection}}
 \end{frame}
-\begin{frame}[label={sec:org6a7b6d0}]{Aufgabeanalyse}
+\begin{frame}[label={sec:org6ce7319}]{Aufgabeanalyse}
 \begin{itemize}
 \item \ldots{}
 \item \ldots{}
@@ -233,16 +240,10 @@ sidebar}\color{bluegray}\tiny\insertframenumber\hfill}%
 \end{itemize}
 \end{frame}
 \section{Projektmanagement}
-\label{sec:org2231068}
-\begin{frame}[label={sec:orgca358e1}]{\MakeUppercase{\insertsection}}
-\begin{center}
-\begin{center}
-\includegraphics[height=0.77\textheight]{./img/m1_praes_empty_02.jpg}
-\label{fig:m1_praes_empty_02}
-\end{center}
-\end{center}
+\label{sec:org3ee0bd0}
+\begin{frame}[label={sec:orge390012}]{\MakeUppercase{\insertsection}}
 \end{frame}
-\begin{frame}[label={sec:org36f2842}]{Projektmanagement}
+\begin{frame}[label={sec:orgee21365}]{Projektmanagement}
 \begin{itemize}
 \item \ldots{}
 \item \ldots{}
@@ -250,7 +251,7 @@ sidebar}\color{bluegray}\tiny\insertframenumber\hfill}%
 \end{itemize}
 \end{frame}
 \section*{Literatur}
-\label{sec:orgb72d647}
+\label{sec:orgedd23cf}
 \begin{frame}[allowframebreaks]{Literatur}
 \printbibliography[heading=none]
 \end{frame}
