@@ -35,6 +35,7 @@
 
 * Literatur
 ** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
+#+LATEX: \vskip -10.5em \includegraphics[height=140px]{./img/m1_praes_ol_books.png}
 
 ** Literatur
 
@@ -93,7 +94,9 @@
 - ...
 * Personas
 ** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
-
+#+LATEX: \begin{center}
+#+LATEX: \vskip -12.5em \includegraphics[height=140px]{./img/m1_praes_ol_persona3.png}
+#+LATEX: \end{center}
 ** Personas I
 *** Primäre Persona 1: Tobias Ebner
 #+attr_latex: :width 90px
@@ -123,8 +126,11 @@ file:./img/m1_persona_4_guardian.jpg
 - Alter: 64
 - Beruf: Verkäuferin
 * Aufgabenanalyse
-** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
+** \begin{center}\vskip 2.5cm \normalsize\hspace{8mm}\MakeUppercase{\insertsection}\end{center} :Bild:
 
+#+LATEX: \begin{center}
+#+LATEX: \vskip -12.7em \includegraphics[height=210px]{./img/m1_praes_ol_horse.png}
+#+LATEX: \end{center}
 ** Aufgabeanalyse
 - ...
 - ...
