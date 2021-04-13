@@ -33,9 +33,9 @@
 - User platziert Möbelstück im Raum
 - App visualisiert Ergebnis
 
-* Literatur
+* Literaturrecherche
 ** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
-#+LATEX: \vskip -10.5em \includegraphics[height=140px]{./img/m1_praes_ol_books.png}
+# +LATEX: \vskip -10.5em \includegraphics[height=140px]{./img/m1_praes_ol_books.png}
 
 ** Literatur
 
@@ -48,24 +48,25 @@
 
 *** Automated Interior Design
 - textcite:kanAutomatedInteriorDesign2017
-- ...
-- ...
-- ...
+- Algorithmus:
+  - befüllt Räume selbstständig mit Einrichtung
+  - folgt Interior Design Guidelines zu Funktion, Ästhetik & Ergonomie
+  - Schneidet gut ab in Wahrnehmungsstudie
 
 ** Literatur II
 
 *** Augmented Reality Uses in Interior Design
 - textcite:sanduAugmentedRealityUses2018
-- ...
-- ...
-- ...
+- AR-unterstützte mobile Apps:
+  - OpenSource-Framework ArToolKit
+  - Verbesserungsvorschläge zu aktuellen Implementierungen
   
 ** Literatur III
 *** Inter AR: Interior Decor App using Reality Technology
 - textcite:moaresInterARInterior2020
-- ...
-- ...
-- ...
+- Arten von Augmented Reality
+  - marker-based vs. location-based vs. projection-based
+- Bericht Erstellung einer App mittels Google Cardboard SDK
 
 * Konkurrenzanalyse
 ** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
@@ -88,10 +89,36 @@
 * Nutzeranalyse
 ** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
 
-** Nutzeranalyse
-- ...
-- ...
-- ...
+** Nutzeranalyse I
+*** Aufgaben der Nutzer
+- Schnelles und unkompliziertes Skizzieren von Innenarchitekturen
+- Schnelle und unkomplizierte Visualisierung der gestalteten Innenarchitekturen
+- Die eigenen Vorstellungen anderen Personen einfach und anschaulich
+  zu kommunizieren
+  
+** Nutzeranalyse II
+*** Ziele der Nutzer
+- Zeit- und Kostenersparnis, weil keine Beratung durch
+  Innenarchitekt*in nötig ist und die App an Ort und Stelle hilfreich
+  ist
+- Konkretere Vorstellungen zu entwickeln
+- Bessere und nachhaltigere Entscheidungen zu treffen
+
+** Nutzeranalyse III
+*** Potenzielle Probleme mit dem System
+- Die User fühlen sich von der App nicht angesprochen.
+- Die Funktionalitäten oder Auswahlmöglichkeiten sind zu
+  eingeschränkt, z.B. gibt es nur eine bestimmte Art von Möbeln oder
+  Objekten, die über die App darstellbar sind, oder es gibt technische
+  Limitationen mehre virtuelle Objekte gleichzeitig darzustellen.
+- Die User sehen den Nutzen nicht (wegen Art des Aufbaus der App nicht
+  klar ersichtlich)
+- App bringt keinen Zusatznutzen zu bereits vorhandenen Tools
+- User können Aufbau und Logik des Programms nicht nachvollziehen
+- Zu lange Ladezeiten (bei mobilen Apps noch wichtiger als bei Webapps!)
+- Freezing oder Absturz der App
+- Smartphone genügt den Anforderungen nicht
+  
 * Personas
 ** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
 #+LATEX: \begin{center}
@@ -126,11 +153,7 @@ file:./img/m1_persona_4_guardian.jpg
 - Alter: 64
 - Beruf: Verkäuferin
 * Aufgabenanalyse
-** \begin{center}\vskip 2.5cm \normalsize\hspace{8mm}\MakeUppercase{\insertsection}\end{center} :Bild:
-
-#+LATEX: \begin{center}
-#+LATEX: \vskip -12.7em \includegraphics[height=210px]{./img/m1_praes_ol_horse.png}
-#+LATEX: \end{center}
+** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
 ** Aufgabeanalyse
 - ...
 - ...
@@ -138,10 +161,25 @@ file:./img/m1_persona_4_guardian.jpg
 * Projektmanagement
 ** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
 
-** Projektmanagement
-- ...
-- ...
-- ...
+** Projektmanagement I
+*** Abstimmung und Planung
+- Simple Github-Page mit
+  - TODOs
+  - Terminen und Deadlines
+  - Zuordnung der Aufgaben
+  - Notizen
+  - Updates zum Fortschritt
+
+** Projektmanagement II
+
+*** Aufgabenverteilung
+- nach Interesse und Themenblöcken
+- kurzfristig
+- flexibel
+** Projektmanagement III
+*** Ziele des Projekts
+** Projektmanagement IV
+*** Nicht-Ziele des Projekts
 * Literatur
   :PROPERTIES:
   :UNNUMBERED: t
