@@ -194,18 +194,13 @@ file:./img/m1_persona_4_guardian.jpg
   - Notizen
   - Updates zum Fortschritt
 
-** Projektmanagement II
 
-**** Aufgabenverteilung
-- nach Interesse und Themenblöcken
-- kurzfristig
-- flexibel
-** Projektmanagement III
+** Projektmanagement II
 **** Ziele des Projekts
 - Prototyp einer App entwickeln, die so simpel wie möglich ist
 - Zumindest Teile des Projekts später in Realität umsetzen
 - Neue Technologie kennenlernen
-** Projektmanagement IV
+** Projektmanagement III
 **** Nicht-Ziele des Projekts
 - Bestehendes wiederholen
 - Nice-To-Have-Features ohne relevanten Zusatznutzen implementieren (z.B. weil
