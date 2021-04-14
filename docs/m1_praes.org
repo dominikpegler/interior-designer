@@ -34,7 +34,7 @@
 #+LATEX:\vspace{0.8em}\hspace{2em}{\bfseries {\Longrightarrow} {\text{Augmented-Reality-Lösung (AR)}}}
 
 ** Interior Designer App
-**** Zusätzliches Feature: "Open Objects Sharing" (OOS)
+**** Zusätzliches Feature: "Open Objects Sharing" ("OOS")
   - 3D-Objekte können einfach erstellt und an andere Personen geschickt werden
   - Integration in Second-Hand-Apps wie Shpock oder Willhaben
 
