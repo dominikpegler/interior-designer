@@ -86,19 +86,30 @@
 
 ** Konkurrenzanalyse I
 **** Houzz
-- ...
-- ...
-- ...
+
+#+LATEX: \vskip 0.7em \includegraphics[width=25em]{./img/m1_praes_houzz.png}
+
+** Konkurrenzanalyse I
+**** Houzz
+- Bilder von verschiedenen Einrichtungen zu Inspiration
+- Persönliche Entwürfe mithilfe AR-Technologie
+- Nachteil: Spezialisierung auf Häuser/ große Räume.
 ** Konkurrenzanalyse II
 **** Ikea Place
-- ...
-- ...
-- ...
+#+LATEX: \vskip 0.7em \includegraphics[width=25em]{./img/m1_praes_ikea.jpg}
+** Konkurrenzanalyse II
+**** Ikea Place
+- Eigene Räume mit Ikea-Produkte digital einrichten
+- Verschiedene Möbel ausprobieren und direkt bestellen
+- Nachteil: Auf Ikea Möbel beschränkt
 ** Konkurrenzanalyse III
 **** Homestyler
-- ...
-- ...
-- ...
+#+LATEX: \vskip 0.7em \includegraphics[width=25em]{./img/m1_praes_homestyler.jpg}
+** Konkurrenzanalyse III
+**** Homestyler
+- Eigene Räume umgestalten und bearbeiten
+- Verschiedene Farben, Materialien und Möbel
+- Viele Gestaltungsmöglichkeiten in verschiedenen Stilen
 * Nutzeranalyse
 ** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
 
@@ -107,7 +118,6 @@
 - Schnelles Skizzieren von Innenarchitekturen
 - Schnelles Visualisieren
 - Anderen Personen vorführen
-  
 ** Nutzeranalyse II
 *** Ziele der Nutzer
 - Zeit- und Kostenersparnis (keine Beratung nötig)
