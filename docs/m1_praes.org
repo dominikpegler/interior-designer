@@ -16,22 +16,27 @@
 # export with C-c C-e l O (<- capital O)
 
 * Problembeschreibung
+
 ** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
 
 ** Interior Designer App
-
 **** Problemstellung
 1. Welche Gestaltungsmöglichkeiten bieten Räume?
 2. Wie können Möbel sinnvoll angeordnet werden?
 3. Wie können auch Laien schnell zu Raumlösungen kommen und diese
    visualisieren?
 ** Interior Designer App
-**** Lösungsansatz
-- Mobile App
-- User macht Bild von Raum
-- App vermisst Raum und Möbelstück
-- User platziert Möbelstück im Raum
-- App visualisiert Ergebnis
+**** Lösungsansatz: Mobile App
+- User fotografiert Raum
+- User wählt Möbelstück
+- App vermisst Raum, Möbelstück
+- User/App platziert Möbelstück im Raum
+#+LATEX:\vspace{0.8em}\hspace{2em}{\bfseries {\Longrightarrow} {\text{Augmented-Reality-Lösung (AR)}}}
+
+** Interior Designer App
+**** Zusätzliches Feature: "Open Objects Sharing" (OOS)
+  - 3D-Objekte können einfach erstellt und an andere Personen geschickt werden
+  - Integration in Second-Hand-Apps wie Shpock oder Willhaben
 
 * Literaturrecherche
 ** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
@@ -68,6 +73,14 @@
   - marker-based vs. location-based vs. projection-based
 - Bericht Erstellung einer App mittels Google Cardboard SDK
 
+** Literatur
+
+*** Takeaways
+- Wir bauen auf Bestehendem auf und erfinden nichts Neues
+- Wahl des AR-Frameworks miteinscheidend über den Funktionsumfang
+- Leere Räume
+- Potenzial ist da (siehe Wahrnehmungsstudie)
+
 * Konkurrenzanalyse
 ** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
 
@@ -91,27 +104,23 @@
 
 ** Nutzeranalyse I
 *** Aufgaben der Nutzer
-- Schnelles und unkompliziertes Skizzieren von Innenarchitekturen
-- Schnelle und unkomplizierte Visualisierung der gestalteten Innenarchitekturen
-- Die eigenen Vorstellungen anderen Personen einfach und anschaulich
-  zu kommunizieren
+- Schnelles Skizzieren von Innenarchitekturen
+- Schnelles Visualisieren
+- Anderen Personen vorführen
   
 ** Nutzeranalyse II
 *** Ziele der Nutzer
-- Zeit- und Kostenersparnis, weil keine Beratung durch
-  Innenarchitekt*in nötig ist und die App an Ort und Stelle hilfreich
-  ist
+- Zeit- und Kostenersparnis (keine Beratung nötig)
 - Konkretere Vorstellungen zu entwickeln
-- Bessere und nachhaltigere Entscheidungen zu treffen
-
+- Bessere und nachhaltigere Entscheidungen treffen
+  
 ** Nutzeranalyse III
 *** Potenzielle Probleme mit dem System
 - User fühlen sich von App nicht angesprochen
-- User sehen Nutzen nicht
 - Kein Zusatznutzen zu bereits vorhandenen Tools
 - Funktionalitäten zu eingeschränkt (nur bestimmte Möbel/Objekte,
   Limit bei Anzahl)
-- User können Aufbau und Logik des Programms nicht nachvollziehen
+- Aufbau und Logik des Programms zu kompliziert
 - Zu lange Ladezeiten (bei mobilen Apps besonders wichtig!)
 - Freezing oder Absturz der App
 - Läuft nicht auf allen Smartphones
@@ -183,8 +192,16 @@ file:./img/m1_persona_4_guardian.jpg
 - flexibel
 ** Projektmanagement III
 **** Ziele des Projekts
+- Prototyp einer App entwickeln, die so simpel wie möglich ist
+- Zumindest Teile des Projekts später in Realität umsetzen
+- Neue Technologie kennenlernen
 ** Projektmanagement IV
 **** Nicht-Ziele des Projekts
+- Bestehendes wiederholen
+- Nice-To-Have-Features ohne relevanten Zusatznutzen implementieren (z.B. weil
+  die Technik dahinter spannend ist) \to alles weglassen, das nicht mit
+  den Nutzerzielen zu tun hat
+
 * Literatur
   :PROPERTIES:
   :UNNUMBERED: t
