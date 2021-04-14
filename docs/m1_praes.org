@@ -20,13 +20,13 @@
 
 ** Interior Designer App
 
-*** Problemstellung
+**** Problemstellung
 1. Welche Gestaltungsmöglichkeiten bieten Räume?
 2. Wie können Möbel sinnvoll angeordnet werden?
 3. Wie können auch Laien schnell zu Raumlösungen kommen und diese
    visualisieren?
 ** Interior Designer App
-*** Lösungsansatz
+**** Lösungsansatz
 - Mobile App
 - User macht Bild von Raum
 - App vermisst Raum und Möbelstück
@@ -106,18 +106,15 @@
 
 ** Nutzeranalyse III
 *** Potenzielle Probleme mit dem System
-- Die User fühlen sich von der App nicht angesprochen.
-- Die Funktionalitäten oder Auswahlmöglichkeiten sind zu
-  eingeschränkt, z.B. gibt es nur eine bestimmte Art von Möbeln oder
-  Objekten, die über die App darstellbar sind, oder es gibt technische
-  Limitationen mehre virtuelle Objekte gleichzeitig darzustellen.
-- Die User sehen den Nutzen nicht (wegen Art des Aufbaus der App nicht
-  klar ersichtlich)
-- App bringt keinen Zusatznutzen zu bereits vorhandenen Tools
+- User fühlen sich von App nicht angesprochen
+- User sehen Nutzen nicht
+- Kein Zusatznutzen zu bereits vorhandenen Tools
+- Funktionalitäten zu eingeschränkt (nur bestimmte Möbel/Objekte,
+  Limit bei Anzahl)
 - User können Aufbau und Logik des Programms nicht nachvollziehen
-- Zu lange Ladezeiten (bei mobilen Apps noch wichtiger als bei Webapps!)
+- Zu lange Ladezeiten (bei mobilen Apps besonders wichtig!)
 - Freezing oder Absturz der App
-- Smartphone genügt den Anforderungen nicht
+- Läuft nicht auf allen Smartphones
   
 * Personas
 ** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
@@ -154,15 +151,23 @@ file:./img/m1_persona_4_guardian.jpg
 - Beruf: Verkäuferin
 * Aufgabenanalyse
 ** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
-** Aufgabeanalyse
-- ...
-- ...
-- ...
+** Aufgabenanalyse
+
+| \downarrow Task / User \to            | Carina Winkler | Tobias Ebner |
+|----------------------------+----------------+--------------|
+|                            |      <c>       |     <c>      |
+| App downloaden             |       +        |      +       |
+| Raum fotografieren         |       +        |      +       |
+| Möbel scannen              |       ~        |      ~       |
+| Vorhandene Möbel auswählen |       +        |      +       |
+| Raum gestalten             |       ~        |      ~       |
+| Design abspeichern         |       +        |      +       |
+
 * Projektmanagement
 ** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
 
 ** Projektmanagement I
-*** Abstimmung und Planung
+**** Abstimmung und Planung
 - Simple Github-Page mit
   - TODOs
   - Terminen und Deadlines
@@ -172,14 +177,14 @@ file:./img/m1_persona_4_guardian.jpg
 
 ** Projektmanagement II
 
-*** Aufgabenverteilung
+**** Aufgabenverteilung
 - nach Interesse und Themenblöcken
 - kurzfristig
 - flexibel
 ** Projektmanagement III
-*** Ziele des Projekts
+**** Ziele des Projekts
 ** Projektmanagement IV
-*** Nicht-Ziele des Projekts
+**** Nicht-Ziele des Projekts
 * Literatur
   :PROPERTIES:
   :UNNUMBERED: t
