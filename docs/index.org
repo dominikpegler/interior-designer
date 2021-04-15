@@ -53,7 +53,7 @@ DEADLINE: <2021-05-06 Thu>
 SCHEDULED: <2021-04-14 Wed>
 
 - Alternative: discogs?
-https://github.com/bartve/disconnect
+https://www.discogs.com/developers/
 
 *** WAIT M3: Erstellung der App 
 DEADLINE: <2021-05-18 Tue>
