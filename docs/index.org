@@ -36,11 +36,6 @@ CLOSED: [2021-03-22 Mon 18:04] SCHEDULED: <2021-03-21 Sun>
 CLOSED: [2021-03-23 Tue 09:46] SCHEDULED: <2021-03-22 Mon>
 *** DONE M1: Präsentation                             :Dominik:Sophia:Asim:
 CLOSED: [2021-04-15 Thu 14:10] SCHEDULED: <2021-04-15 Thu 13:40>
-**** DONE M1: Videocall
-CLOSED: [2021-04-14 Wed 18:55] SCHEDULED: <2021-04-14 Wed 18:00>
-
-https://meet.jit.si/CrucialPoetriesReadEasily
-
 *** M2: Low-fidelity Prototypen 
 DEADLINE: <2021-04-20 Tue>
 **** TODO M2: Videocall
