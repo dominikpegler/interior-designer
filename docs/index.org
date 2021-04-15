@@ -1,7 +1,7 @@
 #+TITLE: Interior Designer App
 #+subtitle: Asım Oğuz, Dominik Pegler, Sophia Pum \\
 #+subtitle: [[http://vda.univie.ac.at/Teaching/HCI/21s/schedule.html][HCI]] ---
-#+subtitle: [[https://moodle.univie.ac.at/course/view.php?id=207279][Moodle]]
+#+subtitle: [[https://moodle.univie.ac.at/course/view.php?id=207279][Moodle]] --- [[https://meet.jit.si/CrucialPoetriesReadEasily][jitsi]]
 #+AUTHOR: Asım OĞUZ
 #+AUTHOR: Dominik PEGLER
 #+AUTHOR: Sophia PUM
@@ -34,18 +34,20 @@ CLOSED: [2021-03-22 Mon 18:04] SCHEDULED: <2021-03-21 Sun>
 CLOSED: [2021-03-22 Mon 18:04] SCHEDULED: <2021-03-21 Sun>
 **** DONE Projektmanagement                             :Dominik:noexport:
 CLOSED: [2021-03-23 Tue 09:46] SCHEDULED: <2021-03-22 Mon>
-*** TODO M1: Videocall
-SCHEDULED: <2021-04-14 Wed 18:00>
+*** DONE M1: Präsentation                             :Dominik:Sophia:Asim:
+CLOSED: [2021-04-15 Thu 14:10] SCHEDULED: <2021-04-15 Thu 13:40>
+**** DONE M1: Videocall
+CLOSED: [2021-04-14 Wed 18:55] SCHEDULED: <2021-04-14 Wed 18:00>
 
 https://meet.jit.si/CrucialPoetriesReadEasily
 
-*** TODO M1: Präsentation                             :Dominik:Sophia:Asim:
-SCHEDULED: <2021-04-15 Thu 13:40>
-**** Vorbereiten des PDFs                                        :Dominik:
-SCHEDULED: <2021-04-07 Wed 20:00>
-**** Korrektur des PDFs                                      :Asim:Sophia:
 *** M2: Low-fidelity Prototypen 
 DEADLINE: <2021-04-20 Tue>
+**** TODO M2: Videocall
+SCHEDULED: <2021-04-17 Sat 18:00>
+
+https://meet.jit.si/CrucialPoetriesReadEasily
+
 **** TODO Ideensammlung
 **** TODO 3 Prototypen
 **** TODO Anpassung des Prototypen an Ihre Zielgruppe:
