@@ -86,9 +86,9 @@
 *** Takeaways
 - auf Bestehendem aufbauen ("Einrichtungs"-Algorithmen &
   Augmented-Reality-Lösungen gibt es bereits)
-- Durch Algorithmus eingerichtete Räume werden als gut bewertet
 - Wahl des AR-Frameworks miteinscheidend über den Funktionsumfang
 - Auch leere Räume ermöglichen
+- Durch Algorithmus eingerichtete Räume werden als gut bewertet
 
 * Konkurrenzanalyse
 ** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
