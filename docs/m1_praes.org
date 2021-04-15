@@ -43,14 +43,24 @@
 # +LATEX: \vskip -10.5em \includegraphics[height=140px]{./img/m1_praes_ol_books.png}
 
 ** Literatur
+*** Schwerpunkt Algorithmen und Augmented Reality
+- Algorithmus, der Räume selbstständig befüllt
+  
+  parencite:kanAutomatedInteriorDesign2017
+- Augmented-Reality-Framework ArToolKit
+  
+  parencite:sanduAugmentedRealityUses2018
+- Erstellung AR-Interior-App mit Google Cardboard SDK
+  
+  parencite:moaresInterARInterior2020
 
+** Literatur                                                      :noexport:
 *** Schwerpunkt "Algorithmen und Augmented Reality"
 - textcite:kanAutomatedInteriorDesign2017
 - textcite:sanduAugmentedRealityUses2018
 - textcite:moaresInterARInterior2020
 
-** Literatur I
-
+** Literatur I                                                    :noexport:
 *** Automated Interior Design
 - textcite:kanAutomatedInteriorDesign2017
 - Algorithmus:
@@ -58,15 +68,14 @@
   - folgt Interior Design Guidelines zu Funktion, Ästhetik & Ergonomie
   - Schneidet gut ab in Wahrnehmungsstudie
 
-** Literatur II
-
+** Literatur II                                                   :noexport:
 *** Augmented Reality Uses in Interior Design
 - textcite:sanduAugmentedRealityUses2018
 - AR-unterstützte mobile Apps:
   - OpenSource-Framework ArToolKit
   - Verbesserungsvorschläge zu aktuellen Implementierungen
   
-** Literatur III
+** Literatur III                                                  :noexport:
 *** Inter AR: Interior Decor App using Reality Technology
 - textcite:moaresInterARInterior2020
 - Arten von Augmented Reality
@@ -74,12 +83,12 @@
 - Bericht Erstellung einer App mittels Google Cardboard SDK
 
 ** Literatur
-
 *** Takeaways
-- Wir bauen auf Bestehendem auf und erfinden nichts Neues
+- auf Bestehendem aufbauen ("Einrichtungs"-Algorithmen &
+  Augmented-Reality-Lösungen gibt es bereits)
+- Durch Algorithmus eingerichtete Räume werden als gut bewertet
 - Wahl des AR-Frameworks miteinscheidend über den Funktionsumfang
-- Leere Räume
-- Potenzial ist da (siehe Wahrnehmungsstudie)
+- Auch leere Räume ermöglichen
 
 * Konkurrenzanalyse
 ** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
@@ -199,7 +208,7 @@ file:./img/m1_persona_4_guardian.jpg
 **** Ziele des Projekts
 - Prototyp einer App entwickeln, die so simpel wie möglich ist
 - Zumindest Teile des Projekts später in Realität umsetzen
-- Neue Technologie kennenlernen
+- Neue Technologien kennenlernen
 ** Projektmanagement III
 **** Nicht-Ziele des Projekts
 - Bestehendes wiederholen
