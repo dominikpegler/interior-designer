@@ -52,8 +52,7 @@ DEADLINE: <2021-05-06 Thu>
 **** TODO API Key für https://www.theaudiodb.com/api_apply.php anfordern (EUR 3 p. Monat)
 SCHEDULED: <2021-04-14 Wed>
 
-- Alternative: discogs?
-https://www.discogs.com/developers/
+- Alternative: Discogs? https://www.discogs.com/developers
 
 *** WAIT M3: Erstellung der App 
 DEADLINE: <2021-05-18 Tue>
