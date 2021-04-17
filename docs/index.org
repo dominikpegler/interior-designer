@@ -38,16 +38,19 @@ CLOSED: [2021-03-23 Tue 09:46] SCHEDULED: <2021-03-22 Mon>
 CLOSED: [2021-04-15 Thu 14:10] SCHEDULED: <2021-04-15 Thu 13:40>
 *** M2: Low-fidelity Prototypen 
 DEADLINE: <2021-04-20 Tue>
-**** TODO M2: Videocall
-SCHEDULED: <2021-04-17 Sat 18:00>
+**** TODO Ideensammlung                              :Dominik:Asim:Sophia:
+DEADLINE: <2021-04-18 Sun 18:00>
 
-https://meet.jit.si/CrucialPoetriesReadEasily
+https://www.gloomaps.com/xyXGmKY3je
 
-**** TODO Ideensammlung
-**** TODO 3 Prototypen
-**** TODO Anpassung des Prototypen an Ihre Zielgruppe:
-**** TODO Evaluierung der Prototypen (3 Interviews)
-*** TODO A2: Erstellung Test-App
+**** TODO 3 Prototypen                               :Dominik:Asim:Sophia:
+DEADLINE: <2021-04-19 Mon 12:00>
+
+**** TODO Anpassung des Prototypen an Ihre Zielgruppe: :Dominik:Asim:Sophia:
+DEADLINE: <2021-04-19 Mon 18:00>
+**** TODO Evaluierung der Prototypen (3 Interviews)  :Dominik:Asim:Sophia:
+DEADLINE: <2021-04-20 Tue 20:00>
+*** TODO A2: Erstellung Test-App                                   :Einzel:
 DEADLINE: <2021-05-06 Thu>
 **** TODO API Key für https://www.theaudiodb.com/api_apply.php anfordern (EUR 3 p. Monat)
 SCHEDULED: <2021-04-14 Wed>
