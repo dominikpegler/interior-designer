@@ -801,17 +801,48 @@ Prioritäten beim Design sein sollten.
 
 ** Präsentation M1
 [[file:./m1_praes.pdf][PDF]]
-* Meilenstein M2: Low-fidelity Prototypen
+* Meilenstein M2:
 ** Ideensammlung
 
- - Beschreibung der Ideensammlung (ca. 1-2 Seiten Text exklusive Bilder)
+< Beschreibung der Ideensammlung (ca. 1-2 Seiten Text exklusive Bilder) >
 
+Um eine Vielfalt an Ideen möglichst umfangreich und vollständig
+abbilden zu können, ohne dabei jedoch den Überblick zu verlieren,
+haben wir uns für eine Mind-Mapping-Technik entschieden. Im ersten
+Schritt haben wir uns gefragt, worum es sich bei unserem Projekt
+überhaupt handelt. Die Antworten darauf bildeten sozusagen die erste
+Ebene unserer Mindmap. In den Folgeschritten wurde diese erste Ebene
+erweitert und um neue, darunterliegende Ebenen ergänzt. Beim Grad der
+Ausdifferenzierung der einzelnen Knotenpunkte haben wir uns kein Limit
+gesetzt. Wir wollten erstmal nur sehen, welche Aspekte in uns mehr
+Wunsch nach Detailreichtum auslösten.
+
+Die weitere Strukturierung der Mindmap erfolgte zwei Tage
+später. Die folgenden Aspekte möchten wir als für uns wichtig festhalten.
+
+1) Es handelt sich um eine mobile App. Das bedeutet, dass wir den
+   Fokus besonders auf Simplizität der Bedienoberfläche und möglichst
+   verzögerungsfreie Rückmeldungen der Applikation an den User legen
+   werden. Mit Simplizität meinen wir konkret eine minimale Anzahl an
+   verschiedenartigen Screens, Text nur dort, wo es wirklich nötig ist
+   und es keine aussagekräftigen Icons gibt. Um die Aufmerksamkeit der
+   User nicht auf das Interface zu lenken, sondern davon weg auf deren
+   Aufgaben, vermeiden wir auch Hell-Dunkel- sowie Farbkontraste
+   überall dort, wo es nicht notwendig ist. Wir denken hier an
+   maximale Anzahl von 3 verschiedenen Farben. Die User sollen das
+   Gefühl haben, durch die App "hindurchzublicken". Es soll ein
+   Werkzeug sein und nicht die ganze Aufmerksamkeit der User
+   erfordern.
+2) ...
+
+Unsere Mindmap ist online abrufbar unter
+https://www.gloomaps.com/xyXGmKY3je.
+ 
 ** Low-Fi-Prototypen
 
   - Bilder + Beschreibung der low-fi Prototypen, so dass auch die Interaktion nachvollziehbar ist (ca. 1-2 Seiten Text exklusive Bilder)
   
 *** 3 Skizzen
-          
 - Basierend auf Ideensammlung
 - von grundauf unterschiedliche und voneinander unabhängige
 - https://developer.apple.com/videos/play/wwdc2017/818/)
