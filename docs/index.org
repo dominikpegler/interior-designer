@@ -807,12 +807,12 @@ Prioritäten beim Design sein sollten.
 < Beschreibung der Ideensammlung (ca. 1-2 Seiten Text exklusive Bilder) >
 
 Um eine Vielfalt an Ideen möglichst umfangreich und vollständig
-abbilden zu können, ohne dabei jedoch den Überblick zu verlieren,
-haben wir uns für eine Mind-Mapping-Technik entschieden. Im ersten
-Schritt haben wir uns gefragt, worum es sich bei unserem Projekt
-überhaupt handelt. Die Antworten darauf bildeten sozusagen die erste
-Ebene unserer Mindmap. In den Folgeschritten wurde diese erste Ebene
-erweitert und um neue, darunterliegende Ebenen ergänzt. Beim Grad der
+abbilden zu können und dabei nicht den Überblick zu verlieren, haben
+wir uns für eine Mind-Mapping-Technik entschieden. Im ersten Schritt
+haben wir uns gefragt, worum es sich bei unserem Projekt überhaupt
+handelt. Die Antworten darauf bildeten sozusagen die erste Ebene
+unserer Mindmap. In den Folgeschritten wurde diese erste Ebene
+erweitert und um neue, darunterliegende, Ebenen ergänzt. Beim Grad der
 Ausdifferenzierung der einzelnen Knotenpunkte haben wir uns kein Limit
 gesetzt. Wir wollten erstmal nur sehen, welche Aspekte in uns mehr
 Wunsch nach Detailreichtum auslösten.
@@ -834,6 +834,7 @@ später. Die folgenden Aspekte möchten wir als für uns wichtig festhalten.
    Werkzeug sein und nicht die ganze Aufmerksamkeit der User
    erfordern.
 2) ...
+3) ...
 
 Unsere Mindmap ist online abrufbar unter
 https://www.gloomaps.com/xyXGmKY3je.
@@ -859,7 +860,7 @@ https://www.gloomaps.com/xyXGmKY3je.
           
 ** Projektmanagement
 
-        - Beschreibung der Arbeitsverteilung (wer hat was gemacht): kann zu Punkte-Umverteilung oder -Abzügen führen.
+- Beschreibung der Arbeitsverteilung (wer hat was gemacht): kann zu Punkte-Umverteilung oder -Abzügen führen.
 
 
 * Aufgabe A2: Erstellung Test-App
