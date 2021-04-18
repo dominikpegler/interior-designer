@@ -802,39 +802,33 @@ Prioritäten beim Design sein sollten.
 ** Präsentation M1
 [[file:./m1_praes.pdf][PDF]]
 * Meilenstein M2: Low-fidelity Prototypen
+** Ideensammlung
 
-- Die Abgabe erfolgt über Moodle unter M2. Beachten Sie das Moodle-Upload-Limit (250MB) - wenn Sie größere Dateien abgeben, kontaktieren Sie uns bitte rechtzeitig (=1 Tag vorher).
-- Laden Sie Ihre Lösung als pdf-Datei hoch.
-- Die Abgabe wird erst nach 3 Tagen gesperrt, das letzte Hochladen zählt als Abgabedatum.
+ - Beschreibung der Ideensammlung (ca. 1-2 Seiten Text exklusive Bilder)
 
-    - Ideensammlung: Generieren, skizzieren und diskutieren Sie ein breites Spektrum an Lösungsideen für Ihr Projekt. Benutzen Sie dazu mindestens eine dedizierte Kreativitätstechnik (basierend auf Eigenrecherche, ein guter Startpunkt ist zum Beispiel folgender [[https://de.wikipedia.org/wiki/Kreativit%C3%A4tstechniken][Wikipedia-Artikel]]; Beispiel: [[http://fds.design/][5 design sheets]]).
-    - Prototypen: Basierend darauf, erstellen Sie n (n = Anzahl der Personen im Team, d.h. 3-4) von grundauf unterschiedliche und voneinander unabhängige low-fidelity Prototypen, die Ihre Lösungsideen widerspiegeln (als Inspiration: https://developer.apple.com/videos/play/wwdc2017/818/). Das Tool, mit dem Sie Ihre Prototypen erstellen, wird nicht vorgegeben – vom Papierprototypen bis zu dezidierten Prototyping-Tools (z.B. Pencil) ist alles erlaubt. Konzentrieren Sie sich auf den Inhalt des Prototypen, nicht auf das Tool.
-    - Anpassung des Prototypen an Ihre Zielgruppe (vgl. M1): Passen Sie Ihren Prototypen basierend auf der Nutzeranalyse und den Personas aus M1 an. Dokumentieren Sie, welche und ob Sie Anpassungen für die jeweilige Zielgruppe durchgeführt haben.
-    - Evaluierung der Prototypen: Führen Sie Interviews mit n (siehe oben) Testusern (z.B. mit Ihren Kommilitonen - aber nicht aus eigenem Team!) durch, in denen Sie die Prototypen diskutieren, analysieren, und bewerten (jeder Testuser soll alle Prototypen testen). 
+** Low-Fi-Prototypen
 
-** M2 Abgabe:
+  - Bilder + Beschreibung der low-fi Prototypen, so dass auch die Interaktion nachvollziehbar ist (ca. 1-2 Seiten Text exklusive Bilder)
+  
+*** 3 Skizzen
+          
+- Basierend auf Ideensammlung
+- von grundauf unterschiedliche und voneinander unabhängige
+- https://developer.apple.com/videos/play/wwdc2017/818/)
+- Konzentrieren Sie sich auf den Inhalt des Prototypen, nicht auf das
+  Tool.
+*** Anpassung des Prototypen an Ihre Zielgruppe
+- Anpassung an Nutzeranalyse und Personas aus M1 an
+- Dokumentieren Sie, welche und ob Sie Anpassungen für die jeweilige
+  Zielgruppe durchgeführt haben.
+** Evaluierung der Prototypen
+ - 3 Interviews, in denen Sie die Prototypen diskutieren, analysieren,
+   und bewerten (jeder Testuser soll alle Prototypen testen).
+ - Beschreibung der Interviews hinsichtlich Vorgehensweise und Ergebnissen (ca. 1-2 Seiten Text exklusive Bilder)
+          
+** Projektmanagement
 
-   - Ein pdf (Deutsch oder Englisch) mit folgenden Inhalten:
-        - Skizzen/Photos/... + Beschreibung der Ideensammlung (ca. 1-2 Seiten Text exklusive Bilder)
-        - Bilder + Beschreibung der low-fi Prototypen, so dass auch die Interaktion nachvollziehbar ist (ca. 1-2 Seiten Text exklusive Bilder)
-        - Beschreibung der Anpassungen der low-fi Prototypen im Hinblick auf die definierten Zielgruppen.
-        - Beschreibung der Interviews hinsichtlich Vorgehensweise und Ergebnissen (ca. 1-2 Seiten Text exklusive Bilder)
         - Beschreibung der Arbeitsverteilung (wer hat was gemacht): kann zu Punkte-Umverteilung oder -Abzügen führen.
-   - Nur für Vortragende: Präsentationsfolien für max. 13 Min. (Folien können bis zum Datum der eigentlichen Präsentation hochgeladen werden, dafür gibt es selbstverständlich keinen Punktabzug!) 
-
-** M2 Bewertungsschema:
-
-    - Ideensammlung (1-2 Seiten Text): 30%
-        - Methodenwahl: 10%
-        - Ergebnisse: 20% 
-    - low-fi Prototypen (1-2 Seiten Text): 40%
-        - Prototypen: 30%
-        - Zielgruppenbezogene Anpassungen, Bezug auf primäre Aufgaben: 10% 
-    - Beschreibung der Interviews (1-2 Seiten Text): 30%
-        - Durchführung: 10%
-        - Ergebnisse: 20% 
-
-
 
 
 * Aufgabe A2: Erstellung Test-App
