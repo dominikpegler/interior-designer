@@ -851,28 +851,10 @@ Unsere Mindmap ist online abrufbar unter
 https://www.gloomaps.com/xyXGmKY3je.
  
 ** Low-Fi-Prototypen
-
-  - Bilder + Beschreibung der low-fi Prototypen, so dass auch die Interaktion nachvollziehbar ist (ca. 1-2 Seiten Text exklusive Bilder)
-  
 *** 3 Skizzen
-- Basierend auf Ideensammlung
-- von grundauf unterschiedliche und voneinander unabhängige
-- https://developer.apple.com/videos/play/wwdc2017/818/)
-- Konzentrieren Sie sich auf den Inhalt des Prototypen, nicht auf das
-  Tool.
 *** Anpassung des Prototypen an Ihre Zielgruppe
-- Anpassung an Nutzeranalyse und Personas aus M1 an
-- Dokumentieren Sie, welche und ob Sie Anpassungen für die jeweilige
-  Zielgruppe durchgeführt haben.
 ** Evaluierung der Prototypen
- - 3 Interviews, in denen Sie die Prototypen diskutieren, analysieren,
-   und bewerten (jeder Testuser soll alle Prototypen testen).
- - Beschreibung der Interviews hinsichtlich Vorgehensweise und Ergebnissen (ca. 1-2 Seiten Text exklusive Bilder)
           
-** Projektmanagement
-
-- Beschreibung der Arbeitsverteilung (wer hat was gemacht): kann zu Punkte-Umverteilung oder -Abzügen führen.
-
 
 * Aufgabe A2: Erstellung Test-App
 Die App soll drei Komponenten haben:
