@@ -43,8 +43,8 @@ DEADLINE: <2021-04-18 Sun 18:00>
 
 https://www.gloomaps.com/xyXGmKY3je
 
-**** TODO 3 Prototypen                               :Dominik:Asim:Sophia:
-DEADLINE: <2021-04-19 Mon 12:00>
+**** DONE 3 Prototypen                               :Dominik:Asim:Sophia:
+CLOSED: [2021-04-19 Mon 20:08] DEADLINE: <2021-04-19 Mon 12:00>
 
 **** TODO Anpassung des Prototypen an Ihre Zielgruppe: :Dominik:Asim:Sophia:
 DEADLINE: <2021-04-19 Mon 18:00>
@@ -804,8 +804,6 @@ Prioritäten beim Design sein sollten.
 * Meilenstein M2:
 ** Ideensammlung
 
-< Beschreibung der Ideensammlung (ca. 1-2 Seiten Text exklusive Bilder) >
-
 Um eine Vielfalt an Ideen möglichst umfangreich und vollständig
 abbilden zu können und dabei nicht den Überblick zu verlieren, haben
 wir uns für eine Mind-Mapping-Technik entschieden. Im ersten Schritt
@@ -833,8 +831,21 @@ später. Die folgenden Aspekte möchten wir als für uns wichtig festhalten.
    Gefühl haben, durch die App "hindurchzublicken". Es soll ein
    Werkzeug sein und nicht die ganze Aufmerksamkeit der User
    erfordern.
-2) ...
-3) ...
+2) Beim Designen der Prototypen hatten wir drei sehr unterschiedliche
+   Zugänge. ...
+3) Die Funktion des Scannens eigener Gegenstände möchten weiterhin im
+   Projekt behalten, da es für uns ein essenzieller Bestandteil des
+   Konzepts ist und unserer Meinung nach ein wichtiges Argument für
+   die Verwendung der App darstellt. Andere Anbieter erlauben es nur,
+   Gegenstände aus entweder dem eigenen Produktkatalog oder zumindest
+   aus einer limitierten Anzahl an Marken und Beispielmöbeln zum
+   Gestalten der Räume zu verwenden. Wir sehen diese Funktion nicht
+   nur als reine Funktion, sie ist auch nicht mal wesentlich für das
+   UI, aber als potenziell eigenständige Plattform zum Austausch von
+   Gegenständen, insbesondere von Möbelstücken. Auch wenn dies bereits
+   ein Projekt im Projekt darstellt, wollen wir wollen wir versuchen,
+   diese Funktionalität bei Designentscheidungen immer im Hinterkopf
+   zu behalten.
 
 Unsere Mindmap ist online abrufbar unter
 https://www.gloomaps.com/xyXGmKY3je.
