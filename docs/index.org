@@ -852,9 +852,11 @@ https://www.gloomaps.com/xyXGmKY3je.
  
 ** Low-Fi-Prototypen
 *** 3 Skizzen
+...
 *** Anpassung des Prototypen an Ihre Zielgruppe
+...
 ** Evaluierung der Prototypen
-          
+...     
 
 * Aufgabe A2: Erstellung Test-App
 Die App soll drei Komponenten haben:
