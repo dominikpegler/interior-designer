@@ -804,6 +804,8 @@ Prioritäten beim Design sein sollten.
 * Meilenstein M2:
 ** Ideensammlung
 
+/Autoren: Dominik Pegler, Sophia Pum/
+
 Um eine Vielfalt an Ideen möglichst umfangreich und vollständig
 abbilden zu können und dabei nicht den Überblick zu verlieren, haben
 wir uns für eine Mind-Mapping-Technik entschieden. Im ersten Schritt
@@ -851,12 +853,18 @@ Unsere Mindmap ist online abrufbar unter
 https://www.gloomaps.com/xyXGmKY3je.
  
 ** Low-Fi-Prototypen
-*** 3 Skizzen
+*** Prototyp #1
+/Autor: Asım OĞUZ/
 ...
+*** Prototyp #2
+/Autor: Sophia Pum/
+*** Prototyp #3
+/Autor: Dominik Pegler/
+
 *** Anpassung des Prototypen an Ihre Zielgruppe
 ...
 ** Evaluierung der Prototypen
-...     
+/Autoren: Asım OĞUZ, Sophia Pum, Dominik Pegler/
 
 * Aufgabe A2: Erstellung Test-App
 Die App soll drei Komponenten haben:
