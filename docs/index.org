@@ -849,8 +849,7 @@ später. Die folgenden Aspekte möchten wir als für uns wichtig festhalten.
    diese Funktionalität bei Designentscheidungen immer im Hinterkopf
    zu behalten.
 
-Unsere Mindmap ist online abrufbar unter
-https://www.gloomaps.com/xyXGmKY3je.
+[[./img/mindmap.png][Link zur Mindmap]]
  
 ** Low-Fi-Prototypen
 *** Prototyp #1
