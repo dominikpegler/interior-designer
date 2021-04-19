@@ -854,13 +854,15 @@ https://www.gloomaps.com/xyXGmKY3je.
  
 ** Low-Fi-Prototypen
 *** Prototyp #1
-/Autor: Asım OĞUZ/
+/Autor: Sophia Pum/
 ...
 *** Prototyp #2
-/Autor: Sophia Pum/
-*** Prototyp #3
 /Autor: Dominik Pegler/
+...
 
+*** Prototyp #3
+/Autor: Asım OĞUZ/
+...
 *** Anpassung des Prototypen an Ihre Zielgruppe
 ...
 ** Evaluierung der Prototypen
