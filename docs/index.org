@@ -831,8 +831,8 @@ später. Die folgenden Aspekte möchten wir als für uns wichtig festhalten.
    Gefühl haben, durch die App "hindurchzublicken". Es soll ein
    Werkzeug sein und nicht die ganze Aufmerksamkeit der User
    erfordern.
-2) Beim Designen der Prototypen hatten wir drei sehr unterschiedliche
-   Zugänge. ...
+2) Für das Design haben wir drei unterschiedliche Motivationen
+   ...
 3) Die Funktion des Scannens eigener Gegenstände möchten weiterhin im
    Projekt behalten, da es für uns ein essenzieller Bestandteil des
    Konzepts ist und unserer Meinung nach ein wichtiges Argument für
