@@ -868,7 +868,7 @@ später. Die folgenden drei Aspekte möchten wir als für uns wichtig festhalten
 [[./img/mindmap.png][Link zur Mindmap]]
  
 ** Low-Fi-Prototypen
-*** Prototyp #1
+*** Prototyp von Sophia
 /Autorin: Sophia Pum/
 
 Es gibt zwei Start-Screens (*Abb. [[fig:lofi_sophia_12]]*), zwischen die man durch wischen navigieren
@@ -918,7 +918,7 @@ abspeichern.
 #+attr_html: :height 400px
 file:./img/m2_lofi_sophia_56.png
 
-*** Prototyp #2
+*** Prototyp von Asım  
 /Autor: Asım OĞUZ/
 
 *Abb. [[fig:lofi_asim_1]]* zeigt eine simple Startseite, auf der man gleich den ersten
@@ -983,7 +983,7 @@ dem Export Button in die Galerie abspeichern.
 #+attr_html: :height 400px
 file:./img/m2_lofi_asim_6.png
 
-*** Prototyp #3
+*** Prototyp von Dominik
 /Autor: Dominik Pegler/
 ...
 
@@ -1010,10 +1010,124 @@ file:./img/m2_lofi_dominik_45.png
 #+attr_html: :height 844px
 file:./img/m2_lofi_dominik_67.png
 
-*** Anpassung des Prototypen an Ihre Zielgruppe
-...
 ** Evaluierung der Prototypen
-/Autoren: Asım OĞUZ, Sophia Pum, Dominik Pegler/
+*** Prototyp von Sophia
+
+**** Person A
+/Autor: Asım OĞUZ/
+
+Die erste Seite dieses Prototypen sieht zu leer aus diesem würde ein
+Hintergrundbild weiterhelfen. Der zweite Screen ist simpel und
+verständlich alle Funktionen sind ersichtlich, diese Seite ist gut
+designt, jedoch könnte man vielleicht bei der Kamera dazu schreiben,
+dass man scannt und nicht fotografiert. Auf der Scan Seite ist unklar
+wie man den Scan abschließt bzw. beendet. Es ist unklar was man nach
+dem Scannen machen muss. Wie fügt man Möbel hinzu? Wie speichert man
+ab? Diese fragen bleiben unbeantwortet. Die letzte Seite, die mit
+Wohnideen, ist eher wie eine Desktop Webseite aufgebaut, daher sind
+die Bilder zu klein. Hier würde es helfen die Abstände zwischen den
+Bilder zu verkleinern, dadurch würde man Platz gewinnen, welches man
+für die Vergrößerung der Bilder benutzen kann.
+
+**** Person B
+/Autorin: Sophia PUM/
+**** Person C
+/Autor: Dominik Pegler/
+
+- Rechtschreibfehler
+- was bedeutet Kamera?
+- was bedeutet Fotoalbum? Warum sollte ich jetzt z.B. auf Fotoalbum klicken?
+  - wäre vielleicht gut mit einem Untertitel, Beschreibung
+- auch sehr nüchtern, wär aber besser bunter/kreativer
+- obwohl schon cool, dass es aufgeräumt ist
+- vielleicht kann mans erweitern mit Pflanzen?
+- Ist nicht ganz klar, warum ich da jetzt auf was klicken sollte.
+
+
+- wär auch cool so eine Randomfunktion. Artikel von Geschäftspartner wird in Raum platziert.
+
+*** Prototyp von Asım
+
+**** Person A
+/Autor: Asım OĞUZ/
+
+Das erste was an diesem Prototypen auffällt ist die Navbar mit dem
+Namen “Interior Designer”, diese ist auf allen Seiten der App zu
+sehen, jedoch verschönert dies das Design nicht und sollte weggelassen
+bzw. überarbeitet werden. Weiters ist die Farbe für die Hintergründe
+auf den ersten zwei Seiten nicht gut aussehend und sollte durch ein
+passendes Foto ersetzt werden. Die zweite Seite ist zu simpel gehalten
+und ein bisschen unverständlich, das Icon, welches zum Auswählen aus
+den Vorhandenen Räumen gedacht ist, lässt vermuten, dass man in die
+eigene Galerie kommt. Hier sollte das Icon geändert und eine
+Beschriftung hinzugefügt werden. Die Seiten zum auswählen der Räume
+und Möbel sind durch die großen Bilder übersichtlich, jedoch würde
+diesen Seiten eine Kategorisierung bzw. eine Suchfunktion
+weiterhelfen.
+
+**** Person B
+/Autorin: Sophia PUM/
+**** Person C
+/Autor: Dominik Pegler/
+- Font zu wackelig, unsicher
+- Unklar, wie die Abmessungen sind
+  - wie wird das berechnet, dass es von den Proportionen her passt?
+  - wichtig --> wie viel Platz bleibt frei?
+- Unklar, was die beiden Buttons sind --> + und upload
+- Zu nüchtern, besseres Logo, etwas, das mehr einlädt, kreativ tätig zu werden.
+  - vermittelt nicht den Spaß
+- Ideen Z.B. während der Ladezeit Animation wie z.B. Vorhang auf.
+
+*** Prototyp von Dominik
+
+**** Person A
+/Autor: Asım OĞUZ/
+
+Die erste Seite dieses Prototypen sieht zu leer aus diesem würde ein
+Hintergrundbild weiterhelfen. In der Seite, die zum Scannen des Raumes
+dient, gibt es einige Aspekte die unklar sind. Wird der Scan
+automatisch beendet? Wenn nicht fehlt ein Button um dies zu
+machen. Was macht das Button “X”? Bricht dies den ganzen Vorgang ab
+oder beginnt man von Anfang an zu scannen? Dem würde eine Beschriftung
+weiterhelfen. Und falls dieser Button den Vorgang abbricht würde ein
+“Try Again” Button gut passen. Die Seite zum auswählen von Möbeln ist
+sehr übersichtlich und verständlich und daher passend. Auf der letzen
+Seite sind gar keine Buttons. Kann man da keine weiteren Möbel mehr
+hinzufügen? Wie exportiert man den Raum? Diese Fragen sind unklar.
+
+**** Person B
+/Autorin: Sophia PUM/
+**** Person C
+/Autor: Dominik Pegler/
+
+- "This your room"
+- schaut frisch aus (jetzt von der farbgebung her, insgesamt)
+- ist konkreter, abmessungen, einrichtungen
+- "start scanning" was ist das? ist ja ein neues projekt, oder? dann
+  würd ichs auch so benennen.
+- oben sollte starte was Neues sein und unten die alten Projekte. Das
+  fände ich intuitiver, zumindest kenne ich es nur so.
+- turn around und finished mit hakerl ist gut
+- ich weiß nicht, was das bedeutet --> X oder HAKERL bei "this your
+  room?" screen. was passiert dann wenn ich X drücke? Muss ich dann
+  selber abmessen gehen?
+
+** Anpassung des Prototypen an Ihre Zielgruppe
+*** Vorschläge Asim
+**** Prototyp Asim 
+2.seite mehr Beschreibung 
+Kategorisierung und Suche bei Möbeln und Räumen 
+Navbar verändern
+
+**** Prototyp Dominik
+Fürs scannen mehr Beschreibung 
+Letzte Seite button für mehr Möbel 
+Letzte Seite button für Export
+
+**** Prototyp Sophia
+Scan Seite überarbeiten
+Letzte Seite an mobile anpassen 
+Möbel hinzufügen klarer machen
 
 * Aufgabe A2: Erstellung Test-App
 Die App soll drei Komponenten haben:
