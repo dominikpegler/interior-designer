@@ -868,7 +868,7 @@ später. Die folgenden Aspekte möchten wir als für uns wichtig festhalten.
 *** Prototyp #1
 /Autorin: Sophia Pum/
 
-Es gibt zwei Start-Screens (Abbildung [[fig:lofi_sophia_12]]), zwischen die man durch wischen navigieren
+Es gibt zwei Start-Screens (Abb. [[fig:lofi_sophia_12]]), zwischen die man durch wischen navigieren
 kann. Am ersten Screen sieht man den Schriftzug „Start Designing“ mit
 einer kurzen Beschreibung darunter, was einem erwartet und einem
 Button „Raum Designen“. Als Hintergrund würde ich ein schlichtes Bild
@@ -894,7 +894,7 @@ kann, steht „Discover Ideas“, auch eine kurze Beschreibung und einen
 Button mit „Katalog durchstöbern". Hier würde ich als Hintergrundbild
 ein Foto von einem schlichten Möbelstück oder ähnliches platzieren.
 Betätigt man den Button kommt man zu einem Screen
-(Abbildung [[fig:lofi_sophia_34]]) mit Fotos und Ideen.  Oben ist eine Slideshow
+(Abb. [[fig:lofi_sophia_34]]) mit Fotos und Ideen.  Oben ist eine Slideshow
 mit fertig gestalteten
 
 #+caption: Prototype Sophia: Screens 3 -- 4
@@ -904,7 +904,7 @@ file:./img/m2_lofi_sophia_34.png
 
 Wohnräumen, die zur Inspiration dienen sollen. Man kann sie durch
 wischen steuern oder anklicken und durch eine Fotogalerie navigieren
-(Abbildung [[fig:lofi_sophia_56]]).  Unter der Slideshow steht „Wohnideen“ und
+(Abb. [[fig:lofi_sophia_56]]).  Unter der Slideshow steht „Wohnideen“ und
 darunter findet man verschieden Kategorien, die durch Icons und Namen
 dargestellt werden und verschiedene Möbelstücke anzeigen lassen. Unter
 „Meine Möbel“ kann man selbst Möbel einscannen und in der App
@@ -916,13 +916,9 @@ abspeichern.
 file:./img/m2_lofi_sophia_56.png
 
 *** Prototyp #2
-/Autor: Dominik Pegler/
-...
-
-*** Prototyp #3
 /Autor: Asım OĞUZ/
 
-Abbildung [[fig:lofi_asim_1]] zeigt eine simple Startseite, auf der man gleich den ersten
+Abb. [[fig:lofi_asim_1]] zeigt eine simple Startseite, auf der man gleich den ersten
 Schritt sieht den man machen muss. Und zwar
 einen Raum zum Gestalten auswählen.
 
@@ -931,7 +927,7 @@ einen Raum zum Gestalten auswählen.
 #+attr_html: :height 400px
 file:./img/m2_lofi_asim_1.png
 
-Auf Abbildung [[fig:lofi_asim_2]] gibt es zwei Möglichkeiten einen Raum auszuwählen:
+Auf Abb. [[fig:lofi_asim_2]] gibt es zwei Möglichkeiten einen Raum auszuwählen:
 
 1. Raum fotografieren
 
@@ -946,7 +942,7 @@ Auf Abbildung [[fig:lofi_asim_2]] gibt es zwei Möglichkeiten einen Raum auszuw�
 #+attr_html: :height 400px
 file:./img/m2_lofi_asim_2.png
 
-Abbildung [[fig:lofi_asim_3]]: Falls man einen Raum aus den Vorhandenen
+Abb. [[fig:lofi_asim_3]]: Falls man einen Raum aus den Vorhandenen
 Designs auswählen möchte werden die als Liste die
 man durchscrollen kann angezeigt. Durch einen Tab
 kann man ein Design auswählen.
@@ -956,7 +952,7 @@ kann man ein Design auswählen.
 #+attr_html: :height 400px
 file:./img/m2_lofi_asim_3.png
 
-Nach dem ein Raum ausgewählt wurde besteht auf Abbildung fig:lofi_asim_4 die
+Nach dem ein Raum ausgewählt wurde besteht auf Abb. fig:lofi_asim_4 die
 Möglichkeit Möbel zu importieren. Dies geschieht in
 dem man auf das "+" Button klickt.
 
@@ -965,7 +961,7 @@ dem man auf das "+" Button klickt.
 #+attr_html: :height 400px
 file:./img/m2_lofi_asim_4.png
 
-In Abbildung [[fig:lofi_asim_5]] kann man durch das Berühren eines
+In Abb. [[fig:lofi_asim_5]] kann man durch das Berühren eines
 Möbelstückes dieses in den Raum importieren.
 
 #+caption: Prototype Asım: Screen 5
@@ -973,7 +969,7 @@ Möbelstückes dieses in den Raum importieren.
 #+attr_html: :height 400px
 file:./img/m2_lofi_asim_5.png
 
-Abbildung [[fig:lofi_asim_6]]: Der Schritt zum Möbel importieren wird mehrmals ausgeführt bis man
+Abb. [[fig:lofi_asim_6]]: Der Schritt zum Möbel importieren wird mehrmals ausgeführt bis man
 alle gewünschten Möbel sieht.  Die Importieren Möbel können durch
 zeihen durch den Raum bewegt und an die gewünschte Position gebracht
 werden.  Sobald der Raum nach Wunsch gestaltet wurde kann man ihn mit
@@ -983,6 +979,10 @@ dem Export Button in die Galerie abspeichern.
 #+name: fig:lofi_asim_6
 #+attr_html: :height 400px
 file:./img/m2_lofi_asim_6.png
+
+*** Prototyp #3
+/Autor: Dominik Pegler/
+...
 
 *** Anpassung des Prototypen an Ihre Zielgruppe
 ...
