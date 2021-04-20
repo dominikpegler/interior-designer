@@ -36,20 +36,8 @@ CLOSED: [2021-03-22 Mon 18:04] SCHEDULED: <2021-03-21 Sun>
 CLOSED: [2021-03-23 Tue 09:46] SCHEDULED: <2021-03-22 Mon>
 *** DONE M1: Präsentation                    :Dominik:Sophia:Asim:noexport:
 CLOSED: [2021-04-15 Thu 14:10] SCHEDULED: <2021-04-15 Thu 13:40>
-*** M2: Low-fidelity Prototypen 
-DEADLINE: <2021-04-20 Tue>
-**** DONE Ideensammlung                                   :Dominik:Sophia:
-CLOSED: [2021-04-20 Tue 12:35] DEADLINE: <2021-04-18 Sun 18:00>
-
-https://www.gloomaps.com/xyXGmKY3je
-
-**** DONE 3 Prototypen                               :Dominik:Asim:Sophia:
-CLOSED: [2021-04-19 Mon 20:08] DEADLINE: <2021-04-19 Mon 12:00>
-
-**** DONE Anpassung des Prototypen an Ihre Zielgruppe: :Dominik:Asim:Sophia:
-CLOSED: [2021-04-20 Tue 20:06] DEADLINE: <2021-04-19 Mon 18:00>
-**** DONE Evaluierung der Prototypen (3 Interviews)  :Dominik:Asim:Sophia:
-CLOSED: [2021-04-20 Tue 20:06] DEADLINE: <2021-04-20 Tue 20:00>
+*** DONE M2: Low-fidelity Prototypen 
+CLOSED: [2021-04-20 Tue 20:16] DEADLINE: <2021-04-20 Tue>
 *** TODO A2: Erstellung Test-App                                   :Einzel:
 DEADLINE: <2021-05-06 Thu>
 **** TODO API Key für https://www.theaudiodb.com/api_apply.php anfordern (EUR 3 p. Monat)
@@ -57,7 +45,7 @@ SCHEDULED: <2021-04-14 Wed>
 
 - Alternative: Discogs? https://www.discogs.com/developers
 
-*** WAIT M3: Erstellung der App 
+*** TODO M3: Erstellung der App 
 DEADLINE: <2021-05-18 Tue>
 **** WAIT Präsentation                               :Dominik:Asim:Sophia:
 SCHEDULED: <2021-05-20 Thu 13:15>
