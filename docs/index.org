@@ -1210,7 +1210,7 @@ Einrichtungsgegenständen betrifft.
   - sortieren
   - filtern
 
-*** zusätzliche zielgruppenspezifische Anpassungen für alle 3 Prototypen
+*** Zusätzliche zielgruppenspezifische Anpassungen für alle 3 Prototypen
 
 - Farbenfroheres Design implementieren
 - Hintergrundbilder und Wallpapers implementieren
