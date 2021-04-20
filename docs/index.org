@@ -1127,10 +1127,11 @@ für das "Alte", also die alten Projekte, unten. Das sei intuitiver und
 kenne der Testuser aus anderen Apps.
 
 Die Rückmeldungen der App mit "turn around" und "finished" mit dem
-Häckchen fand der Test wieder gut. Nicht so klar war die Bedeutung des
-"X" und des Häkchens am Bildschirm mit dem Satz "this your room?". Der
-Tester konnte sich keine Vorstellung machen, was nun passieren würde,
-wenn er das "X" antippt. Er fragte: "Muss ich dann selber abmessen gehen?"
+Häckchen fand der Tester wiederum gut. Nicht so klar war die Bedeutung
+des "X" und des Häkchens am Bildschirm mit dem Satz "this your
+room?". Der Tester konnte sich keine Vorstellung machen, was nun
+passieren würde, wenn er das "X" antippt. Er fragte: "Muss ich dann
+selber abmessen gehen?"
   
 Der berichtete Gesamteindruck war, dass das UI frisch aussieht
 (zumindest von der Farbgebung her) und der Designvorschlag etwas
