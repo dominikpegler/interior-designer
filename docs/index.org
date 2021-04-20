@@ -985,31 +985,70 @@ file:./img/m2_lofi_asim_6.png
 
 *** Prototyp von Dominik
 /Autor: Dominik Pegler/
-...
+
+Mein Ziel war es, eine grobe Skizze einer Interior-Designer-App
+anzufertigen, die vor allem auf die Punkte aus der Mindmap abzielt,
+die eine einfache Bedienung und ein reduziertes UI forcieren.
+
+Die Abb. [[fig:lofi_dominik_1]] stellt den Erstkontakt der User mit der
+App dar. Die App fragt die User, was sie denn jetzt machen möchten und
+gibt ihnen dabei zwei Optionen: (1) eine Seite mit früheren Projekten
+aufzurufen oder (2) ein neues Projekt zu beginnen ("start
+scanning"). Man könnte hier bereits einen Button für Einstellungen
+integrieren, in diesem ersten Designvorschlag fehlt dieser jedoch
+noch.
 
 #+caption: Prototype Dominik: Screen 1
 #+name: fig:lofi_dominik_1
 #+attr_html: :height 400px
 file:./img/m2_lofi_dominik_1.png
 
+Gehen wir davon aus, dass ein User oder eine Userin den Button mit der
+Kamera angetippt hat, so finden wir uns in Abb. [[fig:lofi_dominik_23]]
+wieder -- im Scanprozess. Um die App mit möglichst großer Menge an
+Daten zu versorgen, werden die User gebeten, sich im Raum
+herumzudrehen. Die App vor, welche Bereiche im Raum noch mehr
+Scandurchgänge benötigen, um ein präzise Berechnung der Raummaße
+möglich zu machen. Eine Statusleiste zeigt den Fortschritt im
+Scanprozess an. Die User können den Scanprozess jederzeit mit
+Berührung des X-Buttons abbrechen. Ansonsten ist dieser beendet, wenn
+die App ausreichend Informationen zur Berechnung des Raums hat,
+visualisiert durch das Symbol mit dem Häkchen und der knappen Message
+"finished!".
 
 #+caption: Prototype Dominik: Screens 2 -- 3
 #+name: fig:lofi_dominik_23
 #+attr_html: :height 400px
 file:./img/m2_lofi_dominik_23.png
 
+Nach dem erfolgreichen Scanprozess teilt die App den Usern mit, zu
+welchem Ergebnis sie gekommen ist (Abb. [[fig:lofi_dominik_45]]). Sie
+möchte vom User nur noch kurz wissen, ob sie ihre Arbeit gut gemacht
+hat und die Maße des Raumes stimmen. Ist das der Fall, betätigt der
+User oder die Userin den Button mit dem Häkchen und gelangt ins Menü
+zur Auswahl der Gegenstände, die man im Raum platzieren kann. Man kann
+hier über ein Suchfeld nach Objekten suchen oder durch eine Liste an
+Objekten (selbst erstellte wie auch Beispiel-Objekte) scrollen.
 
 #+caption: Prototype Dominik: Screens 4 -- 5
 #+name: fig:lofi_dominik_45
 #+attr_html: :height 400px
 file:./img/m2_lofi_dominik_45.png
 
+Hat man sich für ein Objekt entschieden (Abb. [[fig:lofi_dominik_67]]),
+wird dieses Objekt am Bildschirm angezeigt. Man kann dieses dann über
+die Pfeil-Buttons drehen und damit von verschiedenen Seiten
+betrachten. Tippt man erneut auf das Objekt, wird es dem Raum
+hinzugefügt. Dabei ermittelt die App eine freie Stelle und platziert
+das Objekt im Raum. Die User können das Objekt durch Antippen und
+Ziehen im Raum bewegen. Weitere Prototypen-Skizzen sollen an diese
+erste Studie anknüpfen und die gezeigten Funktionalitäten mit mehr
+Detailreichtum demonstrieren.
 
 #+caption: Prototype Dominik: Screens 6 -- 7
 #+name: fig:lofi_dominik_67
 #+attr_html: :height 844px
 file:./img/m2_lofi_dominik_67.png
-
 ** Evaluierung der Prototypen
 *** Prototyp von Sophia
 
