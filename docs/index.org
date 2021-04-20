@@ -884,7 +884,7 @@ man einen komplett neuen Raum erstellen und gestalten und unter
 „gespeicherte Räume“ findet man bereits bearbeitet Räum und kann diese
 weiter anpassen.
 
-#+caption: "Prototype #1: Screens 1 -- 2"
+#+caption: Prototype Sophia: Screens 1 -- 2
 #+name: fig:lofi_sophia_12
 #+attr_html: :height 400px
 file:./img/m2_lofi_sophia_12.png
@@ -897,7 +897,7 @@ Betätigt man den Button kommt man zu einem Screen
 (Abbildung fig:lofi_sophia_34) mit Fotos und Ideen.  Oben ist eine Slideshow
 mit fertig gestalteten
 
-#+caption: "Prototype #1: Screens 3 -- 4"
+#+caption: Prototype Sophia: Screens 3 -- 4
 #+name: fig:lofi_sophia_34
 #+attr_html: :height 400px
 file:./img/m2_lofi_sophia_34.png
@@ -910,7 +910,7 @@ dargestellt werden und verschiedene Möbelstücke anzeigen lassen. Unter
 „Meine Möbel“ kann man selbst Möbel einscannen und in der App
 abspeichern.
 
-#+caption: "Prototype #1: Screens 5 -- 6"
+#+caption: Prototype Sophia: Screens 5 -- 6
 #+name: fig:lofi_sophia_56
 #+attr_html: :height 400px
 file:./img/m2_lofi_sophia_56.png
@@ -926,7 +926,7 @@ Abbildung fig:lofi_asim_1 zeigt eine simple Startseite, auf der man gleich den e
 Schritt sieht den man machen muss. Und zwar
 einen Raum zum Gestalten auswählen.
 
-#+caption: "Prototype #3: Screen 1"
+#+caption: Prototype Asım: Screen 1
 #+name: fig:lofi_asim_1
 #+attr_html: :height 400px
 file:./img/m2_lofi_asim_1.png
@@ -939,7 +939,7 @@ fotografieren und das Bild importieren.
 
 2) Einen Raum aus den Vorhandenen Designs auswählen
 
-#+caption: "Prototype #3: Screen 2"
+#+caption: Prototype Asım: Screen 2
 #+name: fig:lofi_asim_2
 #+attr_html: :height 400px
 file:./img/m2_lofi_asim_2.png
@@ -949,7 +949,7 @@ Designs auswählen möchte werden die als Liste die
 man durchscrollen kann angezeigt. Durch einen Tab
 kann man ein Design auswählen.
 
-#+caption: "Prototype #3: Screen 3"
+#+caption: Prototype Asım: Screen 3
 #+name: fig:lofi_asim_3
 #+attr_html: :height 400px
 file:./img/m2_lofi_asim_3.png
@@ -958,7 +958,7 @@ Nach dem ein Raum ausgewählt wurde besteht auf Abbildung fig:lofi_asim_4 die
 Möglichkeit Möbel zu importieren. Dies geschieht in
 dem man auf das "+" Button klickt.
 
-#+caption: "Prototype #3: Screen 4"
+#+caption: Prototype Asım: Screen 4
 #+name: fig:lofi_asim_4
 #+attr_html: :height 400px
 file:./img/m2_lofi_asim_4.png
@@ -966,7 +966,7 @@ file:./img/m2_lofi_asim_4.png
 In Abbildung fig:lofi_asim_5 kann man durch das Berühren eines
 Möbelstückes dieses in den Raum importieren.
 
-#+caption: "Prototype #3: Screen 5"
+#+caption: Prototype Asım: Screen 5
 #+name: fig:lofi_asim_5
 #+attr_html: :height 400px
 file:./img/m2_lofi_asim_5.png
@@ -977,7 +977,7 @@ zeihen durch den Raum bewegt und an die gewünschte Position gebracht
 werden.  Sobald der Raum nach Wunsch gestaltet wurde kann man ihn mit
 dem Export Button in die Galerie abspeichern.
 
-#+caption: "Prototype #3: Screen 6"
+#+caption: Prototype Asım: Screen 6
 #+name: fig:lofi_asim_6
 #+attr_html: :height 400px
 file:./img/m2_lofi_asim_6.png
