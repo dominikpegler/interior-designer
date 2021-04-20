@@ -987,6 +987,29 @@ file:./img/m2_lofi_asim_6.png
 /Autor: Dominik Pegler/
 ...
 
+#+caption: Prototype Dominik: Screen 1
+#+name: fig:lofi_dominik_1
+#+attr_html: :height 400px
+file:./img/m2_lofi_dominik_1.png
+
+
+#+caption: Prototype Dominik: Screens 2 -- 3
+#+name: fig:lofi_dominik_23
+#+attr_html: :height 400px
+file:./img/m2_lofi_dominik_23.png
+
+
+#+caption: Prototype Dominik: Screens 4 -- 5
+#+name: fig:lofi_dominik_45
+#+attr_html: :height 400px
+file:./img/m2_lofi_dominik_45.png
+
+
+#+caption: Prototype Dominik: Screens 6 -- 7
+#+name: fig:lofi_dominik_67
+#+attr_html: :height 844px
+file:./img/m2_lofi_dominik_67.png
+
 *** Anpassung des Prototypen an Ihre Zielgruppe
 ...
 ** Evaluierung der Prototypen
