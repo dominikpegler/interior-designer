@@ -1013,7 +1013,7 @@ file:./img/m2_lofi_dominik_67.png
 ** Evaluierung der Prototypen
 *** Prototyp von Sophia
 
-**** Person A
+**** Feedback von Person A
 /Autor: Asım OĞUZ/
 
 Die erste Seite dieses Prototypen sieht zu leer aus diesem würde ein
@@ -1029,26 +1029,36 @@ die Bilder zu klein. Hier würde es helfen die Abstände zwischen den
 Bilder zu verkleinern, dadurch würde man Platz gewinnen, welches man
 für die Vergrößerung der Bilder benutzen kann.
 
-**** Person B
+**** Feedback von Person B
 /Autorin: Sophia PUM/
-**** Person C
+**** Feedback von Person C
 /Autor: Dominik Pegler/
 
-- Rechtschreibfehler
-- was bedeutet Kamera?
-- was bedeutet Fotoalbum? Warum sollte ich jetzt z.B. auf Fotoalbum klicken?
-  - wäre vielleicht gut mit einem Untertitel, Beschreibung
-- auch sehr nüchtern, wär aber besser bunter/kreativer
-- obwohl schon cool, dass es aufgeräumt ist
-- vielleicht kann mans erweitern mit Pflanzen?
-- Ist nicht ganz klar, warum ich da jetzt auf was klicken sollte.
+Die interviewte Person zeigte sich zunächst über den Satz "Start
+Desiging" am Startbildschirm irritiert, fand sich dann aber relativ
+schnell im Design zurecht.
 
+Am zweiten Bildschirm war die Bedeutung der Icons nicht ganz
+klar. Inbesondere fragte die Person nach der Bedeutung von "Kamera"
+und "Fotoalbum": "Warum sollte ich jetzt auf Fotoalbum klicken? Mir
+ist das nicht klar." Es wäre vielleicht gut, eine kurze Beschreibung
+anzufügen oder zumindest einen sprechendere Untertitel, welche
+Funktion mit diesen Buttons ausgelöst werden.
 
-- wär auch cool so eine Randomfunktion. Artikel von Geschäftspartner wird in Raum platziert.
+Zum Gesamteindruck meinte der Testuser, dass das UI insgesamt sehr
+nüchtern sei und er es für eine App dieser Art gerne etwas bunter und
+kreativer hätte. Auf der anderen Seite sei es aber auch wiederum cool,
+dass das Design so aufgeräumt wirkt.
+
+Während der Beurteilung dieses Prototypen kamen dem Testuser auch
+Ideen für Erweiterungen: So könnte man beispielsweise auch Pflanzen
+integrieren, und eine Art "Randomfunktion", bei der ein Zufallsartikel
+(der dann bei einem Webshop gekauft werden kann) automatisch im Raum
+platziert wird, für Überraschung sorgen könnte.
 
 *** Prototyp von Asım
 
-**** Person A
+**** Feedback von Person A
 /Autor: Asım OĞUZ/
 
 Das erste was an diesem Prototypen auffällt ist die Navbar mit dem
@@ -1065,22 +1075,34 @@ und Möbel sind durch die großen Bilder übersichtlich, jedoch würde
 diesen Seiten eine Kategorisierung bzw. eine Suchfunktion
 weiterhelfen.
 
-**** Person B
+**** Feedback von Person B
 /Autorin: Sophia PUM/
-**** Person C
+**** Feedback von Person C
 /Autor: Dominik Pegler/
-- Font zu wackelig, unsicher
-- Unklar, wie die Abmessungen sind
-  - wie wird das berechnet, dass es von den Proportionen her passt?
-  - wichtig --> wie viel Platz bleibt frei?
-- Unklar, was die beiden Buttons sind --> + und upload
-- Zu nüchtern, besseres Logo, etwas, das mehr einlädt, kreativ tätig zu werden.
-  - vermittelt nicht den Spaß
-- Ideen Z.B. während der Ladezeit Animation wie z.B. Vorhang auf.
+
+Der Testuser fand die Schriftart zum Schriftzug "INTERIOR DESIGNER"
+nicht so passend. Sie wirke wackelig und vermittle Unsicherheit. Dabei
+solle die App einem ja Sicherheit bei einer Entscheidungsfindung
+geben.
+
+Zum Prozess der Auswahl von Raum und Möbelstück meinte der Testuser,
+dass es nicht ganz klar ist, wie die Abmessungen zustande kommen, wie
+der Platz berechnet wird, ob die Proportionen stimmen und wie viele
+Restplatz übrig bleibt, nachdem man das Möbelstück platziert hat. Hier
+würde sich der Testuser ein paar Maßangaben wünschen.
+
+Zum letzten Screen meinte der Testuser, dass nicht klar ist, wofür die
+beiden Buttons (Das Plus-Symbol und das Upload-Symbol) stünden und
+worin sie sich unterscheiden würden.
+
+Der Gesamteindruck wurde als nüchtern bewertet. Es fehle etwas, das
+einen einlädt kreativ tätig zu werden und den Spaß am Gestalten
+vermittelt. Als konkretes Beispiel wurden dabei Animationen (Vorhang
+auf) während der Ladezeiten genannt.
 
 *** Prototyp von Dominik
 
-**** Person A
+**** Feedback von Person A
 /Autor: Asım OĞUZ/
 
 Die erste Seite dieses Prototypen sieht zu leer aus diesem würde ein
@@ -1095,22 +1117,31 @@ sehr übersichtlich und verständlich und daher passend. Auf der letzen
 Seite sind gar keine Buttons. Kann man da keine weiteren Möbel mehr
 hinzufügen? Wie exportiert man den Raum? Diese Fragen sind unklar.
 
-**** Person B
+**** Feedback von Person B
 /Autorin: Sophia PUM/
-**** Person C
+**** Feedback von Person C
 /Autor: Dominik Pegler/
 
-- "This your room"
-- schaut frisch aus (jetzt von der farbgebung her, insgesamt)
-- ist konkreter, abmessungen, einrichtungen
-- "start scanning" was ist das? ist ja ein neues projekt, oder? dann
-  würd ichs auch so benennen.
-- oben sollte starte was Neues sein und unten die alten Projekte. Das
-  fände ich intuitiver, zumindest kenne ich es nur so.
-- turn around und finished mit hakerl ist gut
-- ich weiß nicht, was das bedeutet --> X oder HAKERL bei "this your
-  room?" screen. was passiert dann wenn ich X drücke? Muss ich dann
-  selber abmessen gehen?
+Der Testuser war nicht ganz einverstanden mit der Formulierung des
+Satzes "This your room?" Er würde das anders formulieren. Außerdem sei
+nicht klar, was die Phrase "start scanning" am Startbildschirm
+bedeute. Falls das ein neues Projekt sei, sollte es auch so benannt
+werden, sagte der Tester.
+
+Des Weiteren sollte der Button für das "Neue" oben sein und der Button
+für das "Alte", also die alten Projekte, unten. Das sei intuitiver und
+kenne der Testuser aus anderen Apps.
+
+Die Rückmeldungen der App mit "turn around" und "finished" mit dem
+Häckchen fand der Test wieder gut. Nicht so klar war die Bedeutung des
+"X" und des Häkchens am Bildschirm mit dem Satz "this your room?". Der
+Tester konnte sich keine Vorstellung machen, was nun passieren würde,
+wenn er das "X" antippt. Er fragte: "Muss ich dann selber abmessen gehen?"
+  
+Der berichtete Gesamteindruck war, dass das UI frisch aussieht
+(zumindest von der Farbgebung her) und der Designvorschlag etwas
+konkreter ist, was die Raum-Abmessungen und Auswahl von
+Einrichtungsgegenständen betrifft.
 
 ** Anpassung des Prototypen an Ihre Zielgruppe
 *** Vorschläge Asim
