@@ -1179,8 +1179,14 @@ Der berichtete Gesamteindruck war, dass das UI frisch aussieht
 konkreter ist, was die Raum-Abmessungen und Auswahl von
 Einrichtungsgegenständen betrifft.
 
-** Anpassung des Prototypen
-*** Prototyp Asim 
+** Anpassung der Prototypen
+*** Prototyp von Sophia
+- Scanseite überarbeiten
+- Screen 6 für mobile Geräte anpassen (simpler)
+- Funktion implementieren, um Möbel hinzuzufügen (Button, Menü usw.)
+- Kurze Hinweistexte unter die Buttons, damit Funktion klarer
+
+*** Prototyp von Asim 
 - Mehr Beschreibung am 2. Screen
 - Möbel in Kategorien gliedern
 - Suchmöglichkeit integrieren
@@ -1189,7 +1195,7 @@ Einrichtungsgegenständen betrifft.
 - Kurze Beschreibung zu den einzelnen Möbeln und Kategorien
 - Anordnung der Bilder überbearbeiten
 - Schriftzug „INTERIOR DESIGNER“ überarbeiten (eventuell Logo)
-*** Prototyp Dominik
+*** Prototyp von Dominik
 - Während des Scanvorgangs mehr Informationen
   - Abbruch-Button farblich besser kennzeichen
   - Statusleiste besser hervorheben
@@ -1202,12 +1208,6 @@ Einrichtungsgegenständen betrifft.
   - kategorisieren
   - sortieren
   - filtern
-
-*** Prototyp Sophia
-- Scanseite überarbeiten
-- Screen 6 für mobile Geräte anpassen (simpler)
-- Funktion implementieren, um Möbel hinzuzufügen (Button, Menü usw.)
-- Kurze Hinweistexte unter die Buttons, damit Funktion klarer
 
 *** zusätzliche zielgruppenspezifische Anpassungen für alle 3 Prototypen
 
