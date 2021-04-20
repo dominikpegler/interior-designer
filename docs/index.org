@@ -46,10 +46,10 @@ https://www.gloomaps.com/xyXGmKY3je
 **** DONE 3 Prototypen                               :Dominik:Asim:Sophia:
 CLOSED: [2021-04-19 Mon 20:08] DEADLINE: <2021-04-19 Mon 12:00>
 
-**** TODO Anpassung des Prototypen an Ihre Zielgruppe: :Dominik:Asim:Sophia:
-DEADLINE: <2021-04-19 Mon 18:00>
-**** TODO Evaluierung der Prototypen (3 Interviews)  :Dominik:Asim:Sophia:
-DEADLINE: <2021-04-20 Tue 20:00>
+**** DONE Anpassung des Prototypen an Ihre Zielgruppe: :Dominik:Asim:Sophia:
+CLOSED: [2021-04-20 Tue 20:06] DEADLINE: <2021-04-19 Mon 18:00>
+**** DONE Evaluierung der Prototypen (3 Interviews)  :Dominik:Asim:Sophia:
+CLOSED: [2021-04-20 Tue 20:06] DEADLINE: <2021-04-20 Tue 20:00>
 *** TODO A2: Erstellung Test-App                                   :Einzel:
 DEADLINE: <2021-05-06 Thu>
 **** TODO API Key für https://www.theaudiodb.com/api_apply.php anfordern (EUR 3 p. Monat)
@@ -1052,7 +1052,7 @@ file:./img/m2_lofi_dominik_67.png
 ** Evaluierung der Prototypen
 *** Prototyp von Sophia
 
-**** Feedback von Person A (/Autor: Asım OĞUZ/)
+**** *Feedback von Person A* (/Autor: Asım OĞUZ/)
 
 Die erste Seite dieses Prototypen sieht zu leer aus diesem würde ein
 Hintergrundbild weiterhelfen. Der zweite Screen ist simpel und
@@ -1067,9 +1067,9 @@ die Bilder zu klein. Hier würde es helfen die Abstände zwischen den
 Bilder zu verkleinern, dadurch würde man Platz gewinnen, welches man
 für die Vergrößerung der Bilder benutzen kann.
 
-**** Feedback von Person B (/Autorin: Sophia PUM/)
+**** *Feedback von Person B* (/Autorin: Sophia PUM/)
 Dieser Prototyp ist auch sehr minimal gestaltet und obwohl ein klare Design gut passt könnten, vor allem die ersten beiden Home-Screens, etwas lebhafter gemacht werden, z.B. durch Bilder oder Farben. Das Menü beim „Raum Designen“ wird durch die vier Felder gut dargestellt. Durch die Wörter und Icons ist klar welche Funktion dahinter steckt. Allerdings ist es nicht ganz nachvollziehbar was genau jetzt passiert wenn man z.B. auf „Kamera“ drückt. Beim Raum bearbeiten ist das Icon um Möbel einzufügen nicht sehr optimal, bzw. fehlt dafür eine Beschreibung. Der Katalog ist schön und sehr übersichtlich gelöst.  Eventuell sind es zu viele Fotos auf einmal, was sich vielleicht dem sonstigen minimalistischen Design widerspricht.
-**** Feedback von Person C (/Autor: Dominik Pegler/)
+**** *Feedback von Person C* (/Autor: Dominik Pegler/)
 
 Die interviewte Person zeigte sich zunächst über den Satz "Start
 Desiging" am Startbildschirm irritiert, fand sich dann aber relativ
@@ -1095,7 +1095,7 @@ platziert wird, für Überraschung sorgen könnte.
 
 *** Prototyp von Asım
 
-**** Feedback von Person A (/Autor: Asım OĞUZ/)
+**** *Feedback von Person A* (/Autor: Asım OĞUZ/)
 
 Das erste was an diesem Prototypen auffällt ist die Navbar mit dem
 Namen “Interior Designer”, diese ist auf allen Seiten der App zu
@@ -1111,10 +1111,10 @@ und Möbel sind durch die großen Bilder übersichtlich, jedoch würde
 diesen Seiten eine Kategorisierung bzw. eine Suchfunktion
 weiterhelfen.
 
-**** Feedback von Person B (/Autorin: Sophia PUM/)
+**** *Feedback von Person B* (/Autorin: Sophia PUM/)
 
 Oberfläche ist einfach und minimal gestaltet. Obwohl es wenig Text gibt, ist in jedem Screen im Großen und Ganzen klar welche Funktionen es gibt, denn das Design simpel ist, den Gewohnheiten der NutzerInnen und Nutzer entspricht und keine verspielten Details beinhaltet.  Die Startseite und der zweite Screen könnten durch Fotos oder ähnliches etwas ansprechender gestaltet werden. Das Icon für „Select a Room“ stellt die Funktion auch nicht ganz optimal dar. Auch wenn man dann den Raum einrichtet, wären ein paar kurze Stichworte zur Beschreibung sinnvoll. Der Schriftzug „INTERIOR DESIGNER“ der auf jedem Screen abgebildet ist, sollte vielleicht überarbeitet werden, er wirkt etwas dominant und es wäre besser in z.B. durch ein Icon/Logo zu ersetzen.
-**** Feedback von Person C (/Autor: Dominik Pegler/)
+**** *Feedback von Person C* (/Autor: Dominik Pegler/)
 
 Der Testuser fand die Schriftart zum Schriftzug "INTERIOR DESIGNER"
 nicht so passend. Sie wirke wackelig und vermittle Unsicherheit. Dabei
@@ -1138,7 +1138,7 @@ auf) während der Ladezeiten genannt.
 
 *** Prototyp von Dominik
 
-**** Feedback von Person A (/Autor: Asım OĞUZ/)
+**** *Feedback von Person A* (/Autor: Asım OĞUZ/)
 
 Die erste Seite dieses Prototypen sieht zu leer aus diesem würde ein
 Hintergrundbild weiterhelfen. In der Seite, die zum Scannen des Raumes
@@ -1152,10 +1152,10 @@ sehr übersichtlich und verständlich und daher passend. Auf der letzen
 Seite sind gar keine Buttons. Kann man da keine weiteren Möbel mehr
 hinzufügen? Wie exportiert man den Raum? Diese Fragen sind unklar.
 
-**** Feedback von Person B (/Autorin: Sophia PUM/)
+**** *Feedback von Person B* (/Autorin: Sophia PUM/)
 Auch hier ist die Nutzeroberfläche sehr übersichtlich und klar gestaltet. Gut an diesem Entwurf ist, dass es trotz dem minimalen Stil kurze Beschreibungen gibt, die die Bedienung für die Nutzerinnen und Nutzer einfacher machen. Die Texte sind kurz und knapp, das ist angenehm für den Benutzer, denn man kann sie schnell lesen und sie beinhalten nichts Überflüssiges. Der Screen „Choose Object“ ist mit dem Drop-Down-Menü auch sehr einfach zu bedienen, denn diese Art von Menü ist jedem Internet-Nutzer bekannt. Hier wäre vielleicht eine Möglichkeit die Möbel zu sortieren oder zu filtern sinnvoll.
 
-**** Feedback von Person C (/Autor: Dominik Pegler/)
+**** *Feedback von Person C* (/Autor: Dominik Pegler/)
 
 Der Testuser war nicht ganz einverstanden mit der Formulierung des
 Satzes "This your room?" Er würde das anders formulieren. Außerdem sei
@@ -1180,6 +1180,7 @@ konkreter ist, was die Raum-Abmessungen und Auswahl von
 Einrichtungsgegenständen betrifft.
 
 ** Anpassung der Prototypen
+/Autor*innen: Dominik PEGLER, Sophia PUM, Asım OĞUZ/
 *** Prototyp von Sophia
 - Scanseite überarbeiten
 - Screen 6 für mobile Geräte anpassen (simpler)
