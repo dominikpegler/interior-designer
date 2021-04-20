@@ -1179,35 +1179,42 @@ Der berichtete Gesamteindruck war, dass das UI frisch aussieht
 konkreter ist, was die Raum-Abmessungen und Auswahl von
 Einrichtungsgegenständen betrifft.
 
-** Anpassung des Prototypen an Ihre Zielgruppe
-*** Vorschläge Asim
-**** Prototyp Asim 
-2.seite mehr Beschreibung 
-Kategorisierung und Suche bei Möbeln und Räumen 
-Navbar verändern
+** Anpassung des Prototypen
+*** Prototyp Asim 
+- Mehr Beschreibung am 2. Screen
+- Möbel in Kategorien gliedern
+- Suchmöglichkeit integrieren
+- Navigationsleiste sollte je nach Screen unterschiedlich
+- Infoliste für jeden Screen, um sichtbar zu machen, wo man sich gerade befindet
+- Kurze Beschreibung zu den einzelnen Möbeln und Kategorien
+- Anordnung der Bilder überbearbeiten
+- Schriftzug „INTERIOR DESIGNER“ überarbeiten (eventuell Logo)
+*** Prototyp Dominik
+- Während des Scanvorgangs mehr Informationen
+  - Abbruch-Button farblich besser kennzeichen
+  - Statusleiste besser hervorheben
+- Button implementieren für zusätzliche Möbel in bereits gestaltetem Raum
+- Button implementieren für Export des fertigen Raumes
+- Startscreen ansprechender gestalten
+  - Hintergurndbild
+  - Anordnung der Buttons umkehren
+- Funktion hinzufügen um gespeicherte Möbel zu
+  - kategorisieren
+  - sortieren
+  - filtern
 
-**** Prototyp Dominik
-Fürs scannen mehr Beschreibung 
-Letzte Seite button für mehr Möbel 
-Letzte Seite button für Export
+*** Prototyp Sophia
+- Scanseite überarbeiten
+- Screen 6 für mobile Geräte anpassen (simpler)
+- Funktion implementieren, um Möbel hinzuzufügen (Button, Menü usw.)
+- Kurze Hinweistexte unter die Buttons, damit Funktion klarer
 
-**** Prototyp Sophia
-Scan Seite überarbeiten
-Letzte Seite an mobile anpassen 
-Möbel hinzufügen klarer machen
-*** Vorschläge von Sophia
-**** Sophia:
-minimales Design beibehalten aber mehr Bilder und kurze
-Beschreibungen, damit klar ist welche Funktionen die Button haben
-**** Asim:
-Anordnung von Bildern bearbeiten, auch mehr Text hinzufügen,
-z. B. Überschriften für die jeweiligen Screens wie „Raum auswählen“,
-Schriftzug „INTERIOR DESIGNER“ überarbeiten
-**** Dominik:
-Startscreen gestalterisch mehr Ausbauen, z.B. mit Hintergurndbild,
-Funktion hinzufügen um gespeicherte Möbel zu kategorisieren, sortieren
-oder filtern
+*** zusätzliche zielgruppenspezifische Anpassungen für alle 3 Prototypen
 
+- Farbenfroheres Design implementieren
+- Hintergrundbilder und Wallpapers implementieren
+- Default-Schriftarten festlegen
+- Farbpalette festlegen
 
 * Aufgabe A2: Erstellung Test-App
 Die App soll drei Komponenten haben:
