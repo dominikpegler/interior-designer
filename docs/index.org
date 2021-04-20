@@ -1007,7 +1007,7 @@ Gehen wir davon aus, dass ein User oder eine Userin den Button mit der
 Kamera angetippt hat, so finden wir uns in Abb. [[fig:lofi_dominik_23]]
 wieder -- im Scanprozess. Um die App mit möglichst großer Menge an
 Daten zu versorgen, werden die User gebeten, sich im Raum
-herumzudrehen. Die App vor, welche Bereiche im Raum noch mehr
+herumzudrehen. Die App gibt vor, welche Bereiche im Raum noch mehr
 Scandurchgänge benötigen, um ein präzise Berechnung der Raummaße
 möglich zu machen. Eine Statusleiste zeigt den Fortschritt im
 Scanprozess an. Die User können den Scanprozess jederzeit mit
