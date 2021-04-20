@@ -833,8 +833,21 @@ später. Die folgenden Aspekte möchten wir als für uns wichtig festhalten.
    Gefühl haben, durch die App "hindurchzublicken". Es soll ein
    Werkzeug sein und nicht die ganze Aufmerksamkeit der User
    erfordern.
-2) Für das Design haben wir drei unterschiedliche Motivationen
-   ...
+2) Für das Design haben wir drei unterschiedliche Motivationen. Die
+   Hauptfunktion aller Prototypen ist das einscannen, umgestalten und
+   einrichten von Räumen. In allen Entwürfen ist diese Funktion mit
+   nur wenigen Klicks einfach zuerreichen. Aussagekräftige Icons
+   und Bilder sowie wenig Text und eine reduzierte Anzahl von Screens. 
+   Generell sind alle Prototypen klar und minimalisitsch designt, um 
+   eine übersichtliche und simple Struktur zu bewahren. Bei der
+   Gestaltung der Nutzeroberfläche haben wir uns unter anderem von 
+   ähnlichen Apps inspirieren lassen. Weiters gibt es bei jedem 
+   Prototyp verschiedene Lösungen wie man gespeicherte Möbel 
+   durchschauen kann. Bei Prototyp 1 wurde das mit einem zusätzlichen
+   Menüpunkt, wo man Möbel scannen, speichern und durchsuchen kann. Bei
+   Prototyp 2 gibt es einen zweiten Punkt wo man gespeicherte Räume
+   ansehen und bearbeiten kann. Bei Prototyp 3 findet man die 
+   Gestaltungsobjekte beim Raum designen selbst. 
 3) Die Funktion des Scannens eigener Gegenstände möchten weiterhin im
    Projekt behalten, da es für uns ein essenzieller Bestandteil des
    Konzepts ist und unserer Meinung nach ein wichtiges Argument für
