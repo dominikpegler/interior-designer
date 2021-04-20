@@ -1187,7 +1187,7 @@ Einrichtungsgegenständen betrifft.
 - Funktion implementieren, um Möbel hinzuzufügen (Button, Menü usw.)
 - Kurze Hinweistexte unter die Buttons, damit Funktion klarer
 
-*** Prototyp von Asim 
+*** Prototyp von Asım 
 - Mehr Beschreibung am 2. Screen
 - Möbel in Kategorien gliedern
 - Suchmöglichkeit integrieren
