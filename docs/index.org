@@ -931,13 +931,15 @@ einen Raum zum Gestalten auswählen.
 #+attr_html: :height 400px
 file:./img/m2_lofi_asim_1.png
 
-Auf Abbildung [[fig:lofi_asim_2]] gibt es zwei Möglichkeiten einen Raum auszuwählen.
-1) Raum fotografieren
-Bei diesem Schritt wird die Kamera geöffnet und
-der User kann den gewünschten Raum
-fotografieren und das Bild importieren.
+Auf Abbildung [[fig:lofi_asim_2]] gibt es zwei Möglichkeiten einen Raum auszuwählen:
 
-2) Einen Raum aus den Vorhandenen Designs auswählen
+1. Raum fotografieren
+
+   Bei diesem Schritt wird die Kamera geöffnet und
+   der User kann den gewünschten Raum
+   fotografieren und das Bild importieren.
+
+2. Einen Raum aus den Vorhandenen Designs auswählen
 
 #+caption: Prototype Asım: Screen 2
 #+name: fig:lofi_asim_2
