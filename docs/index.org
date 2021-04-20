@@ -1013,8 +1013,7 @@ file:./img/m2_lofi_dominik_67.png
 ** Evaluierung der Prototypen
 *** Prototyp von Sophia
 
-**** Feedback von Person A
-/Autor: Asım OĞUZ/
+**** Feedback von Person A (/Autor: Asım OĞUZ/)
 
 Die erste Seite dieses Prototypen sieht zu leer aus diesem würde ein
 Hintergrundbild weiterhelfen. Der zweite Screen ist simpel und
@@ -1029,10 +1028,9 @@ die Bilder zu klein. Hier würde es helfen die Abstände zwischen den
 Bilder zu verkleinern, dadurch würde man Platz gewinnen, welches man
 für die Vergrößerung der Bilder benutzen kann.
 
-**** Feedback von Person B
-/Autorin: Sophia PUM/
-**** Feedback von Person C
-/Autor: Dominik Pegler/
+**** Feedback von Person B (/Autorin: Sophia PUM/)
+...
+**** Feedback von Person C (/Autor: Dominik Pegler/)
 
 Die interviewte Person zeigte sich zunächst über den Satz "Start
 Desiging" am Startbildschirm irritiert, fand sich dann aber relativ
@@ -1058,8 +1056,7 @@ platziert wird, für Überraschung sorgen könnte.
 
 *** Prototyp von Asım
 
-**** Feedback von Person A
-/Autor: Asım OĞUZ/
+**** Feedback von Person A (/Autor: Asım OĞUZ/)
 
 Das erste was an diesem Prototypen auffällt ist die Navbar mit dem
 Namen “Interior Designer”, diese ist auf allen Seiten der App zu
@@ -1075,10 +1072,9 @@ und Möbel sind durch die großen Bilder übersichtlich, jedoch würde
 diesen Seiten eine Kategorisierung bzw. eine Suchfunktion
 weiterhelfen.
 
-**** Feedback von Person B
-/Autorin: Sophia PUM/
-**** Feedback von Person C
-/Autor: Dominik Pegler/
+**** Feedback von Person B (/Autorin: Sophia PUM/)
+...
+**** Feedback von Person C (/Autor: Dominik Pegler/)
 
 Der Testuser fand die Schriftart zum Schriftzug "INTERIOR DESIGNER"
 nicht so passend. Sie wirke wackelig und vermittle Unsicherheit. Dabei
@@ -1102,8 +1098,7 @@ auf) während der Ladezeiten genannt.
 
 *** Prototyp von Dominik
 
-**** Feedback von Person A
-/Autor: Asım OĞUZ/
+**** Feedback von Person A (/Autor: Asım OĞUZ/)
 
 Die erste Seite dieses Prototypen sieht zu leer aus diesem würde ein
 Hintergrundbild weiterhelfen. In der Seite, die zum Scannen des Raumes
@@ -1117,10 +1112,9 @@ sehr übersichtlich und verständlich und daher passend. Auf der letzen
 Seite sind gar keine Buttons. Kann man da keine weiteren Möbel mehr
 hinzufügen? Wie exportiert man den Raum? Diese Fragen sind unklar.
 
-**** Feedback von Person B
-/Autorin: Sophia PUM/
-**** Feedback von Person C
-/Autor: Dominik Pegler/
+**** Feedback von Person B (/Autorin: Sophia PUM/)
+...
+**** Feedback von Person C (/Autor: Dominik Pegler/)
 
 Der Testuser war nicht ganz einverstanden mit der Formulierung des
 Satzes "This your room?" Er würde das anders formulieren. Außerdem sei
