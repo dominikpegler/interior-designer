@@ -1082,14 +1082,14 @@ solle die App einem ja Sicherheit bei einer Entscheidungsfindung
 geben.
 
 Zum Prozess der Auswahl von Raum und Möbelstück meinte der Testuser,
-dass es nicht ganz klar ist, wie die Abmessungen zustande kommen, wie
-der Platz berechnet wird, ob die Proportionen stimmen und wie viele
-Restplatz übrig bleibt, nachdem man das Möbelstück platziert hat. Hier
-würde sich der Testuser ein paar Maßangaben wünschen.
+dass es nicht ganz klar sei, wie die Abmessungen zustande kämen, wie
+der Platz berechnet werde, ob die Proportionen stimmen würden und wie
+viele Restplatz übrig bliebe, nachdem man das Möbelstück platziert
+hat. Hier würde sich der Testuser ein paar Maßangaben wünschen.
 
-Zum letzten Screen meinte der Testuser, dass nicht klar ist, wofür die
-beiden Buttons (Das Plus-Symbol und das Upload-Symbol) stünden und
-worin sie sich unterscheiden würden.
+Zum letzten Screen meinte der Testuser, dass nicht klar sei, wofür die
+beiden Buttons (Das Plus-Symbol und das Upload-Symbol) stehen und
+worin sie sich unterscheiden.
 
 Der Gesamteindruck wurde als nüchtern bewertet. Es fehle etwas, das
 einen einlädt kreativ tätig zu werden und den Spaß am Gestalten
