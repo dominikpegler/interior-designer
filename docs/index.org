@@ -818,9 +818,9 @@ gesetzt. Wir wollten erstmal nur sehen, welche Aspekte in uns mehr
 Wunsch nach Detailreichtum auslösten.
 
 Die weitere Strukturierung der Mindmap erfolgte zwei Tage
-später. Die folgenden Aspekte möchten wir als für uns wichtig festhalten.
+später. Die folgenden drei Aspekte möchten wir als für uns wichtig festhalten.
 
-1) Es handelt sich um eine mobile App. Das bedeutet, dass wir den
+1) Es handelt sich um eine *mobile App*. Das bedeutet, dass wir den
    Fokus besonders auf Simplizität der Bedienoberfläche und möglichst
    verzögerungsfreie Rückmeldungen der Applikation an den User legen
    werden. Mit Simplizität meinen wir konkret eine minimale Anzahl an
@@ -834,26 +834,27 @@ später. Die folgenden Aspekte möchten wir als für uns wichtig festhalten.
    Werkzeug sein und nicht die ganze Aufmerksamkeit der User
    erfordern.
 2) Für das Design haben wir unterschiedliche Motivationen. Die
-   Hauptfunktion aller Prototypen ist das Einscannen, Umgestalten und
-   Einrichten von Räumen. In allen Entwürfen ist diese Funktion mit
-   nur wenigen Klicks einfach zu erreichen. Aussagekräftige Icons und
-   Bilder sowie wenig Text und eine reduzierte Anzahl von Screens.
-   Generell wollen wir alle Prototypen klar und minimalisitsch
-   designen, um eine übersichtliche und simple Struktur zu
-   bewahren. Bei der Gestaltung der Nutzeroberfläche haben wir uns
-   unter anderem von ähnlichen Apps inspirieren lassen. Weiters soll
-   es bei jedem Prototyp verschiedene Lösungen geben, wie man
-   gespeicherte Möbel durchschauen kann. Eine Möglichkeit würde das
-   über einen zusätzlichen Menüpunkt lösen, bei dem man Möbel scannen,
-   speichern und durchsuchen kann. In einer weiteren Möglichkeit
-   könnte es einen zweiten Punkt geben, in dem man gespeicherte Räume
-   ansehen und bearbeiten kann. Eine dritte Möglichkeit wäre es noch,
-   die Gestaltungsobjekte beim Raum selbst designen zu können. All das
-   möchten wir in Prototypen-Gestaltung versuchen miteinzubeziehen.
+   *Hauptfunktionen* aller Prototypen sollen das Einscannen,
+   Umgestalten und Einrichten von Räumen sein. In allen Entwürfen
+   möchten wir es ermöglichen, diese Funktion mit nur wenigen Klicks
+   einfach zu erreichen. Aussagekräftige Icons und Bilder sowie wenig
+   Text und eine reduzierte Anzahl von ScreensGenerell wollen wir
+   alle Prototypen klar und minimalisitsch designen, um eine
+   übersichtliche und simple Struktur zu bewahren. Bei der Gestaltung
+   der Nutzeroberfläche haben wir uns unter anderem von ähnlichen Apps
+   inspirieren lassen. Weiters soll es bei jedem Prototyp verschiedene
+   Lösungen geben, wie man gespeicherte Möbel durchschauen kann. Eine
+   Möglichkeit würde das über einen zusätzlichen Menüpunkt lösen, bei
+   dem man Möbel scannen, speichern und durchsuchen kann. In einer
+   weiteren Möglichkeit könnte es einen zweiten Punkt geben, in dem
+   man gespeicherte Räume ansehen und bearbeiten kann. Eine dritte
+   Möglichkeit wäre es noch, die Gestaltungsobjekte beim Raum selbst
+   designen zu können. All das möchten wir in Prototypen-Gestaltung
+   versuchen miteinzubeziehen.
 3) Die Funktion des Scannens eigener Gegenstände möchten weiterhin im
    Projekt behalten, da es für uns ein essenzieller Bestandteil des
-   Konzepts ist und unserer Meinung nach ein wichtiges Argument für
-   die Verwendung der App darstellt. Andere Anbieter erlauben es nur,
+   Konzepts ist und unserer Meinung nach ein *wichtiges Argument für
+   die Verwendung der App* darstellt. Andere Anbieter erlauben es nur,
    Gegenstände aus entweder dem eigenen Produktkatalog oder zumindest
    aus einer limitierten Anzahl an Marken und Beispielmöbeln zum
    Gestalten der Räume zu verwenden. Wir sehen diese Funktion nicht
