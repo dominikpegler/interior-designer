@@ -1029,7 +1029,7 @@ Bilder zu verkleinern, dadurch würde man Platz gewinnen, welches man
 für die Vergrößerung der Bilder benutzen kann.
 
 **** Feedback von Person B (/Autorin: Sophia PUM/)
-...
+Dieser Prototyp ist auch sehr minimal gestaltet und obwohl ein klare Design gut passt könnten, vor allem die ersten beiden Home-Screens, etwas lebhafter gemacht werden, z.B. durch Bilder oder Farben. Das Menü beim „Raum Designen“ wird durch die vier Felder gut dargestellt. Durch die Wörter und Icons ist klar welche Funktion dahinter steckt. Allerdings ist es nicht ganz nachvollziehbar was genau jetzt passiert wenn man z.B. auf „Kamera“ drückt. Beim Raum bearbeiten ist das Icon um Möbel einzufügen nicht sehr optimal, bzw. fehlt dafür eine Beschreibung. Der Katalog ist schön und sehr übersichtlich gelöst.  Eventuell sind es zu viele Fotos auf einmal, was sich vielleicht dem sonstigen minimalistischen Design widerspricht.
 **** Feedback von Person C (/Autor: Dominik Pegler/)
 
 Die interviewte Person zeigte sich zunächst über den Satz "Start
@@ -1073,7 +1073,8 @@ diesen Seiten eine Kategorisierung bzw. eine Suchfunktion
 weiterhelfen.
 
 **** Feedback von Person B (/Autorin: Sophia PUM/)
-...
+
+Oberfläche ist einfach und minimal gestaltet. Obwohl es wenig Text gibt, ist in jedem Screen im Großen und Ganzen klar welche Funktionen es gibt, denn das Design simpel ist, den Gewohnheiten der NutzerInnen und Nutzer entspricht und keine verspielten Details beinhaltet.  Die Startseite und der zweite Screen könnten durch Fotos oder ähnliches etwas ansprechender gestaltet werden. Das Icon für „Select a Room“ stellt die Funktion auch nicht ganz optimal dar. Auch wenn man dann den Raum einrichtet, wären ein paar kurze Stichworte zur Beschreibung sinnvoll. Der Schriftzug „INTERIOR DESIGNER“ der auf jedem Screen abgebildet ist, sollte vielleicht überarbeitet werden, er wirkt etwas dominant und es wäre besser in z.B. durch ein Icon/Logo zu ersetzen.
 **** Feedback von Person C (/Autor: Dominik Pegler/)
 
 Der Testuser fand die Schriftart zum Schriftzug "INTERIOR DESIGNER"
@@ -1113,7 +1114,8 @@ Seite sind gar keine Buttons. Kann man da keine weiteren Möbel mehr
 hinzufügen? Wie exportiert man den Raum? Diese Fragen sind unklar.
 
 **** Feedback von Person B (/Autorin: Sophia PUM/)
-...
+Auch hier ist die Nutzeroberfläche sehr übersichtlich und klar gestaltet. Gut an diesem Entwurf ist, dass es trotz dem minimalen Stil kurze Beschreibungen gibt, die die Bedienung für die Nutzerinnen und Nutzer einfacher machen. Die Texte sind kurz und knapp, das ist angenehm für den Benutzer, denn man kann sie schnell lesen und sie beinhalten nichts Überflüssiges. Der Screen „Choose Object“ ist mit dem Drop-Down-Menü auch sehr einfach zu bedienen, denn diese Art von Menü ist jedem Internet-Nutzer bekannt. Hier wäre vielleicht eine Möglichkeit die Möbel zu sortieren oder zu filtern sinnvoll.
+
 **** Feedback von Person C (/Autor: Dominik Pegler/)
 
 Der Testuser war nicht ganz einverstanden mit der Formulierung des
