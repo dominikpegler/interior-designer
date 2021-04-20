@@ -1195,6 +1195,19 @@ Letzte Seite button für Export
 Scan Seite überarbeiten
 Letzte Seite an mobile anpassen 
 Möbel hinzufügen klarer machen
+*** Vorschläge von Sophia
+**** Sophia:
+minimales Design beibehalten aber mehr Bilder und kurze
+Beschreibungen, damit klar ist welche Funktionen die Button haben
+**** Asim:
+Anordnung von Bildern bearbeiten, auch mehr Text hinzufügen,
+z. B. Überschriften für die jeweiligen Screens wie „Raum auswählen“,
+Schriftzug „INTERIOR DESIGNER“ überarbeiten
+**** Dominik:
+Startscreen gestalterisch mehr Ausbauen, z.B. mit Hintergurndbild,
+Funktion hinzufügen um gespeicherte Möbel zu kategorisieren, sortieren
+oder filtern
+
 
 * Aufgabe A2: Erstellung Test-App
 Die App soll drei Komponenten haben:
