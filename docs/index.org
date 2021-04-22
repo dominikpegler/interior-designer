@@ -48,10 +48,16 @@ SCHEDULED: <2021-04-14 Wed>
 *** TODO M3: Erstellung der App 
 DEADLINE: <2021-05-18 Tue>
 **** TODO Konzept
+DEADLINE: <2021-04-29 Thu 12:00>
+
+Vorbild-App finden und Design adaptieren.
+
 **** TODO App programmieren
+SCHEDULED: <2021-05-16 Sun 20:00>
 **** TODO Design-Entscheidungen
-**** WAIT Präsentation                               :Dominik:Asim:Sophia:
-SCHEDULED: <2021-05-20 Thu 13:15>
+DEADLINE: <2021-05-06 Thu 12:00>
+**** TODO Präsentation erstellen                     :Dominik:Asim:Sophia:
+DEADLINE: <2021-05-20 Thu 13:15>
 
 *** WAIT M4: Usability Evaluierung, Weiterentwicklung, und Abschlussbericht 
 DEADLINE: <2021-06-08 Tue>
@@ -1265,8 +1271,9 @@ Für formelle Dinge wie schlecht lesbaren oder strukturierten Code (sinnvolle Kl
 
       2. README-Datei in dieser Struktur: http://vda.univie.ac.at/Teaching/HCI/21s/materials/README_M3.md
 
+** Präsentation M3
 
-
+[[file:./m3_praes.pdf][PDF]]
 * Notizen
 #+TOC: headlines 1 local
 - automatische Gestaltung (Algorithmus) vs. manuelle Gestaltung
