@@ -1,4 +1,4 @@
-#+TITLE: HCI: Projekt Interior Designer
+#+TITLE: HCI 2021 SS
 
 Lehrveranstaltung: http://vda.univie.ac.at/Teaching/HCI/21s
 - Gruppe: 1
