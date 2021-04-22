@@ -47,7 +47,7 @@ SCHEDULED: <2021-04-14 Wed>
 
 *** TODO M3: Erstellung der App 
 DEADLINE: <2021-05-18 Tue>
-**** TODO Konzept
+**** TODO Konzept                                                :Dominik:
 DEADLINE: <2021-04-29 Thu 12:00>
 
 1. Funktionen des Prototypen definieren
@@ -55,7 +55,7 @@ DEADLINE: <2021-04-29 Thu 12:00>
 
 **** TODO App programmieren
 SCHEDULED: <2021-05-16 Sun 20:00>
-**** TODO Design-Entscheidungen
+**** TODO Design-Entscheidungen                                  :Dominik:
 DEADLINE: <2021-05-06 Thu 12:00>
 **** TODO Präsentation erstellen                     :Dominik:Asim:Sophia:
 DEADLINE: <2021-05-20 Thu 13:15>
