@@ -1207,6 +1207,25 @@ Einrichtungsgegenständen betrifft.
 - Hintergrundbilder und Wallpapers implementieren
 - Default-Schriftarten festlegen
 - Farbpalette festlegen
+* Aufgabe A2: Erstellung Test-App
+Die App soll drei Komponenten haben:
+
+    1. Startseite, auf der Sie Nutzer*Innen ermöglichen, in einem
+       Suchfeld den Namen des Musikers / der Band einzugeben. Die
+       Startseite soll auch Ihren Namen und Ihre Matrikelnummer
+       beinhalten.
+    2. Abfrage des Musikers und alle zugehörigen Alben über die API
+       von TheAudioDB [1].
+    3. Anzeigebildschirm mit den Metadaten (Titel, Bild, Year, Genre
+       und Description) der Alben mit einem sinnvollen Layout. Dabei
+       soll der/die Nutzer*In den Musiker auch einfach für später
+       speichern können und diese Liste sollte auf der Startseite
+       zugänglich sein. (Diese “Favorite-Artists”-Liste muss für A2
+       nicht über das Schließen der App hinaus gespeichert werden.)
+
+Für Zugriff auf TheAudioDB ist ein kostenpflichtiger API key nötig (EUR 3/Monat)   
+https://www.theaudiodb.com/api_apply.php
+
 * Meilenstein M3
 ** Konzept
 Leiten Sie aus der Ideensammlung und den low-fidelity Prototypen ein
@@ -1247,25 +1266,6 @@ Für formelle Dinge wie schlecht lesbaren oder strukturierten Code (sinnvolle Kl
       2. README-Datei in dieser Struktur: http://vda.univie.ac.at/Teaching/HCI/21s/materials/README_M3.md
 
 
-
-* Aufgabe A2: Erstellung Test-App
-Die App soll drei Komponenten haben:
-
-    1. Startseite, auf der Sie Nutzer*Innen ermöglichen, in einem
-       Suchfeld den Namen des Musikers / der Band einzugeben. Die
-       Startseite soll auch Ihren Namen und Ihre Matrikelnummer
-       beinhalten.
-    2. Abfrage des Musikers und alle zugehörigen Alben über die API
-       von TheAudioDB [1].
-    3. Anzeigebildschirm mit den Metadaten (Titel, Bild, Year, Genre
-       und Description) der Alben mit einem sinnvollen Layout. Dabei
-       soll der/die Nutzer*In den Musiker auch einfach für später
-       speichern können und diese Liste sollte auf der Startseite
-       zugänglich sein. (Diese “Favorite-Artists”-Liste muss für A2
-       nicht über das Schließen der App hinaus gespeichert werden.)
-
-Für Zugriff auf TheAudioDB ist ein kostenpflichtiger API key nötig (EUR 3/Monat)   
-https://www.theaudiodb.com/api_apply.php
 
 * Notizen
 #+TOC: headlines 1 local
