@@ -50,7 +50,8 @@ DEADLINE: <2021-05-18 Tue>
 **** TODO Konzept
 DEADLINE: <2021-04-29 Thu 12:00>
 
-Vorbild-App finden und Design adaptieren.
+1. Funktionen des Prototypen definieren
+2. Vorbild-App finden und Design an Funktionen anpassen
 
 **** TODO App programmieren
 SCHEDULED: <2021-05-16 Sun 20:00>
