@@ -36,7 +36,7 @@ CLOSED: [2021-03-22 Mon 18:04] SCHEDULED: <2021-03-21 Sun>
 CLOSED: [2021-03-23 Tue 09:46] SCHEDULED: <2021-03-22 Mon>
 *** DONE M1: Präsentation                    :Dominik:Sophia:Asim:noexport:
 CLOSED: [2021-04-15 Thu 14:10] SCHEDULED: <2021-04-15 Thu 13:40>
-*** DONE M2: Low-fidelity Prototypen 
+*** DONE M2: Low-fidelity Prototypen                             :noexport:
 CLOSED: [2021-04-20 Tue 20:16] DEADLINE: <2021-04-20 Tue>
 *** TODO A2: Erstellung Test-App                                   :Einzel:
 DEADLINE: <2021-05-06 Thu>
@@ -47,6 +47,9 @@ SCHEDULED: <2021-04-14 Wed>
 
 *** TODO M3: Erstellung der App 
 DEADLINE: <2021-05-18 Tue>
+**** TODO Konzept
+**** TODO App programmieren
+**** TODO Design-Entscheidungen
 **** WAIT Präsentation                               :Dominik:Asim:Sophia:
 SCHEDULED: <2021-05-20 Thu 13:15>
 
@@ -1204,6 +1207,46 @@ Einrichtungsgegenständen betrifft.
 - Hintergrundbilder und Wallpapers implementieren
 - Default-Schriftarten festlegen
 - Farbpalette festlegen
+* Meilenstein M3
+** Konzept
+Leiten Sie aus der Ideensammlung und den low-fidelity Prototypen ein
+stimmiges Konzept für Ihre App ab.
+** App-Programmierung
+ Implementieren Sie die App mit dem von Ihnen geplanten Spektrum an
+ Aufgaben und Funktionen (high-fidelity Prototyp).
+
+ Stellen Sie sicher dass Ihr Interface die Komplexität des
+ zugrundeliegenden Problems realistisch widerspiegelt.
+
+Anmerkung: technische Details des Backends dürfen prototypisch realisiert werden (high-fidelity Prototyp der App).
+        
+WICHTIG: Es soll sich hierbei um einen fertigen Prototypen bzw. eine fertige App handeln.
+
+M4 ist nicht dazu da "noch zu implementieren was Sie in M3 nicht geschafft haben".
+
+Ein unvollständiger Prototyp führt zu Punktabzug. Anmerkung: Ein nicht lauffähiger Prototyp gibt bis zu 75% Abzug der Gesamtpunkte.
+
+Für formelle Dinge wie schlecht lesbaren oder strukturierten Code (sinnvolle Klassen- und Methodennamen, Code ist kommentiert, Einrückungen etc.) gibt es bis zu 10% Abzug der Gesamtpunkte.
+** Designentscheidungen
+ Begründen Sie Designentscheidungen und nehmen Sie insbesondere Bezug auf die Aufgaben- und Nutzeranalyse aus M1!
+** Abgabe
+   zip / .tar.gz File mit
+      1. 3 Ordnern
+      
+         1. Dokumente
+
+            1. Screenshots und Beschreibung des Prototyp hinsichtlich
+               Funktionen, Inhalte und Interaktionen (pdf, ca. 2-3 Seiten Text
+               und Screenshots)
+            2. Beschreiben Sie die Arbeitsverteilung
+               Punktabzug!)
+         2. Source
+         
+         3. App (Kompilierte Version der App)
+
+      2. README-Datei in dieser Struktur: http://vda.univie.ac.at/Teaching/HCI/21s/materials/README_M3.md
+
+
 
 * Aufgabe A2: Erstellung Test-App
 Die App soll drei Komponenten haben:
