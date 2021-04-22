@@ -1,5 +1,5 @@
 #+TITLE: Interior Designer App: M3
-#+SUBTITLE: Problemanalyse
+#+SUBTITLE: Erstellung der App
 #+DATE: 20.5.2021
 # +EMAIL: a01468373@unet.univie.ac.at
 #+CATEGORY: hci-beamer
