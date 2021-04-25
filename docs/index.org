@@ -1235,9 +1235,31 @@ https://www.theaudiodb.com/api_apply.php
 
 * Meilenstein M3
 ** Konzept
+*** Aufgabenstellung
+
 Leiten Sie aus der Ideensammlung und den low-fidelity Prototypen ein
 stimmiges Konzept für Ihre App ab.
 ** App-Programmierung
+*** AR Toolkits
+
+**** Tutorial AR App mit React Native & Viro:
+
+- https://arvrjourney.com/augmented-reality-with-react-native-15219f36e3f2
+- https://marmelab.com/blog/2019/04/25/react-native-augmented-reality.html
+- https://github.com/echoARxyz/ReactNative-Viro-echoAR-example
+
+**** React Native kompatibel
+- Viro React: https://github.com/viromedia/viro/ & https://viromedia.com/
+- Export / three.js: https://blog.expo.io/introducing-expo-ar-mobile-augmented-reality-with-javascript-powered-by-arkit-b0d5a02ff23
+- JSARToolKit: https://github.com/kig/JSARToolKit
+- JSAruco:https://github.com/jcmellado/js-aruco
+**** weiere Links
+- Wikitude: https://www.wikitude.com/products/wikitude-sdk/
+- ARToolkitX: https://www.artoolkitx.org
+- EasyAR: https://www.easyar.com/
+- ARCore: https://developers.google.com/ar
+- AR.js: https://ar-js-org.github.io/AR.js/
+*** Aufgabenstellung
  Implementieren Sie die App mit dem von Ihnen geplanten Spektrum an
  Aufgaben und Funktionen (high-fidelity Prototyp).
 
@@ -1254,6 +1276,7 @@ Ein unvollständiger Prototyp führt zu Punktabzug. Anmerkung: Ein nicht lauffä
 
 Für formelle Dinge wie schlecht lesbaren oder strukturierten Code (sinnvolle Klassen- und Methodennamen, Code ist kommentiert, Einrückungen etc.) gibt es bis zu 10% Abzug der Gesamtpunkte.
 ** Designentscheidungen
+*** Aufgabenstellung
  Begründen Sie Designentscheidungen und nehmen Sie insbesondere Bezug auf die Aufgaben- und Nutzeranalyse aus M1!
 ** Abgabe
    zip / .tar.gz File mit
@@ -1302,5 +1325,3 @@ Für formelle Dinge wie schlecht lesbaren oder strukturierten Code (sinnvolle Kl
     Zurücktaste
     
 - Nichtkommerzieller Charakter der App
-
-  
