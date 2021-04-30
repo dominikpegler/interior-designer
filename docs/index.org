@@ -40,28 +40,22 @@ CLOSED: [2021-04-15 Thu 14:10] SCHEDULED: <2021-04-15 Thu 13:40>
 CLOSED: [2021-04-20 Tue 20:16] DEADLINE: <2021-04-20 Tue>
 *** TODO A2: Erstellung Test-App                                   :Einzel:
 DEADLINE: <2021-05-06 Thu>
-**** TODO API Key für https://www.theaudiodb.com/api_apply.php anfordern (EUR 3 p. Monat)
-SCHEDULED: <2021-04-14 Wed>
-
-- Alternative: Discogs? https://www.discogs.com/developers
-
 *** TODO M3: Erstellung der App 
 DEADLINE: <2021-05-18 Tue>
-**** TODO Konzept                                                :Dominik:
-DEADLINE: <2021-04-29 Thu 12:00>
+**** TODO Konzept
+SCHEDULED: <2021-05-09 Sun 12:00>
 
 1. Funktionen des Prototypen definieren
 2. Vorbild-App finden und Design an Funktionen anpassen
 
 **** TODO App programmieren
-SCHEDULED: <2021-05-16 Sun 20:00>
-**** TODO Design-Entscheidungen                                  :Dominik:
-DEADLINE: <2021-05-06 Thu 12:00>
-**** TODO Präsentation erstellen                     :Dominik:Asim:Sophia:
-DEADLINE: <2021-05-20 Thu 13:15>
-
+SCHEDULED: <2021-05-10 Mon 20:00>
+**** TODO Design-Entscheidungen
+SCHEDULED: <2021-05-17 Mon 12:00>
 *** WAIT M4: Usability Evaluierung, Weiterentwicklung, und Abschlussbericht 
 DEADLINE: <2021-06-08 Tue>
+**** WAIT Präsentation
+SCHEDULED: <2021-06-10 Thu 13:15>
 *** WAIT Abschlussgespräch
 SCHEDULED: <2021-06-24 Thu 13:15>
 * Team
@@ -1295,8 +1289,8 @@ Für formelle Dinge wie schlecht lesbaren oder strukturierten Code (sinnvolle Kl
 
       2. README-Datei in dieser Struktur: http://vda.univie.ac.at/Teaching/HCI/21s/materials/README_M3.md
 
-** Präsentation M3
-
+* Meilenstein M4
+** Präsentation M4
 [[file:./m3_praes.pdf][PDF]]
 * Notizen
 #+TOC: headlines 1 local
