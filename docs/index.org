@@ -38,8 +38,8 @@ CLOSED: [2021-03-23 Tue 09:46] SCHEDULED: <2021-03-22 Mon>
 CLOSED: [2021-04-15 Thu 14:10] SCHEDULED: <2021-04-15 Thu 13:40>
 *** DONE M2: Low-fidelity Prototypen                             :noexport:
 CLOSED: [2021-04-20 Tue 20:16] DEADLINE: <2021-04-20 Tue>
-*** TODO A2: Erstellung Test-App                                   :Einzel:
-DEADLINE: <2021-05-06 Thu>
+*** DONE A2: Erstellung Test-App                                   :Einzel:
+CLOSED: [2021-05-05 Wed 17:34] DEADLINE: <2021-05-06 Thu>
 *** TODO M3: Erstellung der App 
 DEADLINE: <2021-05-18 Tue>
 **** TODO Konzept
@@ -1229,25 +1229,37 @@ https://www.theaudiodb.com/api_apply.php
 
 * Meilenstein M3
 ** Konzept
+*** TODO Feedbacks einfließen lassen
+*** TODO Low-Fidelity-Prototype skizzieren
 *** Aufgabenstellung
 
 Leiten Sie aus der Ideensammlung und den low-fidelity Prototypen ein
 stimmiges Konzept für Ihre App ab.
-** App-Programmierung
-*** AR Toolkits
 
-**** Tutorial AR App mit React Native & Viro:
+** App-Programmierung
+*** TODO App anlegen
+*** TODO HomeScreen
+*** TODO RoomSelectionScreen
+*** TODO ScanScreen (Mock-Backend)
+*** TODO ScanFeedbackScreen
+*** TODO ObjectSelectionScreen
+*** TODO DesignScreen
+*** TODO DesignFeedbackScreen
+*** Bonus-Features
+**** AR Toolkits (Real Backend)
+
+***** Tutorial AR App mit React Native & Viro:
 
 - https://arvrjourney.com/augmented-reality-with-react-native-15219f36e3f2
 - https://marmelab.com/blog/2019/04/25/react-native-augmented-reality.html
 - https://github.com/echoARxyz/ReactNative-Viro-echoAR-example
 
-**** React Native kompatibel
+***** React Native kompatibel
 - Viro React: https://github.com/viromedia/viro/ & https://viromedia.com/
 - Export / three.js: https://blog.expo.io/introducing-expo-ar-mobile-augmented-reality-with-javascript-powered-by-arkit-b0d5a02ff23
 - JSARToolKit: https://github.com/kig/JSARToolKit
 - JSAruco:https://github.com/jcmellado/js-aruco
-**** weiere Links
+***** weiere Links
 - Wikitude: https://www.wikitude.com/products/wikitude-sdk/
 - ARToolkitX: https://www.artoolkitx.org
 - EasyAR: https://www.easyar.com/
