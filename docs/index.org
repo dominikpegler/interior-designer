@@ -42,14 +42,21 @@ CLOSED: [2021-04-20 Tue 20:16] DEADLINE: <2021-04-20 Tue>
 CLOSED: [2021-05-05 Wed 17:34] DEADLINE: <2021-05-06 Thu>
 *** TODO M3: Erstellung der App 
 DEADLINE: <2021-05-18 Tue>
-**** TODO Konzept
+**** TODO Konzept [0/4]                                          :Dominik:
 SCHEDULED: <2021-05-09 Sun 12:00>
 
-1. Funktionen des Prototypen definieren
-2. Vorbild-App finden und Design an Funktionen anpassen
-
-**** TODO App programmieren
+1. [ ] Funktionen des Prototypen definieren
+2. [ ] Vorbild-App finden und Design an Funktionen anpassen
+3. [ ] Feedback aus M2 einfließen lassen
+4. [ ] Low-Fidelity-Prototype skizzieren
+**** TODO App programmieren [0/3]
 SCHEDULED: <2021-05-10 Mon 20:00>
+1. [ ] App und HomeScreen erstellen
+2. [ ] Restliche Screens aus LowFiPrototype implementieren
+   z.B. RoomSelectionScreen, ScanScreen (Mock-Backend),
+   ScanFeedbackScreen, ObjectSelectionScreen, DesignScreen,
+   DesignFeedbackScreen
+3. [ ] Kompilieren
 **** TODO Design-Entscheidungen
 SCHEDULED: <2021-05-17 Mon 12:00>
 *** WAIT M4: Usability Evaluierung, Weiterentwicklung, und Abschlussbericht 
@@ -1229,22 +1236,12 @@ https://www.theaudiodb.com/api_apply.php
 
 * Meilenstein M3
 ** Konzept
-*** TODO Feedbacks einfließen lassen
-*** TODO Low-Fidelity-Prototype skizzieren
 *** Aufgabenstellung
 
 Leiten Sie aus der Ideensammlung und den low-fidelity Prototypen ein
 stimmiges Konzept für Ihre App ab.
 
 ** App-Programmierung
-*** TODO App anlegen
-*** TODO HomeScreen
-*** TODO RoomSelectionScreen
-*** TODO ScanScreen (Mock-Backend)
-*** TODO ScanFeedbackScreen
-*** TODO ObjectSelectionScreen
-*** TODO DesignScreen
-*** TODO DesignFeedbackScreen
 *** Bonus-Features
 **** AR Toolkits (Real Backend)
 
