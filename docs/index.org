@@ -38,7 +38,7 @@ CLOSED: [2021-03-23 Tue 09:46] SCHEDULED: <2021-03-22 Mon>
 CLOSED: [2021-04-15 Thu 14:10] SCHEDULED: <2021-04-15 Thu 13:40>
 *** DONE M2: Low-fidelity Prototypen                             :noexport:
 CLOSED: [2021-04-20 Tue 20:16] DEADLINE: <2021-04-20 Tue>
-*** DONE A2: Erstellung Test-App                                   :Einzel:
+*** DONE A2: Erstellung Test-App                          :Einzel:noexport:
 CLOSED: [2021-05-05 Wed 17:34] DEADLINE: <2021-05-06 Thu>
 *** TODO M3: Erstellung der App 
 DEADLINE: <2021-05-18 Tue>
@@ -357,7 +357,7 @@ nocite:nylundDevelopingaCrossplatformMVP2020
 ** Konkurrenzprodukte
 /Autorin: Sophia PUM/
 
-[[file:./m1_konkurrenzanalyse.pdf][PDF]] [[file:./m1_konkurrenzanalyse.docx][DOCX]]
+[[file:./m1_konkurrenzanalyse.pdf][PDF]] 
 
 Die wahrscheinlich bekannteste Interior-Design-App auf dem Markt ist
 *Houzz* (Abb. [[fig:m1_ko_01]]). Mit Millionen von qualitativen Bildern von Badezimmern,
@@ -720,10 +720,10 @@ haben, um zum Resultat zu kommen.
 /Autor: Dominik PEGLER/
 
 Für das Projekt-Management haben wir auf github eine einfache
-[[https://dominikpegler.github.io/interior-designer][HTML-Seite]] erstellt, auf der man sich über den aktuellen Stand des
+[[https://hci-interior.github.io][HTML-Seite]] erstellt, auf der man sich über den aktuellen Stand des
 Projekts informieren kann und die nächsten wichtigen Termine wie
 Meilensteine und Präsentationen bekommt. Über das gesame Projekt wird
-hier Buch geführt, außerdem entsteht im selben [[https://github.com/dominikpegler/interior-designer][github-Repository]] der
+hier Buch geführt, außerdem entsteht im selben [[https://github.com/hci-interior/app][github-Repository]] der
 Source-Code der App. All diese Dinge sind öffentlich zugänglich.
 
 *** Team
