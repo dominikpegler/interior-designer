@@ -52,10 +52,7 @@ SCHEDULED: <2021-05-09 Sun 12:00>
 **** TODO App programmieren [0/3]
 SCHEDULED: <2021-05-10 Mon 20:00>
 1. [ ] App und HomeScreen erstellen
-2. [ ] Restliche Screens aus LowFiPrototype implementieren
-   z.B. RoomSelectionScreen, ScanScreen (Mock-Backend),
-   ScanFeedbackScreen, ObjectSelectionScreen, DesignScreen,
-   DesignFeedbackScreen
+2. [ ] Restliche Screens aus LowFiPrototype implementieren (siehe Konzept)
 3. [ ] Kompilieren
 **** TODO Design-Entscheidungen
 SCHEDULED: <2021-05-17 Mon 12:00>
