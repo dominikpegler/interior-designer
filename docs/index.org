@@ -1236,11 +1236,309 @@ https://www.theaudiodb.com/api_apply.php
 
 * Meilenstein M3
 ** Konzept
-*** Aufgabenstellung
 
-Leiten Sie aus der Ideensammlung und den low-fidelity Prototypen ein
-stimmiges Konzept für Ihre App ab.
+#+begin_quote
+“Es handelt sich um *keine Augmented-Reality-App*. Wir lesen die
+Realität ein und speichern sie für später ab. Anschließend bearbeiten
+wir diese Realität, bis wir zum gewünschten Ergebnis kommen. Weil wir
+nachhaltige Ergebnisse möchten, können diese nicht im selben Augenblick
+entstehen und erarbeitet werden, wenn die Kamera eingeschaltet ist, wie
+es bei AR der Fall ist. Durch die Trennung von Scan- und
+Entscheidungsprozess sollen aus der Hüfte geschossene Entscheidungen
+vermieden und der Nutzer bei einer gut durchdachten Planung unterstützt
+werden. Netter Nebeneffekt: Die Kamera muss nur zum Scannen
+eingeschaltet werden, das spart Ressourcen.”
+#+end_quote
+*** Navigation
+  (Kurze Skizzierung der Navigationsabfolge)
 
+  1. 
+
+     #+begin_quote
+       Startbildschirm mit angenehmem Hintergrundbild und ein paar
+       Auswahlbuttons (“Meine Räume”, “Neuen Raum scannen”, “Objekte”)
+     #+end_quote
+
+  2. 
+
+     #+begin_quote
+       “Neuen Raum Scannen”,
+     #+end_quote
+
+     1. 
+
+	#+begin_quote
+          Es schaltet sich die Kamera ein, man ist im *RoomScanScreen*, es
+          erscheint eine Info als Overlay
+	#+end_quote
+
+     2. 
+
+	#+begin_quote
+          Scan-Instruktionen erscheinen
+	#+end_quote
+
+     3. 
+
+	#+begin_quote
+          Nach erfolgtem Scanvorgang wechselt die App in den
+          *RoomScanConfirmScreen*
+	#+end_quote
+
+     4. 
+
+	#+begin_quote
+          Raummaße werden angezeigt. Buttons: OK (Raum speichern ->
+          PopUp-Dialog für Eingabe des Namens, dann zurück zum Start), Neu
+          scannen (zurück in den RoomScanScreen), Maße Manuell ändern
+          (Funktion noch nicht implementieren, das würde zum
+          RoomEditScreen führen), Abbruch (ohne Speichern zurück zum
+          Start)
+	#+end_quote
+
+  3. 
+
+     #+begin_quote
+       “Meine Räume”
+     #+end_quote
+
+     1. 
+
+	#+begin_quote
+          *RoomSelectScreen*
+	#+end_quote
+
+     2. 
+
+	#+begin_quote
+          Liste zur Auswahl an Räumen erscheint (Name, Erstelldatum,
+          Thumbnail)
+	#+end_quote
+
+     3. 
+
+	#+begin_quote
+          Bei Auswahl eines Raumes (alternative Optionen: Raum löschen,
+          Raum duplizieren → Kopie wird erstellt, Raum bearbeiten → noch
+          nicht implementieren → RoomEditScreen, siehe oben) gelangt man
+          zum *RoomScreen*
+	#+end_quote
+
+     4. 
+
+	#+begin_quote
+          Im RoomScreen sieht man den Raum in (Fake-)3D, man kann sich
+          herumdrehen, im Raum bewegen und man sieht mögliche bereits
+          vorher hinzugefügte Möbelstücke
+	#+end_quote
+
+     5. 
+
+	#+begin_quote
+          Man kann diese Möbelstücke verschieben oder löschen
+	#+end_quote
+
+     6. 
+
+	#+begin_quote
+          Es gibt einen Button mit Plus-Symbol für das Hinzufügen neuer
+          Objekte aus der Objekt-Bibliothek. Man gelangt hier in den
+          *ObjectSelectScreen*
+	#+end_quote
+
+     7. 
+
+	#+begin_quote
+          Dieser Screen ähnelt dem RoomSelectScreen, man kann Objekte
+          löschen, zum Hinzufügen auswählen und es gibt einen Plus-Button
+          zum Hinzufügen neuer Objekte in die Bibliothek (Import und
+          Scan). Die ObjectScan und ObjectImport-Funktionen müssen wir
+          noch nicht implementieren.
+	#+end_quote
+
+     8. 
+
+	#+begin_quote
+          Hat man ein Objekt ausgewählt, gelangt man wieder zurück in den
+          RoomScreen und das Objekt befindet sich mittig in der letzten
+          Ansicht. Man kann es nun bearbeiten (löschen, verschieben) wie
+          alle anderen Objekte auch.
+	#+end_quote
+
+     9. 
+
+	#+begin_quote
+          Zuletzt kann man den Raum speichern oder abbrechen. In beiden
+          Fällen gelangt man wieder in den *HomeScreen*.
+	#+end_quote
+
+  4. 
+
+     #+begin_quote
+       “Objekte”
+     #+end_quote
+
+     1. 
+
+	#+begin_quote
+          Man gelangt in den *ObjectSelectScreen*, die Abfolge ist ident
+          mit Pkt 3.f., nur dass man nach Auswahl eines Objekts in den
+          *RoomSelectScreen* gelangt, um den Raum zu wählen, in den das
+          Objekt eingefügt werden soll.
+	#+end_quote
+
+     2. 
+
+	#+begin_quote
+          Nach Auswahl des Raumes gelangt man in den *RoomScreen* und das
+          neue Objekt ist in der mittig in der Ansicht platziert. Die
+          weitere Abfolge ist ident mit Pkt. 3.h.
+	#+end_quote
+
+*** Screens
+  (Kurze Auflistung und Beschreibung der notwendigen Screens)
+
+**** HomeScreen
+     :PROPERTIES:
+     :CUSTOM_ID: homescreen
+     :END:
+
+  #+begin_quote
+    ...
+  #+end_quote
+
+**** RoomScanScreen
+     :PROPERTIES:
+     :CUSTOM_ID: roomscanscreen
+     :END:
+
+  #+begin_quote
+    ...
+  #+end_quote
+
+**** ObjectScanScreen (später)
+     :PROPERTIES:
+     :CUSTOM_ID: objectscanscreen-später
+     :END:
+
+  #+begin_quote
+    ...
+  #+end_quote
+
+**** RoomScanConfirmScreen
+     :PROPERTIES:
+     :CUSTOM_ID: roomscanconfirmscreen
+     :END:
+  ...
+
+**** ObjectScanConfirmScreen (später)
+     :PROPERTIES:
+     :CUSTOM_ID: objectscanconfirmscreen-später
+     :END:
+  ...
+
+**** RoomScreen
+     :PROPERTIES:
+     :CUSTOM_ID: roomscreen
+     :END:
+  ...
+
+**** RoomSelectScreen
+     :PROPERTIES:
+     :CUSTOM_ID: roomselectscreen
+     :END:
+  ...
+
+**** ObjectSelectScreen
+     :PROPERTIES:
+     :CUSTOM_ID: objectselectscreen
+     :END:
+  ...
+
+*** Funktionen
+    :PROPERTIES:
+    :CUSTOM_ID: funktionen
+    :END:
+  (Kurze Auflistung und Beschreibung der notwendigen Funktionen)
+
+  1. Auswahl Raum
+	:PROPERTIES:
+	:CUSTOM_ID: auswahl-raum
+	:END:
+
+  2. Auswahl Objekt
+	:PROPERTIES:
+	:CUSTOM_ID: auswahl-objekt
+	:END:
+
+  3. Scanfunktion
+	:PROPERTIES:
+	:CUSTOM_ID: scanfunktion
+	:END:
+
+  4. ...
+	:PROPERTIES:
+	:CUSTOM_ID: section
+	:END:
+
+*** Struktur Sourcecode
+    :PROPERTIES:
+    :CUSTOM_ID: struktur-sourcecode
+    :END:
+
+  - 
+
+    #+begin_quote
+      Sourcecode liegt auf
+      [[https://github.com/hci-interior/app][_https://github.com/hci-interior/app_]]
+    #+end_quote
+
+  - 
+
+    #+begin_quote
+      App.js liegt in root
+    #+end_quote
+
+  - 
+
+    #+begin_quote
+      Screens liegen im Folder ./screens
+    #+end_quote
+
+  - 
+
+    #+begin_quote
+      Kleinere Components wie Buttons und Searchbars liegen in
+      ./components
+    #+end_quote
+
+  - 
+
+    #+begin_quote
+      Idealerweise einheitlich entweder *.js oder *.jsx für Components und
+      Screens (manche IDE Plugins wie linter und code formatter hängen von
+      der Endung ab)
+    #+end_quote
+
+  - 
+
+    #+begin_quote
+      Änderungen lokal und auf einem eigenen Branch, z.B.
+      “dominik-implement-objectscreen”, nicht direkt auf main-Branch
+    #+end_quote
+
+  - 
+
+    #+begin_quote
+      Wenn Änderung fertig und funktionsfähig wird in main-Branch
+      integriert ( → pull request → merge)
+    #+end_quote
+
+*** Design
+    :PROPERTIES:
+    :CUSTOM_ID: design
+    :END:
+  (Beispiele, Screenshots von Vorbild-Apps, Listen, Buttons, Farben usw.)
 ** App-Programmierung
 *** Bonus-Features
 **** AR Toolkits (Real Backend)
