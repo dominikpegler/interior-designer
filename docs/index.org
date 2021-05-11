@@ -1330,7 +1330,7 @@ eingeschaltet werden, das spart Ressourcen.”
 /Autor*innen: Sophia PUM, Dominik PEGLER, Asım OĞUZ/
 *** Navigation & Screens
 *** Funktionen
-*** Bonus-Features
+*** Bonus-Features                                               :noexport:
 **** AR Toolkits (Real Backend)
 
 ***** Tutorial AR App mit React Native & Viro:
@@ -1350,22 +1350,6 @@ eingeschaltet werden, das spart Ressourcen.”
 - EasyAR: https://www.easyar.com/
 - ARCore: https://developers.google.com/ar
 - AR.js: https://ar-js-org.github.io/AR.js/
-*** Aufgabenstellung
- Implementieren Sie die App mit dem von Ihnen geplanten Spektrum an
- Aufgaben und Funktionen (high-fidelity Prototyp).
-
- Stellen Sie sicher dass Ihr Interface die Komplexität des
- zugrundeliegenden Problems realistisch widerspiegelt.
-
-Anmerkung: technische Details des Backends dürfen prototypisch realisiert werden (high-fidelity Prototyp der App).
-        
-WICHTIG: Es soll sich hierbei um einen fertigen Prototypen bzw. eine fertige App handeln.
-
-M4 ist nicht dazu da "noch zu implementieren was Sie in M3 nicht geschafft haben".
-
-Ein unvollständiger Prototyp führt zu Punktabzug. Anmerkung: Ein nicht lauffähiger Prototyp gibt bis zu 75% Abzug der Gesamtpunkte.
-
-Für formelle Dinge wie schlecht lesbaren oder strukturierten Code (sinnvolle Klassen- und Methodennamen, Code ist kommentiert, Einrückungen etc.) gibt es bis zu 10% Abzug der Gesamtpunkte.
 ** Designentscheidungen
 
 /Autor: Dominik PEGLER/
