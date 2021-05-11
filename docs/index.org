@@ -42,19 +42,18 @@ CLOSED: [2021-04-20 Tue 20:16] DEADLINE: <2021-04-20 Tue>
 CLOSED: [2021-05-05 Wed 17:34] DEADLINE: <2021-05-06 Thu>
 *** TODO M3: Erstellung der App 
 DEADLINE: <2021-05-18 Tue>
-**** TODO Konzept [1/4]                                          :Dominik:
+**** TODO Konzept [1/3]                                          :Dominik:
 SCHEDULED: <2021-05-09 Sun 12:00>
 
 1. [X] Grobkonzept: Screens, Funktionen des Prototypen definieren
 2. [ ] Vorbild-App finden und Design an Funktionen anpassen
 3. [ ] Feedback aus M2 einfließen lassen
-4. [ ] Low-Fidelity-Prototype skizzieren
 **** TODO App programmieren [0/3]
 SCHEDULED: <2021-05-10 Mon 20:00>
 1. [ ] App und HomeScreen erstellen
 2. [ ] Restliche Screens aus LowFiPrototype implementieren (siehe Konzept)
 3. [ ] Kompilieren
-**** TODO Design-Entscheidungen
+**** TODO Design-Entscheidungen                                  :Dominik:
 SCHEDULED: <2021-05-17 Mon 12:00>
 *** WAIT M4: Usability Evaluierung, Weiterentwicklung, und Abschlussbericht 
 DEADLINE: <2021-06-08 Tue>
@@ -1215,6 +1214,8 @@ Einrichtungsgegenständen betrifft.
 * Meilenstein M3
 ** Konzept
 
+/Autor: Dominik PEGLER/
+
 #+begin_quote
 “Es handelt sich um *keine Augmented-Reality-App*. Wir lesen die
 Realität ein und speichern sie für später ab. Anschließend bearbeiten
@@ -1326,6 +1327,9 @@ eingeschaltet werden, das spart Ressourcen.”
 *** Design
   (Beispiele, Screenshots von Vorbild-Apps, Listen, Buttons, Farben usw.)
 ** App-Programmierung
+/Autor*innen: Sophia PUM, Dominik PEGLER, Asım OĞUZ/
+*** Navigation & Screens
+*** Funktionen
 *** Bonus-Features
 **** AR Toolkits (Real Backend)
 
@@ -1363,8 +1367,43 @@ Ein unvollständiger Prototyp führt zu Punktabzug. Anmerkung: Ein nicht lauffä
 
 Für formelle Dinge wie schlecht lesbaren oder strukturierten Code (sinnvolle Klassen- und Methodennamen, Code ist kommentiert, Einrückungen etc.) gibt es bis zu 10% Abzug der Gesamtpunkte.
 ** Designentscheidungen
-*** Aufgabenstellung
- Begründen Sie Designentscheidungen und nehmen Sie insbesondere Bezug auf die Aufgaben- und Nutzeranalyse aus M1!
+
+/Autor: Dominik PEGLER/
+
+ Hier werden Designentscheidungen erklärt und dabei Bezug auf die
+ Aufgaben- und Nutzeranalyse aus M1 genommen. Teilweise sind diese
+ Infos schon in Konzept enthalten und werden dann später hierher
+ verschoben.
+** Projektmanagement
+/Autor: Dominik PEGLER/
+
+Es wurden auf github für das Projekt eine Organisation mit den drei
+Mitgliedern sowie ein Repository für die App und ein weiteres für die
+Projektdokumentation angelegt. Die Programmieraufgaben werden so
+verteilt, dass die Personen möglichst unabhängig voneinander arbeiten
+können. Den Zwischenstand des geschriebenen Codes
+(z.B. "HomeScreen.js") laden Sophia und Asım zumindest einmal am Tag
+in den GoogleDrive-Folder des Projekts. Von dort wird der Code von
+Dominik ins Repository auf github übernommen. Ist der Code
+funktionstauglich, erfolgt ein Merge mit dem Main-Branch. Der
+Main-Branch sollte immer eine funktionstaugliche App sein und keine
+Fehler oder Warnungen enthalten.
+
+*** Aufgabenverteilung:
+- Konzept: Dominik Pegler
+- Programmierung:
+  - Codeintegration & Versionsverwaltung Git: Dominik Pegler
+  - Navigation: Dominik Pegler
+  - HomeScreen: Sophia Pum
+  - ...Screen: Sophia Pum
+  - ...Screen: Sophia Pum
+  - ...Screen: Asım OĞUZ
+  - ...Screen: Asım OĞUZ
+  - ...Screen: Asım OĞUZ
+- Designentscheidungen: Dominik Pegler
+- Projektmanagement: Dominik Pegler
+
+
 ** Abgabe
    zip / .tar.gz File mit
       1. 3 Ordnern
