@@ -1381,9 +1381,10 @@ Fehler oder Warnungen enthalten.
   - HomeScreen: Sophia Pum
   - ...Screen: Sophia Pum
   - ...Screen: Sophia Pum
-  - ...Screen: Asım OĞUZ
-  - ...Screen: Asım OĞUZ
-  - ...Screen: Asım OĞUZ
+  - ...Screen: Asım Oguz
+  - ...Screen: Asım Oguz
+  - ...Screen: Asım Oguz
+  - Datentransfer (props, states): Dominik Pegler
 - Designentscheidungen: Dominik Pegler
 - Projektmanagement: Dominik Pegler
 
