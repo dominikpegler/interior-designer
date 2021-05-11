@@ -1,7 +1,7 @@
 #+TITLE: Interior Designer App
 #+subtitle: Asım Oğuz, Dominik Pegler, Sophia Pum \\
 #+subtitle: [[http://vda.univie.ac.at/Teaching/HCI/21s/schedule.html][HCI]] ---
-#+subtitle: [[https://moodle.univie.ac.at/course/view.php?id=207279][Moodle]] --- [[https://drive.google.com/drive/folders/1sr5EJv1nVSd6_u-6Xcu8AcZGXJPFVUOd?usp=sharing][Drive]] --- [[https://meet.jit.si/CrucialPoetriesReadEasily][jitsi]]
+#+subtitle: [[https://moodle.univie.ac.at/course/view.php?id=207279][Moodle]] --- [[https://meet.jit.si/CrucialPoetriesReadEasily][jitsi]]
 #+AUTHOR: Asım OĞUZ
 #+AUTHOR: Dominik PEGLER
 #+AUTHOR: Sophia PUM
