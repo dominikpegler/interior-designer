@@ -1231,7 +1231,9 @@ eingeschaltet werden, das spart Ressourcen.”
 *** Navigation
   (Kurze Skizzierung der Navigationsabfolge)
 
-  1. Startbildschirm mit reduziertem Hintergrundbild (Akzentfarbe, wenig Kontraste \to wenig Ablenkung) und ein paar Auswahlbuttons (“Meine Räume”, “Neuen Raum scannen”, “Objekte”)
+  1. Startbildschirm mit reduziertem Hintergrundbild (Akzentfarbe,
+     wenig Kontraste \to wenig Ablenkung) und ein paar Auswahlbuttons
+     (“Meine Räume”, “Neuen Raum scannen”, “Objekte”)
 
   2. “Neuen Raum Scannen”,
 
@@ -1432,6 +1434,10 @@ yarn add @fluentui/react-native
 #+begin_src js 
 import { Checkbox } from '@fluentui/react-native';
 #+end_src
+
+*** Screens
+
+**** ...
 
 ** Projektmanagement
 /Autor: Dominik PEGLER/
