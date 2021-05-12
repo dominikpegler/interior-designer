@@ -1414,11 +1414,11 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 
 #+begin_src js-jsx
 
-  <Icon
-              name="camera"
-              size={15}
-              color="white"
-  />
+    <Icon
+        name="camera"
+        size={15}
+        color="white"
+    />
 
 #+end_src
 
