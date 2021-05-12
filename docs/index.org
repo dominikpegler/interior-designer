@@ -1271,34 +1271,14 @@ eingeschaltet werden, das spart Ressourcen.”
      2. Nach Auswahl des Raumes gelangt man in den *RoomScreen* und das neue Objekt ist in der mittig in der Ansicht platziert. Die weitere Abfolge ist ident mit Pkt. 3.h.
 
 *** Screens
-  (Kurze Auflistung und Beschreibung der notwendigen Screens)
-
-**** HomeScreen
-
-    ...
-
-**** RoomScanScreen
-
-    ...
-
-**** ObjectScanScreen (später)
-    ...
-
-**** RoomScanConfirmScreen
-  ...
-
-**** ObjectScanConfirmScreen (später)
-  ...
-
-**** RoomScreen
-  ...
-
-**** RoomSelectScreen
-  ...
-
-**** ObjectSelectScreen
-  ...
-
+1. HomeScreen
+2. RoomScanScreen
+3. ObjectScanScreen (später)
+4. RoomScanConfirmScreen
+5. ObjectScanConfirmScreen (später)
+6. RoomScreen
+7. RoomSelectScreen
+8. ObjectSelectScreen
 *** Funktionen
   (Kurze Auflistung und Beschreibung der notwendigen Funktionen)
 
