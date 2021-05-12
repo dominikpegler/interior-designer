@@ -20,7 +20,7 @@ file:./img/img_535698.png
 
 * Termine
 #+TOC: headlines 1 local
-*** DONE M1: Problemanalyse                                      :noexport:
+*** DONE M1: Problemanalyse
 CLOSED: [2021-03-23 Tue 12:36] DEADLINE: <2021-03-23 Tue>
 **** DONE Analyse von vorhandener Literatur             :Dominik:noexport:
 CLOSED: [2021-03-20 Sat 15:40] SCHEDULED: <2021-03-19 Fri>
@@ -34,9 +34,9 @@ CLOSED: [2021-03-22 Mon 18:04] SCHEDULED: <2021-03-21 Sun>
 CLOSED: [2021-03-22 Mon 18:04] SCHEDULED: <2021-03-21 Sun>
 **** DONE Projektmanagement                             :Dominik:noexport:
 CLOSED: [2021-03-23 Tue 09:46] SCHEDULED: <2021-03-22 Mon>
-*** DONE M1: Präsentation                    :Dominik:Sophia:Asim:noexport:
+*** DONE M1: Präsentation                             :Dominik:Sophia:Asim:
 CLOSED: [2021-04-15 Thu 14:10] SCHEDULED: <2021-04-15 Thu 13:40>
-*** DONE M2: Low-fidelity Prototypen                             :noexport:
+*** DONE M2: Low-fidelity Prototypen
 CLOSED: [2021-04-20 Tue 20:16] DEADLINE: <2021-04-20 Tue>
 *** DONE A2: Erstellung Test-App                          :Einzel:noexport:
 CLOSED: [2021-05-05 Wed 17:34] DEADLINE: <2021-05-06 Thu>
