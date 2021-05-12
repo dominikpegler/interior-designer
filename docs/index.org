@@ -1393,14 +1393,17 @@ Rot-Grün-Kontrate wollen wir vermeiden.
 - Hauptfarben: ca. 4 Farben
 
   - Farbe A: #99b3ff
-    #+html: <span style="color:green;">██████████</span>
+    #+html: <span style="color:#99b3ff;">██████████</span>
     
   - Farbe B: #ff9999
+    #+html: <span style="color:#ff9999;">██████████</span>
     
   - Farbe C: #8cd9b3
+    #+html: <span style="color:#8cd9b3;">██████████</span>
     
   - Farbe D: #d9d98c
-
+    #+html: <span style="color:#d9d98c;">██████████</span>
+    
 #+caption: Beispiel-Components react-elements: /Solid/, /Clear/, /Outline/
 #+attr_html: :width 400px 
 [[file:./img/react-elements_components.png]]
