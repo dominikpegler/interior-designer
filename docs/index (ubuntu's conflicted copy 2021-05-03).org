@@ -1,7 +1,7 @@
 #+TITLE: Interior Designer App
 #+subtitle: Asım Oğuz, Dominik Pegler, Sophia Pum \\
 #+subtitle: [[http://vda.univie.ac.at/Teaching/HCI/21s/schedule.html][HCI]] ---
-#+subtitle: [[https://moodle.univie.ac.at/course/view.php?id=207279][Moodle]] --- [[https://meet.jit.si/CrucialPoetriesReadEasily][jitsi]]
+#+subtitle: [[https://moodle.univie.ac.at/course/view.php?id=207279][Moodle]] --- [[https://drive.google.com/drive/folders/1sr5EJv1nVSd6_u-6Xcu8AcZGXJPFVUOd?usp=sharing][Drive]] --- [[https://meet.jit.si/CrucialPoetriesReadEasily][jitsi]]
 #+AUTHOR: Asım OĞUZ
 #+AUTHOR: Dominik PEGLER
 #+AUTHOR: Sophia PUM
@@ -38,27 +38,30 @@ CLOSED: [2021-03-23 Tue 09:46] SCHEDULED: <2021-03-22 Mon>
 CLOSED: [2021-04-15 Thu 14:10] SCHEDULED: <2021-04-15 Thu 13:40>
 *** DONE M2: Low-fidelity Prototypen                             :noexport:
 CLOSED: [2021-04-20 Tue 20:16] DEADLINE: <2021-04-20 Tue>
-*** DONE A2: Erstellung Test-App                          :Einzel:noexport:
-CLOSED: [2021-05-05 Wed 17:34] DEADLINE: <2021-05-06 Thu>
+*** TODO A2: Erstellung Test-App                                   :Einzel:
+DEADLINE: <2021-05-06 Thu>
+**** DONE API Key für https://www.theaudiodb.com/api_apply.php anfordern (EUR 3 p. Monat)
+CLOSED: [2021-05-03 Mon 13:14] SCHEDULED: <2021-04-14 Wed>
+
+- Alternative: Discogs? https://www.discogs.com/developers
+
 *** TODO M3: Erstellung der App 
 DEADLINE: <2021-05-18 Tue>
-**** TODO Konzept [1/3]                                          :Dominik:
-SCHEDULED: <2021-05-12 Wed 12:00>
+**** TODO Konzept                                                :Dominik:
+DEADLINE: <2021-04-29 Thu 12:00>
 
-1. [X] Grobkonzept: Screens, Funktionen des Prototypen definieren
-2. [ ] Vorbild-App finden und Design an Funktionen anpassen
-3. [ ] Feedback aus M2 einfließen lassen
-**** TODO App programmieren [0/3]
-SCHEDULED: <2021-05-12 Wed 20:00>
-1. [ ] App und HomeScreen erstellen
-2. [ ] Restliche Screens aus LowFiPrototype implementieren (siehe Konzept)
-3. [ ] Kompilieren
+1. Funktionen des Prototypen definieren
+2. Vorbild-App finden und Design an Funktionen anpassen
+
+**** TODO App programmieren
+SCHEDULED: <2021-05-16 Sun 20:00>
 **** TODO Design-Entscheidungen                                  :Dominik:
-SCHEDULED: <2021-05-17 Mon 12:00>
+DEADLINE: <2021-05-06 Thu 12:00>
+**** TODO Präsentation erstellen                     :Dominik:Asim:Sophia:
+DEADLINE: <2021-05-20 Thu 13:15>
+
 *** WAIT M4: Usability Evaluierung, Weiterentwicklung, und Abschlussbericht 
 DEADLINE: <2021-06-08 Tue>
-**** WAIT Präsentation
-SCHEDULED: <2021-06-10 Thu 13:15>
 *** WAIT Abschlussgespräch
 SCHEDULED: <2021-06-24 Thu 13:15>
 * Team
@@ -353,7 +356,7 @@ nocite:nylundDevelopingaCrossplatformMVP2020
 ** Konkurrenzprodukte
 /Autorin: Sophia PUM/
 
-[[file:./m1_konkurrenzanalyse.pdf][PDF]] 
+[[file:./m1_konkurrenzanalyse.pdf][PDF]] [[file:./m1_konkurrenzanalyse.docx][DOCX]]
 
 Die wahrscheinlich bekannteste Interior-Design-App auf dem Markt ist
 *Houzz* (Abb. [[fig:m1_ko_01]]). Mit Millionen von qualitativen Bildern von Badezimmern,
@@ -716,10 +719,10 @@ haben, um zum Resultat zu kommen.
 /Autor: Dominik PEGLER/
 
 Für das Projekt-Management haben wir auf github eine einfache
-[[https://hci-interior.github.io][HTML-Seite]] erstellt, auf der man sich über den aktuellen Stand des
+[[https://dominikpegler.github.io/interior-designer][HTML-Seite]] erstellt, auf der man sich über den aktuellen Stand des
 Projekts informieren kann und die nächsten wichtigen Termine wie
 Meilensteine und Präsentationen bekommt. Über das gesame Projekt wird
-hier Buch geführt, außerdem entsteht im selben [[https://github.com/hci-interior/app][github-Repository]] der
+hier Buch geführt, außerdem entsteht im selben [[https://github.com/dominikpegler/interior-designer][github-Repository]] der
 Source-Code der App. All diese Dinge sind öffentlich zugänglich.
 
 *** Team
@@ -1211,243 +1214,70 @@ Einrichtungsgegenständen betrifft.
 - Hintergrundbilder und Wallpapers implementieren
 - Default-Schriftarten festlegen
 - Farbpalette festlegen
+* Aufgabe A2: Erstellung Test-App
+Die App soll drei Komponenten haben:
+
+    1. Startseite, auf der Sie Nutzer*Innen ermöglichen, in einem
+       Suchfeld den Namen des Musikers / der Band einzugeben. Die
+       Startseite soll auch Ihren Namen und Ihre Matrikelnummer
+       beinhalten.
+    2. Abfrage des Musikers und alle zugehörigen Alben über die API
+       von TheAudioDB [1].
+    3. Anzeigebildschirm mit den Metadaten (Titel, Bild, Year, Genre
+       und Description) der Alben mit einem sinnvollen Layout. Dabei
+       soll der/die Nutzer*In den Musiker auch einfach für später
+       speichern können und diese Liste sollte auf der Startseite
+       zugänglich sein. (Diese “Favorite-Artists”-Liste muss für A2
+       nicht über das Schließen der App hinaus gespeichert werden.)
+
+Für Zugriff auf TheAudioDB ist ein kostenpflichtiger API key nötig (EUR 3/Monat)   
+https://www.theaudiodb.com/api_apply.php
+
 * Meilenstein M3
 ** Konzept
+*** Aufgabenstellung
 
-/Autor: Dominik PEGLER/
-
-#+begin_quote
-“Es handelt sich um *keine Augmented-Reality-App*. Wir lesen die
-Realität ein und speichern sie für später ab. Anschließend bearbeiten
-wir diese Realität, bis wir zum gewünschten Ergebnis kommen. Weil wir
-nachhaltige Ergebnisse möchten, können diese nicht im selben Augenblick
-entstehen und erarbeitet werden, wenn die Kamera eingeschaltet ist, wie
-es bei AR der Fall ist. Durch die Trennung von Scan- und
-Entscheidungsprozess sollen aus der Hüfte geschossene Entscheidungen
-vermieden und der Nutzer bei einer gut durchdachten Planung unterstützt
-werden. Netter Nebeneffekt: Die Kamera muss nur zum Scannen
-eingeschaltet werden, das spart Ressourcen.”
-#+end_quote
-*** Navigation
-  (Kurze Skizzierung der Navigationsabfolge)
-
-  1. Startbildschirm mit angenehmem Hintergrundbild und ein paar Auswahlbuttons (“Meine Räume”, “Neuen Raum scannen”, “Objekte”)
-
-  2. “Neuen Raum Scannen”,
-
-     1. Es schaltet sich die Kamera ein, man ist im *RoomScanScreen*, es erscheint eine Info als Overlay
-
-     2. Scan-Instruktionen erscheinen
-
-     3. Nach erfolgtem Scanvorgang wechselt die App in den *RoomScanConfirmScreen*
-
-     4. Raummaße werden angezeigt. Buttons: OK (Raum speichern -> PopUp-Dialog für Eingabe des Namens, dann zurück zum Start), Neu scannen (zurück in den RoomScanScreen), Maße Manuell ändern (Funktion noch nicht implementieren, das würde zum RoomEditScreen führen), Abbruch (ohne Speichern zurück zum Start)
-
-  3. “Meine Räume”
-
-     1. *RoomSelectScreen*
-
-     2. Liste zur Auswahl an Räumen erscheint (Name, Erstelldatum, Thumbnail)
-
-     3. Bei Auswahl eines Raumes (alternative Optionen: Raum löschen, Raum duplizieren → Kopie wird erstellt, Raum bearbeiten → noch nicht implementieren → RoomEditScreen, siehe oben) gelangt man zum *RoomScreen*
-
-     4. Im RoomScreen sieht man den Raum in (Fake-)3D, man kann sich herumdrehen, im Raum bewegen und man sieht mögliche bereits vorher hinzugefügte Möbelstücke
-
-     5. Man kann diese Möbelstücke verschieben oder löschen
-
-     6. Es gibt einen Button mit Plus-Symbol für das Hinzufügen neuer Objekte aus der Objekt-Bibliothek. Man gelangt hier in den *ObjectSelectScreen*
-     7. Dieser Screen ähnelt dem RoomSelectScreen, man kann Objekte löschen, zum Hinzufügen auswählen und es gibt einen Plus-Button zum Hinzufügen neuer Objekte in die Bibliothek (Import und Scan). Die ObjectScan und ObjectImport-Funktionen müssen wir noch nicht implementieren.
-
-     8. Hat man ein Objekt ausgewählt, gelangt man wieder zurück in den RoomScreen und das Objekt befindet sich mittig in der letzten Ansicht. Man kann es nun bearbeiten (löschen, verschieben) wie alle anderen Objekte auch.
-
-     9. Zuletzt kann man den Raum speichern oder abbrechen. In beiden Fällen gelangt man wieder in den *HomeScreen*.
-
-  4. “Objekte”
-
-     1. Man gelangt in den *ObjectSelectScreen*, die Abfolge ist ident mit Pkt 3.f., nur dass man nach Auswahl eines Objekts in den *RoomSelectScreen* gelangt, um den Raum zu wählen, in den das Objekt eingefügt werden soll.
-
-     2. Nach Auswahl des Raumes gelangt man in den *RoomScreen* und das neue Objekt ist in der mittig in der Ansicht platziert. Die weitere Abfolge ist ident mit Pkt. 3.h.
-
-*** Screens
-  (Kurze Auflistung und Beschreibung der notwendigen Screens)
-
-**** HomeScreen
-
-    ...
-
-**** RoomScanScreen
-
-    ...
-
-**** ObjectScanScreen (später)
-    ...
-
-**** RoomScanConfirmScreen
-  ...
-
-**** ObjectScanConfirmScreen (später)
-  ...
-
-**** RoomScreen
-  ...
-
-**** RoomSelectScreen
-  ...
-
-**** ObjectSelectScreen
-  ...
-
-*** Funktionen
-  (Kurze Auflistung und Beschreibung der notwendigen Funktionen)
-
-  1. Auswahl Raum
-
-  2. Auswahl Objekt
-
-  3. Scanfunktion
-
-  4. ...
-
-*** Struktur Sourcecode
-
-  - Sourcecode liegt auf [[https://github.com/hci-interior/app][_https://github.com/hci-interior/app_]]
-
-  - App.js liegt in root
-
-  - Screens liegen im Folder ./screens
-
-  - Kleinere Components wie Buttons und Searchbars liegen in ./components
-
-  - Idealerweise einheitlich entweder *.js oder *.jsx für Components und Screens (manche IDE Plugins wie linter und code formatter hängen von der Endung ab)
-
-  - Änderungen lokal und auf einem eigenen Branch, z.B. “dominik-implement-objectscreen”, nicht direkt auf main-Branch
-
-  - Wenn Änderung fertig und funktionsfähig wird in main-Branch integriert ( → pull request → merge)
-
+Leiten Sie aus der Ideensammlung und den low-fidelity Prototypen ein
+stimmiges Konzept für Ihre App ab.
 ** App-Programmierung
-/Autor*innen: Sophia PUM, Dominik PEGLER, Asım OĞUZ/
-*** Navigation & Screens
-*** Funktionen
-*** Bonus-Features                                               :noexport:
-**** AR Toolkits (Real Backend)
+*** AR Toolkits
 
-***** Tutorial AR App mit React Native & Viro:
+**** Tutorial AR App mit React Native & Viro:
 
 - https://arvrjourney.com/augmented-reality-with-react-native-15219f36e3f2
 - https://marmelab.com/blog/2019/04/25/react-native-augmented-reality.html
 - https://github.com/echoARxyz/ReactNative-Viro-echoAR-example
 
-***** React Native kompatibel
+**** React Native kompatibel
 - Viro React: https://github.com/viromedia/viro/ & https://viromedia.com/
 - Export / three.js: https://blog.expo.io/introducing-expo-ar-mobile-augmented-reality-with-javascript-powered-by-arkit-b0d5a02ff23
 - JSARToolKit: https://github.com/kig/JSARToolKit
 - JSAruco:https://github.com/jcmellado/js-aruco
-***** weiere Links
+**** weiere Links
 - Wikitude: https://www.wikitude.com/products/wikitude-sdk/
 - ARToolkitX: https://www.artoolkitx.org
 - EasyAR: https://www.easyar.com/
 - ARCore: https://developers.google.com/ar
 - AR.js: https://ar-js-org.github.io/AR.js/
+*** Aufgabenstellung
+ Implementieren Sie die App mit dem von Ihnen geplanten Spektrum an
+ Aufgaben und Funktionen (high-fidelity Prototyp).
+
+ Stellen Sie sicher dass Ihr Interface die Komplexität des
+ zugrundeliegenden Problems realistisch widerspiegelt.
+
+Anmerkung: technische Details des Backends dürfen prototypisch realisiert werden (high-fidelity Prototyp der App).
+        
+WICHTIG: Es soll sich hierbei um einen fertigen Prototypen bzw. eine fertige App handeln.
+
+M4 ist nicht dazu da "noch zu implementieren was Sie in M3 nicht geschafft haben".
+
+Ein unvollständiger Prototyp führt zu Punktabzug. Anmerkung: Ein nicht lauffähiger Prototyp gibt bis zu 75% Abzug der Gesamtpunkte.
+
+Für formelle Dinge wie schlecht lesbaren oder strukturierten Code (sinnvolle Klassen- und Methodennamen, Code ist kommentiert, Einrückungen etc.) gibt es bis zu 10% Abzug der Gesamtpunkte.
 ** Designentscheidungen
-
-/Autor: Dominik PEGLER/
-
-Für konsistentes Design Components aus nur möglichst einer Library verwenden.
-
-Beispiele:
-*** React Native Elements
-
-#+attr_html: :width 400px
-[[file:https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1600%2F1*DJz5ZUYm6tCGB5TXIU3TNw.png&f=1&nofb=1]]
-
-- https://reactnativeelements.com/
-*** Microsoft Fluent UI
-
-#+attr_html: :width 400px
-[[file:https://cdn.vox-cdn.com/thumbor/Xiw3gFXa-HA75sihaNHTwheYFWg=/0x0:3840x2160/1200x675/filters:focal(1613x773:2227x1387)/cdn.vox-cdn.com/uploads/chorus_image/image/65832788/m365_mobile_sidebyside_16_9.0.jpg]]
-
-- Quickstart: https://fluentsite.z22.web.core.windows.net/0.55.0/quick-start
-- https://github.com/microsoft/fluentui-react-native
-- https://developer.microsoft.com/en-us/fluentui#/controls/android
-- https://developer.microsoft.com/en-us/fluentui#/controls/ios
-- Video: https://www.youtube.com/watch?v=XN0q5cJLf5A&feature=youtu.be
-*** Farben
-
-Wir versuchen, Farben so zu verwenden, dass sie durch Hervorhebung
-bestimmter Elemente Bedeutung für die Navigation durch die App
-haben. Daher möchten wir Farben überall dort vermeiden, wo sie keinen
-wirklichen Zusatznutzen bringt oder sogar der Usability im Weg steht.
-
-Die App soll auch eine Akzentfarbe enthalten, die der App Identität
-verleiht. In Statusleisten, Logos und Menüs können wir diese
-verwenden.
-
-Rot-Grün-Kontrate wollen wir vermeiden.
-
-- Akzentfarbe: Farbe A
-
-- Hintergrundfarbe: Weiß: #ffffff
-
-- Linkfarbe: Blau #
-
-- Hauptfarben: ca. 4 Farben
-
-    #+latex:\definecolor{colorA}{HTML}{99b3ff}
-  - Farbe A: #99b3ff
-    #+latex: \textcolor{colorA}{██████████}
-    
-    #+latex:\definecolor{colorB}{HTML}{ff9999}
-  - Farbe B: #ff9999
-    #+latex: \textcolor{colorB}{██████████}
-    
-    #+latex:\definecolor{colorC}{HTML}{8cd9b3}
-  - Farbe C: #8cd9b3
-    #+latex: \textcolor{colorC}{██████████}
-    
-    #+latex:\definecolor{colorD}{HTML}{d9d98c}
-  - Farbe D: #d9d98c
-    #+latex: \textcolor{colorD}{██████████}
-
-#+caption: Beispiel-Components react-elements: /Solid/, /Clear/, /Outline/
-#+attr_html: :width 400px 
-[[file:./img/react-elements_components.png]]
-
-Beispiel Component aus react native elements:
-#+begin_src js 
-import { Button } from 'react-native-elements';
-#+end_src
-
-** Projektmanagement
-/Autor: Dominik PEGLER/
-
-Es wurden auf github für das Projekt eine Organisation mit den drei
-Mitgliedern sowie ein Repository für die App und ein weiteres für die
-Projektdokumentation angelegt. Die Programmieraufgaben werden so
-verteilt, dass die Personen möglichst unabhängig voneinander arbeiten
-können. Den Zwischenstand des geschriebenen Codes
-(z.B. "HomeScreen.js") laden Sophia und Asım zumindest einmal am Tag
-in den GoogleDrive-Folder des Projekts. Von dort wird der Code von
-Dominik ins Repository auf github übernommen. Ist der Code
-funktionstauglich, erfolgt ein Merge mit dem Main-Branch. Der
-Main-Branch sollte immer eine funktionstaugliche App sein und keine
-Fehler oder Warnungen enthalten.
-
-*** Aufgabenverteilung:
-- Konzept: Dominik Pegler
-- Programmierung:
-  - Codeintegration & Versionsverwaltung Git: Dominik Pegler
-  - Navigation: Dominik Pegler
-  - HomeScreen: Sophia Pum
-  - ...Screen: Sophia Pum
-  - ...Screen: Sophia Pum
-  - ...Screen: Asım Oguz
-  - ...Screen: Asım Oguz
-  - ...Screen: Asım Oguz
-  - Datentransfer (props, states): Dominik Pegler
-- Designentscheidungen: Dominik Pegler
-- Projektmanagement: Dominik Pegler
-
-
+*** Aufgabenstellung
+ Begründen Sie Designentscheidungen und nehmen Sie insbesondere Bezug auf die Aufgaben- und Nutzeranalyse aus M1!
 ** Abgabe
    zip / .tar.gz File mit
       1. 3 Ordnern
@@ -1465,8 +1295,8 @@ Fehler oder Warnungen enthalten.
 
       2. README-Datei in dieser Struktur: http://vda.univie.ac.at/Teaching/HCI/21s/materials/README_M3.md
 
-* Meilenstein M4
-** Präsentation M4
+** Präsentation M3
+
 [[file:./m3_praes.pdf][PDF]]
 * Notizen
 #+TOC: headlines 1 local
