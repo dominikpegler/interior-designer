@@ -1401,8 +1401,8 @@ import { Checkbox } from '@fluentui/react-native';
 
 *** Screens
 
-**** ...
-
+- Anpassung an die Personas
+- Vereinheitlichung Farben und Styleelemente
 ** Projektmanagement
 /Autor: Dominik PEGLER/
 
@@ -1435,28 +1435,28 @@ Fehler oder Warnungen enthalten.
   - Wenn Änderung fertig und funktionsfähig wird in main-Branch integriert ( → pull request → merge)
 
 *** Aufgabenverteilung:
-- Konzept: Dominik Pegler
-  - Definition der Navigation
-  - Definition der Screens
-  - Definition Funktionen
-- Programmierung:
-  - Codeintegration & Versionsverwaltung Git: Dominik Pegler
-  - Navigation: Dominik Pegler
-  - HomeScreen: Sophia Pum
-  - ...Screen: Sophia Pum
-  - ...Screen: Sophia Pum
-  - RoomScreen: Asım Oguz
-  - RoomSelectScreen: Asım Oguz
-  - ObjectSelectScreen: Asım Oguz
-  - Datentransfer (props, states): Dominik Pegler
-- Designentscheidungen: Dominik Pegler
-  - Definition Farben und Styleelemente
-  - Vereinheitlich und der Screens
-  - Anpassung der Screens an die Personas
-- Projektmanagement: Dominik Pegler
-  - Strukturieren und Einteilen der Aufgaben
-  - Ergebnis- und Fortschrittsdokumentation
-  - Infrastruktur für Projektarbeit, Sourcecode usw. herstellen
+1. Konzept: *Dominik Pegler*
+   - Definition der Navigation
+   - Definition der Screens
+   - Definition Funktionen
+2. Programmierung:
+   - Codeintegration & Versionsverwaltung Git: *Dominik Pegler*
+   - Navigation: *Dominik Pegler*
+   - HomeScreen: *Sophia Pum*
+   - RoomScanScreen: *Sophia Pum*
+   - RoomScanConfirmScreen: *Sophia Pum*
+   - RoomScreen: *Asım Oguz*
+   - RoomSelectScreen: *Asım Oguz*
+   - ObjectSelectScreen: *Asım Oguz*
+   - Datentransfer (props, states): *Dominik Pegler*
+3. Designentscheidungen: *Dominik Pegler*
+   - Definition Farben und Styleelemente
+   - Vereinheitlich und der Screens
+   - Anpassung der Screens an die Personas
+4. Projektmanagement: *Dominik Pegler*
+   - Strukturieren und Einteilen der Aufgaben
+   - Ergebnis- und Fortschrittsdokumentation
+   - Infrastruktur für Projektarbeit, Sourcecode usw. herstellen
   
   
 
