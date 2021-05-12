@@ -1357,13 +1357,13 @@ Für konsistentes Design Components aus nur möglichst einer Library verwenden.
 Beispiele:
 *** React Native Elements
 
-#+attr_html: :width 400px
+#+attr_html: :width 800px
 [[file:https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1600%2F1*DJz5ZUYm6tCGB5TXIU3TNw.png&f=1&nofb=1]]
 
 - https://reactnativeelements.com/
 *** Microsoft Fluent UI
 
-#+attr_html: :width 400px
+#+attr_html: :width 800px
 [[file:https://cdn.vox-cdn.com/thumbor/Xiw3gFXa-HA75sihaNHTwheYFWg=/0x0:3840x2160/1200x675/filters:focal(1613x773:2227x1387)/cdn.vox-cdn.com/uploads/chorus_image/image/65832788/m365_mobile_sidebyside_16_9.0.jpg]]
 
 - Quickstart: https://fluentsite.z22.web.core.windows.net/0.55.0/quick-start
