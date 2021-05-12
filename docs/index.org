@@ -49,11 +49,11 @@ SCHEDULED: <2021-05-12 Wed 12:00>
 1. [X] Grobkonzept: Screens, Funktionen des Prototypen definieren
 2. [ ] Funktionen/Simulationen festlegen
 3. [ ] Konzept an die Programmierergebnisse anpassen
-**** TODO App programmieren [1/3]                    :Dominik:Asim:Sophia:
+**** TODO App programmieren [2/6]                    :Dominik:Asim:Sophia:
 SCHEDULED: <2021-05-12 Wed 20:00>
 1. [X] App mit Basis-HomeScreen erstellen
 2. [ ] Restliche Screens aus Konzept implementieren (nur grobes Design)
-3. [ ] Navigation implementieren
+3. [X] Navigation implementieren
 4. [ ] Screens anpassen and Personas, einheitlicher Style
 5. [ ] Kernfunktionen einbauen (bzw. mocken)
 6. [ ] Kompilieren
