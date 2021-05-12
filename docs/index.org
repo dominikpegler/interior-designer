@@ -40,13 +40,12 @@ CLOSED: [2021-04-15 Thu 14:10] SCHEDULED: <2021-04-15 Thu 13:40>
 CLOSED: [2021-04-20 Tue 20:16] DEADLINE: <2021-04-20 Tue>
 *** DONE A2: Erstellung Test-App                          :Einzel:noexport:
 CLOSED: [2021-05-05 Wed 17:34] DEADLINE: <2021-05-06 Thu>
-*** TODO M3: Zwischenbericht VideoCall
-SCHEDULED: <2021-05-12 Wed 18:00>
+*** DONE M3: Zwischenbericht VideoCall
+CLOSED: [2021-05-12 Wed 18:38] SCHEDULED: <2021-05-12 Wed 18:00>
 *** TODO M3: Erstellung der App 
 DEADLINE: <2021-05-18 Tue>
 **** TODO Konzept [1/3]                                          :Dominik:
 SCHEDULED: <2021-05-12 Wed 12:00>
-
 1. [X] Grobkonzept: Screens, Funktionen des Prototypen definieren
 2. [ ] Funktionen/Simulationen festlegen
 3. [ ] Konzept an die Programmierergebnisse anpassen
@@ -1402,6 +1401,25 @@ yarn add @fluentui/react-native
   
 #+begin_src js 
 import { Checkbox } from '@fluentui/react-native';
+#+end_src
+
+*** Icons
+- https://fontawesome.com/v4.7.0/icons/
+
+#+begin_src js-jsx
+
+import Icon from 'react-native-vector-icons/FontAwesome';
+
+#+end_src
+
+#+begin_src js-jsx
+
+  <Icon
+              name="camera"
+              size={15}
+              color="white"
+  />
+
 #+end_src
 
 *** Screens
