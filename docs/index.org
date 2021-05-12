@@ -1290,22 +1290,6 @@ eingeschaltet werden, das spart Ressourcen.”
 
   4. ...
 
-*** Struktur Sourcecode
-
-  - Sourcecode liegt auf [[https://github.com/hci-interior/app][_https://github.com/hci-interior/app_]]
-
-  - App.js liegt in root
-
-  - Screens liegen im Folder ./screens
-
-  - Kleinere Components wie Buttons und Searchbars liegen in ./components
-
-  - Idealerweise einheitlich entweder *.js oder *.jsx für Components und Screens (manche IDE Plugins wie linter und code formatter hängen von der Endung ab)
-
-  - Änderungen lokal und auf einem eigenen Branch, z.B. “dominik-implement-objectscreen”, nicht direkt auf main-Branch
-
-  - Wenn Änderung fertig und funktionsfähig wird in main-Branch integriert ( → pull request → merge)
-
 ** App-Programmierung
 /Autor*innen: Sophia PUM, Dominik PEGLER, Asım OĞUZ/
 *** Navigation & Screens
@@ -1434,21 +1418,44 @@ funktionstauglich, erfolgt ein Merge mit dem Main-Branch. Der
 Main-Branch sollte immer eine funktionstaugliche App sein und keine
 Fehler oder Warnungen enthalten.
 
+*** Struktur Sourcecode
+
+  - Sourcecode liegt auf [[https://github.com/hci-interior/app][_https://github.com/hci-interior/app_]]
+
+  - App.js liegt in root
+
+  - Screens liegen im Folder ./screens
+
+  - Kleinere Components wie Buttons und Searchbars liegen in ./components
+
+  - Idealerweise einheitlich entweder *.js oder *.jsx für Components und Screens (manche IDE Plugins wie linter und code formatter hängen von der Endung ab)
+
+  - Änderungen lokal und auf einem eigenen Branch, z.B. “dominik-implement-objectscreen”, nicht direkt auf main-Branch
+
+  - Wenn Änderung fertig und funktionsfähig wird in main-Branch integriert ( → pull request → merge)
+
 *** Aufgabenverteilung:
 - Konzept: Dominik Pegler
+  - Definition der Navigation
+  - Definition der Screens
+  - Definition Funktionen
 - Programmierung:
   - Codeintegration & Versionsverwaltung Git: Dominik Pegler
   - Navigation: Dominik Pegler
   - HomeScreen: Sophia Pum
   - ...Screen: Sophia Pum
   - ...Screen: Sophia Pum
-  - ...Screen: Asım Oguz
-  - ...Screen: Asım Oguz
-  - ...Screen: Asım Oguz
+  - RoomScreen: Asım Oguz
+  - RoomSelectScreen: Asım Oguz
+  - ObjectSelectScreen: Asım Oguz
   - Datentransfer (props, states): Dominik Pegler
 - Designentscheidungen: Dominik Pegler
+  - Definition Farben und Styleelemente
+  - Anpassung Screens an die Personas
 - Projektmanagement: Dominik Pegler
-
+  - Strukturieren und Einteilen der Aufgaben
+  - Ergebnis- und Fortschrittsdokumentation
+  - Infrastruktur für Projektarbeit, Sourcecode usw. herstellen
   
   
 
