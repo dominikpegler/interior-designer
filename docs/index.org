@@ -1405,7 +1405,7 @@ Rot-Grün-Kontrate wollen wir vermeiden.
     #+html: <span style="color:#d9d98c;">██████████</span>
     
 #+caption: Beispiel-Components react-elements: /Solid/, /Clear/, /Outline/
-#+attr_html: :width 400px 
+#+attr_html: :width 800px 
 [[file:./img/react-elements_components.png]]
 
 Beispiel Component aus react native elements:
