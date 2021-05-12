@@ -1393,7 +1393,7 @@ Rot-Grün-Kontrate wollen wir vermeiden.
 - Hauptfarben: ca. 4 Farben
 
   - Farbe A: #99b3ff
-    #+html: <span style="color:99b3ff;">██████████</span>
+    #+html: <span style="color:#99b3ff;">██████████</span>
     
     #+latex:\definecolor{colorB}{HTML}{ff9999}
   - Farbe B: #ff9999
