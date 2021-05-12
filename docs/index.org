@@ -1451,7 +1451,8 @@ Fehler oder Warnungen enthalten.
   - Datentransfer (props, states): Dominik Pegler
 - Designentscheidungen: Dominik Pegler
   - Definition Farben und Styleelemente
-  - Anpassung Screens an die Personas
+  - Vereinheitlich und der Screens
+  - Anpassung der Screens an die Personas
 - Projektmanagement: Dominik Pegler
   - Strukturieren und Einteilen der Aufgaben
   - Ergebnis- und Fortschrittsdokumentation
