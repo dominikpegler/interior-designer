@@ -52,7 +52,7 @@ Applikationseinstellungen. Diese sieben "Screens" sind:
 Ihre Funktionen lassen sich am besten durch typische
 Navigationsabfolgen beschreiben:
 
-  1. User startet die App, gelangt zum *HomeScreen* (*Abb. [[fig:HomeScreen*) und findet dort 3
+  1. User startet die App, gelangt zum *HomeScreen* (*Abb. ref:fig:HomeScreen*) und findet dort 3
      große Buttons:
      1. Scan New Room
      2. My Rooms
