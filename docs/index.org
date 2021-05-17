@@ -1293,7 +1293,7 @@ file:./img/m3_hifi_roomscanscreen.jpg
 #+caption: M3 Prototype: RoomScanConfirm
 #+name: fig:RoomScanConfirmScreen
 #+attr_html: :height 660px
-file:./img/m3_hifi_roomscanconfirm.jpg
+file:./img/m3_hifi_roomscanconfirmscreen.jpg
   4. User ist nun im *RoomScanConfirmScreen* (*Abb. [[fig:RoomScanConfirmScreen]]*) angelangt, sieht eine
      Skizze eines Raumes mit Meter- und Quadratmeterangaben vor sich,
      darunter zwei Buttons, mit denen sich das Scanresultat bestätigen
