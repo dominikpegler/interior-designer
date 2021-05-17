@@ -1283,7 +1283,7 @@ file:./img/m3_hifi_settingsscreen.jpg
      *"Scan New Room"* an.
 #+caption: M3 Prototype: RoomScanScreen (derzeit nur iPhone)
 #+name: fig:RoomScanScreen
-#+attr_html: :height 660px
+#+attr_html: :width 660px
 file:./img/m3_hifi_roomscanscreen.jpg
   3. User befindet sich jetzt im *RoomScanScreen* (*Abb. [[fig:RoomScanScreen]]*), die Kamera des
      Geräts schaltet sich ein, es erscheinen visuelle Indikatoren, die
@@ -1330,7 +1330,7 @@ file:./img/m3_hifi_roomselectscreen.jpg
      
 #+caption: M3 Prototype: RoomScreen
 #+name: fig:RoomScreen
-#+attr_html: :height 660px
+#+attr_html: :width 660px
 file:./img/m3_hifi_roomscreen.jpg
 
   8. User ist im *ObjectSelectScreen* (*Abb. [[fig:ObjectSelectScreen]]*). Dieser Screen ähnelt dem
