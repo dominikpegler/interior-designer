@@ -1274,7 +1274,12 @@ Navigationsabfolgen beschreiben:
 #+attr_html: :height 660px
 file:./img/m3_hifi_homescreen.jpg
 
-  2. User entschließt sich zum Scannen eines neuen Raumes und tippt
+#+caption: M3 Prototype: SettingsScreen
+#+name: fig:SettingsScreen
+#+attr_html: :height 660px
+file:./img/m3_hifi_settingsscreen.jpg
+ 
+ 2. User entschließt sich zum Scannen eines neuen Raumes und tippt
      *"Scan New Room"* an.
 #+caption: M3 Prototype: RoomScanScreen (derzeit nur iPhone)
 #+name: fig:RoomScanScreen
