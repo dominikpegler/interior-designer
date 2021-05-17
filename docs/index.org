@@ -1271,14 +1271,14 @@ Navigationsabfolgen beschreiben:
      3. My Objects
 #+caption: M3 Prototype: HomeScreen
 #+name: fig:HomeScreen
-#+attr_html: :height 844px
+#+attr_html: :height 660px
 file:./img/m3_hifi_homescreen.jpg
 
   2. User entschließt sich zum Scannen eines neuen Raumes und tippt
      *"Scan New Room"* an.
 #+caption: M3 Prototype: RoomScanScreen (derzeit nur iPhone)
 #+name: fig:RoomScanScreen
-#+attr_html: :height 844px
+#+attr_html: :height 660px
 file:./img/m3_hifi_roomscanscreen.jpg
   3. User befindet sich jetzt im *RoomScanScreen* (*Abb. [[fig:RoomScanScreen]]*), die Kamera des
      Geräts schaltet sich ein, es erscheinen visuelle Indikatoren, die
@@ -1287,7 +1287,7 @@ file:./img/m3_hifi_roomscanscreen.jpg
      wird der RoomScanScreen geschlossen.
 #+caption: M3 Prototype: RoomScanConfirm
 #+name: fig:RoomScanConfirmScreen
-#+attr_html: :height 844px
+#+attr_html: :height 660px
 file:./img/m3_hifi_roomscanconfirm.jpg
   4. User ist nun im *RoomScanConfirmScreen* (*Abb. [[fig:RoomScanConfirmScreen]]*) angelangt, sieht eine
      Skizze eines Raumes mit Meter- und Quadratmeterangaben vor sich,
@@ -1298,7 +1298,7 @@ file:./img/m3_hifi_roomscanconfirm.jpg
      auch im Prototypen zurück zum HomeScreen.
 #+caption: M3 Prototype: RoomSelectScreen
 #+name: fig:RoomSelectScreen
-#+attr_html: :height 844px
+#+attr_html: :height 660px
 file:./img/m3_hifi_roomselectscreen.jpg
   5. User befindet sich wieder im *HomeScreen* und wählt dort diesmal *"My Rooms"*
   6. Im *RoomSelectScreen* (*Abb. [[fig:RoomSelectScreen]]*) wird eine Liste an Räumen angezeigt. Diese
@@ -1325,7 +1325,7 @@ file:./img/m3_hifi_roomselectscreen.jpg
      
 #+caption: M3 Prototype: RoomScreen
 #+name: fig:RoomScreen
-#+attr_html: :height 844px
+#+attr_html: :height 660px
 file:./img/m3_hifi_roomscreen.jpg
 
   8. User ist im *ObjectSelectScreen* (*Abb. [[fig:ObjectSelectScreen]]*). Dieser Screen ähnelt dem
@@ -1339,7 +1339,7 @@ file:./img/m3_hifi_roomscreen.jpg
      
 #+caption: M3 Prototype: ObjectSelectScreen
 #+name: fig:ObjectSelectScreen
-#+attr_html: :height 844px
+#+attr_html: :height 660px
 file:./img/m3_hifi_objectselectscreen.jpg
 
   9. Zuletzt kann user den Raum speichern (*Abb. [[fig:RoomScreen3]]*) oder abbrechen. In beiden
@@ -1347,12 +1347,12 @@ file:./img/m3_hifi_objectselectscreen.jpg
 
 #+caption: M3 Prototype: RoomScreen (Objekt hinzugefügt)
 #+name: fig:RoomScreen2
-#+attr_html: :height 844px
+#+attr_html: :height 660px
 file:./img/m3_hifi_roomscreen_2.jpg
 
 #+caption: M3 Prototype: RoomScreen (Speicher)
 #+name: fig:RoomScreen3
-#+attr_html: :height 844px
+#+attr_html: :height 660px
 file:./img/m3_hifi_roomscreen_3.jpg
 ** App-Programmierung
 /Autor*innen: Sophia PUM, Dominik PEGLER, Asım OĞUZ/
