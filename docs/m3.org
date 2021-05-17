@@ -225,7 +225,7 @@ eine funktionstaugliche App ohne Fehler oder Warnungen enthält.
 
 ** Aufgabenverteilung:
 
-(siehe GoogleSheet)
+(siehe Anhang)
 
 * noexport                                                         :noexport:
 
