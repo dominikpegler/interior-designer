@@ -1397,8 +1397,8 @@ Icons zur Seite stellen. Die Farben sind hier angeführt:
 
 - Hauptfarben: ca. 4 Farben 
 
-  - Farbe A: #99b3ff (wurde geändert und an Splashscreen angepasst)
-    #+html: <span style="color:#99b3ff;">██████████</span>
+  - Farbe A: #303E14
+    #+html: <span style="color:#303E14;">██████████</span>
     
   - Farbe B (rot / decline / cancel / danger): #ff9999
     #+html: <span style="color:#ff9999;">██████████</span>
