@@ -1259,32 +1259,49 @@ Applikationseinstellungen. Diese sieben "Screens" sind:
 4. RoomSelectScreen
 5. RoomScreen
 6. ObjectSelectScreen
-7. SettingsScreen
+7. SettingsScreen (*Abb. [[fig:SettingsScreen]]*)
 
 Ihre Funktionen lassen sich am besten durch typische
 Navigationsabfolgen beschreiben:
 
-  1. User startet die App, gelangt zum *HomeScreen* und findet dort 3
+  1. User startet die App, gelangt zum *HomeScreen* (*Abb. [[fig:HomeScreen]]*) und findet dort 3
      große Buttons:
      1. Scan New Room
      2. My Rooms
      3. My Objects
+#+caption: M3 Prototype: HomeScreen
+#+name: fig:HomeScreen
+#+attr_html: :height 844px
+file:./img/m3_hifi_homescreen.jpg
+
   2. User entschließt sich zum Scannen eines neuen Raumes und tippt
      *"Scan New Room"* an.
-  3. User befindet sich jetzt im *RoomScanScreen*, die Kamera des
+#+caption: M3 Prototype: RoomScanScreen (derzeit nur iPhone)
+#+name: fig:RoomScanScreen
+#+attr_html: :height 844px
+file:./img/m3_hifi_roomscanscreen.jpg
+  3. User befindet sich jetzt im *RoomScanScreen* (*Abb. [[fig:RoomScanScreen]]*), die Kamera des
      Geräts schaltet sich ein, es erscheinen visuelle Indikatoren, die
      den Scanprozess unterstützen sollen. Die Simulation des
      Scanprozesses dauert im Prototypen etwa 25 Sekunden. Anschließend
      wird der RoomScanScreen geschlossen.
-  4. User ist nun im *RoomScanConfirmScreen* angelangt, sieht eine
+#+caption: M3 Prototype: RoomScanConfirm
+#+name: fig:RoomScanConfirmScreen
+#+attr_html: :height 844px
+file:./img/m3_hifi_roomscanconfirm.jpg
+  4. User ist nun im *RoomScanConfirmScreen* (*Abb. [[fig:RoomScanConfirmScreen]]*) angelangt, sieht eine
      Skizze eines Raumes mit Meter- und Quadratmeterangaben vor sich,
      darunter zwei Buttons, mit denen sich das Scanresultat bestätigen
      oder ablehnen lässt. In der fertigen Applikation führt das
      Bestätigen zu einem "Speichern"-Dialog, im Prototypen zurück zum
      HomeScreen. Das Ablehnen führt sowohl in der fertigen App wie
      auch im Prototypen zurück zum HomeScreen.
+#+caption: M3 Prototype: RoomSelectScreen
+#+name: fig:RoomSelectScreen
+#+attr_html: :height 844px
+file:./img/m3_hifi_roomselectscreen.jpg
   5. User befindet sich wieder im *HomeScreen* und wählt dort diesmal *"My Rooms"*
-  6. Im *RoomSelectScreen* wird eine Liste an Räumen angezeigt. Diese
+  6. Im *RoomSelectScreen* (*Abb. [[fig:RoomSelectScreen]]*) wird eine Liste an Räumen angezeigt. Diese
      Liste kann auch durchsucht werden. Als Hilfe werden user auch
      Preview-Bilder der gelisteten Räume angezeigt. Im Unterschied zum
      Prototypen sollen hier auch weitere Details wie Anlagedatum,
@@ -1293,7 +1310,7 @@ Navigationsabfolgen beschreiben:
      umzubenennen oder zu duplizieren (Swipes nach links oder
      rechts). User kann im Prototypen einen Raum auswählen. Wird das
      gemacht, wechselt die App in den nächsten Bildschirm.
-  7. User gelangt in den *RoomScreen* und findet sich damit im gerade
+  7. User gelangt in den *RoomScreen* (*Abb. [[fig:RoomScreen]]*) und findet sich damit im gerade
      ausgewählten Raum wieder. In der fertigen Applikation wird es
      möglich sein, sich im Raum herumzubewegenm verschiedene
      Perspektiven wie Grundrissperspektive einzunehmen und Objekte
@@ -1305,17 +1322,38 @@ Navigationsabfolgen beschreiben:
      das Speichern mittels eines Pop-up-Dialogs simuliert. Über den
      Button mit dem Plus-Symbol, der für das Hinzufügen neuer Objekte
      steht, gelangt man in den nächsten Screen.
-  8. User ist im *ObjectSelectScreen*. Dieser Screen ähnelt dem
+     
+#+caption: M3 Prototype: RoomScreen
+#+name: fig:RoomScreen
+#+attr_html: :height 844px
+file:./img/m3_hifi_roomscreen.jpg
+
+  8. User ist im *ObjectSelectScreen* (*Abb. [[fig:ObjectSelectScreen]]*). Dieser Screen ähnelt dem
      RoomSelectScreen. Es soll hier eine Art "Bibliothek der Objekten"
      entstehen und Objekte sollen in der fertigen Applikation die
      zentrale Rolle einnehmen. Die Funktionalität des Prototypen
      beschränkt sich jedoch noch auf das Durchsuchen und Auswählen der
      Objekte. Hat user ein solches ausgewählt, führt die Navigation
-     zurück in den *RoomScreen* und das Objekt wird mittig im Bild
+     zurück in den *RoomScreen* (*Abb. [[fig:RoomScreen2]]*) und das Objekt wird mittig im Bild
      platziert.
-  9. Zuletzt kann user den Raum speichern oder abbrechen. In beiden
+     
+#+caption: M3 Prototype: ObjectSelectScreen
+#+name: fig:ObjectSelectScreen
+#+attr_html: :height 844px
+file:./img/m3_hifi_objectselectscreen.jpg
+
+  9. Zuletzt kann user den Raum speichern (*Abb. [[fig:RoomScreen3]]*) oder abbrechen. In beiden
      Fällen gelangt man wieder in den *HomeScreen*.
 
+#+caption: M3 Prototype: RoomScreen (Objekt hinzugefügt)
+#+name: fig:RoomScreen2
+#+attr_html: :height 844px
+file:./img/m3_hifi_roomscreen_2.jpg
+
+#+caption: M3 Prototype: RoomScreen (Speicher)
+#+name: fig:RoomScreen3
+#+attr_html: :height 844px
+file:./img/m3_hifi_roomscreen_3.jpg
 ** App-Programmierung
 /Autor*innen: Sophia PUM, Dominik PEGLER, Asım OĞUZ/
 ** Designentscheidungen
@@ -1369,9 +1407,6 @@ Icons zur Seite stellen. Die Farben sind hier angeführt:
 *App-Komponenten*: konsistentes Design Components aus nur möglichst
 einer Library verwenden. Wo möglich haben wir Komponenten aus der
 Library "React Native Elements" und Icons von "FontAwesome" verwendet.
-
-#+attr_html: :width 800px
-[[file:https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1600%2F1*DJz5ZUYm6tCGB5TXIU3TNw.png&f=1&nofb=1]]
 
 #+caption: Beispiel-Components react-native-elements: /Solid/, /Clear/, /Outline/
 #+attr_html: :width 800px 

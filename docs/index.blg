@@ -1,0 +1,5 @@
+[0] Config.pm:312> INFO - This is Biber 2.15
+[0] Config.pm:315> INFO - Logfile is 'index.blg'
+[146] biber:330> INFO - === Mi Mai 12, 2021, 15:11:39
+[269] Utils.pm:411> ERROR - Cannot find 'index.bcf'!
+[269] Biber.pm:132> INFO - ERRORS: 1
