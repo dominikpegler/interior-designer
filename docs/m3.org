@@ -171,7 +171,13 @@ keinen wirklichen Zusatznutzen bringt oder sogar der Usability im Weg
 steht.
 
 Die App soll auch eine Akzentfarbe enthalten, die der App Identität
-verleiht. In Statusleisten, Logos und Menüs verwenden wir diese.
+verleiht. In Statusleisten, Logos und Menüs verwenden wir diese. Wir
+haben hier die Farbe Dunkelgrün gewählt, um eine Farbe zu verwenden,
+die Natur und Natürlichkeit symbolisiert und eine jüngere Generation
+in Form unserer Personas anspricht, die dem Thema Umweltschutz und
+Nachhaltigkeit stärker emotional verbunden ist. Im weieren Verlauf der
+Entwicklung soll diese Thematik stärker herausgearbeitet werden und so
+auch eine stärkere Abgrenzung zu Konkurrenzprodukten stattfinden.
 
 Probleme mit Rot-Grün-Kontrasten wollen wir vermeiden, indem wir
 diesen im Falle von Confirm-Decline-Situationen auch noch passende
@@ -183,7 +189,7 @@ Icons zur Seite stellen. Die Farben sind hier angeführt:
 
 - Hauptfarben: ca. 4 Farben 
 
-  - Farbe A: #303E14
+  - Farbe A (dunkelgrün): #303E14
     #+html: <span style="color:#303E14;">██████████</span>
     
   - Farbe B (rot / decline / cancel / danger): #ff9999
