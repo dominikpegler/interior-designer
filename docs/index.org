@@ -1232,200 +1232,151 @@ vermieden und der Nutzer bei einer gut durchdachten Planung unterstützt
 werden. Netter Nebeneffekt: Die Kamera muss nur zum Scannen
 eingeschaltet werden, das spart Ressourcen.”
 #+end_quote
-*** Navigation
-  (Kurze Skizzierung der Navigationsabfolge)
 
-  1. Startbildschirm mit reduziertem Hintergrundbild (Akzentfarbe,
-     wenig Kontraste \to wenig Ablenkung) und ein paar Auswahlbuttons
-     (“Meine Räume”, “Neuen Raum scannen”, “Objekte”)
+Aufgrund der kurzen Entwicklungsdauer von wenigen Wochen und der
+Unerfahrenheit allerq Teammitglieder im Bereich der
+Frontend-Entwicklung kann der vorliegende Prototyp nur eine erste
+grobe Skizzierung unserer Vorstellungen von dieser Applikation
+sein. Wir sind jedoch zuversichtlich, dass er diese Vorstellungen
+bereits gut repräsentiert sowie für Außenstehende klar und
+verständlich kommuniziert.
 
-  2. “Neuen Raum Scannen”,
+Die für uns wesentlichen Eigenschaften, auf die wir uns in der
+Entwicklung konzentrieren wollten, waren das User-Interface und die
+Demonstration der beiden Basisfunktionen, nämlich der des Scannens von
+Räumen und des Einfügens von virtuellen Objekten in diese folglich
+ebenso virtuellen Räumen.
 
-     1. Es schaltet sich die Kamera ein, man ist im *RoomScanScreen*, es erscheint eine Info als Overlay
+Dabei haben wir sechs für das Userinterface und die Basisfunktionen
+wichtige Bildschirme definiert, die wir in dieser Arbeit realisieren
+wollten, sowie einen zusätzlichen Bildschirm für die
+Applikationseinstellungen. Diese sieben "Screens" sind:
 
-     2. Scan-Instruktionen erscheinen
 
-     3. Nach erfolgtem Scanvorgang wechselt die App in den *RoomScanConfirmScreen*
-
-     4. Raummaße werden angezeigt. Buttons: OK (Raum speichern -> PopUp-Dialog für Eingabe des Namens, dann zurück zum Start), Neu scannen (zurück in den RoomScanScreen), Maße Manuell ändern (Funktion noch nicht implementieren, das würde zum RoomEditScreen führen), Abbruch (ohne Speichern zurück zum Start)
-
-  3. “Meine Räume”
-
-     1. *RoomSelectScreen*
-
-     2. Liste zur Auswahl an Räumen erscheint (Name, Erstelldatum, Thumbnail)
-
-     3. Bei Auswahl eines Raumes (alternative Optionen: Raum löschen, Raum duplizieren → Kopie wird erstellt, Raum bearbeiten → noch nicht implementieren → RoomEditScreen, siehe oben) gelangt man zum *RoomScreen*
-
-     4. Im RoomScreen sieht man den Raum in (Fake-)3D, man kann sich herumdrehen, im Raum bewegen und man sieht mögliche bereits vorher hinzugefügte Möbelstücke
-
-     5. Man kann diese Möbelstücke verschieben oder löschen
-
-     6. Es gibt einen Button mit Plus-Symbol für das Hinzufügen neuer Objekte aus der Objekt-Bibliothek. Man gelangt hier in den *ObjectSelectScreen*
-     7. Dieser Screen ähnelt dem RoomSelectScreen, man kann Objekte löschen, zum Hinzufügen auswählen und es gibt einen Plus-Button zum Hinzufügen neuer Objekte in die Bibliothek (Import und Scan). Die ObjectScan und ObjectImport-Funktionen müssen wir noch nicht implementieren.
-
-     8. Hat man ein Objekt ausgewählt, gelangt man wieder zurück in den RoomScreen und das Objekt befindet sich mittig in der letzten Ansicht. Man kann es nun bearbeiten (löschen, verschieben) wie alle anderen Objekte auch.
-
-     9. Zuletzt kann man den Raum speichern oder abbrechen. In beiden Fällen gelangt man wieder in den *HomeScreen*.
-
-  4. “Objekte”
-
-     1. Man gelangt in den *ObjectSelectScreen*, die Abfolge ist ident mit Pkt 3.f., nur dass man nach Auswahl eines Objekts in den *RoomSelectScreen* gelangt, um den Raum zu wählen, in den das Objekt eingefügt werden soll.
-
-     2. Nach Auswahl des Raumes gelangt man in den *RoomScreen* und das neue Objekt ist in der mittig in der Ansicht platziert. Die weitere Abfolge ist ident mit Pkt. 3.h.
-
-*** Screens
 1. HomeScreen
 2. RoomScanScreen
-3. ObjectScanScreen (später)
-4. RoomScanConfirmScreen
-5. ObjectScanConfirmScreen (später)
-6. RoomScreen
-7. RoomSelectScreen
-8. ObjectSelectScreen
-*** Funktionen
-  (Kurze Auflistung und Beschreibung der notwendigen Funktionen)
+3. RoomScanConfirmScreen
+4. RoomSelectScreen
+5. RoomScreen
+6. ObjectSelectScreen
+7. SettingsScreen
 
-  1. Auswahl Raum
+Ihre Funktionen lassen sich am besten durch typische
+Navigationsabfolgen beschreiben:
 
-  2. Auswahl Objekt
-
-  3. Scanfunktion
-
-  4. ...
+  1. User startet die App, gelangt zum *HomeScreen* und findet dort 3
+     große Buttons:
+     1. Scan New Room
+     2. My Rooms
+     3. My Objects
+  2. User entschließt sich zum Scannen eines neuen Raumes und tippt
+     *"Scan New Room"* an.
+  3. User befindet sich jetzt im *RoomScanScreen*, die Kamera des
+     Geräts schaltet sich ein, es erscheinen visuelle Indikatoren, die
+     den Scanprozess unterstützen sollen. Die Simulation des
+     Scanprozesses dauert im Prototypen etwa 25 Sekunden. Anschließend
+     wird der RoomScanScreen geschlossen.
+  4. User ist nun im *RoomScanConfirmScreen* angelangt, sieht eine
+     Skizze eines Raumes mit Meter- und Quadratmeterangaben vor sich,
+     darunter zwei Buttons, mit denen sich das Scanresultat bestätigen
+     oder ablehnen lässt. In der fertigen Applikation führt das
+     Bestätigen zu einem "Speichern"-Dialog, im Prototypen zurück zum
+     HomeScreen. Das Ablehnen führt sowohl in der fertigen App wie
+     auch im Prototypen zurück zum HomeScreen.
+  5. User befindet sich wieder im *HomeScreen* und wählt dort diesmal *"My Rooms"*
+  6. Im *RoomSelectScreen* wird eine Liste an Räumen angezeigt. Diese
+     Liste kann auch durchsucht werden. Als Hilfe werden user auch
+     Preview-Bilder der gelisteten Räume angezeigt. Im Unterschied zum
+     Prototypen sollen hier auch weitere Details wie Anlagedatum,
+     letzte Bearbeitungsdatum angezeigt werden. Außerdem soll es auch
+     möglich sein, Kategorien zu bilden und Räume zu löschen,
+     umzubenennen oder zu duplizieren (Swipes nach links oder
+     rechts). User kann im Prototypen einen Raum auswählen. Wird das
+     gemacht, wechselt die App in den nächsten Bildschirm.
+  7. User gelangt in den *RoomScreen* und findet sich damit im gerade
+     ausgewählten Raum wieder. In der fertigen Applikation wird es
+     möglich sein, sich im Raum herumzubewegenm verschiedene
+     Perspektiven wie Grundrissperspektive einzunehmen und Objekte
+     maßgenau manuell oder per Algorithmus anzuorden. Im Prototypen
+     wird das mit einem einfachen Bild des Raumes und drei runden
+     Buttons simuliert. Ein Button dient dem Hinzufügen von Objekten,
+     einer dem Entfernen aller Objekte und ein weiterer speichert das
+     Projekt bzw. den Raum in dieser Anordnung ab. Im Prototypen wird
+     das Speichern mittels eines Pop-up-Dialogs simuliert. Über den
+     Button mit dem Plus-Symbol, der für das Hinzufügen neuer Objekte
+     steht, gelangt man in den nächsten Screen.
+  8. User ist im *ObjectSelectScreen*. Dieser Screen ähnelt dem
+     RoomSelectScreen. Es soll hier eine Art "Bibliothek der Objekten"
+     entstehen und Objekte sollen in der fertigen Applikation die
+     zentrale Rolle einnehmen. Die Funktionalität des Prototypen
+     beschränkt sich jedoch noch auf das Durchsuchen und Auswählen der
+     Objekte. Hat user ein solches ausgewählt, führt die Navigation
+     zurück in den *RoomScreen* und das Objekt wird mittig im Bild
+     platziert.
+  9. Zuletzt kann user den Raum speichern oder abbrechen. In beiden
+     Fällen gelangt man wieder in den *HomeScreen*.
 
 ** App-Programmierung
 /Autor*innen: Sophia PUM, Dominik PEGLER, Asım OĞUZ/
-*** Navigation & Screens
-*** Funktionen
-*** Bonus-Features                                               :noexport:
-**** AR Toolkits (Real Backend)
-
-***** Tutorial AR App mit React Native & Viro:
-
-- https://arvrjourney.com/augmented-reality-with-react-native-15219f36e3f2
-- https://marmelab.com/blog/2019/04/25/react-native-augmented-reality.html
-- https://github.com/echoARxyz/ReactNative-Viro-echoAR-example
-
-***** React Native kompatibel
-- Viro React: https://github.com/viromedia/viro/ & https://viromedia.com/
-- Export / three.js: https://blog.expo.io/introducing-expo-ar-mobile-augmented-reality-with-javascript-powered-by-arkit-b0d5a02ff23
-- JSARToolKit: https://github.com/kig/JSARToolKit
-- JSAruco:https://github.com/jcmellado/js-aruco
-***** weiere Links
-- Wikitude: https://www.wikitude.com/products/wikitude-sdk/
-- ARToolkitX: https://www.artoolkitx.org
-- EasyAR: https://www.easyar.com/
-- ARCore: https://developers.google.com/ar
-- AR.js: https://ar-js-org.github.io/AR.js/
 ** Designentscheidungen
-
 /Autor: Dominik PEGLER/
-*** Farben
 
-Wir versuchen, Farben so zu verwenden, dass sie durch Hervorhebung
-bestimmter Elemente Bedeutung für die Navigation durch die App
-haben. Daher möchten wir Farben überall dort vermeiden, wo sie keinen
-wirklichen Zusatznutzen bringt oder sogar der Usability im Weg steht.
+Wir haben darauf Wert gelegt, dass die Applikation minimal gehalten
+werden kann, wenig Text und mehr Icons zum Einsatz kommen können, da
+man von unseren primären Personas erwarten kann, dass sie ein hohes
+Verständnis für moderne Technologien mitbringen und ein Mehr an
+Hinweistexten und Navigationsassistenz für sie als störend und das UX
+beeinträchtigend empfunden würde. Da unsere Personas relativ dyanmisch
+ihre Umwelt gestalten und Wohnortewechsel bei ihnen selbst sowie auch
+in ihrem Freundes- und Bekanntenkreis regelmäßig stattfinden können,
+gehen wir außerdem davon aus, dass unsere Applikation von ein und
+derselben Person häufiger benutzt wird. Vieluser würden sich durch
+Features, die den Einstieg in die App zwar erleichtern, aber später
+keinen Nutzen mehr bringen, wahrscheinlich in ihrer Zielerreichung,
+dem schnellen Zusammenstellen von Raumlösungen, gehindert sehen.
+
+Wir haben außerdem versucht, *Farben* so zu verwenden, dass sie durch
+Hervorhebung bestimmter Elemente Bedeutung für die Navigation durch
+die App haben. Daher wollten wir Farben überall dort vermeiden, wo sie
+keinen wirklichen Zusatznutzen bringt oder sogar der Usability im Weg
+steht.
 
 Die App soll auch eine Akzentfarbe enthalten, die der App Identität
-verleiht. In Statusleisten, Logos und Menüs können wir diese
-verwenden.
+verleiht. In Statusleisten, Logos und Menüs verwenden wir diese.
 
-Rot-Grün-Kontrate wollen wir vermeiden.
+Probleme mit Rot-Grün-Kontrasten wollen wir vermeiden, indem wir
+diesen im Falle von Confirm-Decline-Situationen auch noch passende
+Icons zur Seite stellen. Die Farben sind hier angeführt:
 
-- Akzentfarbe: Farbe A
+- Appfarbe/Akzentfarbe: Farbe A
 
 - Hintergrundfarbe: Weiß: #ffffff
 
-- Linkfarbe: Blau #
+- Hauptfarben: ca. 4 Farben 
 
-- Hauptfarben: ca. 4 Farben
-
-  - Farbe A: #99b3ff
+  - Farbe A: #99b3ff (wurde geändert und an Splashscreen angepasst)
     #+html: <span style="color:#99b3ff;">██████████</span>
     
-  - Farbe B: #ff9999
+  - Farbe B (rot / decline / cancel / danger): #ff9999
     #+html: <span style="color:#ff9999;">██████████</span>
     
-  - Farbe C: #8cd9b3
+  - Farbe C (grün / accept / okay): #8cd9b3
     #+html: <span style="color:#8cd9b3;">██████████</span>
     
-  - Farbe D: #d9d98c
+  - Farbe D (gelb / extra features): #d9d98c
     #+html: <span style="color:#d9d98c;">██████████</span>
     
-
-*** Komponenten
-Für konsistentes Design Components aus nur möglichst einer Library verwenden.
-
-Beispiele:
-**** React Native Elements
+*App-Komponenten*: konsistentes Design Components aus nur möglichst
+einer Library verwenden. Wo möglich haben wir Komponenten aus der
+Library "React Native Elements" und Icons von "FontAwesome" verwendet.
 
 #+attr_html: :width 800px
 [[file:https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1600%2F1*DJz5ZUYm6tCGB5TXIU3TNw.png&f=1&nofb=1]]
 
-- https://reactnativeelements.com/
-
-#+caption: Beispiel-Components react-elements: /Solid/, /Clear/, /Outline/
+#+caption: Beispiel-Components react-native-elements: /Solid/, /Clear/, /Outline/
 #+attr_html: :width 800px 
 [[file:./img/react-elements_components.png]]
 
-Verwendung im Projekt
-#+begin_src bash
-
-yarn add react-native-elements
-
-#+end_src
-
-#+begin_src js 
-import { Button } from 'react-native-elements';
-#+end_src
-
-**** Microsoft Fluent UI
-
-#+attr_html: :width 800px
-[[file:https://cdn.vox-cdn.com/thumbor/Xiw3gFXa-HA75sihaNHTwheYFWg=/0x0:3840x2160/1200x675/filters:focal(1613x773:2227x1387)/cdn.vox-cdn.com/uploads/chorus_image/image/65832788/m365_mobile_sidebyside_16_9.0.jpg]]
-
-- Quickstart: https://fluentsite.z22.web.core.windows.net/0.55.0/quick-start
-- https://github.com/microsoft/fluentui-react-native
-- https://developer.microsoft.com/en-us/fluentui#/controls/android
-- https://developer.microsoft.com/en-us/fluentui#/controls/ios
-- Video: https://www.youtube.com/watch?v=XN0q5cJLf5A&feature=youtu.be
-
-Verwendung im Projekt
-#+begin_src bash
-
-yarn add @fluentui/react-native
-
-#+end_src
-  
-#+begin_src js 
-import { Checkbox } from '@fluentui/react-native';
-#+end_src
-
-*** Icons
-- https://fontawesome.com/v4.7.0/icons/
-
-#+begin_src js-jsx
-
-import Icon from 'react-native-vector-icons/FontAwesome';
-
-#+end_src
-
-#+begin_src js-jsx
-
-    <Icon
-        name="camera"
-        size={15}
-        color="white"
-    />
-
-#+end_src
-
-*** Screens
-
-- Anpassung an die Personas
-- Vereinheitlichung Farben und Styleelemente
 ** Projektmanagement
 /Autor: Dominik PEGLER/
 
@@ -1484,7 +1435,7 @@ Fehler oder Warnungen enthalten.
   
 
 ** Abgabe
-   zip / .tar.gz File mit
+zip / .tar.gz File mit
       1. 3 Ordnern
       
          1. Dokumente
@@ -1530,3 +1481,24 @@ Fehler oder Warnungen enthalten.
     Zurücktaste
     
 - Nichtkommerzieller Charakter der App
+
+** App-Bonus-Features                                             :noexport:
+*** AR Toolkits (Real Backend)
+
+**** Tutorial AR App mit React Native & Viro:
+
+- https://arvrjourney.com/augmented-reality-with-react-native-15219f36e3f2
+- https://marmelab.com/blog/2019/04/25/react-native-augmented-reality.html
+- https://github.com/echoARxyz/ReactNative-Viro-echoAR-example
+
+**** React Native kompatibel
+- Viro React: https://github.com/viromedia/viro/ & https://viromedia.com/
+- Export / three.js: https://blog.expo.io/introducing-expo-ar-mobile-augmented-reality-with-javascript-powered-by-arkit-b0d5a02ff23
+- JSARToolKit: https://github.com/kig/JSARToolKit
+- JSAruco:https://github.com/jcmellado/js-aruco
+**** weiere Links
+- Wikitude: https://www.wikitude.com/products/wikitude-sdk/
+- ARToolkitX: https://www.artoolkitx.org
+- EasyAR: https://www.easyar.com/
+- ARCore: https://developers.google.com/ar
+- AR.js: https://ar-js-org.github.io/AR.js/
