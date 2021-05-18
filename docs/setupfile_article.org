@@ -3,8 +3,17 @@
 #+LANGUAGE: de
 #+CATEGORY: fls-article
 #+LaTeX_CLASS: koma-article
-#+LATeX_CLASS_OPTIONS: [12pt,paper=a4,oneside,hidelinks,headings=small,captions=heading,captions=nooneline]
-#+LaTeX_HEADER: \usepackage[T1]{fontenc} %\hypersetup{colorlinks=true}
+#+LATeX_CLASS_OPTIONS: [12pt,paper=a4,oneside,headings=small,captions=heading,captions=nooneline]
+#+LaTeX_HEADER: \usepackage[T1]{fontenc}
+#+LATEX_HEADER: \usepackage{xcolor} \usepackage{hyperref} \definecolor{linkbordercolor}{RGB}{204,224,255} \definecolor{linkcolor}{RGB}{0,92,230}
+#+LATEX_HEADER: \hypersetup{colorlinks=true,linkbordercolor=linkbordercolor,urlcolor=linkcolor,linkcolor=linkcolor,urlbordercolor=linkbordercolor,pdfborderstyle={/S/U/W 1}}
+#+latex_header: \makeatletter
+#+latex_header:\Hy@AtBeginDocument{%
+#+latex_header:  \def\@pdfborder{0 0 1}% Overrides border definition set with colorlinks=true
+#+latex_header:  \def\@pdfborderstyle{/S/U/D[3 2]/W 1}% Overrides border style set with colorlinks=true
+#+latex_header:                                % Hyperlink border style will be underline of width 1pt
+#+latex_header:}
+#+latex_header:\makeatother
 #+LaTeX_HEADER: \usepackage{titlesec} \usepackage{lipsum}\usepackage{indentfirst}\setlength{\parindent}{3em}
 #+LaTeX_HEADER: \usepackage[tmargin=2.5cm, bmargin=2cm,inner=2.5cm,outer=2.5cm]{geometry}
 # caption package

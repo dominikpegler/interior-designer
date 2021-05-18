@@ -195,7 +195,7 @@ Icons zur Seite stellen. Die Farben sind hier angeführt:
 
 - Hintergrundfarbe: Weiß: #ffffff
 
-- Hauptfarben: ca. 4 Farben 
+- Hauptfarben: 4 Farben 
 
   - Farbe A (dunkelgrün): #303E14
     #+html: <span style="color:#303E14;">██████████</span>
@@ -209,9 +209,11 @@ Icons zur Seite stellen. Die Farben sind hier angeführt:
   - Farbe D (gelb / extra features): #d9d98c
     #+html: <span style="color:#d9d98c;">██████████</span>
 ** Konsistenz
-*App-Komponenten*: konsistentes Design Components aus nur möglichst
-einer Library verwenden. Wo möglich haben wir Komponenten aus der
-Library "React Native Elements" und Icons von "FontAwesome" verwendet.
+*App-Komponenten*: Im Sinne eines konsistenten Designs wurden die
+einzelnen Komponenten aus nur möglichst einer Library
+verwendet. Komponenten wie Buttons, Textfelder, Inputfelder haben wir
+bevorzugt aus der Library "React Native Elements" importiert, Icons
+wurden von "FontAwesome" verwendet.
 
 #+caption: Beispiel-Components react-native-elements: /Solid/, /Clear/, /Outline/
 #+attr_latex: :width 300px 
@@ -221,7 +223,7 @@ Library "React Native Elements" und Icons von "FontAwesome" verwendet.
 /Autor: Dominik PEGLER/
 
 Es wurden auf github für das Projekt eine Organisation mit den drei
-Mitgliedern sowie ein Repository für die App und ein weiteres für die
+Mitgliedern sowie ein [[https://github.com/hci-interior/app][Repository für die App]] und ein weiteres für die
 Projektdokumentation angelegt. Die Programmieraufgaben werden so
 verteilt, dass die Personen möglichst unabhängig voneinander arbeiten
 können. Den Zwischenstand des geschriebenen Codes
