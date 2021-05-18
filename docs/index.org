@@ -13,7 +13,7 @@
 # +INFOJS_OPT: view:overview toc:nil mouse:#efefef buttons:t sdepth:nil
 #+EXPORT_FILE_NAME: ~/Dropbox/hci/docs/index.html
 #+html: <center>
-#+ATTR_HTML: :width 110px
+#+ATTR_HTML: :width 150px
 file:./img/logo_soph.png
 #+html: </center>
 #+TOC: headlines 2
