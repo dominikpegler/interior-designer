@@ -14,7 +14,7 @@
 #+EXPORT_FILE_NAME: ~/Dropbox/hci/docs/index.html
 #+html: <center>
 #+ATTR_HTML: :width 110px
-file:./img/img_535698.png
+file:./img/logo_soph.png
 #+html: </center>
 #+TOC: headlines 2
 
