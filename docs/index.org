@@ -1459,6 +1459,57 @@ zip / .tar.gz File mit
       2. README-Datei in dieser Struktur: http://vda.univie.ac.at/Teaching/HCI/21s/materials/README_M3.md
 
 * Meilenstein M4
+** Aufgabenstellung
+*** Benutzertest
+Erstellen Sie n (n = Anzahl der Personen im Team, d.h. 3-4)
+Usability-Test-Aufgaben für Ihre App, die typische Nutzerszenarien
+darstellen. Des Weiteren erstellen Sie einen Fragenkatalog bzw. einen
+Interviewleitfaden, oder adaptieren Sie bestehende Fragebögen. Dieser
+soll jene Fragen beinhalten, die Sie die Testpersonen nach jeder
+Aufgabe fragen bzw. die für das Abschlussinterview der jeweiligen
+Testperson notwendig sind. Führen Sie eine Usabilitystudie mit
+mindestens 2n (d.h. 6-8) "typischen" Testpersonen durch (keine
+Testpersonen aus dem eigenen Team!). Die Testpersonen sollen wenn
+möglich aus den jeweiligen Nutzergruppen sein.
+
+Falls Sie einen Remote-Test planen, gibt es auf der folgenden Seite
+einen guten Überblick für mögliche Tools: Top tools and services for
+remote user research. Weitere Listen für mögliche Tools: Top 21 Free
+Usability Testing Tools for APP and Website Testing, 5 Remote
+Usability Testing Tools , and 17 Free Tools for Usability Testing
+*** Lösungsvorschläge
+Leiten Sie Lösungsvorschläge ab, wie das Design entsprechend verbessert werden kann. Implementieren Sie (machbare) Verbesserungsvorschläge. Argumentieren Sie plausibel, warum nicht-implementierte Verbesserungsvorschläge über den Projektrahmen hinausgehen würden.
+*** Abschlussbericht 
+Erstellen Sie einen Abschlussbericht, der folgende Aspekte
+beinhaltet. Der Bericht kann auf Deutsch oder Englisch geschrieben
+werden (letzteres bevorzugt).
+****    Motivation
+        - Background information about the problem, tasks, and users
+****     Related work
+        - Other solutions to this problem or similar problems
+        - Any previous work that you incorporated into your solution?
+****     Design
+        - Description of the design of your final App
+        - Reasons for your design choices, e.g. what you learned from the earlier prototyping steps
+****     Implementation
+        - Brief(!) description of how the App was implemented (toolkits, languages, platforms)
+        - Any serious implementation challenges you encountered and how you handled them
+****     Evaluation
+- Describe how you evaluated the App in M4
+            - Briefly describe the 3-4 usability tasks + the questionnaire;
+            - Describe how you conducted the study (number of participants, sequence of steps in the study, etc.)
+- Provide the results from this evaluation
+            - Explain what you learned about your App: strengths and weaknesses
+            - Explain implications for design that you derived from the findings, and how you further improved the App respectively
+****     Reflection
+        - Give a clear separation of tasks between the group members for the entire project: you have to detail who did what for this milestone.
+        - What were important lessons you learned from this course 
+****     Conclusions and future work
+        - Summarize the main strengths and weaknesses of your approach and implementation
+        - Give an outlook concerning interesting next steps that could be done building up on your work 
+****     References
+
+
 ** Präsentation M4
 [[file:./m4_praes.pdf][PDF]]
 * Notizen
