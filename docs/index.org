@@ -1460,7 +1460,7 @@ zip / .tar.gz File mit
 
 * Meilenstein M4
 ** Präsentation M4
-[[file:./m3_praes.pdf][PDF]]
+[[file:./m4_praes.pdf][PDF]]
 * Notizen
 #+TOC: headlines 1 local
 - automatische Gestaltung (Algorithmus) vs. manuelle Gestaltung
