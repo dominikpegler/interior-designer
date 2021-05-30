@@ -40,16 +40,16 @@ CLOSED: [2021-04-15 Thu 14:10] SCHEDULED: <2021-04-15 Thu 13:40>
 CLOSED: [2021-04-20 Tue 20:16] DEADLINE: <2021-04-20 Tue>
 *** DONE A2: Erstellung Test-App                          :Einzel:noexport:
 CLOSED: [2021-05-05 Wed 17:34] DEADLINE: <2021-05-06 Thu>
-*** DONE M3: Zwischenbericht VideoCall
+*** DONE M3: Zwischenbericht VideoCall                           :noexport:
 CLOSED: [2021-05-12 Wed 18:38] SCHEDULED: <2021-05-12 Wed 18:00>
 *** DONE M3: Erstellung der App 
 CLOSED: [2021-05-18 Tue 09:37] DEADLINE: <2021-05-18 Tue>
-**** DONE Konzept [3/3]                                          :Dominik:
+**** DONE Konzept [3/3]                                 :Dominik:noexport:
 CLOSED: [2021-05-18 Tue 09:37] SCHEDULED: <2021-05-12 Wed 12:00>
 1. [X] Grobkonzept: Screens, Funktionen des Prototypen definieren
 2. [X] Funktionen/Simulationen festlegen
 3. [X] Konzept an die Programmierergebnisse anpassen
-**** DONE App programmieren [6/6]                    :Dominik:Asim:Sophia:
+**** DONE App programmieren [6/6]           :Dominik:Asim:Sophia:noexport:
 CLOSED: [2021-05-18 Tue 09:37] SCHEDULED: <2021-05-12 Wed 20:00>
 1. [X] App mit Basis-HomeScreen erstellen
 2. [X] Restliche Screens aus Konzept implementieren (nur grobes Design)
@@ -57,11 +57,11 @@ CLOSED: [2021-05-18 Tue 09:37] SCHEDULED: <2021-05-12 Wed 20:00>
 4. [X] Screens anpassen and Personas, einheitlicher Style
 5. [X] Kernfunktionen einbauen (bzw. mocken)
 6. [X] Kompilieren
-**** DONE Design-Entscheidungen                                  :Dominik:
+**** DONE Design-Entscheidungen                         :Dominik:noexport:
 CLOSED: [2021-05-18 Tue 09:37] SCHEDULED: <2021-05-17 Mon 12:00>
-*** WAIT M4: Usability Evaluierung, Weiterentwicklung, und Abschlussbericht 
+*** TODO M4: Usability Evaluierung, Weiterentwicklung, und Abschlussbericht 
 DEADLINE: <2021-06-08 Tue>
-**** WAIT Präsentation
+**** TODO Präsentation
 SCHEDULED: <2021-06-17 Thu 13:15>
 *** WAIT Abschlussgespräch
 SCHEDULED: <2021-06-24 Thu 13:15>
