@@ -51,7 +51,8 @@ The main purpose of the app is to minimize the effort to design a room and not j
 The user spectrum for this app is actually pretty wide. Everyone who
 is able to handle mobile devices and has some interest in designing
 or redesigning is a potential user this also leads to that the app has
-to be designed in a way that it can be used by the whole spectrum.
+to be designed in a way that it can be used by the whole spectrum. 
+Our target group are people from the age of 18 – 40, as well as modern people who are interested in new solutions. The users we want to reach, are familiar with new technologies and open to try new things. They also should be interested in design and are willing to take their time to experiment around. Still the target group is be practical and wants to find the most efficient but convenient solutions. 
 
 
 /(Asım Oğuz)/
