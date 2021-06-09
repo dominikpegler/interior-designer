@@ -1,0 +1,134 @@
+#+STARTUP: entitiespretty overview indent align
+#+OPTIONS: ':t h:6 ^:{} toc:nil tags:nil todo:nil broken-links:mark num:t email:nil
+# +LANGUAGE: de
+# +CATEGORY: fls-article
+#+LaTeX_CLASS: sigchi
+# +LATeX_CLASS_OPTIONS: [12pt,paper=a4,oneside,headings=small,captions=heading,captions=nooneline]
+#+latex_header: % Use this section to set the ACM copyright statement (e.g. for
+#+latex_header: % preprints).  Consult the conference website for the camera-ready
+#+latex_header: % copyright statement.
+
+#+latex_header: % Copyright
+#+latex_header: \CopyrightYear{2021}
+#+latex_header: %\setcopyright{acmcopyright}
+#+latex_header: \setcopyright{acmlicensed}
+#+latex_header: %\setcopyright{rightsretained}
+#+latex_header: %\setcopyright{usgov}
+#+latex_header: %\setcopyright{usgovmixed}
+#+latex_header: %\setcopyright{cagov}
+#+latex_header: %\setcopyright{cagovmixed}
+#+latex_header: % DOI
+#+latex_header: \doi{}
+#+latex_header: % ISBN
+#+latex_header: \isbn{}
+#+latex_header: %Conference
+#+latex_header: \conferenceinfo{HCI 21S}{University Of Vienna, Austria}
+#+latex_header: %Price
+#+latex_header: %\acmPrice{\$15.00}
+
+#+latex_header: % Use this command to override the default ACM copyright statement
+#+latex_header: % (e.g. for preprints).  Consult the conference website for the
+#+latex_header: % camera-ready copyright statement.
+
+#+latex_header: %% HOW TO OVERRIDE THE DEFAULT COPYRIGHT STRIP --
+#+latex_header: %% Please note you need to make sure the copy for your specific
+#+latex_header: %% license is used here!
+#+latex_header: % \toappear{
+#+latex_header: % Permission to make digital or hard copies of all or part of this work
+#+latex_header: % for personal or classroom use is granted without fee provided that
+#+latex_header: % copies are not made or distributed for profit or commercial advantage
+#+latex_header: % and that copies bear this notice and the full citation on the first
+#+latex_header: % page. Copyrights for components of this work owned by others than ACM
+#+latex_header: % must be honored. Abstracting with credit is permitted. To copy
+#+latex_header: % otherwise, or republish, to post on servers or to redistribute to
+#+latex_header: % lists, requires prior specific permission and/or a fee. Request
+#+latex_header: % permissions from \href{mailto:Permissions@acm.org}{Permissions@acm.org}. \\
+#+latex_header: % \emph{CHI '16},  May 07--12, 2016, San Jose, CA, USA \\
+#+latex_header: % ACM xxx-x-xxxx-xxxx-x/xx/xx\ldots \$15.00 \\
+#+latex_header: % DOI: \url{http://dx.doi.org/xx.xxxx/xxxxxxx.xxxxxxx}
+#+latex_header: % }
+
+#+latex_header: % Arabic page numbers for submission.  Remove this line to eliminate
+#+latex_header: % page numbers for the camera ready copy
+#+latex_header: % \pagenumbering{arabic}
+
+#+latex_header: % Load basic packages
+#+latex_header: \usepackage{balance}       % to better equalize the last page
+#+latex_header: \usepackage{graphics}      % for EPS, load graphicx instead 
+#+latex_header: \usepackage[T1]{fontenc}   % for umlauts and other diaeresis
+#+latex_header: \usepackage{txfonts}
+#+latex_header: \usepackage{mathptmx}
+#+latex_header: \usepackage[pdflang={en-US},pdftex]{hyperref}
+#+latex_header: \usepackage{color}
+#+latex_header: \usepackage{booktabs}
+#+latex_header: \usepackage{textcomp}
+
+#+latex_header: % Some optional stuff you might like/need.
+#+latex_header: \usepackage{microtype}        % Improved Tracking and Kerning
+#+latex_header: % \usepackage[all]{hypcap}    % Fixes bug in hyperref caption linking
+#+latex_header: \usepackage{ccicons}          % Cite your images correctly!
+#+latex_header: % \usepackage[utf8]{inputenc} % for a UTF8 editor only
+
+#+latex_header: % If you want to use todo notes, marginpars etc. during creation of
+#+latex_header: % your draft document, you have to enable the "chi_draft" option for
+#+latex_header: % the document class. To do this, change the very first line to:
+#+latex_header: % "\documentclass[chi_draft]{sigchi}". You can then place todo notes
+#+latex_header: % by using the "\todo{...}"  command. Make sure to disable the draft
+#+latex_header: % option again before submitting your final document.
+#+latex_header: \usepackage{todonotes}
+
+#+latex_header: % Paper metadata (use plain text, for PDF inclusion and later
+#+latex_header: % re-using, if desired).  Use \emtpyauthor when submitting for review
+#+latex_header: % so you remain anonymous.
+#+latex_header: \def\plaintitle{SIGCHI Conference Proceedings Format}
+#+latex_header: \def\plainauthor{First Author, Second Author, Third Author,
+#+latex_header:   Fourth Author, Fifth Author, Sixth Author}
+#+latex_header: \def\emptyauthor{}
+#+latex_header: \def\plainkeywords{Authors' choice; of terms; separated; by
+#+latex_header:   semicolons; include commas, within terms only; this section is required.}
+#+latex_header: \def\plaingeneralterms{Documentation, Standardization}
+
+#+latex_header: % llt: Define a global style for URLs, rather that the default one
+#+latex_header: \makeatletter
+#+latex_header: \def\url@leostyle{%
+#+latex_header:   \@ifundefined{selectfont}{
+#+latex_header:     \def\UrlFont{\sf}
+#+latex_header:   }{
+#+latex_header:     \def\UrlFont{\small\bf\ttfamily}
+#+latex_header:   }}
+#+latex_header: \makeatother
+#+latex_header: \urlstyle{leo}
+
+#+latex_header: % To make various LaTeX processors do the right thing with page size.
+#+latex_header: \def\pprw{8.5in}
+#+latex_header: \def\pprh{11in}
+#+latex_header: \special{papersize=\pprw,\pprh}
+#+latex_header: \setlength{\paperwidth}{\pprw}
+#+latex_header: \setlength{\paperheight}{\pprh}
+#+latex_header: \setlength{\pdfpagewidth}{\pprw}
+#+latex_header: \setlength{\pdfpageheight}{\pprh}
+
+#+latex_header: % Make sure hyperref comes last of your loaded packages, to give it a
+#+latex_header: % fighting chance of not being over-written, since its job is to
+#+latex_header: % redefine many LaTeX commands.
+#+latex_header: \definecolor{linkColor}{RGB}{6,125,233}
+#+latex_header: \hypersetup{%
+#+latex_header:   pdftitle={\plaintitle},
+#+latex_header: % Use \plainauthor for final version.
+#+latex_header: %  pdfauthor={\plainauthor},
+#+latex_header:   pdfauthor={\emptyauthor},
+#+latex_header:   pdfkeywords={\plainkeywords},
+#+latex_header:   pdfdisplaydoctitle=true, % For Accessibility
+#+latex_header:   bookmarksnumbered,
+#+latex_header:   pdfstartview={FitH},
+#+latex_header:   colorlinks,
+#+latex_header:   citecolor=black,
+#+latex_header:   filecolor=black,
+#+latex_header:   linkcolor=black,
+#+latex_header:   urlcolor=linkColor,
+#+latex_header:   breaklinks=true,
+#+latex_header:   hypertexnames=false
+#+latex_header: }
+#+latex_header: 
+#+latex_header: % create a shortcut to typeset table headings
+#+latex_header: % \newcommand\tabhead[1]{\small\textbf{#1}}

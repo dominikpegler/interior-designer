@@ -1,0 +1,12 @@
+#+STARTUP: entitiespretty overview indent align
+#+OPTIONS: ':t h:6 ^:{} toc:nil tags:nil todo:nil broken-links:mark num:t email:nil author:nil
+#+LATEX_CLASS: acmart-sigconf
+#+LATEX_header: \setcopyright{University of Vienna}
+#+LATEX_header: \copyrightyear{2021}
+#+LATEX_header: \acmYear{}
+#+LATEX_header: \acmDOI{}
+# These commands are for a PROCEEDINGS abstract or paper.
+#+latex_HEADER: \acmConference[HCI '21]{VU Human Computer Interaction 2021}{2021}{Vienna, Austria}
+#+latex_HEADER; \acmBooktitle{VU Human Computer Interaction '21}
+#+LATEX_HEADER: \acmPrice{}
+#+LATEX_HEADER: \acmISBN{}

@@ -1,0 +1,880 @@
+#+TITLE: Interior Designer App
+#+subtitle: Asım Oğuz, Dominik Pegler, Sophia Pum \\
+#+subtitle: [[http://vda.univie.ac.at/Teaching/HCI/21s/schedule.html][HCI]] ---
+#+subtitle: [[https://moodle.univie.ac.at/course/view.php?id=207279][Moodle]]
+#+AUTHOR: Asım OĞUZ
+#+AUTHOR: Dominik PEGLER
+#+AUTHOR: Sophia PUM
+#+EMAIL: a01468373@unet.univie.ac.at
+#+CATEGORY: hci
+#+STARTUP: overview indent
+#+OPTIONS: ^:nil toc:nil email:nil num:nil todo:t email:t tags:t broken-links:mark p:t
+#+LANGUAGE: de
+# +INFOJS_OPT: view:overview toc:nil mouse:#efefef buttons:t sdepth:nil
+#+EXPORT_FILE_NAME: ~/Dropbox/hci/docs/index.html
+#+html: <center>
+#+ATTR_HTML: :width 110px
+file:./img/img_535698.png
+#+html: </center>
+#+TOC: headlines 2
+
+* Termine
+#+TOC: headlines 1 local
+*** DONE M1: Problemanalyse
+CLOSED: [2021-03-23 Tue 12:36] DEADLINE: <2021-03-23 Tue>
+**** DONE Analyse von vorhandener Literatur             :Dominik:noexport:
+CLOSED: [2021-03-20 Sat 15:40] SCHEDULED: <2021-03-19 Fri>
+**** DONE Analyse von Konkurrenzprodukten                :Sophia:noexport:
+CLOSED: [2021-03-20 Sat 15:06] SCHEDULED: <2021-03-19 Fri>
+**** DONE Nutzeranalyse und Kontextanalyse              :Dominik:noexport:
+CLOSED: [2021-03-21 Sun 23:15] SCHEDULED: <2021-03-21 Sun>
+**** DONE Personas erstellen                        :Sophia:Asim:noexport:
+CLOSED: [2021-03-22 Mon 18:04] SCHEDULED: <2021-03-21 Sun>
+**** DONE Aufgabenanalyse                                  :Asim:noexport:
+CLOSED: [2021-03-22 Mon 18:04] SCHEDULED: <2021-03-21 Sun>
+**** DONE Projektmanagement                             :Dominik:noexport:
+CLOSED: [2021-03-23 Tue 09:46] SCHEDULED: <2021-03-22 Mon>
+*** TODO M1: Präsentation                             :Dominik:Sophia:Asim:
+SCHEDULED: <2021-04-15 Thu 13:40>
+**** Vorbereiten des PDFs                                        :Dominik:
+SCHEDULED: <2021-04-07 Wed 20:00>
+**** Korrektur des PDFs                                      :Asim:Sophia:
+*** M2: Low-fidelity Prototypen 
+DEADLINE: <2021-04-20 Tue>
+**** TODO Ideensammlung
+**** TODO 3 Prototypen
+**** TODO Anpassung des Prototypen an Ihre Zielgruppe:
+**** TODO Evaluierung der Prototypen (3 Interviews)
+*** TODO A2: Erstellung Test-App
+DEADLINE: <2021-05-06 Thu>
+**** TODO API Key für https://www.theaudiodb.com/api_apply.php anfordern (EUR 3 p. Monat)
+SCHEDULED: <2021-04-14 Wed>
+
+*** WAIT M3: Erstellung der App 
+DEADLINE: <2021-05-18 Tue>
+**** WAIT Präsentation                               :Dominik:Asim:Sophia:
+SCHEDULED: <2021-05-20 Thu 13:15>
+
+*** WAIT M4: Usability Evaluierung, Weiterentwicklung, und Abschlussbericht 
+DEADLINE: <2021-06-08 Tue>
+*** WAIT Abschlussgespräch
+SCHEDULED: <2021-06-24 Thu 13:15>
+* Team
+
+|                        | Asım Oğuz         | Dominik Pegler        | Sophia Pum       |
+|------------------------+-------------------+-----------------------+------------------|
+| /Studium/              | Informatik        | Psychologie           | Informatik       |
+| /Semester/             | 4. Sem. Bachelor  | Letztes Sem. Bachelor | 4. Sem. Bachelor |
+| /Programmiererfahrung/ | Java, JS, C#, C++ | Python, Julia         | Java, C++        |
+| /Interessen/           | Design            | Problemlösen          | Design           |
+
+* Projektbeschreibung
+- Problemstellung:
+  
+  Stellen Sie sich vor, Sie wollen ihre Wohnsituation verändern, Sie
+  ziehen in eine neue Wohnung oder Sie planen sogar ein Haus zu
+  bauen. Um sich inspirieren zu lassen, durchforsten Sie einschlägige
+  Fachmagazine: Welcher Einrichtungsstil, welche Möbel würde meinen
+  Vorstellungen entsprechen?
+
+  Ein Problem hierbei ist, zu verstehen, welche
+  Gestaltungsmöglichkeiten der jeweilige Raum bietet und wie Möbel
+  sinnvoll angeordnet werden sollten. Im Regelfall werden hierzu eine
+  Vielzahl an Scribbles und Handskizzen gezeichnet. Auf diesen
+  Vorgang sind Innenarchitekten und Designer spezialisiert. Ein gern
+  verwendetes Hilfsmittel sind Zeichenvorlagen und Skizzenlineale,
+  welche Basismaße für Möbel und anderer einrichtungsrelevanter
+  Darstellungen beinhalten.
+
+  Dieses Projekt soll eine Raumplanungs-App erstellen, welche diese
+  Vorgänge auch Laien zugänglich macht. Zum Besprechen beim Café, zum
+  schnellen Visualisieren von Raumlösungen und zum Auswählen
+  verschiedener Einrichtungsstile (e.g. minimal / rustikal /
+  gemütlich).
+  
+- Aufgabenstellung und Ziele:
+
+  1) Machen Sie Interviews mit potentiellen Nutzer*innen als
+     Requirementanalyse
+
+  2) Basierend auf dieser Datenerhebung überlegen Sie sich mehrere
+     Zielgruppen und deren spezifische Anforderungen (e.g. Personas)
+
+  3) Erstellen Sie einen Prototypen der es
+
+     1. ermöglicht Skizzen leicht und schnell veränderbar nachzubilden
+        und
+
+     2. Empfehlungen für bestimmte Stile / Raumgrößen / andere
+        Kategorien zur Verfügung stellt
+
+  4) Evaluieren Sie die App mit Nutzer*innen
+* Meilenstein M1
+** Literaturrecherche
+/Autor: Dominik PEGLER/
+*** Automated interior design using a genetic algorithm (Kán & Kaufmann, 2017)
+
+Kán und Kaufmann von der TU Wien stellen in dieser Arbeit aus dem
+Bereich des Automated Interior Design ein Verfahren vor, das auf Basis
+von vorgegebenen Informationen wie Raumgröße in der Lage ist,
+virtuelle Räume automatisch und selbstständig mit Möbeln und
+Einrichtungsgegenständen zu befüllen.
+
+Dabei werden deren jeweilige Position und Ausrichtung im Raum so
+gestaltet, dass sie ästhetischen, ergonomischen und funkionellen
+Anforderungen optimal Rechnung tragen. Diese Anforderungen nennen sich
+Interior Design Guidelines.
+
+Sie wurden für dieses Verfahren in mathematische Ausdrücke übersetzt
+und in eine Kostenfunktion integriert. Mittels eines Genetischen
+Algorithmus (GA) wird diese Kostenfunktion auf ein Minimum
+optimiert. Zusätzlich eweitert dieses Verfahren auch die Optimierung
+auf den transdimensionalen Raum: dadurch wird die automatische Auswahl
+von Gegenständen möglich. Ebenfalls optimiert wird die Zuordnung von
+Materialien zu den Möbeln und Einrichtungsgegenständen, um ein
+einheitliches Design und eine harmonische Farbgestaltung zu
+erreichen.
+
+In einer Wahrnehmungsstudie wurde festgestellt, dass dieses Verfahren
+tatsächlich in der Lage ist, lebenswerte und sinnhafte
+Innenarchitekturen zu generieren. Im Vergleich zu von professionellen
+Designern generierten Layouts schnitten die automatisch generierten
+Layouts gut ab, wobei Küchen deutlich besser und Schlafzimmer deutlich
+schlechter bewertet wurden als jene der professionellen
+Innenarchitekten.
+
+[[file:./literatur/Kán and Kaufmann - 2017 - Automated interior design using a genetic algorith.pdf][PDF]]
+
+*** Augmented reality uses in interior design (Sandu, M., & Scarlat, I. S., 2018)
+
+Weil Möbel zunehmend über Online-Shops gekauft werden und sich viele
+Kunden in der Folge nicht vorstellen können, wie neue Möbelstücke in
+ihrem Zuhause aussehen würden, lösen viele Unternehmen dies mit dem
+Einsatz von Augmented Reality (AR) in ihren Applikationen.
+
+AR-Anwendungen sind in der Lage, die virtuellen Möbel auf dem
+Anwendungsbildschirm in eine physische Umgebung einzubetten, virtuelle
+Markierungen im Raum zu machen und über diese Größe und
+Größenverhältnisse im Koordinatensystem des Raums zu ermitteln. Der
+Benutzer kann also virtuelle Möbel auf dem Bildschirm auswählen und an
+einer beliebigen Stelle im Raum platzieren. Wesentlicher Bestandteil
+bei AR-Anwendungen ist dabei die Kamera des Smartphones.
+
+In dieser Arbeit werden verschiedene AR-Anwendungen für Interior
+Design analysiert, dabei Vor- und Nachteile erhoben und in Folge eine
+AR-Anwendung vorgeschlagen, die die meisten aktuellen Probleme der
+Innenraumgestaltung löst.
+
+Als Software-Frameworks für Augmented Reality wird ArToolKit
+vorgestellt, ein vielfach verwendetess und minimales
+Open-Source-Framework. Das ARToolKit-Tracking funktioniert wie folgt:
+
+1. Kamera nimmt Videos der realen Welt auf und sendet ans Programm
+2. Programm durchsucht alle quadratischen Formen in den Videos
+3. Wird ein Quadrat gefunden, errechnet die Software die Position der
+   Kamera relativ zum schwarzen Quadrat.
+4. Sobald die Position der Kamera bekannt ist, wird das
+   Modell aus dieser Perspektive gerendert.
+5. Modell wird auf dem Video der realen Welt gezeichnet (auf einer
+   quadratischen Markierung).
+6. Das fertige Bild wird am Display angezeigt, auf dem virtuelle
+   Gegenstände über die reale Welt gelagert sind.
+
+Als App, die auf AR-Technologien aufbaut, wird IKEA place application
+genannt. Sie soll helfen, den Entscheidungsprozess beim Kauf von
+Einrichtungsgegenständen zu erleichtern. Bei ihr liegen die
+Fehlerbereich bei wenigen Zentimetern. Die App ist auch in der Lage,
+physische Objekte im Raum zu erkennen und etwas Ähnliches aus dem
+Online-Shop vorzuschlagen. Als Nachteil der IKEA-place-app wird
+genannt, dass Objekte manchmal völlig inkorrekt oder in inkorrekter
+Größe platziert. Ein weiterer Nachteil ist, dass nur Gegenstände aus
+dem IKEA-eigenen Store ausgewählt werden können.
+
+ Eine weitere Applikation ist die Houzz-App. Im Gegensatz zur IKEA-App
+  kann diese App besser flache Oberflächen erkennen, was die genannten
+  groben Fehler verringern kann. Obwohl auch diese App nicht ohne
+  Nachteile auskommt (Freezing, uneinheitliches
+  Cross-Device-Verhalten), ist sie einer von den Autoren gestarteten
+  Umfrage zufolge beliebter als die App von IKEA. Das wird vor allem
+  auf das Design zurückgeführt.
+
+  Als eine den Autoren nach sehr gute Lösung wird auch noch die App
+  Homerstyler Interior Design genannt. Diese erlaubt auch
+  Größenänderungen der Objekte in Echtzeit, vordefinierte leere Räume
+  zu wählen und diese nach Belieben zu gestalten. Einziger Nachteil
+  dieser App ist der Umstand, dass kein kompletter Raum-Scan möglich
+  ist und nach der Umfrage ist sie wenig populär und liegt hinter
+  jener von IKEA.
+
+Der Lösungsvorschlag der Autoren wäre eine App, die die Möglichkeit
+bietet, nach dem Scan der Umgebung bestimmte Objekte oder alle Objekte
+entfernen zu können. Damit lässt sich ein Raum leichter oder von Grund
+auf neu gestalten. Es wäre auch eine Neuheit, da diese Funktion zum
+Zeitpunkt des Artikels in keiner Smartphone-Anwendung verfügbar
+war. Die Autoren schildern am Ende auch noch kurz, wie ein Algorithmus dafür
+aussehen könnte.
+
+[[file:./literatur/Sandu and Scarlat - 2018 - Augmented Reality Uses in Interior Design.pdf][PDF]]
+
+*** Inter AR: Interior decor app using augmented reality technology (Moares, R., Jadhav, V., Bagul, R., Jacbo, R., Rajguru, S., & K, R., 2020) 
+
+In diesem Artikel beschreiben die Autoren die Vorgänge, die in
+AR-basierten Interior-Design-Applikationen stattfinden. Ausgangspunkt
+sind hier zwei Algorithmen, die die reale Umgebung erfassen: der
+sogenannte Harris-und-Stephens-Ecken-Detektor-Algorithmus und der
+SLAM-Algorithmus (surface localization and mapping) zur Erfassung der
+Oberflächen.
+
+Die Autoren nennen weiters fünf häufig verwendete Methoden von AR:
+
+1) Markerbasierte AR (marker-based AR)
+
+   Verwendet visuelle Marker wie QR/2D-Codes oder NFT-Marker
+   (tatsächliche Gegenstände). Nach der Markererkennung und der
+   Kalkulation der Position und Ausrichtung wird der virtuelle
+   Gegenstand platziert.
+
+2) Ortsbasierte AR (location-based AR)
+
+   Diese Form der AR ist weit verbreitet und verwendet anstelle von
+   Markern die im Gerät verbauten Sensoren zur Bestimmung der
+   Position.
+
+3) Projektionsbasierte AR (projection-based AR)   
+
+   In diesem Verfahren wir Licht vom Gerät auf die Umgebung
+   geworfen. Die Ergebnisse lassen Rückschlüsse über Position,
+   Ausrichtung und Tiefe von Objekten zu.
+
+4) Outlining AR
+
+   Diese Methode funktioniert mittels spezieller Kameras, die es
+   ermöglichen Aufnahmen der Umgebung bei schlechten
+   Lichtverhältnissen zu machen. Diese Methode hat Ähnlichkeit mit der
+   projektionsbasierten AR und kommt in Parkassistenten von Autos zur
+   Anwendung.
+
+5) Überlagerungs-AR (superimposition-base AR)
+
+   Teilweise oder sogar vollständige Ersetzung der realen Umgebung
+   eines Objekts durch eine virtuelle Umgebung desselben Objekts.
+
+Im Rahmen dieses Artikels wurde eine AR-Applikation mittels
+markerloser AR erstellt. Für die 3D-Modelle wurde das Google Cardboard
+SDK verwendet.
+
+Dabei wurden folgende Einschränkungen genannt: (1) Nicht alle
+Android-Geräte unterstützen AR-Technologien vollständig. Es gibt zwar
+Workarounds, doch sind diese nicht immer präzise. (2) Möbelobjekte
+werden aus dem Backend importiert und lokal
+gespeichert. Aufgrunddessen gibt es keine Photogrammetrie, mit der die
+Anwendung das Bild in ein 3D-Objekt konvertieren kann. (3) Die
+Anwendung erlaubt aufgrund der begrentenz Funktionen der Google
+Entwicklertools keine Platzierung von zwei oder mehr Objektinstanzen
+auf einer einzelnen Oberfläche.
+
+Nichtsdestotrotz zeigte das Projekt, dass der Benutzer die virtuellen
+Möbel nach den eigenen Vorstellungen anpassen und in der realen Welt
+arrangieren kann. Über die Smartphone-Kamera kann der Benutzer die
+Oberflächen erkennen, die Möbel über die App auswählen und nach Wunsch
+auf dem Bildschirm platzieren. Eine Verknüpfung mit AI könnte für
+verschiedene Zwecke in Zukunft eine Rolle spielen.
+
+Die Arbeit soll helfen, Menschen die Möglichkeit zu geben, selbst
+Designer zu sein und ihr Zuhause nach eigenen Vorstellungen zu
+gestalten. Ein solches System hat den Autoren nach viele Vorteile,
+weil dadurch auch bereits bekannte Limitationen von Möbelhäusern wie
+z.B. begrenze Auswahl an lagernden Möbelstücken an Gewicht
+verlieren.
+
+[[file:./literatur/Moares et al. - 2020 - Inter AR Interior decor app using augmented reali.pdf][PDF]]
+
+*** Quellen
+- Kán, P. & Kaufmann, H. (2017). Automated interior design using a
+  genetic algorithm. Proceedings of the 23rd ACM Symposium on Virtual
+  Reality Software and Technology,
+  1– 10. https://doi.org/10.1145/3139131.3139135
+- Moares, R., Jadhav, V., Bagul, R., Jacbo, R., Rajguru, S., & K, R.,
+  Inter AR: Interior decor app using augmented reality technology
+  (2020). Social Science Research
+  Network. https://papers.ssrn.com/abstract=3513248
+- Sandu, M., & Scarlat, I. S. (2018). Augmented reality uses in interior
+  design. Informatica Economica, 22(3/2018), 5-13. 
+  http://dx.doi.org/10.12948/issn14531305/22.3.2018.01
+*** sonstige Quellen Interior Design                             :noexport:
+- Islamoglu, O. S. & Deger, K. O. (2015). The location of computer
+  aided drawing and hand drawing on design and presentation in the
+  interior design education. Procedia - Social and Behavioral
+  Sciences, 182, 607–612. https://doi.org/10.1016/j.sbspro.2015.04.792
+- Bandler, J. W. (1969). Optimization methods for computer-aided
+  design. IEEE Transactions on Microwave Theory and Techniques,
+  17(8), 533–552. https://doi.org/10.1109/TMTT.1969.1127005
+- Hosseini, S. A., Yazdani, R. & de la Fuente,
+  A. (2020). Multi-objective interior design optimization method
+  based on sustainability concepts for post-disaster temporary housing
+  units. Building and Environment,
+  173, 106742. https://doi.org/10.1016/j.buildenv.2020.106742
+- Jezernik, A. & Hren, G. (2003). A solution to integrate
+  computer-aided design (CAD) and virtual reality (VR) databases in
+  design and manufacturing processes. The International Journal of
+  Advanced Manufacturing Technology, 22(11-12),
+  768–774. https://doi.org/10.1007/s00170-003-1604-3
+- Merrell, P., Schkufza, E., Li, Z., Agrawala, M. & Koltun,
+  V. (2011). Interactive furniture layout using interior design
+  guidelines. ACM SIGGRAPH 2011 papers on - SIGGRAPH
+  ’11, 1. https://doi.org/10.1145/1964921.1964982
+- Pile, J. F. (o. D.). Color in interior design, 9
+**** noexport                                                   :noexport:
+nocite:islamogluLocationComputerAided2015
+nocite:bandlerOptimizationMethodsComputeraided1969
+nocite:hosseiniMultiobjectiveInteriorDesign2020
+nocite:jezernikSolutionIntegrateComputeraided2003
+nocite:merrellInteractiveFurnitureLayout2011
+nocite:kanAutomatedInteriorDesign2017
+nocite:pileColorInteriorDesign
+nocite:sanduAugmentedRealityUses2018
+nocite:moaresInterARInterior2020
+*** sonstige Quellen Mobile Development                          :noexport:
+
+- Mascetti, S., Ducci, M., Cantù, N., Pecis, P. & Ahmetovic,
+  D. (2020, 14. Mai). Developing accessible mobile applications with
+  cross-platform development frameworks. arXiv: 2005.  06875
+  [cs]. Zugriff 19. März 2021 unter http://arxiv.org/abs/2005.06875
+- Madsen, M., Lhoták, O. & Tip, F. (2020). A semantics for the essence of react, 27
+- Nylund, T. (2020). Developing a cross-platform MVP app with React
+  Native. https://www.theseus.fi/bitstream/handle/10024/355335/Examensarbete_Thomas_Nylund_ENG.pdf?sequence=2&isAllowed=y
+  
+**** noexport                                                   :noexport:
+nocite:mascettiDevelopingAccessibleMobile2020
+nocite:madsenSemanticsEssenceReact2020
+nocite:nylundDevelopingaCrossplatformMVP2020
+** Konkurrenzprodukte
+/Autorin: Sophia PUM/
+
+[[file:./m1_konkurrenzanalyse.pdf][PDF]] [[file:./m1_konkurrenzanalyse.docx][DOCX]]
+
+Die wahrscheinlich bekannteste Interior-Design-App auf dem Markt ist
+*Houzz* (Abb. [[fig:m1_ko_01]]). Mit Millionen von qualitativen Bildern von Badezimmern,
+Wohnzimmern, Küchen, Möbeln und wo weiter bietet sie den Nutzenden
+viel Inspiration und die Möglichkeit sich einen Eindruck von
+verschiedenen Einrichtungen und Farbkombinationen zu
+schaffen. Praktisch ist die Funktion, dass man sich eigene persönliche
+Entwürfe speichern kann. Außerdem kann man sich auch mit einer
+User-Community austauschen und gegenseitig inspirieren.
+
+Der größte Vorteil der App ist die große Menge an Bildern von
+Gestaltungsmöglichkeiten in verschiedenen Stilen, die sie
+beinhaltet. Nutzer verwenden Sie vor allem um sich Inspiration zu
+holen.
+
+Ein Nachteil ist, dass sich die App Großteiles auf die Einrichtung von
+Häuser und Hausbau spezialisiert. Obwohl sie angibt für alle Wohnungen
+geeignet zu sein, findet man auf den Fotos auch hauptsächlich große,
+helle Räume. Das ist vor allem für junge Leute, die oft in kleinen
+Wohnungen oder WG-Zimmern wohnen unpraktisch.
+
+Generell ist die App nicht wirklich auf junge Leute ausgerichtet und
+könnte sich in der Hinsicht verbessern. Denn diese nutzen oft schon
+bekannte Apps wie Instagram oder Pinterest zur Inspiration. Für sie
+hat es dann wenig Sinn eine zusätzliche App herunterzuladen, die nicht
+einmal ihre Wünsche abdeckt. Das ist meiner Meinung nach definitiv ein
+Nachteil, denn gerade Anfang 20 ziehen viele Menschen um und wären
+potentielle Nutzerinnen und Nutzer einer Einrichtungs-App.
+
+#+caption: Houzz App
+#+name: fig:m1_ko_01
+#+attr_html: :height 330px
+file:./img/m1_konkurrenzanalyse_01.jpg
+
+*Ikea Place* ist die Einrichtungs-App vom Möbelhaus Ikea (Abb. [[fig:m1_ko_02]]). Mithilfe einer
+Augumented-Reality-Technologie kann man sehen wie die Ikea-Produkte in
+den eigenen Räumlichkeiten aussehen würden. Die Gegenstände werden
+dreidimensional und maßstabsgetreu nachgestellt. Zusätzlich gibt die
+App auch Tipps zur Einrichtung. Das Ziel der App ist es, dass sich
+jeder von zuhause aus einen besseren Eindruck von den Möbeln machen
+kann.
+
+Der größte Vorteil der App, ist meiner Meinung nach, dass alle
+Funktionen und Produkte von Ikea ist. Man kann sich die Möbel von
+zuhause aus ansehen und hat durch die moderne Technologie einen guten
+Einblick drauf, wie sie in die Wohnung passen würden. Im
+Ikea-Onlineshop kann man die Produkte im Anschluss sofort bestellen
+und sich liefern lassen. So erfolgt das Einrichten rasch und
+unkompliziert.
+
+Allerdings hat Ikea hauptsächlich Möbel im modernen-skandinavischen
+Stil und Nutzende haben nicht die Möglichkeit verschiedene
+Gestaltungsarten auszuprobieren. Außerdem kann man nur eine
+beschränkte Anzahl der Ikea-Produkte in der Ikea Place App verwenden.
+
+#+caption: Ikea Place App
+#+name: fig:m1_ko_02
+#+attr_html: :height 330px
+file:./img/m1_konkurrenzanalyse_02.jpg
+
+Auch bei *Homestyler Interior Design & Deko-Ideen* (Abb. [[fig:m1_ko_03]]) kann man Fotos von
+seinen Räumlichkeiten in die App laden und mit einer großen Menge an
+Farben, Materialien und Möbel bearbeiten und umgestalten. Sie bietet
+eine gute Einsicht darauf, wie sich gewisse Änderungen im Raum machen
+würden. Auch hier gibt es eine User-Community zum Austausch von Ideen
+und Entwürfen.
+
+Die App bietet viele Gestaltungsmöglichkeiten und ist einfach zu
+handhaben. Sie enthält 3D-Modellen von Möbeln verschiedener Marken,
+und bietet so die Möglichkeit viele verschiedene Stile auszuprobieren
+
+Ein Feature an dem es der App aber fehlt, ist die Möglichkeit einen
+leeren Raum zu erstellen um seine Ideen komplett neu zu entfalten.
+
+#+caption: Homestyler App
+#+attr_html: :height 330px
+#+name: fig:m1_ko_03
+file:./img/m1_konkurrenzanalyse_03.png
+
+** Nutzer- & Kontextanalyse
+
+*** Nutzeranalyse
+ /Autor: Dominik PEGLER/
+**** Aufgaben der Nutzer
+- Schnelles und unkompliziertes Skizzieren von Innenarchitekturen
+- Schnelle und unkomplizierte Visualisierung der gestalteten Innenarchitekturen
+- Die eigenen Vorstellungen anderen Personen einfach und anschaulich
+  zu kommunizieren
+  
+**** Ziele der Nutzer
+- Zeit- und Kostenersparnis, weil keine Beratung durch
+  Innenarchitekt*in nötig ist und die App an Ort und Stelle hilfreich
+  ist
+- Konkretere Vorstellungen zu entwickeln
+- Bessere und nachhaltigere Entscheidungen zu treffen
+
+**** Potenzielle Probleme mit dem System
+- Die User fühlen sich von der App nicht angesprochen.
+- Die Funktionalitäten oder Auswahlmöglichkeiten sind zu
+  eingeschränkt, z.B. gibt es nur eine bestimmte Art von Möbeln oder
+  Objekten, die über die App darstellbar sind, oder es gibt technische
+  Limitationen mehre virtuelle Objekte gleichzeitig darzustellen.
+- Die User sehen den Nutzen nicht (wegen Art des Aufbaus der App nicht
+  klar ersichtlich)
+- App bringt keinen Zusatznutzen zu bereits vorhandenen Tools
+- User können Aufbau und Logik des Programms nicht nachvollziehen
+- Zu lange Ladezeiten (bei mobilen Apps noch wichtiger als bei Webapps!)
+- Freezing oder Absturz der App
+- Smartphone genügt den Anforderungen nicht
+  
+**** Userpfade:
+- *Wie können User die App downloaden?*
+
+  Über den jeweiligen Appstore oder über einen Link, der von einer
+  dritten Person zugesendet wird.
+
+- *Welche Hilfestellungen werden mit der App mitgeliefert?*
+
+  Eigener Menüpunkt, der zu einer mobilen Hilfeseite mit Problem-Kategorien
+  und einer Suchfunktion führt.
+
+- *Wie sieht die Erstbenutzung aus?*
+
+  Es sind keinerlei Registrierungen notwendig. Die Nutzer gelangen
+  sofort in ein Menü, in dem sie die gewünschte Aktion auswählen
+  können. Es sollte möglich sein, bereits 5 Bildschirmberührungen ein
+  Ergebnis zu bekommen. Zum Beispiel mittels Defaulteinstellungen.
+
+- *Was sind die Anreize, die App wiederzuverwenden?*
+
+  Gute Ersterfahrungen sind der wichtigste Grund, die App
+  wiederzuverwenden. Die Ersterfahrung muss bereits den Nutzen der App
+  demonstrieren und zu einem Erfolgserlebnis führen.
+
+**** Nutzergruppen
+
+Die User teilen sich auf viele große Gruppen auf, da es sich beim
+Thema Wohnen um etwas handelt, das jeden von uns betrifft und die
+meisten Menschen in der Lage sind, ihre Wohnsituation selbst zu
+gestalten. Aus diesem Grund sind Kinder und Jugendliche unter 15
+Jahren sind mit großer Wahrscheinlich weniger stark vertreten, ebenso
+sehr alte Personen und Personen mit starken neurobiologischen
+Beeinträchtigungen.
+
+***** Kategorienbildung nach Alter und Fachwissen
+
+Vorteil: Alter und Expertise hängen stark mit der Art der Nutzung von
+Smartphones (Phänomen aus den letzten 15 Jahren) und speziellen Tools
+zusammen. Alter ist einfacher zu erfassen als Smartphone literacy.
+
+| ID  | Nutzergruppe                                                                                |
+|-----+---------------------------------------------------------------------------------------------|
+| J   | Jüngere Menschen (15--35 Jahre) ohne professionellen Background im Bereich Innenarchitektur |
+| M   | Menschen im mittleren Alter (36--60 Jahre) ohne professionellen Background                  |
+| A   | Ältere Menschen (60--80 Jahre) ohne professionellen Background                              |
+| JM+ | Menschen im jungen oder mittleren Alter mit professionellem Background                      |
+| A+  | Ältere Menschen mit professionellem Background                                              |
+
+***** Mögliche andere Kategorienbildung
+- Bildung
+- Einkommen
+- Smartphone/Computer literacy
+
+*** Kontextanalyse
+
+- Benutzer hat keine Vorstellung von möglichen innenarchitektonischen
+  Designs
+- Benutzer hat keine professionellen Kenntnisse und keine Tools zur
+  Veranschaulichung zur Hand
+- Benutzer hat auch sonst keine ergänzenden Hilfsmittel wie
+  Zeichenstifte und Papier zur Hand
+- Benutzer besitzt ein Smartphone auf dem aktuellen Stand der Technik
+- Bedarf zur Verwendung der App
+  - entsteht außerhalb von professionellen Settings
+  - kann fast an jedem Ort und Situation entstehen
+
+** Personas
+
+*** Primäre Persona #1
+
+/Autor: Asım OĞUZ/
+
+#+caption: "Tobias Ebner"
+#+name: fig:persona1
+#+attr_html: :width 150px
+file:./img/m1_persona_1_idealist.png
+
+- Name: Tobias Ebner
+- Typ: Idealist
+- Credo: /Mit minimalem Aufwand maximalen Erfolg erreichen/
+- Background:
+
+  Tobias Ebner, der 25 Jahre alt ist, hat vor kurzem seine
+  Ausbildung abgeschlossen und arbeitet nun als Vollzeit Grafik
+  Designer. Da er jetzt ein höheres Budget zur Verfügung hat will er
+  aus der WG ausziehen und zum ersten mal in seinem Leben alleine
+  leben. Wie sein Job es auch vermuten lässt mag Tobias Ebner gut
+  durchdachte Designs, daher ist es ihm auch wichtig vor dem Umzug
+  alles so gut wie möglich durch zu planen.  Tobias Ebner erleichtert
+  sich immer die Arbeit in dem er sich nützliche Tools findet.
+  
+- Abneigung: Zeitverlust
+- Männlich, 25 Jahre
+- Nationalität: Österreich
+- Familienstand: Single
+- Beruf: Grafik-Designer
+- Berufserfahrung: 1 Jahr
+- Einkommen: EUR 30.000 / Jahr
+- Nutzung mobiler Geräte: 8h / Tag
+- Verwendete Technologien: Android Smartphone, iPad, Windows-Laptop,
+  Windows-Desktop-PC
+
+*** Primäre Persona #2
+
+/Autorin: Sophia PUM/
+
+#+caption: "Carina Winkler"
+#+name: fig:persona2
+#+attr_html: :width 150px
+file:./img/m1_persona_2_rational.png
+
+- Name: Carina Winkler
+- Typ: Rational
+- Background:
+
+  Carina Winkler ist 32 Jahre alt, verheiratet und arbeitet als Ärztin
+  in einer Arztpraxis in Wien. Nun möchte sie ihren Traum
+  verwirklichen und gemeinsam mit ihrem Mann eine eigene Arztpraxis
+  eröffnen. Außerdem wollten sie und ihr Ehemann schon lange aus ihrer
+  kleinen Wohnung in der Wiener Innenstadt ausziehen und in ein Haus
+  außerhalb der Stadt ziehen. Ihr Plan ist es, ein Haus mit Arztpraxis
+  und privatem Wohnbereich einzurichten. Da beide beruflich viel zu
+  tun haben und sich zusätzlich nicht zu viel mit dem Umzug stressen
+  wollen, freuen sie sich über jede Art von Unterstützung. Ihr Wunsch
+  ist ein Umzug der unkompliziert sowie stressfrei verläuft, aber
+  trotzdem ihre Wohnträume erfüllt. Sie ist bereit, sich Zeit zu
+  nehmen und den Umzug inklusive der Einrichtung gut zu planen, damit
+  es zu keinen unüberlegten Entscheidungen kommt und sie mit dem
+  Endergebnis langfristig zufrieden ist. Carina ist offen dafür Neues
+  auszurobieren, solange es zu einer effizienteren Problemlösung
+  beiträgt und keine zusätzlichen Schwierigkeiten bedeutet.
+
+- Ziele:
+  - Ein unkomplizierter, effizienter Umzug
+  - Eine Einrichtung, die langfristig gefällt
+  - Neues ausprobieren, ohne viel zu riskieren
+- Motivation:
+  - Übersichtlich organisierte Pläne
+  - Praktische Herangehensweise
+- Abneigung:
+  - Strukturlosigkeit
+  - Unüberlegte und hektische Entscheidungen
+- Weiblich, 32 Jahre
+- Nationalität: Österreich
+- Familienstand: Verheiratet
+- Beruf: Ärztin
+- Berufserfahrung: nicht bekannt
+- Einkommen: EUR 60.000 / Jahr
+- Nutzung mobiler Geräte: nicht bekannt
+- Verwendete Technologien: iPhone, iPad, Windows-Laptop,
+  Windows-Desktop-PC
+
+*** Sekundäre Persona:
+
+/Autorin: Sophia PUM/
+
+#+caption: "Felix Schuster"
+#+name: fig:persona3
+#+attr_html: :width 150px
+file:./img/m1_persona_3_rational.png
+
+- Name: Felix Schuster
+- Typ: Rational
+- Background:
+
+  Felix Schuster ist 20 Jahre alt und zum Studieren nach Wien
+  gezogen. Er hat ein günstiges WG-Zimmer im Internet gefunden und
+  zieht das erste Mal von zuhause weg. Felix ist extravertiert und
+  viel unterwegs, entweder zum Lernen auf der Bibliothek oder er
+  unternimmt etwas mit Freunden. Sein Wohnraum dient hauptsächlich zum
+  Schlafen und er ist selten zuhause. Er möchte sich sein Zimmer schön
+  einrichten und sich darin wohlfühlen, allerdings hat es für ihn
+  keinen hohen Stellenwert und dient auch nicht zur
+  Selbstverwirklichung. Er möchte flexibel bleiben und wird
+  voraussichtlich nur für ein paar Jahre dort wohnen, somit will er
+  nicht zu viel Zeit oder Geld mit der Gestaltung seines Zimmers
+  verschwenden. Grundsätzlich ist er aber ein offener und moderner Typ
+  und probiert auch gerne Neues aus, allerdings mag er es gerne
+  unkompliziert und bequem.
+
+- Ziele:
+  - Ein unaufwändiger Umzug
+  - Eine minimalistische Einrichtung, die das Nötigste abdeckt
+  - Neues ausprobieren, ohne zu viel zu riskieren
+- Motivation:
+  - Interessiert an modernen Trends
+  - Bequeme Herangehensart
+  - Spontane Entscheidungen
+- Abneigung:
+  - Strenge Pläne und Vorschriften
+  - Eingeschränkte Möglichkeiten
+- Männlich, 20 Jahre
+- Nationalität: Österreich
+- Familienstand: Single
+- Beruf: Student
+- Berufserfahrung: nicht bekannt
+- Einkommen: -
+- Nutzung mobiler Geräte: nicht bekannt
+- Verwendete Technologien: Android Smartphone, Windows-Laptop
+  
+*** Negative Persona
+
+/Autor: Asım OĞUZ/
+
+#+caption: "Sabine Gruber"
+#+name: fig:persona4
+#+attr_html: :width 150px
+file:./img/m1_persona_4_guardian.jpg
+
+- Name: Sabine Gruber
+- Typ: Guardian
+- Credo: /Der beste Weg ist der, den man kennt/
+- Background:
+
+  Sabine Gruber ist eine 64-jährige Verkäuferin, die schon seit mehr
+  als 20 Jahren im selben Geschäft in derselben Stelle
+  arbeitet. Sabine Gruber ist verheiratet und lebt mit ihrem Ehemann
+  zusammen in Wien. Das Umsteigen auf Neues fällt ihr sehr schwer und
+  daher mag sie es auch nicht, Neues auszuprobieren. Wenn sie mal
+  etwas findet, das ihr gefällt, hält sie sehr lange daran fest, seien
+  es Gegenstände als auch Designs.
+
+- Abneigung: Etwas Neue ausprobieren
+- Weiblich, 64 Jahre
+- Nationalität: Österreich
+- Familienstand: Verheiratet
+- Beruf: Verkäuferin
+- Berufserfahrung: 37 Jahre
+- Einkommen: EUR 22.000 / Jahr
+- Nutzung mobiler Geräte: 2h / Tag
+- Verwendete Technologien: iPhone
+** Aufgabenanalyse
+Die Aufgabenanalyse veranschaulicht in Form von Use-Cases für die
+primären Personas die Wichtigkeit der einzelnen Aufgaben, die die User
+haben, um zum Resultat zu kommen.
+
+/Autor: Asım OĞUZ/
+
+| Task\User                  | Carina Winkler | Tobias Ebner |
+|----------------------------+----------------+--------------|
+| App downloaden             | +              | +            |
+| Raum fotografieren         | +              | +            |
+| Möbel scannen              | ~              | ~            |
+| Vorhandene Möbel auswählen | +              | +            |
+| Raum gestalten             | ~              | ~            |
+| Design abspeichern         | +              | +            |
+
+** Projektmanagement
+
+/Autor: Dominik PEGLER/
+
+Für das Projekt-Management haben wir auf github eine einfache
+[[https://dominikpegler.github.io/interior-designer][HTML-Seite]] erstellt, auf der man sich über den aktuellen Stand des
+Projekts informieren kann und die nächsten wichtigen Termine wie
+Meilensteine und Präsentationen bekommt. Über das gesame Projekt wird
+hier Buch geführt, außerdem entsteht im selben [[https://github.com/dominikpegler/interior-designer][github-Repository]] der
+Source-Code der App. All diese Dinge sind öffentlich zugänglich.
+
+*** Team
+
+Das Team besteht aus *Asim Oguz* und *Sophia Pum*, beide studieren
+im 4. Semester des Bachelorstudiums Informatik, sowie aus *Dominik
+Pegler*, Student im letzten Bachelor-Semester Psychologie. Für die
+Aufteilung der Tätigkeiten sind wir so vorgegangen, dass wir
+untereinander vorab abgeklärt haben, über welches Wissen und welche
+Fähigkeiten jedes Mitglied der Gruppe verfügt und was es im Laufe der
+Lehrveranstaltung verbessern möchte. Sophia Pum ist kreative
+Ideengeberin im Projekt und auch wesentlich in die Umsetzung
+involviert, da sie bereits einige Programmiererfahrung hat. Asim Oguz
+hat viel Erfahrung mit JavaScript und wird in der React-Entwicklung
+eine ganz wichtige Rolle spielen, dazu zeigt er viel Interesse für
+Design. Dominik Pegler bringt Wissen aus seinem Psychologie-Studium
+mit und interessiert sich viel für Daten und Programmierung. Er wird
+neben dem Projektmanagement auch in die Programmierung und
+Datenverarbeitung involviert sein. Da wir alle drei flexibel sind,
+ergibt sich die Aufgabenverteilung bei uns im Team nicht von selbst,
+sondern kann kurzfristig bestimmt und je nach Bedarf angepasst werden.
+
+*** Ziele
+
+Ziel ist es, ein schlüssiges Konzept einer Anwendung und einen soliden
+Prototypen zu entwickeln und dabei die Interaktion für die User so
+simpel wie nur möglich zu gestalten. Idealerweise können wir das
+Projekt später in die Realität umsetzen oder zumindest Teile
+davon. Ein weiteres Ziel ist es, dass wir uns im Laufe der Entwicklung
+mit uns noch weniger bekannten Technologien beschäftigen und zu
+Erkenntnissen kommen, die zu neuen Ideen führen.
+
+*** Nicht-Ziele des Projekts
+
+Zu unseren Zielen zählt es nicht, bereits Bestehendes zu wiederholen,
+auch möchten wir vermeiden, dass wir Funktionen implementieren, die
+keinen zusätzlichen Nutzen bringen.
+
+*** Bisherige Aufgabenverteilung
+
+| Aufgabe                        | Person         |
+|--------------------------------+----------------|
+| Literaturrecherche             | Dominik Pegler |
+| Konkurrenzanalyse              | Sophia Pum     |
+| Nutzer- & Kontextanalyse       | Dominik Pegler |
+| Personas: 1 primär, 1 negativ  | Azim Oguz      |
+| Personas: 1 primar, 1 sekundär | Sophia Pum     |
+| Aufgabenanalyse                | Azim Oguz      |
+| Projektmanagement              | Dominik Pegler |
+
+
+*** Sophia Pum                                                   :noexport:
+Mein Name ist *Sophia Pum*, ich bin 20 Jahre alt und studiere Bachelor
+Informatik im 4. Semester. Dieses Semester belege ich unter anderem
+den Kurs Human-Computer-Interaction und arbeite am Projekt „My
+Interior Designer“. Ich habe mich für dieses Thema entschieden, da ich
+mir die Idee einer Raumplanungsapp sehr zusagt hat und ich mich
+generell für Design interessiere. Vom Projekt wünsche ich mir in
+erster Linie praktische UI-Design Erfahrung zu sammeln und eine
+Verbesserung meiner Projektmanagement- und Programmierfähigkeiten.
+
+*** Asim Oguz                                                    :noexport:
+Ich bin *Asim Oguz*, 20 Jahre alt und studiere Bachelor Informatik
+im 4. Semester. Human-Computer-Interaction ist eine der
+Lehrverantaltungen, die ich dieses Semester absolvieren will. Als
+Projekt habe ich mich für „My Interior Designer“ entschieden, da ich
+denke, dass dies ein sehr realitätsrelevantes Projekt ist und ein
+nützliches Tool wird. Ich erhoffe mir von der Lehrverantaltung, dass
+ich die wichtigsten Design-Prinzipien erlerne und lerne, was die
+Prioritäten beim Design sein sollten.
+
+*** Dominik Pegler                                               :noexport:
+...
+
+** Präsentation M1
+[[file:./m1_praes.pdf][PDF]]
+* Meilenstein M2: Low-fidelity Prototypen
+
+- Die Abgabe erfolgt über Moodle unter M2. Beachten Sie das Moodle-Upload-Limit (250MB) - wenn Sie größere Dateien abgeben, kontaktieren Sie uns bitte rechtzeitig (=1 Tag vorher).
+- Laden Sie Ihre Lösung als pdf-Datei hoch.
+- Die Abgabe wird erst nach 3 Tagen gesperrt, das letzte Hochladen zählt als Abgabedatum.
+
+    - Ideensammlung: Generieren, skizzieren und diskutieren Sie ein breites Spektrum an Lösungsideen für Ihr Projekt. Benutzen Sie dazu mindestens eine dedizierte Kreativitätstechnik (basierend auf Eigenrecherche, ein guter Startpunkt ist zum Beispiel folgender Wikipedia-Artikel; Beispiel: 4 design sheets).
+    - Prototypen: Basierend darauf, erstellen Sie n (n = Anzahl der Personen im Team, d.h. 3-4) von grundauf unterschiedliche und voneinander unabhängige low-fidelity Prototypen, die Ihre Lösungsideen widerspiegeln (als Inspiration: https://developer.apple.com/videos/play/wwdc2017/818/). Das Tool, mit dem Sie Ihre Prototypen erstellen, wird nicht vorgegeben – vom Papierprototypen bis zu dezidierten Prototyping-Tools (z.B. Pencil) ist alles erlaubt. Konzentrieren Sie sich auf den Inhalt des Prototypen, nicht auf das Tool.
+    - Anpassung des Prototypen an Ihre Zielgruppe (vgl. M1): Passen Sie Ihren Prototypen basierend auf der Nutzeranalyse und den Personas aus M1 an. Dokumentieren Sie, welche und ob Sie Anpassungen für die jeweilige Zielgruppe durchgeführt haben.
+    - Evaluierung der Prototypen: Führen Sie Interviews mit n (siehe oben) Testusern (z.B. mit Ihren Kommilitonen - aber nicht aus eigenem Team!) durch, in denen Sie die Prototypen diskutieren, analysieren, und bewerten (jeder Testuser soll alle Prototypen testen). 
+
+** M2 Abgabe:
+
+   - Ein pdf (Deutsch oder Englisch) mit folgenden Inhalten:
+        - Skizzen/Photos/... + Beschreibung der Ideensammlung (ca. 1-2 Seiten Text exklusive Bilder)
+        - Bilder + Beschreibung der low-fi Prototypen, so dass auch die Interaktion nachvollziehbar ist (ca. 1-2 Seiten Text exklusive Bilder)
+        - Beschreibung der Anpassungen der low-fi Prototypen im Hinblick auf die definierten Zielgruppen.
+        - Beschreibung der Interviews hinsichtlich Vorgehensweise und Ergebnissen (ca. 1-2 Seiten Text exklusive Bilder)
+        - Beschreibung der Arbeitsverteilung (wer hat was gemacht): kann zu Punkte-Umverteilung oder -Abzügen führen.
+   - Nur für Vortragende: Präsentationsfolien für max. 13 Min. (Folien können bis zum Datum der eigentlichen Präsentation hochgeladen werden, dafür gibt es selbstverständlich keinen Punktabzug!) 
+
+** M2 Bewertungsschema:
+
+    - Ideensammlung (1-2 Seiten Text): 30%
+        - Methodenwahl: 10%
+        - Ergebnisse: 20% 
+    - low-fi Prototypen (1-2 Seiten Text): 40%
+        - Prototypen: 30%
+        - Zielgruppenbezogene Anpassungen, Bezug auf primäre Aufgaben: 10% 
+    - Beschreibung der Interviews (1-2 Seiten Text): 30%
+        - Durchführung: 10%
+        - Ergebnisse: 20% 
+
+
+
+
+* Aufgabe A2: Erstellung Test-App
+Die App soll drei Komponenten haben:
+
+    1. Startseite, auf der Sie Nutzer*Innen ermöglichen, in einem
+       Suchfeld den Namen des Musikers / der Band einzugeben. Die
+       Startseite soll auch Ihren Namen und Ihre Matrikelnummer
+       beinhalten.
+    2. Abfrage des Musikers und alle zugehörigen Alben über die API
+       von TheAudioDB [1].
+    3. Anzeigebildschirm mit den Metadaten (Titel, Bild, Year, Genre
+       und Description) der Alben mit einem sinnvollen Layout. Dabei
+       soll der/die Nutzer*In den Musiker auch einfach für später
+       speichern können und diese Liste sollte auf der Startseite
+       zugänglich sein. (Diese “Favorite-Artists”-Liste muss für A2
+       nicht über das Schließen der App hinaus gespeichert werden.)
+
+Für Zugriff auf TheAudioDB ist ein kostenpflichtiger API key nötig (EUR 3/Monat)   
+https://www.theaudiodb.com/api_apply.php
+
+* Notizen
+#+TOC: headlines 1 local
+- automatische Gestaltung (Algorithmus) vs. manuelle Gestaltung
+  (Benutzer) vs. Hybridform?
+  
+- Alleinstellungsmerkmale?
+  - z.B. Einbindung von Secondhand-Plattformen wie willhaben.at
+    (Anbieter kann dort die wesentlichen Maße eintragen, App benötigt
+    dann nur noch 2--3 Bilder, um den Gegenstand realistisch zu
+    erfassen => Image-Processing-Schritt nötig zum Hochrechnen von
+    Bildern mit niedriger Qualität oder der nicht sichtbaren Stellen)
+
+  - Oder auch die Möglickeit, die eigenen Möbel als Objekte schnell
+    mit der App zu erfassen und diese digitalen Möbel and Freunde,
+    Bekannte oder Interessenten zu schicken.
+
+  - Möglichkeit, die eigenen Möbel auch in eine andere, virtuelle oder
+    reale, Umgebung einzubetten. Zum Beispiel, wenn man die eigenen
+    Möbel verkaufen möchte.
+- Weitere Beispiel-App: Roomle https://apps.apple.com/us/app/roomle-3d-ar-room-planner/id732050356
+  - Grundriss-Modus
+
+  - Kritik von Usern: Mühsam Grundrisse zu erstellen, Wände richtig in
+    die Länge zu ziehen, kein Zwischenspeichern möglich, keine
+    Zurücktaste
+    
+- Nichtkommerzieller Charakter der App
+
+  
