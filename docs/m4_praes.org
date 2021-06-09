@@ -1,5 +1,5 @@
 #+TITLE: Interior Designer App: M4
-#+SUBTITLE: Erstellung der App
+#+SUBTITLE: Usability Test und Abschluss
 #+DATE: 10.6.2021
 # +EMAIL: a01468373@unet.univie.ac.at
 #+CATEGORY: hci-beamer
@@ -19,10 +19,7 @@
 * Was bisher passiert ist
 ** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center}
 ** Team
-Wer sind wird?
 
-#+attr_latex: :width \linewidth
-file:./img/m4_team.png
 
 ** Problemstellung & Motivation
 M1
