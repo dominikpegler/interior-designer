@@ -20,11 +20,11 @@
 
 #+begin_abstract
 
-The aim of this project was the creation of a first prototype of a
-mobile application for the simple creation of sketches in the field of
-interior design. In the following, the course of the development of
-hand sketches up to prototypes created with the react-native framework
-is shown and problem situations and optimization options are
+The aim of this project was to develop a first prototype of a mobile
+application for the simple creation of sketches in the field of
+interior design. In the following, the development process from hand
+sketches up to prototypes created with the react-native framework is
+shown and problem situations and optimization options are
 discussed. With a strong focus on simplicity this project delivered a
 solid prototype of a user interface which, due to the complexity of
 the requirements in the area of interior design and the associated
@@ -195,20 +195,19 @@ The work separation is shown in an additional spreadsheet file ("Arbeitsaufteilu
 
 Due to the goal of creating an application for use in the area of
 ​​interior design and the complexity and variety of necessary
-technologies that comes with it, especially in the backend, it could
+technologies that come with it, especially in the backend, it could
 not be assumed from the start that we would create much more than a
-highly simulation-heavy user interface for such a project which could
-serve as the basis for further work. We think we reached our goals for
-the most part. The current immplementation is already well prepared
-for the expected increase in complexity in the further course, in that
-the interface is based on a design that is as simple as possible and
-already equipped with familiar style elements. So we expect that at
-least from the interface side, the amount of possible problems for
-users in dealing with the application can be kept low. Negative
-criticism from the user study suggested minor adjustments rather than
-major concept changes, which will also be included in the next
-releases. In the following sections we want to discuss possible
-further work.
+highly simulation-heavy user interface which would serve as the basis
+for further work. We think we reached our goals for the most part. The
+current immplementation is already well prepared for the expected
+increase in complexity in the further course, in that the interface is
+based on a design that is as simple as possible and already equipped
+with familiar style elements. So we expect that at least from the
+interface side, the amount of possible problems for users in dealing
+with the application can be kept low. Negative criticism from the user
+study suggested minor adjustments rather than major concept changes,
+which will also be included in the next releases. In the following
+sections we want to discuss possible further work.
 
 ** Simplicity doesn't just have advantages
 
@@ -221,7 +220,7 @@ rename them and save them in multiple configurations (i.e. with
 different objects and arrangement options). The concept of "rooms" and
 "objects" should therefore be expanded to include a concept of
 "projects", which contain all these different configurations. The
-concept of the rooms, like that of the objects, would then be limited
+concept of rooms, like that of objects, would then be limited
 in its definition to simple 3D models.
 
 ** Cross-device and cross-platform development
@@ -245,7 +244,7 @@ possible conditions such as screen sizes.
 ** Purpose of the application
   Another focus will be on working out the distinguishing features to
   existing interior design solutions. This includes, for example, an
-  "open" approach in the sense of an free and open exchange of digital
+  "open" approach in the sense of a free and open exchange of digital
   objects, which, in addition to a mobile app, could lead to a
   separate platform for object exchange. We want to enable users to
   decide on the best possible and therefore most sustainable
@@ -255,7 +254,7 @@ possible conditions such as screen sizes.
 
 /(Dominik Pegler)/
   
-* References
+* References                                                       :noexport:
 
 * noexport                                                         :noexport:
 
