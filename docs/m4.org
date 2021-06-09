@@ -56,8 +56,14 @@ to be designed in a way that it can be used by the whole spectrum.
 
 /(Asım Oğuz)/
 * Related work
-        - Other solutions to this problem or similar problems
-        - Any previous work that you incorporated into your solution?
+There are already quite a few Interior Design Apps on the market, like we have already analyzed in the Konkurrenzanalyse in Milestone 1. Those include some really good systems with a lot of features. In order to stand out from these Applications we tried to make a simple and well-structured solution, which concentrates on the main features while keeping everything minimal. The main things we focused on was the room scanning and setting up rooms with furniture. We also put a big focus on a simple and straight-forward design. 
+
+Simply scanning a room, saving the scan and adding furniture afterwards is how user can design their own room. We also discussed realizing the scanning process via Augmented Reality, so that the user can make quick and real-time changes to their room. However, we figured that this is  not the best solution for us and the user, since it not good for planning long-term interior designs and hard to implement for us, who lack in front end programming experience.
+
+We discussed some different solutions for our app during Milestone 2, the low-fi prototyping. All of us developed a unique idea of how we could realize our app. Some things we all had in common was a screen for room scanning, a screen for setting up a room and a home screen for navigation. As mentioned before those ended up being our main features. A functionality which we also talked about was a photo library of rooms and furniture for inspiration. Many existing apps, similar to ours include something like that, but we decided against it, since it is not necessary to have in our app.
+
+All of us have hardly any to no experience with UI or App programming. Neither has anyone of us worked on something similar to our interior design app. All of us made our first frontend programming experiences during A2 of the Human-Computer-Interface VU, where we implemented a simple Application to search for musicians and  display related information. Even though it is the only work which relates to our App, we could get some of use of it. For example the navigation via buttons on the home screen. 
+
 /(Sophia Pum)/
 * Design
 
