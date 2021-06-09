@@ -1,6 +1,6 @@
-#+TITLE: Interior Designer App: M3
+#+TITLE: Interior Designer App: M4
 #+SUBTITLE: Erstellung der App
-#+DATE: 20.5.2021
+#+DATE: 10.6.2021
 # +EMAIL: a01468373@unet.univie.ac.at
 #+CATEGORY: hci-beamer
 #+SETUPFILE: ./config_praes.org
@@ -15,21 +15,31 @@
 
 # export with C-c C-e l O (<- capital O)
 
-* Konzept
 
+* Was bisher passiert ist
 ** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center}
+** Team
+Wer sind wird?
 
-** Konzept
+#+attr_latex: :width \linewidth
+file:./img/m4_team.png
 
-* Implementierung
+** Problemstellung & Motivation
+M1
+** Design und Implementation
+Gegenüberstellung M2 und M3
+
+* Evaluation
 ** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center}
 # +LATEX: \vskip -10.5em \includegraphics[height=140px]{./img/m1_praes_ol_books.png}
 
-** Programmieren der App
-* Design-Entscheidungen
-** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
+** Benutzertest
+** Lösungsansätze
+** Reflexion
 
-** Design-Entscheidungen
+* Fazit & Ausblick
+** \vspace{2.2cm}\begin{center}\MakeUppercase{\insertsection}\end{center} :Bild:
+** Ausblick
 * Literatur                                                        :noexport:
   :PROPERTIES:
   :UNNUMBERED: t
