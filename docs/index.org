@@ -67,7 +67,7 @@ CLOSED: [2021-06-10 Thu 20:43] SCHEDULED: <2021-06-10 Thu 13:20>
 *** TODO Abschlussgespräch
 SCHEDULED: <2021-06-25 Fri 13:30>
 
-* Final report
+* Abschlussbericht
 
 [[./final_report.pdf][Download final report (PDF)]]
 
