@@ -70,6 +70,8 @@ SCHEDULED: <2021-06-25 Fri 13:30>
 
 [[./final_report.pdf][Download final report (PDF)]]
 
+[[https://expo.io/artifacts/9615e516-203a-4076-a403-42081c716f6c][Download prototype for Android (APK)]]
+
 * Team
 
 |                        | Asım Oğuz         | Dominik Pegler        | Sophia Pum       |
