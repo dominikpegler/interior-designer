@@ -2,7 +2,6 @@
 #+subtitle: Asım Oğuz, Dominik Pegler, Sophia Pum \\
 #+subtitle: [[http://vda.univie.ac.at/Teaching/HCI/21s/schedule.html][HCI]] ---
 #+subtitle: [[https://moodle.univie.ac.at/course/view.php?id=207279][Moodle]] --- [[https://meet.jit.si/CrucialPoetriesReadEasily][jitsi]]
-#+subtitle: --- [[][Final report]
 #+AUTHOR: Asım OĞUZ
 #+AUTHOR: Dominik PEGLER
 #+AUTHOR: Sophia PUM
