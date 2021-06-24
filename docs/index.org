@@ -69,7 +69,7 @@ SCHEDULED: <2021-06-25 Fri 13:30>
 
 * Final report
 
-
+[[./final_report.pdf][PDF]]
 
 * Team
 
