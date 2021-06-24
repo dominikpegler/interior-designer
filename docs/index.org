@@ -2,6 +2,7 @@
 #+subtitle: Asım Oğuz, Dominik Pegler, Sophia Pum \\
 #+subtitle: [[http://vda.univie.ac.at/Teaching/HCI/21s/schedule.html][HCI]] ---
 #+subtitle: [[https://moodle.univie.ac.at/course/view.php?id=207279][Moodle]] --- [[https://meet.jit.si/CrucialPoetriesReadEasily][jitsi]]
+#+subtitle: --- [[][Final report]
 #+AUTHOR: Asım OĞUZ
 #+AUTHOR: Dominik PEGLER
 #+AUTHOR: Sophia PUM
@@ -64,7 +65,12 @@ CLOSED: [2021-06-10 Thu 20:42] DEADLINE: <2021-06-10 Thu>
 *** DONE M4: Präsentation
 CLOSED: [2021-06-10 Thu 20:43] SCHEDULED: <2021-06-10 Thu 13:20>
 *** TODO Abschlussgespräch
-SCHEDULED: <2021-06-24 Thu 13:15>
+SCHEDULED: <2021-06-25 Fri 13:30>
+
+* Final report
+
+
+
 * Team
 
 |                        | Asım Oğuz         | Dominik Pegler        | Sophia Pum       |
