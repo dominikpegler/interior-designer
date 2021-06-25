@@ -63,8 +63,8 @@ CLOSED: [2021-05-18 Tue 09:37] SCHEDULED: <2021-05-17 Mon 12:00>
 CLOSED: [2021-06-10 Thu 20:42] DEADLINE: <2021-06-10 Thu>
 *** DONE M4: Präsentation
 CLOSED: [2021-06-10 Thu 20:43] SCHEDULED: <2021-06-10 Thu 13:20>
-*** TODO Abschlussgespräch
-SCHEDULED: <2021-06-25 Fri 13:30>
+*** DONE Abschlussgespräch
+CLOSED: [2021-06-25 Fri 14:07] SCHEDULED: <2021-06-25 Fri 13:30>
 
 * Abschlussbericht
 
